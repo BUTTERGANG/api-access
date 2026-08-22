@@ -1,0 +1,71 @@
+{
+  "Nashville": {
+    "domain": "nashville.gov",
+    "portal_hints": [
+      "legistar",
+      "granicus"
+    ],
+    "legistar": {
+      "status": "live",
+      "slug": "nashville",
+      "bodies_sample_count": 3,
+      "bodies": [
+        {
+          "Id": 138,
+          "Name": "Metropolitan Council"
+        },
+        {
+          "Id": 139,
+          "Name": "Budget and Finance Committee"
+        },
+        {
+          "Id": 140,
+          "Name": "Education Committee"
+        }
+      ]
+    }
+  },
+  "Memphis": {
+    "domain": "memphistn.gov",
+    "portal_hints": [],
+    "legistar": {
+      "status": "no-client",
+      "detail": "HTTP Error 500: Internal Server Error"
+    },
+    "homepage_error": "HTTP Error 403: Forbidden"
+  },
+  "Knoxville": {
+    "domain": "knoxvilletn.gov",
+    "portal_hints": [],
+    "legistar": {
+      "status": "no-client",
+      "detail": "HTTP Error 500: Internal Server Error"
+    }
+  },
+  "Chattanooga": {
+    "domain": "chattanooga.gov",
+    "portal_hints": [],
+    "legistar": {
+      "status": "no-client",
+      "detail": "HTTP Error 500: Internal Server Error"
+    }
+  },
+  "Clarksville": {
+    "domain": "cityofclarksville.com",
+    "portal_hints": [
+      "civicclerk"
+    ],
+    "legistar": {
+      "status": "no-client",
+      "detail": "HTTP Error 500: Internal Server Error"
+    }
+  },
+  "Murfreesboro": {
+    "domain": "murfreesborotn.gov",
+    "portal_hints": [],
+    "legistar": {
+      "status": "no-client",
+      "detail": "HTTP Error 500: Internal Server Error"
+    }
+  }
+}

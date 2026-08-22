@@ -1,0 +1,31 @@
+{
+  "transparency_portals": {
+    "data.michigan.gov": {
+      "url": "https://data.michigan.gov/",
+      "status": 200,
+      "size": 595818,
+      "note": "reachable"
+    },
+    "MI transparency": {
+      "url": "https://www.michigan.gov/transparency",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "MDOT bids": {
+      "url": "https://www.michigan.gov/mdot/business/bidding",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  },
+  "socrata": {
+    "data.ohio.gov": {
+      "error": "HTTP Error 404: Not Found"
+    },
+    "data.michigan.gov": {
+      "status": 200,
+      "size": 595818
+    },
+    "data.illinois.gov": {
+      "status": 200,
+      "size": 595228
+    }
+  }
+}

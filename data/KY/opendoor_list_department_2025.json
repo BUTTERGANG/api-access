@@ -1,0 +1,2579 @@
+{
+  "branches": [
+    {
+      "name": "Executive",
+      "code": "EXEC"
+    },
+    {
+      "name": "Judicial",
+      "code": "JDCL"
+    }
+  ],
+  "cabinets": [
+    {
+      "name": "Cabinet for Economic Development",
+      "code": "36"
+    },
+    {
+      "name": "Cabinet for Universities",
+      "code": "45"
+    },
+    {
+      "name": "Cabinet of the General Government",
+      "code": "31"
+    },
+    {
+      "name": "Education and Labor Cabinet",
+      "code": "51"
+    },
+    {
+      "name": "Energy and Environment Cabinet",
+      "code": "57"
+    },
+    {
+      "name": "Finance & Administration Cabinet",
+      "code": "39"
+    },
+    {
+      "name": "Health & Family Services Cabinet",
+      "code": "53"
+    },
+    {
+      "name": "Justice & Public Safety Cabinet",
+      "code": "54"
+    },
+    {
+      "name": "Personnel Cabinet",
+      "code": "55"
+    },
+    {
+      "name": "Public Protection Cabinet",
+      "code": "58"
+    },
+    {
+      "name": "Tourism, Arts and Heritage Cabinet",
+      "code": "50"
+    },
+    {
+      "name": "Transportation Cabinet",
+      "code": "35"
+    }
+  ],
+  "classCodes": [
+    {
+      "name": "Agency Labor",
+      "code": "726"
+    },
+    {
+      "name": "Agency Material And Equipment",
+      "code": "727"
+    },
+    {
+      "name": "Aircraft And Related Equipment",
+      "code": "723"
+    },
+    {
+      "name": "Architect/Engineer Fees",
+      "code": "701"
+    },
+    {
+      "name": "Athletic Equipment > 500",
+      "code": "608"
+    },
+    {
+      "name": "Benefits",
+      "code": "501"
+    },
+    {
+      "name": "Buildings/Fixed Equipment",
+      "code": "606"
+    },
+    {
+      "name": "Capital Construction Grant",
+      "code": "729"
+    },
+    {
+      "name": "Care And Support",
+      "code": "450"
+    },
+    {
+      "name": "Claims",
+      "code": "400"
+    },
+    {
+      "name": "Claims",
+      "code": "401"
+    },
+    {
+      "name": "Claims Adjustment Expense",
+      "code": "404"
+    },
+    {
+      "name": "Commodities",
+      "code": "340"
+    },
+    {
+      "name": "Computer Equipment",
+      "code": "620"
+    },
+    {
+      "name": "Computer Equipment",
+      "code": "710"
+    },
+    {
+      "name": "Construction-Aml",
+      "code": "624"
+    },
+    {
+      "name": "Depreciation",
+      "code": "509"
+    },
+    {
+      "name": "Fees Related To Debt",
+      "code": "481"
+    },
+    {
+      "name": "Fin Assist/Non-State Agencies",
+      "code": "430"
+    },
+    {
+      "name": "Fin Assist/Non-State Emp",
+      "code": "440"
+    },
+    {
+      "name": "Fringe Benefits",
+      "code": "120"
+    },
+    {
+      "name": "Furn/Fixt & Office Equip > 500",
+      "code": "601"
+    },
+    {
+      "name": "General Construction",
+      "code": "703"
+    },
+    {
+      "name": "Grants",
+      "code": "410"
+    },
+    {
+      "name": "Highway Construct/Maint Equip",
+      "code": "798"
+    },
+    {
+      "name": "Highway Construction",
+      "code": "797"
+    },
+    {
+      "name": "Highway Legal/Adm Right-Of-Way",
+      "code": "799"
+    },
+    {
+      "name": "Highway Materials",
+      "code": "380"
+    },
+    {
+      "name": "Highway Projects-Alloc Costs",
+      "code": "793"
+    },
+    {
+      "name": "Highway Right-Of-Way",
+      "code": "796"
+    },
+    {
+      "name": "Highway Right-Of-Way (1099)",
+      "code": "794"
+    },
+    {
+      "name": "Highway Rw Relocation",
+      "code": "792"
+    },
+    {
+      "name": "Highway Utility Relocation",
+      "code": "795"
+    },
+    {
+      "name": "Indirect Grant Expense",
+      "code": "498"
+    },
+    {
+      "name": "Indirect Operating Expense",
+      "code": "508"
+    },
+    {
+      "name": "Indirect Personnel Costs",
+      "code": "169"
+    },
+    {
+      "name": "Instruments & Apparatus > 500",
+      "code": "604"
+    },
+    {
+      "name": "Interest Due To Late Payment",
+      "code": "770"
+    },
+    {
+      "name": "Interest Expense",
+      "code": "613"
+    },
+    {
+      "name": "Interest Paid On Debt",
+      "code": "480"
+    },
+    {
+      "name": "Internal Computer Services",
+      "code": "270"
+    },
+    {
+      "name": "Items For Resale",
+      "code": "310"
+    },
+    {
+      "name": "KY Abnd Storage Tanks/Orphan Wells",
+      "code": "626"
+    },
+    {
+      "name": "Land/Right Of Way",
+      "code": "717"
+    },
+    {
+      "name": "Lease Purchase (Fur/Fix/Equip)",
+      "code": "611"
+    },
+    {
+      "name": "Legal And Adiminstrating Cost",
+      "code": "718"
+    },
+    {
+      "name": "Livestock",
+      "code": "602"
+    },
+    {
+      "name": "Machinery & Implements > 500",
+      "code": "603"
+    },
+    {
+      "name": "Maintenance And Repairs",
+      "code": "230"
+    },
+    {
+      "name": "Misc Commodities & Other Exp",
+      "code": "370"
+    },
+    {
+      "name": "Miscellaneous Expenditure",
+      "code": "725"
+    },
+    {
+      "name": "Miscellaneous Services",
+      "code": "250"
+    },
+    {
+      "name": "Motor Vehicles",
+      "code": "605"
+    },
+    {
+      "name": "Movable Equipment/Furnishings",
+      "code": "712"
+    },
+    {
+      "name": "Non Pro Contract",
+      "code": "150"
+    },
+    {
+      "name": "Non-Expense Items",
+      "code": "506"
+    },
+    {
+      "name": "Oper Exp Reimb Rest To Cfc/Chs",
+      "code": "505"
+    },
+    {
+      "name": "Other",
+      "code": "160"
+    },
+    {
+      "name": "Other Capital Outlay",
+      "code": "609"
+    },
+    {
+      "name": "Other Financing Uses",
+      "code": "519"
+    },
+    {
+      "name": "Other Personnel Costs",
+      "code": "130"
+    },
+    {
+      "name": "Postage And Related Services",
+      "code": "240"
+    },
+    {
+      "name": "Principal Repayment",
+      "code": "485"
+    },
+    {
+      "name": "Pro Contract (Inc Per Serv)",
+      "code": "140"
+    },
+    {
+      "name": "Refunded Benefit Contributions",
+      "code": "502"
+    },
+    {
+      "name": "Rentals",
+      "code": "220"
+    },
+    {
+      "name": "Salaries And Wages",
+      "code": "110"
+    },
+    {
+      "name": "Service By Other Agencies",
+      "code": "728"
+    },
+    {
+      "name": "Special Mobile Equipment",
+      "code": "724"
+    },
+    {
+      "name": "Subsidies",
+      "code": "460"
+    },
+    {
+      "name": "Supplies",
+      "code": "320"
+    },
+    {
+      "name": "Telecommunications",
+      "code": "260"
+    },
+    {
+      "name": "Telephone/Telecom Equip > 500",
+      "code": "610"
+    },
+    {
+      "name": "Travel Exp & Exp Allowances",
+      "code": "360"
+    },
+    {
+      "name": "University Construction Reimb",
+      "code": "732"
+    },
+    {
+      "name": "Utilities And Heating Fuels",
+      "code": "210"
+    }
+  ],
+  "departments": [
+    {
+      "name": "Agricultural Development Board",
+      "code": "089"
+    },
+    {
+      "name": "Attorney General",
+      "code": "040"
+    },
+    {
+      "name": "Auditor Of Public Accounts",
+      "code": "045"
+    },
+    {
+      "name": "Bd Of Licensure And Cert For Dietitians And Nutritionists",
+      "code": "182"
+    },
+    {
+      "name": "Bd of Licensure for Professional Engineers & Land Surveyors",
+      "code": "290"
+    },
+    {
+      "name": "Behavioral Health, Developmental & Intellectual Disabilities",
+      "code": "729"
+    },
+    {
+      "name": "Board For Respiratory Care Practitioners",
+      "code": "263"
+    },
+    {
+      "name": "Board Of Accountancy",
+      "code": "150"
+    },
+    {
+      "name": "Board Of Alcohol And Drug Abuse Counselors",
+      "code": "174"
+    },
+    {
+      "name": "Board Of Barbering",
+      "code": "165"
+    },
+    {
+      "name": "Board Of Certification For Marriage And Family Therapists",
+      "code": "264"
+    },
+    {
+      "name": "Board Of Certification Of Fee-Based Pastoral Counselors",
+      "code": "173"
+    },
+    {
+      "name": "Board Of Chiropractic Examiners",
+      "code": "170"
+    },
+    {
+      "name": "Board Of Dentistry",
+      "code": "180"
+    },
+    {
+      "name": "Board Of Elections",
+      "code": "185"
+    },
+    {
+      "name": "Board Of Embalmers And Funeral Home Directors",
+      "code": "190"
+    },
+    {
+      "name": "Board Of Examiners Of Psychologists",
+      "code": "210"
+    },
+    {
+      "name": "Board Of Examiners Of Social Work",
+      "code": "215"
+    },
+    {
+      "name": "Board Of Hairdressers And Cosmetologists",
+      "code": "225"
+    },
+    {
+      "name": "Board Of Interpreters For The Deaf And Hard Of Hearing",
+      "code": "176"
+    },
+    {
+      "name": "Board of Licensed Diabetes Educators",
+      "code": "134"
+    },
+    {
+      "name": "Board Of Licensing Hearing Aid Dealers & Fitters",
+      "code": "230"
+    },
+    {
+      "name": "Board Of Licensure For Nursing Home Administrators",
+      "code": "240"
+    },
+    {
+      "name": "Board of Medical Imaging and Radiation Therapy",
+      "code": "136"
+    },
+    {
+      "name": "Board Of Medical Licensure",
+      "code": "245"
+    },
+    {
+      "name": "Board Of Nursing",
+      "code": "250"
+    },
+    {
+      "name": "Board Of Occupational Therapy",
+      "code": "262"
+    },
+    {
+      "name": "Board Of Opthalmic Dispensers",
+      "code": "255"
+    },
+    {
+      "name": "Board Of Optometric Examiners",
+      "code": "260"
+    },
+    {
+      "name": "Board Of Pharmacy",
+      "code": "270"
+    },
+    {
+      "name": "Board Of Physical Therapist",
+      "code": "275"
+    },
+    {
+      "name": "Board Of Podiatry",
+      "code": "280"
+    },
+    {
+      "name": "Board Of Professional Art Therapists",
+      "code": "261"
+    },
+    {
+      "name": "Board Of Professional Counselors",
+      "code": "172"
+    },
+    {
+      "name": "Board of Prosthetics, Orthotics and Pedorthics",
+      "code": "178"
+    },
+    {
+      "name": "Board Of Registration For Professional Geologists",
+      "code": "391"
+    },
+    {
+      "name": "Board Of Speech Pathology And Audiology",
+      "code": "295"
+    },
+    {
+      "name": "Board Of Veterinary Examiners",
+      "code": "310"
+    },
+    {
+      "name": "CHFS - Department for Aging and Independent Living",
+      "code": "725"
+    },
+    {
+      "name": "CHFS - Office Of The Secretary",
+      "code": "721"
+    },
+    {
+      "name": "Commission On Deaf And Hard Of Hearing",
+      "code": "340"
+    },
+    {
+      "name": "Commonwealth Office Of Technology",
+      "code": "079"
+    },
+    {
+      "name": "Council On Postsecondary Education",
+      "code": "415"
+    },
+    {
+      "name": "County Costs",
+      "code": "759"
+    },
+    {
+      "name": "Department For Community Based Services",
+      "code": "736"
+    },
+    {
+      "name": "Department for Disability Determination Services Program",
+      "code": "143"
+    },
+    {
+      "name": "Department For Employee Insurance",
+      "code": "794"
+    },
+    {
+      "name": "Department for Environmental Protection",
+      "code": "129"
+    },
+    {
+      "name": "Department for Family Resource Centers & Volunteer Services",
+      "code": "730"
+    },
+    {
+      "name": "Department for Income Support",
+      "code": "727"
+    },
+    {
+      "name": "Department For Libraries & Archives",
+      "code": "555"
+    },
+    {
+      "name": "Department for Local Government",
+      "code": "112"
+    },
+    {
+      "name": "Department For Medicaid Services",
+      "code": "746"
+    },
+    {
+      "name": "Department for Natural Resources",
+      "code": "128"
+    },
+    {
+      "name": "Department For Personnel Administration",
+      "code": "793"
+    },
+    {
+      "name": "Department For Public Advocacy",
+      "code": "515"
+    },
+    {
+      "name": "Department For Public Health",
+      "code": "728"
+    },
+    {
+      "name": "Department For Workforce Investment",
+      "code": "531"
+    },
+    {
+      "name": "Department Of Agriculture",
+      "code": "035"
+    },
+    {
+      "name": "Department of Alcoholic Beverage Control",
+      "code": "680"
+    },
+    {
+      "name": "Department Of Aviation",
+      "code": "615"
+    },
+    {
+      "name": "Department of Charitable Gaming",
+      "code": "681"
+    },
+    {
+      "name": "Department Of Corrections",
+      "code": "527"
+    },
+    {
+      "name": "Department Of Criminal Justice Training",
+      "code": "525"
+    },
+    {
+      "name": "Department Of Education",
+      "code": "540"
+    },
+    {
+      "name": "Department of Financial Institutions",
+      "code": "685"
+    },
+    {
+      "name": "Department Of Highways",
+      "code": "625"
+    },
+    {
+      "name": "Department of Housing, Buildings and Construction",
+      "code": "690"
+    },
+    {
+      "name": "Department of Insurance",
+      "code": "676"
+    },
+    {
+      "name": "Department Of Intergovernmental Programs",
+      "code": "628"
+    },
+    {
+      "name": "Department Of Juvenile Justice",
+      "code": "523"
+    },
+    {
+      "name": "Department Of Military Affairs",
+      "code": "095"
+    },
+    {
+      "name": "Department of Professional Licensing",
+      "code": "677"
+    },
+    {
+      "name": "Department Of Revenue",
+      "code": "130"
+    },
+    {
+      "name": "Department Of Travel",
+      "code": "860"
+    },
+    {
+      "name": "Department Of Vehicle Regulation",
+      "code": "630"
+    },
+    {
+      "name": "Department Of Veterans Affairs",
+      "code": "074"
+    },
+    {
+      "name": "Department of Workers' Claims",
+      "code": "107"
+    },
+    {
+      "name": "Department of Workplace Standards",
+      "code": "106"
+    },
+    {
+      "name": "Eastern Kentucky University",
+      "code": "430"
+    },
+    {
+      "name": "Econ Dev - Office Of The Secretary",
+      "code": "635"
+    },
+    {
+      "name": "EEC - Office of the Secretary",
+      "code": "126"
+    },
+    {
+      "name": "Employment Services",
+      "code": "142"
+    },
+    {
+      "name": "Executive Branch Ethics Commission",
+      "code": "354"
+    },
+    {
+      "name": "Facilities & Support Services",
+      "code": "785"
+    },
+    {
+      "name": "Finance - Office Of The Secretary",
+      "code": "750"
+    },
+    {
+      "name": "Governor's Office",
+      "code": "070"
+    },
+    {
+      "name": "Governor's Office Of Minority Empowerment",
+      "code": "097"
+    },
+    {
+      "name": "Horse Racing Commission",
+      "code": "374"
+    },
+    {
+      "name": "Human Rights Commission",
+      "code": "370"
+    },
+    {
+      "name": "Judicial Department",
+      "code": "025"
+    },
+    {
+      "name": "Justice - Office Of The Secretary",
+      "code": "500"
+    },
+    {
+      "name": "Kentucky Artisans Center At Berea",
+      "code": "852"
+    },
+    {
+      "name": "Kentucky Arts Council",
+      "code": "529"
+    },
+    {
+      "name": "Kentucky Board of Architects",
+      "code": "200"
+    },
+    {
+      "name": "Kentucky Board of Emergency Medical Services",
+      "code": "179"
+    },
+    {
+      "name": "Kentucky Board of Landscape Architects",
+      "code": "205"
+    },
+    {
+      "name": "Kentucky Center For The Arts",
+      "code": "552"
+    },
+    {
+      "name": "Kentucky Commission on Proprietary Education",
+      "code": "532"
+    },
+    {
+      "name": "Kentucky Communications Network Authority",
+      "code": "137"
+    },
+    {
+      "name": "Kentucky Department Of Parks",
+      "code": "670"
+    },
+    {
+      "name": "Kentucky Educational Television",
+      "code": "545"
+    },
+    {
+      "name": "Kentucky Environmental Education Council",
+      "code": "407"
+    },
+    {
+      "name": "Kentucky Fish And Wildlife Resources",
+      "code": "660"
+    },
+    {
+      "name": "Kentucky Heritage Council",
+      "code": "410"
+    },
+    {
+      "name": "Kentucky Higher Education Assistance Authority",
+      "code": "075"
+    },
+    {
+      "name": "Kentucky Historical Society",
+      "code": "550"
+    },
+    {
+      "name": "Kentucky Horse Park",
+      "code": "665"
+    },
+    {
+      "name": "Kentucky Public Pensions Authority",
+      "code": "100"
+    },
+    {
+      "name": "Kentucky State Fair Board",
+      "code": "235"
+    },
+    {
+      "name": "Kentucky State Police",
+      "code": "520"
+    },
+    {
+      "name": "Kentucky State University",
+      "code": "435"
+    },
+    {
+      "name": "Kentucky Turnpike Authority",
+      "code": "627"
+    },
+    {
+      "name": "Kentucky Unemployment Insurance Commission",
+      "code": "508"
+    },
+    {
+      "name": "Ky Applied Behavior Analysis Licensing Board",
+      "code": "171"
+    },
+    {
+      "name": "Ky Board Of Licensure For Private Investigators",
+      "code": "320"
+    },
+    {
+      "name": "KY Boxing and Wrestling Authority",
+      "code": "678"
+    },
+    {
+      "name": "Ky Brd Of Licensure For Massage Therapy",
+      "code": "177"
+    },
+    {
+      "name": "Ky Community Technical College System",
+      "code": "470"
+    },
+    {
+      "name": "Ky Infrastructure Authority",
+      "code": "082"
+    },
+    {
+      "name": "KY Public Service Commission",
+      "code": "123"
+    },
+    {
+      "name": "Ky River Authority",
+      "code": "084"
+    },
+    {
+      "name": "Ky Teachers Retirement System",
+      "code": "560"
+    },
+    {
+      "name": "Lieutenant Governor's Office",
+      "code": "085"
+    },
+    {
+      "name": "Medicaid Services Benefits",
+      "code": "748"
+    },
+    {
+      "name": "Military Affairs Commission",
+      "code": "076"
+    },
+    {
+      "name": "Mine Safety Review Commission",
+      "code": "122"
+    },
+    {
+      "name": "Morehead State University",
+      "code": "440"
+    },
+    {
+      "name": "Murray State University",
+      "code": "445"
+    },
+    {
+      "name": "Northern Kentucky University",
+      "code": "450"
+    },
+    {
+      "name": "Office for Children With Special Health Care Needs",
+      "code": "767"
+    },
+    {
+      "name": "Office For Faith Based And Community Nonprofit Social Srvcs",
+      "code": "099"
+    },
+    {
+      "name": "Office of Administrative Services",
+      "code": "139"
+    },
+    {
+      "name": "Office of Audits",
+      "code": "618"
+    },
+    {
+      "name": "Office of Claims & Appeals",
+      "code": "672"
+    },
+    {
+      "name": "Office of Educational Programs",
+      "code": "509"
+    },
+    {
+      "name": "Office of Energy Policy",
+      "code": "141"
+    },
+    {
+      "name": "Office Of Homeland Security",
+      "code": "094"
+    },
+    {
+      "name": "Office of Information Technology",
+      "code": "617"
+    },
+    {
+      "name": "Office Of Inspector General",
+      "code": "723"
+    },
+    {
+      "name": "Office of KY Nature Preserves",
+      "code": "140"
+    },
+    {
+      "name": "Office Of Legal Services",
+      "code": "607"
+    },
+    {
+      "name": "Office Of Personnel Management",
+      "code": "616"
+    },
+    {
+      "name": "Office of PVA Accounting",
+      "code": "103"
+    },
+    {
+      "name": "Office Of State Budget Director",
+      "code": "765"
+    },
+    {
+      "name": "Office of Support Services",
+      "code": "609"
+    },
+    {
+      "name": "Office Of The Controller",
+      "code": "758"
+    },
+    {
+      "name": "Office of the Secretary",
+      "code": "507"
+    },
+    {
+      "name": "OSH Review Commission",
+      "code": "113"
+    },
+    {
+      "name": "Personnel - Office Of The Secretary",
+      "code": "790"
+    },
+    {
+      "name": "Personnel Board",
+      "code": "268"
+    },
+    {
+      "name": "Pub Protection - Office of the Secretary",
+      "code": "675"
+    },
+    {
+      "name": "Public Transportation",
+      "code": "619"
+    },
+    {
+      "name": "Registry Of Election Finance",
+      "code": "066"
+    },
+    {
+      "name": "School Facilities Construction Commission",
+      "code": "345"
+    },
+    {
+      "name": "Secretary Of State",
+      "code": "120"
+    },
+    {
+      "name": "Secretary Of The Cabinet",
+      "code": "110"
+    },
+    {
+      "name": "State Treasurer",
+      "code": "125"
+    },
+    {
+      "name": "Tourism - Office Of The Secretary",
+      "code": "850"
+    },
+    {
+      "name": "Transportation - Office Of The Secretary",
+      "code": "605"
+    },
+    {
+      "name": "Unified Prosecutorial System",
+      "code": "030"
+    },
+    {
+      "name": "University of Kentucky",
+      "code": "455"
+    },
+    {
+      "name": "University of Louisville",
+      "code": "460"
+    },
+    {
+      "name": "Western Kentucky University",
+      "code": "465"
+    },
+    {
+      "name": "Workers' Compensation Funding Commission",
+      "code": "114"
+    }
+  ],
+  "fiscalYears": [
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "2027"
+  ],
+  "objectCodes": [
+    {
+      "name": "Actuarial Services-1099 Rept",
+      "code": "E159"
+    },
+    {
+      "name": "Administration Of Examination",
+      "code": "E374"
+    },
+    {
+      "name": "Adoption Benefit",
+      "code": "E174"
+    },
+    {
+      "name": "Advertising Services-1099 Rept",
+      "code": "E147"
+    },
+    {
+      "name": "Advertising-Rept",
+      "code": "E255"
+    },
+    {
+      "name": "Aged, Blind & Disabled",
+      "code": "E461"
+    },
+    {
+      "name": "Agency Labor",
+      "code": "E726"
+    },
+    {
+      "name": "Agency Material And Equipment",
+      "code": "E727"
+    },
+    {
+      "name": "Agric & Botanical Supplies",
+      "code": "E329"
+    },
+    {
+      "name": "Aid To Dependent Children",
+      "code": "E462"
+    },
+    {
+      "name": "Aircraft & Related Equipment",
+      "code": "E723"
+    },
+    {
+      "name": "Aircraft Chart-Non-St Own-1099",
+      "code": "E228"
+    },
+    {
+      "name": "Airport Board Payments",
+      "code": "E423"
+    },
+    {
+      "name": "Alcohol for Resale",
+      "code": "E307"
+    },
+    {
+      "name": "Application Development Software",
+      "code": "E826"
+    },
+    {
+      "name": "Application Development Software Maintenance",
+      "code": "E846"
+    },
+    {
+      "name": "Appraisal Services-1099 Rept",
+      "code": "E149"
+    },
+    {
+      "name": "Archit/Eng Fees-1099 Rept",
+      "code": "E701"
+    },
+    {
+      "name": "Architect & Eng Serv-1099 Rept",
+      "code": "E143"
+    },
+    {
+      "name": "Armored Car Serv-1099 Rept",
+      "code": "E258"
+    },
+    {
+      "name": "Artistic Services-1099 Rept",
+      "code": "E148"
+    },
+    {
+      "name": "ATAA Payments 1099 Reportable",
+      "code": "E468"
+    },
+    {
+      "name": "Athletic Equipment-Over $5,000",
+      "code": "E608"
+    },
+    {
+      "name": "Athletic Expenses",
+      "code": "E371"
+    },
+    {
+      "name": "Auditing Sv-W/Fn Dscl Rev-1099",
+      "code": "E142"
+    },
+    {
+      "name": "Automobile Liability Insurance",
+      "code": "E138"
+    },
+    {
+      "name": "Bad Debt Expense",
+      "code": "E518"
+    },
+    {
+      "name": "Banking Servs & Related Fees",
+      "code": "E357"
+    },
+    {
+      "name": "Bibliographic Utilities",
+      "code": "E352"
+    },
+    {
+      "name": "Bonds-Surety,Fidelity,Law,Etc",
+      "code": "E135"
+    },
+    {
+      "name": "Book Binding Expense",
+      "code": "E380"
+    },
+    {
+      "name": "Books For Dept Use-Exc Libr Dp",
+      "code": "E351"
+    },
+    {
+      "name": "Bottled Gas",
+      "code": "E216"
+    },
+    {
+      "name": "Building Materials & Supplies",
+      "code": "E334"
+    },
+    {
+      "name": "Buildings/Fixed Equipment",
+      "code": "E606"
+    },
+    {
+      "name": "Built to Suit Lease",
+      "code": "E610"
+    },
+    {
+      "name": "Business Applications Software",
+      "code": "E823"
+    },
+    {
+      "name": "Business Applications Software Maintenance",
+      "code": "E843"
+    },
+    {
+      "name": "Buy Money",
+      "code": "E359"
+    },
+    {
+      "name": "Cable Services",
+      "code": "E219"
+    },
+    {
+      "name": "Capital Construction Grant",
+      "code": "E729"
+    },
+    {
+      "name": "Carpool Rental-St Ag",
+      "code": "E226"
+    },
+    {
+      "name": "Check Cancellation Fee Treasury",
+      "code": "E305"
+    },
+    {
+      "name": "Chemicals & Labratory Supplies",
+      "code": "E325"
+    },
+    {
+      "name": "Child Care Payments-1099 Rept",
+      "code": "E450"
+    },
+    {
+      "name": "Claims",
+      "code": "E401"
+    },
+    {
+      "name": "Claims Adjustment Expense",
+      "code": "E404"
+    },
+    {
+      "name": "Classroom Supplies",
+      "code": "E328"
+    },
+    {
+      "name": "Cleanup Lky Undrgr Pet St Tnks",
+      "code": "E467"
+    },
+    {
+      "name": "Clothing",
+      "code": "E452"
+    },
+    {
+      "name": "Clothing & Pers Supp-Non-Emp",
+      "code": "E322"
+    },
+    {
+      "name": "Co Fees - Health Care Payments",
+      "code": "E546"
+    },
+    {
+      "name": "Co Fees - Individuals Services",
+      "code": "E545"
+    },
+    {
+      "name": "Coal And Coke",
+      "code": "E214"
+    },
+    {
+      "name": "Commercial Supplies",
+      "code": "E318"
+    },
+    {
+      "name": "Community Release",
+      "code": "E414"
+    },
+    {
+      "name": "Comp Time-Block 50 Payments",
+      "code": "E119"
+    },
+    {
+      "name": "Compute Rental-Pay T/Vend-1099",
+      "code": "E225"
+    },
+    {
+      "name": "Computer Equipment",
+      "code": "E710"
+    },
+    {
+      "name": "Confiscated Alcoholic Beverage",
+      "code": "E379"
+    },
+    {
+      "name": "Construction-AML",
+      "code": "E624"
+    },
+    {
+      "name": "Consulting Services-1099 Rept",
+      "code": "E146"
+    },
+    {
+      "name": "Contingent Liability - Finance",
+      "code": "E517"
+    },
+    {
+      "name": "Controlled Intake",
+      "code": "E413"
+    },
+    {
+      "name": "Copy Machine Maint-1099 Rept",
+      "code": "E233"
+    },
+    {
+      "name": "Copy Machine Rental-1099 Rept",
+      "code": "E224"
+    },
+    {
+      "name": "Copy Machine Supplies",
+      "code": "E338"
+    },
+    {
+      "name": "Cost Of Goods Sold",
+      "code": "E308"
+    },
+    {
+      "name": "COT Pass Through Charges",
+      "code": "E803"
+    },
+    {
+      "name": "COT Telephone Charges",
+      "code": "E801"
+    },
+    {
+      "name": "County Aid Payments",
+      "code": "E428"
+    },
+    {
+      "name": "County Costs (Co. Fees)",
+      "code": "E382"
+    },
+    {
+      "name": "County Elections",
+      "code": "E411"
+    },
+    {
+      "name": "Court Reporters - W2",
+      "code": "E160"
+    },
+    {
+      "name": "Court Reporters-1099 Rept",
+      "code": "E152"
+    },
+    {
+      "name": "COVID-19 Health Emergency Response",
+      "code": "E302"
+    },
+    {
+      "name": "Crt Dsignted Worker Serv-1099",
+      "code": "E155"
+    },
+    {
+      "name": "Data Processing Supplies",
+      "code": "E331"
+    },
+    {
+      "name": "Data Storage Hardware < $5,000",
+      "code": "E834"
+    },
+    {
+      "name": "Data Storage Hardware > $5,000",
+      "code": "E634"
+    },
+    {
+      "name": "Database Software",
+      "code": "E821"
+    },
+    {
+      "name": "Database Software Maintenance",
+      "code": "E841"
+    },
+    {
+      "name": "Deceased Emp-Salar & Wage-1099",
+      "code": "E120"
+    },
+    {
+      "name": "Dependent Care-1099 Rept",
+      "code": "E459"
+    },
+    {
+      "name": "Depreciation",
+      "code": "E509"
+    },
+    {
+      "name": "Differentials",
+      "code": "E116"
+    },
+    {
+      "name": "Direct Supplies",
+      "code": "E454"
+    },
+    {
+      "name": "Drug Testing-Wards Of T/State",
+      "code": "E458"
+    },
+    {
+      "name": "Drugs And Pharmaceuticals",
+      "code": "E332"
+    },
+    {
+      "name": "Dues",
+      "code": "E381"
+    },
+    {
+      "name": "Educational Assistance",
+      "code": "E442"
+    },
+    {
+      "name": "Elected County Officials Exps",
+      "code": "E369"
+    },
+    {
+      "name": "Electricity",
+      "code": "E212"
+    },
+    {
+      "name": "Emp Ret-Inc Paymt F/Sick Leave",
+      "code": "E122"
+    },
+    {
+      "name": "Employee Benefit Payments",
+      "code": "E433"
+    },
+    {
+      "name": "Employee Educational Assistance Program",
+      "code": "E193"
+    },
+    {
+      "name": "Employee Health Examinations",
+      "code": "E134"
+    },
+    {
+      "name": "Employee Retirement Arrears",
+      "code": "E145"
+    },
+    {
+      "name": "Employee Training-St Emp Only",
+      "code": "E133"
+    },
+    {
+      "name": "Employers Fica",
+      "code": "E121"
+    },
+    {
+      "name": "Employers Health Insurance",
+      "code": "E123"
+    },
+    {
+      "name": "Employers Life Insurance",
+      "code": "E124"
+    },
+    {
+      "name": "Energy Savings Program Contract",
+      "code": "E218"
+    },
+    {
+      "name": "Exp Allow-Payroll W-2 Report",
+      "code": "E360"
+    },
+    {
+      "name": "Expend Rembrsmnt-Mobile Svcs",
+      "code": "E354"
+    },
+    {
+      "name": "Expend Rembrsmnt-Non 1099 Rept",
+      "code": "E365"
+    },
+    {
+      "name": "Expenses Rel T/Shows,Fairs&Exp",
+      "code": "E259"
+    },
+    {
+      "name": "Expert Witnesses-1099 Rept",
+      "code": "E151"
+    },
+    {
+      "name": "Exterminating/Pest Control Services",
+      "code": "E249"
+    },
+    {
+      "name": "Feeds",
+      "code": "E342"
+    },
+    {
+      "name": "FEMA FMA/Hmgp/Pdm-1099Rpt",
+      "code": "E408"
+    },
+    {
+      "name": "Ferry Operations",
+      "code": "E430"
+    },
+    {
+      "name": "Filing Fees And Court Costs",
+      "code": "E375"
+    },
+    {
+      "name": "Films & Video Cassettes",
+      "code": "E355"
+    },
+    {
+      "name": "Financial Assistance to Non-State Employees",
+      "code": "E497"
+    },
+    {
+      "name": "Firearms And Ammunition",
+      "code": "E345"
+    },
+    {
+      "name": "Food",
+      "code": "E451"
+    },
+    {
+      "name": "Food For Firefighters",
+      "code": "E366"
+    },
+    {
+      "name": "Food Products",
+      "code": "E341"
+    },
+    {
+      "name": "Free Textbooks",
+      "code": "E435"
+    },
+    {
+      "name": "Freight",
+      "code": "E242"
+    },
+    {
+      "name": "Fuels Not Otherwise Classified",
+      "code": "E217"
+    },
+    {
+      "name": "Furn/Fixt/Off Eqp Under $5,000",
+      "code": "E346"
+    },
+    {
+      "name": "Furn/Fixt/Off Eqp-Over $5,000",
+      "code": "E601"
+    },
+    {
+      "name": "Garbage Collection-1099 Rept",
+      "code": "E256"
+    },
+    {
+      "name": "General Construction",
+      "code": "E703"
+    },
+    {
+      "name": "GPS Device Charges",
+      "code": "E817"
+    },
+    {
+      "name": "Grant & Benefit Expend Reimb",
+      "code": "E449"
+    },
+    {
+      "name": "Grants, Schlrshps Etc T/Stdnts",
+      "code": "E445"
+    },
+    {
+      "name": "Grants-In-Aid Federal",
+      "code": "E432"
+    },
+    {
+      "name": "Grants-In-Aid St Gov Entities",
+      "code": "E431"
+    },
+    {
+      "name": "Heating Oil",
+      "code": "E215"
+    },
+    {
+      "name": "Hghy Aggregates",
+      "code": "E383"
+    },
+    {
+      "name": "Hghy Bituminous Materials",
+      "code": "E384"
+    },
+    {
+      "name": "Hghy Calcium & Sodium Chloride",
+      "code": "E393"
+    },
+    {
+      "name": "Hghy Concrete Materials",
+      "code": "E394"
+    },
+    {
+      "name": "Hghy Construction",
+      "code": "E797"
+    },
+    {
+      "name": "Hghy Construction Maint Equip",
+      "code": "E798"
+    },
+    {
+      "name": "Hghy Culvert Pipe",
+      "code": "E386"
+    },
+    {
+      "name": "Hghy Guardrail",
+      "code": "E392"
+    },
+    {
+      "name": "Hghy Legal Adm Rgt-Of-Way-1099",
+      "code": "E799"
+    },
+    {
+      "name": "Hghy Lumber",
+      "code": "E395"
+    },
+    {
+      "name": "Hghy Miscellaneous Materials",
+      "code": "E388"
+    },
+    {
+      "name": "Hghy Motrpool Rent T/St Agy-Cr",
+      "code": "E390"
+    },
+    {
+      "name": "Hghy Paints And Beads",
+      "code": "E391"
+    },
+    {
+      "name": "Hghy Posts/Signs/Signals&Light",
+      "code": "E387"
+    },
+    {
+      "name": "Hghy Precast Concrete Bridge",
+      "code": "E397"
+    },
+    {
+      "name": "Hghy Projects Allocated Costs",
+      "code": "E793"
+    },
+    {
+      "name": "Hghy Reinforcing Steel",
+      "code": "E396"
+    },
+    {
+      "name": "Hghy Right-Of-Way",
+      "code": "E796"
+    },
+    {
+      "name": "Hghy Rw Relocation",
+      "code": "E792"
+    },
+    {
+      "name": "Hghy Utility Relocation",
+      "code": "E795"
+    },
+    {
+      "name": "Hghy Vegtn & Vegtn Cntrl Chem",
+      "code": "E385"
+    },
+    {
+      "name": "Highway Inventory Stock",
+      "code": "E389"
+    },
+    {
+      "name": "Highway Maintenance-1099 Rept",
+      "code": "E237"
+    },
+    {
+      "name": "Honoraria-1099 Reportable",
+      "code": "E164"
+    },
+    {
+      "name": "Hospitalization-1099 Rept",
+      "code": "E456"
+    },
+    {
+      "name": "Household And Kitchen Supplies",
+      "code": "E326"
+    },
+    {
+      "name": "Hwy Rt-Of-Way-1099 Misc",
+      "code": "E791"
+    },
+    {
+      "name": "Hwy Rt-Of-Way-1099 Real Estate",
+      "code": "E794"
+    },
+    {
+      "name": "Inc/Dec In Inventory",
+      "code": "E529"
+    },
+    {
+      "name": "Indirect Grant Expense/Credit",
+      "code": "E498"
+    },
+    {
+      "name": "Indirect Operat Expense/Credit",
+      "code": "E508"
+    },
+    {
+      "name": "Indirect Personnel Costs",
+      "code": "E169"
+    },
+    {
+      "name": "Inmate Claims",
+      "code": "E402"
+    },
+    {
+      "name": "Inst/Studn/Grant Stipends-1099",
+      "code": "E446"
+    },
+    {
+      "name": "In-State Travel",
+      "code": "E361"
+    },
+    {
+      "name": "Instrs & Apparatus-Over $5,000",
+      "code": "E604"
+    },
+    {
+      "name": "Insts & Apparatus Under $5,000",
+      "code": "E348"
+    },
+    {
+      "name": "Insurance Premium-Not Employee",
+      "code": "E254"
+    },
+    {
+      "name": "Int Earn On Judge/Ben-1099 Rep",
+      "code": "E541"
+    },
+    {
+      "name": "Interest Earn Wth Trustee",
+      "code": "E503"
+    },
+    {
+      "name": "Interest For Late Payment-Rept",
+      "code": "E770"
+    },
+    {
+      "name": "Interest Paid On Debt-1099 Rep",
+      "code": "E472"
+    },
+    {
+      "name": "Internal Enterprise IT Charges",
+      "code": "E300"
+    },
+    {
+      "name": "Interpreters Deaf/Foreign Language",
+      "code": "E192"
+    },
+    {
+      "name": "Intrest For Late Pay-1099 Rept",
+      "code": "E613"
+    },
+    {
+      "name": "Inventory Adjustments",
+      "code": "E320"
+    },
+    {
+      "name": "Inventory Inc/Dec-CAFR",
+      "code": "E301"
+    },
+    {
+      "name": "Issuance Cost-Sale Of Bonds",
+      "code": "E476"
+    },
+    {
+      "name": "IT Application Development Services",
+      "code": "E812"
+    },
+    {
+      "name": "IT Business Applications Services",
+      "code": "E809"
+    },
+    {
+      "name": "IT Desktop/Server Management Services",
+      "code": "E808"
+    },
+    {
+      "name": "IT Networking/Infrastructure Services",
+      "code": "E810"
+    },
+    {
+      "name": "IT Operations Services",
+      "code": "E813"
+    },
+    {
+      "name": "IT Operations Software",
+      "code": "E827"
+    },
+    {
+      "name": "IT Operations Software Maintenance",
+      "code": "E847"
+    },
+    {
+      "name": "IT Policy, Planning & Architecture Services",
+      "code": "E806"
+    },
+    {
+      "name": "IT Security Services",
+      "code": "E811"
+    },
+    {
+      "name": "IT Training Services",
+      "code": "E807"
+    },
+    {
+      "name": "Janitorial & Mainten Supplies",
+      "code": "E323"
+    },
+    {
+      "name": "Janitorial Serv-N/Emp-1099 Rpt",
+      "code": "E163"
+    },
+    {
+      "name": "Judgments",
+      "code": "E378"
+    },
+    {
+      "name": "Judgments-1099 Rept",
+      "code": "E400"
+    },
+    {
+      "name": "KDE Ct Agree Salaries-Non 1099",
+      "code": "E156"
+    },
+    {
+      "name": "Keypunch Services-1099 Rept",
+      "code": "E153"
+    },
+    {
+      "name": "KY Abnd Storage Tanks/Orphan Wells",
+      "code": "E626"
+    },
+    {
+      "name": "Ky Made Handcrafts For Resale",
+      "code": "E317"
+    },
+    {
+      "name": "Ky Tuition Grant Prog-KHEAA",
+      "code": "E448"
+    },
+    {
+      "name": "Lab Tests & Anal Fees 1099 Rep",
+      "code": "E166"
+    },
+    {
+      "name": "Laboratory Svcs, Environmental",
+      "code": "E543"
+    },
+    {
+      "name": "Land/Right Of Way-1099 Rept",
+      "code": "E717"
+    },
+    {
+      "name": "Late Payment Interest-1099 Rpt",
+      "code": "E370"
+    },
+    {
+      "name": "Late Pmt Int-Fin/Treas-1099 Rp",
+      "code": "E356"
+    },
+    {
+      "name": "Laundry & Cleaning-1099 Rept",
+      "code": "E253"
+    },
+    {
+      "name": "Lbrary Bks-Per Un/St Un $5,000",
+      "code": "E350"
+    },
+    {
+      "name": "Lease Purchase-Furn,Fixt,Eqpt",
+      "code": "E611"
+    },
+    {
+      "name": "Legal & Admin Costs-1099 Rept",
+      "code": "E718"
+    },
+    {
+      "name": "Legal Services-1099 Rept",
+      "code": "E141"
+    },
+    {
+      "name": "License Plates",
+      "code": "E344"
+    },
+    {
+      "name": "Licensing Fee",
+      "code": "E248"
+    },
+    {
+      "name": "Livestock",
+      "code": "E602"
+    },
+    {
+      "name": "Local Jail Allowance",
+      "code": "E436"
+    },
+    {
+      "name": "Local Jail-Ctsphc Medical-1099",
+      "code": "E439"
+    },
+    {
+      "name": "Local Jail-Restr Medical-1099",
+      "code": "E438"
+    },
+    {
+      "name": "Local Program Reimbursements Non-1099 Reportable",
+      "code": "E421"
+    },
+    {
+      "name": "Machinery & Implem-Over $5,000",
+      "code": "E603"
+    },
+    {
+      "name": "Machinery & Implm Under $5,000",
+      "code": "E347"
+    },
+    {
+      "name": "Maint Of Blds & Grnds-1099 Rep",
+      "code": "E231"
+    },
+    {
+      "name": "Maint Of Equipment-1099 Rept",
+      "code": "E232"
+    },
+    {
+      "name": "Maint Of Vehicles-1099 Rept",
+      "code": "E235"
+    },
+    {
+      "name": "Managed Print Services-1099 Rept",
+      "code": "E260"
+    },
+    {
+      "name": "Mass Transit Dvlopmnt Payments",
+      "code": "E425"
+    },
+    {
+      "name": "Meals for Employees/Students",
+      "code": "E314"
+    },
+    {
+      "name": "Mech Maint Materials & Suppls",
+      "code": "E337"
+    },
+    {
+      "name": "Medical Asstance Ben-1099 Rept",
+      "code": "E463"
+    },
+    {
+      "name": "Medical Supplies",
+      "code": "E324"
+    },
+    {
+      "name": "Medical/Dental Serv-1099 Rept",
+      "code": "E144"
+    },
+    {
+      "name": "Medical-Dental-1099 Rept",
+      "code": "E453"
+    },
+    {
+      "name": "Merchandise For Resale",
+      "code": "E312"
+    },
+    {
+      "name": "Miscellaneous Expenditure",
+      "code": "E725"
+    },
+    {
+      "name": "Motor Fuels And Lubricants",
+      "code": "E343"
+    },
+    {
+      "name": "Motor Fuels For Resale",
+      "code": "E309"
+    },
+    {
+      "name": "Motor Vehicle Supplies & Parts",
+      "code": "E333"
+    },
+    {
+      "name": "Motor Vehicles",
+      "code": "E605"
+    },
+    {
+      "name": "Movable Equipment Furnishings",
+      "code": "E712"
+    },
+    {
+      "name": "Municipal Aid Payments",
+      "code": "E418"
+    },
+    {
+      "name": "Natural Gas",
+      "code": "E211"
+    },
+    {
+      "name": "Networking Hardware < $5,000",
+      "code": "E833"
+    },
+    {
+      "name": "Networking Hardware > $5,000",
+      "code": "E633"
+    },
+    {
+      "name": "Networking Hardware Maintenance",
+      "code": "E853"
+    },
+    {
+      "name": "Networking/Infrastructure Software",
+      "code": "E824"
+    },
+    {
+      "name": "Networking/Infrastructure Software Maintenance",
+      "code": "E844"
+    },
+    {
+      "name": "Notary and Bond Fee Reimbursement",
+      "code": "E137"
+    },
+    {
+      "name": "Nutritional & Health Serv Asst",
+      "code": "E434"
+    },
+    {
+      "name": "Occasional Salary & Wages-W-2",
+      "code": "E113"
+    },
+    {
+      "name": "Office Software",
+      "code": "E822"
+    },
+    {
+      "name": "Office Software Maintenance",
+      "code": "E842"
+    },
+    {
+      "name": "Office Supplies",
+      "code": "E321"
+    },
+    {
+      "name": "Office Supplies For Resale",
+      "code": "E315"
+    },
+    {
+      "name": "Omi-Lump Sum Payments",
+      "code": "E181"
+    },
+    {
+      "name": "On-Line Subscrip Srv-1099 Rept",
+      "code": "E542"
+    },
+    {
+      "name": "Oper Exp Reimb-Rest T/CHFS",
+      "code": "E505"
+    },
+    {
+      "name": "Operating Systems/Utilities Software",
+      "code": "E820"
+    },
+    {
+      "name": "Operating Systems/Utilities Software Maintenance",
+      "code": "E840"
+    },
+    {
+      "name": "Oth Parcel Dlvry Srv-1099 Rept",
+      "code": "E243"
+    },
+    {
+      "name": "Other",
+      "code": "E399"
+    },
+    {
+      "name": "Other Benefits",
+      "code": "E464"
+    },
+    {
+      "name": "Other Benefits-1099 Rept",
+      "code": "E466"
+    },
+    {
+      "name": "Other Capital Outlay",
+      "code": "E609"
+    },
+    {
+      "name": "Other Care & Support",
+      "code": "E457"
+    },
+    {
+      "name": "Other COT Charges",
+      "code": "E802"
+    },
+    {
+      "name": "Other Emp Related Insurance",
+      "code": "E128"
+    },
+    {
+      "name": "Other Employee Deductions",
+      "code": "E514"
+    },
+    {
+      "name": "Other Employee Fringe",
+      "code": "E130"
+    },
+    {
+      "name": "Other Financing Uses",
+      "code": "E519"
+    },
+    {
+      "name": "Other IT Hardware < $5,000",
+      "code": "E839"
+    },
+    {
+      "name": "Other IT Hardware > $5,000",
+      "code": "E639"
+    },
+    {
+      "name": "Other IT Hardware Maintenance",
+      "code": "E859"
+    },
+    {
+      "name": "Other IT Services",
+      "code": "E819"
+    },
+    {
+      "name": "Other IT Software",
+      "code": "E830"
+    },
+    {
+      "name": "Other IT Software Maintenance",
+      "code": "E850"
+    },
+    {
+      "name": "Other Non Professional Services-1099 Rept",
+      "code": "E175"
+    },
+    {
+      "name": "Other Non-Professional Services-W2 Rept",
+      "code": "E176"
+    },
+    {
+      "name": "Other Payments To Trustees",
+      "code": "E479"
+    },
+    {
+      "name": "Other Professional Services-1099 Rept",
+      "code": "E150"
+    },
+    {
+      "name": "Other Supplies And Parts",
+      "code": "E339"
+    },
+    {
+      "name": "Out-Of-State Travel",
+      "code": "E362"
+    },
+    {
+      "name": "Overtime",
+      "code": "E115"
+    },
+    {
+      "name": "Patient Incentive Pay",
+      "code": "E416"
+    },
+    {
+      "name": "Patient Transportation",
+      "code": "E455"
+    },
+    {
+      "name": "Payment Of Use Tax",
+      "code": "E373"
+    },
+    {
+      "name": "Payments To Bond Escrow Agents",
+      "code": "E483"
+    },
+    {
+      "name": "Pension Benefits Paid",
+      "code": "E501"
+    },
+    {
+      "name": "Pension Spiking Paid to KRS",
+      "code": "E185"
+    },
+    {
+      "name": "Per Diem (Boards And Comms)",
+      "code": "E114"
+    },
+    {
+      "name": "Personal Computer Hardware < $5,000",
+      "code": "E831"
+    },
+    {
+      "name": "Personal Computer Hardware > $5,000",
+      "code": "E631"
+    },
+    {
+      "name": "Personal Computer Hardware Maintenance",
+      "code": "E851"
+    },
+    {
+      "name": "Personal Serv Exp Reimb/Distr",
+      "code": "E154"
+    },
+    {
+      "name": "Personnel Board Assessment",
+      "code": "E184"
+    },
+    {
+      "name": "Photographic & Relatd Supplies",
+      "code": "E330"
+    },
+    {
+      "name": "Postage And Postage Meters",
+      "code": "E241"
+    },
+    {
+      "name": "Postal Service Handling/Service Charge",
+      "code": "E244"
+    },
+    {
+      "name": "Premiums/Awards/Prizes-1099 Rp",
+      "code": "E419"
+    },
+    {
+      "name": "Prepared Food For Resale",
+      "code": "E313"
+    },
+    {
+      "name": "Principal",
+      "code": "E471"
+    },
+    {
+      "name": "Print Shop Supplies",
+      "code": "E319"
+    },
+    {
+      "name": "Printers & I/O Hardware < $5,000",
+      "code": "E835"
+    },
+    {
+      "name": "Printers & I/O Hardware > $5,000",
+      "code": "E635"
+    },
+    {
+      "name": "Printers & I/O Hardware Maintenance",
+      "code": "E855"
+    },
+    {
+      "name": "Printing Paid To St Agency",
+      "code": "E251"
+    },
+    {
+      "name": "Printing Paid To Ven-1099 Rept",
+      "code": "E252"
+    },
+    {
+      "name": "Prior Year Claims",
+      "code": "E377"
+    },
+    {
+      "name": "Prison Labor (Pymts To Corr)",
+      "code": "E161"
+    },
+    {
+      "name": "Prison Labor Allow-1099 Rept",
+      "code": "E420"
+    },
+    {
+      "name": "Procurement Card Purchases",
+      "code": "E340"
+    },
+    {
+      "name": "Professional Services-W-2 Rept",
+      "code": "E170"
+    },
+    {
+      "name": "Prog Adm Cst -Inter-Dept Grnts",
+      "code": "E417"
+    },
+    {
+      "name": "Prog Adm Cst-Outside Vend-1099",
+      "code": "E415"
+    },
+    {
+      "name": "Program Adm-Govt Vendors",
+      "code": "E422"
+    },
+    {
+      "name": "Promotional Entertainment Exp",
+      "code": "E372"
+    },
+    {
+      "name": "Property Valuation Adm Exp All",
+      "code": "E364"
+    },
+    {
+      "name": "Public Defender Fees-1099 Rept",
+      "code": "E410"
+    },
+    {
+      "name": "Raw Materials",
+      "code": "E349"
+    },
+    {
+      "name": "Rec/Ath/Theat/Musical Supplies",
+      "code": "E327"
+    },
+    {
+      "name": "Regular Salaries And Wages",
+      "code": "E111"
+    },
+    {
+      "name": "Rehab-Client Serv Cst-1099 Rpt",
+      "code": "E441"
+    },
+    {
+      "name": "Rental Of Equipment-1099 Rept",
+      "code": "E223"
+    },
+    {
+      "name": "Rental Of St Own Bld&Lnd-St Ag",
+      "code": "E222"
+    },
+    {
+      "name": "Rental-Non-St Own Bld&Lnd-1099",
+      "code": "E221"
+    },
+    {
+      "name": "Rentals N/Otherwise Class-1099",
+      "code": "E229"
+    },
+    {
+      "name": "Repairs N/Othwise Class-1099",
+      "code": "E236"
+    },
+    {
+      "name": "Retitled-Refund Of Retire Cont",
+      "code": "E502"
+    },
+    {
+      "name": "Rewards",
+      "code": "E376"
+    },
+    {
+      "name": "Salaries & Wages Offsets",
+      "code": "E182"
+    },
+    {
+      "name": "Salaries And Wages Corrections",
+      "code": "E118"
+    },
+    {
+      "name": "Seasonal Salaries And Wages",
+      "code": "E112"
+    },
+    {
+      "name": "Security Guard Serv-1099 Rept",
+      "code": "E162"
+    },
+    {
+      "name": "Security Software",
+      "code": "E825"
+    },
+    {
+      "name": "Security Software Maintenance",
+      "code": "E845"
+    },
+    {
+      "name": "Self Insurance Contract Admin Fee",
+      "code": "E549"
+    },
+    {
+      "name": "Self Insured Healthcare Cost",
+      "code": "E125"
+    },
+    {
+      "name": "Self Insured Prescription Cost",
+      "code": "E126"
+    },
+    {
+      "name": "Serv N/Othwise Class-1099 Rept",
+      "code": "E257"
+    },
+    {
+      "name": "Server Hardware < $5,000",
+      "code": "E832"
+    },
+    {
+      "name": "Server Hardware > $5,000",
+      "code": "E632"
+    },
+    {
+      "name": "Server Hardware Maintenance",
+      "code": "E852"
+    },
+    {
+      "name": "Service By Other Agencies",
+      "code": "E728"
+    },
+    {
+      "name": "Small Tools",
+      "code": "E336"
+    },
+    {
+      "name": "Souvenirs For Resale",
+      "code": "E311"
+    },
+    {
+      "name": "Special Mobile Equipment",
+      "code": "E724"
+    },
+    {
+      "name": "Sprinkler Inspection",
+      "code": "E234"
+    },
+    {
+      "name": "State Police Clothing Allow",
+      "code": "E139"
+    },
+    {
+      "name": "State Police Per Diem",
+      "code": "E367"
+    },
+    {
+      "name": "Stock Room Inventory",
+      "code": "E335"
+    },
+    {
+      "name": "Storage Fees At Record Center",
+      "code": "E358"
+    },
+    {
+      "name": "St-Owned Aircraft Rental-St Ag",
+      "code": "E227"
+    },
+    {
+      "name": "Subscriptions",
+      "code": "E353"
+    },
+    {
+      "name": "SWCAP Indirect Cost-CHFS Only",
+      "code": "E507"
+    },
+    {
+      "name": "Tariff related expenses",
+      "code": "E303"
+    },
+    {
+      "name": "Telecomm-CMRS & Univ Serv Fund",
+      "code": "E474"
+    },
+    {
+      "name": "Telephone Charges - Other",
+      "code": "E815"
+    },
+    {
+      "name": "Telephone Charges - Wireless/Cell",
+      "code": "E814"
+    },
+    {
+      "name": "Telephone System Hardware - Other < $5,000",
+      "code": "E837"
+    },
+    {
+      "name": "Telephone System Hardware - Other > $5,000",
+      "code": "E637"
+    },
+    {
+      "name": "Telephone System Hardware - Wireless/Cell < $5,000",
+      "code": "E836"
+    },
+    {
+      "name": "Telephone System Hardware - Wireless/Cell > $5,000",
+      "code": "E636"
+    },
+    {
+      "name": "Telephone System Hardware Maintenance - Other",
+      "code": "E857"
+    },
+    {
+      "name": "Telephone System Software - Other",
+      "code": "E829"
+    },
+    {
+      "name": "Telephone System Software - Wireless/Cell",
+      "code": "E828"
+    },
+    {
+      "name": "Telephone System Software Maintenance - Other",
+      "code": "E849"
+    },
+    {
+      "name": "Telephone System Software Maintenance - Wireless/Cell",
+      "code": "E848"
+    },
+    {
+      "name": "Temporary Manpower Services",
+      "code": "E191"
+    },
+    {
+      "name": "Tolls",
+      "code": "E261"
+    },
+    {
+      "name": "Travel For Non-State Employees",
+      "code": "E363"
+    },
+    {
+      "name": "Treasurys Unred Checks Reissd",
+      "code": "E512"
+    },
+    {
+      "name": "Trustee & Agent Fees-1099 Rept",
+      "code": "E473"
+    },
+    {
+      "name": "Tuition Assistance",
+      "code": "E443"
+    },
+    {
+      "name": "Txtbks & Studt Supp For Resale",
+      "code": "E316"
+    },
+    {
+      "name": "Unemployment Compensation",
+      "code": "E132"
+    },
+    {
+      "name": "Unemployment Insurance Benefit",
+      "code": "E465"
+    },
+    {
+      "name": "Uniforms, Rental Or Purchase",
+      "code": "E136"
+    },
+    {
+      "name": "Univ Operations Non Breakdown",
+      "code": "E398"
+    },
+    {
+      "name": "Universitys Disability Cover",
+      "code": "E127"
+    },
+    {
+      "name": "Univrsty Construction Reimbur",
+      "code": "E732"
+    },
+    {
+      "name": "Veterinarians Serv-1099 Rept",
+      "code": "E158"
+    },
+    {
+      "name": "Video Teleconferencing Charges",
+      "code": "E816"
+    },
+    {
+      "name": "Water And Sewage",
+      "code": "E213"
+    },
+    {
+      "name": "Work Improvement Sugstn Awards",
+      "code": "E165"
+    },
+    {
+      "name": "Work Study Program Assistance",
+      "code": "E444"
+    },
+    {
+      "name": "Workers' Compensation",
+      "code": "E131"
+    },
+    {
+      "name": "Workers' Compensation Awards",
+      "code": "E426"
+    },
+    {
+      "name": "Wrks Comp Awards-Att Fee-1099",
+      "code": "E407"
+    }
+  ]
+}

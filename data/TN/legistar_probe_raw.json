@@ -1,0 +1,51 @@
+{
+  "nashville": {
+    "status": 200,
+    "count_endpoint_ok": true,
+    "sample": [
+      {
+        "BodyId": 138,
+        "BodyGuid": "F8ADF85B-1F5E-4C1F-BA9F-72147E81C0A7",
+        "BodyLastModifiedUtc": "2014-05-24T04:19:35.52",
+        "BodyRowVersion": "AAAAAAEGl0Y=",
+        "BodyName": "Metropolitan Council",
+        "BodyTypeId": 42,
+        "BodyTypeName": "Primary Legislative Body",
+        "BodyMeetFlag": 1,
+        "BodyActiveFlag": 1,
+        "BodySort": 1,
+        "BodyDescription": "",
+        "BodyContactNameId": 238,
+        "BodyContactFullName": "Angie Henderson",
+        "BodyContactPhone": "615-432-1334",
+        "BodyContactEmail": "Angie.Henderson@nashville.gov",
+        "BodyUsedControlFlag": 0,
+        "BodyNumberOfMembers": 41,
+        "BodyUsedActingFlag": 0,
+        "BodyUsedTargetFlag": 0,
+        "BodyUsedSponsorFlag": 0
+      }
+    ]
+  },
+  "memphis": {
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "knoxville": {
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "chattanooga": {
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "clarksville": {
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "murfreesboro": {
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "davidsoncounty": {
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "shelbycounty": {
+    "error": "HTTP Error 500: Internal Server Error"
+  }
+}

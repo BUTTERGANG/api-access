@@ -1,0 +1,117 @@
+{
+  "client": "nashville",
+  "body_count_sampled": 21,
+  "bodies": [
+    {
+      "id": 138,
+      "name": "Metropolitan Council"
+    },
+    {
+      "id": 139,
+      "name": "Budget and Finance Committee"
+    },
+    {
+      "id": 140,
+      "name": "Education Committee"
+    },
+    {
+      "id": 180,
+      "name": "Affordable Housing Committee"
+    },
+    {
+      "id": 181,
+      "name": "Charter Revision Committee"
+    },
+    {
+      "id": 187,
+      "name": "Planning and Zoning Committee"
+    },
+    {
+      "id": 190,
+      "name": "Rules, Confirmations, and Public Elections Committee"
+    },
+    {
+      "id": 196,
+      "name": "Emergency Communications District Board"
+    },
+    {
+      "id": 203,
+      "name": "Historical Commission"
+    },
+    {
+      "id": 232,
+      "name": "Planning Commission"
+    },
+    {
+      "id": 249,
+      "name": "Charter Revision Commission"
+    },
+    {
+      "id": 255,
+      "name": "Traffic and Parking Commission"
+    },
+    {
+      "id": 256,
+      "name": "Mayor"
+    },
+    {
+      "id": 257,
+      "name": "Government Operations and Regulations Committee"
+    },
+    {
+      "id": 258,
+      "name": "Public Facilities, Arts, and Culture Committee"
+    },
+    {
+      "id": 259,
+      "name": "Human Services Committee"
+    },
+    {
+      "id": 260,
+      "name": "Public Health and Safety Committee"
+    },
+    {
+      "id": 261,
+      "name": "Transportation and Infrastructure Committee"
+    },
+    {
+      "id": 264,
+      "name": "Urban Council"
+    },
+    {
+      "id": 265,
+      "name": "Arts, Parks, Libraries, and Entertainment Committee"
+    },
+    {
+      "id": 266,
+      "name": "Ad-Hoc East Bank Committee"
+    }
+  ],
+  "recent_events": [
+    {
+      "date": "2026-08-18T00:00:00",
+      "body": "Metropolitan Council",
+      "name": null
+    },
+    {
+      "date": "2026-08-18T00:00:00",
+      "body": "Public Health and Safety Committee",
+      "name": null
+    },
+    {
+      "date": "2026-08-18T00:00:00",
+      "body": "Rules, Confirmations, and Public Elections Committee",
+      "name": null
+    },
+    {
+      "date": "2026-08-18T00:00:00",
+      "body": "Arts, Parks, Libraries, and Entertainment Committee",
+      "name": null
+    },
+    {
+      "date": "2026-08-18T00:00:00",
+      "body": "Government Operations and Regulations Committee",
+      "name": null
+    }
+  ]
+}

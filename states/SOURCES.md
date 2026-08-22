@@ -110,9 +110,17 @@ collectors: (1) spending/transparency bulk, (2) DOT bid tabs,
 - Meeting platforms: TODO (probe {slug}.legistar.com, {slug}.granicus.com, {slug}.api.civicclerk.com, /AgendaCenter, municodemeetings.com)
 
 ## KY — Kentucky
-- Transparency/spending: opendoor.ky.gov
-- DOT (bid lettings/tabs): transportation.ky.gov
-- Meeting platforms: TODO (probe {slug}.legistar.com, {slug}.granicus.com, {slug}.api.civicclerk.com, /AgendaCenter, municodemeetings.com)
+- Transparency/spending: opendoor.ky.gov is DEAD (times out). Live API:
+  `https://secure2.kentucky.gov/TransparencyWebApi/v1/*` (keyless, JSON,
+  paginated; CSV via SpendingDownload) — see data/KY/README.md
+- DOT (bid lettings/tabs): transportation.ky.gov Construction-Procurement —
+  SharePoint; lettings list + per-letting proposal/award/bid-tab PDFs
+### Meeting platforms (VERIFIED by probing, 2026-08)
+- Louisville → **Legistar** (`louisville` — webapi 200, Metro Council);
+  also Granicus video (louisville.granicus.com LIVE). louisvilleky.gov 403s plain clients
+- Lexington → **Legistar** (`lexington` — webapi 200, Urban County Council)
+- Bowling Green / Covington → CivicClerk slugs resolve but UNVERIFIED (wildcard SPA)
+- Owensboro → Municode code library only; no third-party agenda platform
 
 ## LA — Louisiana
 - Transparency/spending: laopenbooks.com / data.la.gov
@@ -234,10 +242,10 @@ collectors: (1) spending/transparency bulk, (2) DOT bid tabs,
 - DOT (bid lettings/tabs): dot.sd.gov
 - Meeting platforms: TODO (probe {slug}.legistar.com, {slug}.granicus.com, {slug}.api.civicclerk.com, /AgendaCenter, municodemeetings.com)
 
-## TN — Tennessee
-- Transparency/spending: tn.gov/transparency / data.tn.gov
-- DOT (bid lettings/tabs): tn.gov/tdot
-- Meeting platforms: TODO (probe {slug}.legistar.com, {slug}.granicus.com, {slug}.api.civicclerk.com, /AgendaCenter, municodemeetings.com)
+## TN — Tennessee (DONE 2026-08-22)
+- Transparency/spending: tn.gov/transparenttn.html (NOT data.tn.gov — Apache 403/404, no Socrata API). Salary search salary.app.tn.gov needs session → Playwright. tn.gov WAF resets plain urllib; use browser UA via curl.
+- DOT (bid lettings/tabs): tn.gov/tdot/tdot-construction-division/bid-lettings/ — year index → per-letting pages with ApparentBidResults.pdf / SummaryOfBids.pdf / ContractAwards.pdf / BidAuth.xlsx. Collector: `tn_tdot_bids.py` (117 lettings indexed).
+- Meeting platforms: Nashville = Legistar client `nashville` (verified webapi, 21 bodies). Clarksville hints CivicClerk; Memphis/Knoxville/Chattanooga/Murfreesboro have no Legistar client. Collector: `tn_city_platforms.py`. See data/TN/README.md.
 
 ## TX — Texas
 - Transparency/spending: comptroller.texas.gov/transparency / data.texas.gov

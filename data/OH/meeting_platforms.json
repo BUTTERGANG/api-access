@@ -1,0 +1,37 @@
+{
+  "Columbus": {
+    "domain": "columbus.gov",
+    "portal_hints": [
+      "granicus",
+      "municode"
+    ]
+  },
+  "Cleveland": {
+    "domain": "clevelandohio.gov",
+    "portal_hints": []
+  },
+  "Cincinnati": {
+    "domain": "cincinnati-oh.gov",
+    "portal_hints": [
+      "legistar"
+    ]
+  },
+  "Toledo": {
+    "domain": "toledo.oh.gov",
+    "portal_hints": [
+      "legistar"
+    ]
+  },
+  "Akron": {
+    "domain": "akronohio.gov",
+    "portal_hints": [
+      "municode"
+    ]
+  },
+  "Dayton": {
+    "domain": "daytonohio.gov",
+    "portal_hints": [
+      "agendacenter"
+    ]
+  }
+}

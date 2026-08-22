@@ -1,0 +1,28 @@
+{
+  "openbook_contracts_page": {
+    "status": 200,
+    "bytes": 41013
+  },
+  "openbook_pagemethods": [
+    "ExportWebService",
+    "SetSearchType",
+    "getExpenditureSearchList",
+    "prototype"
+  ],
+  "data_wi_gov_socrata": {
+    "status": null,
+    "bytes": 51,
+    "url": "https://data.wi.gov/api/catalog/v1?q=&limit=3"
+  },
+  "doa_openbook": {
+    "status": null,
+    "bytes": 28,
+    "url": "https://doa.wi.gov/openbook"
+  },
+  "openbook_api": {
+    "status": null,
+    "bytes": 28,
+    "url": "https://openbook.wi.gov/api"
+  },
+  "probed_at": "2026-08-22T06:35:07.988180Z"
+}

@@ -1,0 +1,559 @@
+
+
+<!doctype html>   
+<html lang="en">
+    <head><meta name="description" content="Wisconsin Openbook" charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=5" /><title>
+	OpenBook Wisconsin
+</title><link id="ctl00_Favicon1" rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" /><link id="ctl00_Favicon2" rel="icon" href="Images/favicon.ico" type="image/ico" /><link href="Content/bootstrap.min.css" rel="stylesheet" /><link href="/Telerik.Web.UI.WebResource.axd?d=PMrIT5dOWaVYIcpFWUE4nFQebdK73izBsbJqfHLVC-h18DLNzqbsEPqEyNsTV1NrvGhn95mK1DsTKlzjmZFpF53Zdri-dxhgeiUB3uVhUBcd6XLKYHns_SFecs0DfUXu0&amp;t=638840874637275692&amp;compress=2&amp;_TSM_CombinedScripts_=%3bd95/p+SXjuIF9yy2ROPNUw+NEbzq5mM2VrtwV/bgtz4/XG9rjymzfmKCqshG0GaTW94poUpjGh/yUk44yV5AZyI782Qbw0Ps1iHZyc7IIhtY9S+fCyDvzUE+X/jWThnGG45lvhrGhBPtVOD3YyZaGalwY1mQBC6NjL+wrQ8HOBERKE+CyIFCc9dS/1G4+AACBIaa0hnlVSg+S80heL9OmRUUNLc4apG75pzwq/Y/iElbuEMlGT7Kity4/0KW53TphSFyNuBHr4VJL4fvjVqvvEDF1//aCBztjyT/QKeGB3Gl4jAgpp8l2UlxoUnXHatW7fvmRWi/rYajWird9waz+em5PM6XEZpUfp6YEUXf79FIxWAmmweTHZLcqYFNMIOeIEsGZTrSnQ9+zRzFPAEJhhq1d+zTQODC3PjgdGk/Evnrn88oB0EOYUbfIJRdgs72V2ILNpMMo6ZYOa5Ri9igZCH99/QuCYz4GfMwmGqJunmnV4wF0oheYxqwjb7E//e+vu3HofM2ox7FdYjnQVNNuf7l5QOLahrnH9WeO1F1mepS5U//j41qzZvk2sI20fWP" type="text/css" rel="stylesheet" /></head>
+    <!--body -->
+    <body>  
+        
+
+       <link rel="stylesheet" type="text/css" href="/Styles/combined_80A243602C13FA98E48CD1F5F88661F4C0570382.css" />
+
+        
+        <div class="busyIndicator" id="busyIndicator" style="display: none;"></div>
+        
+        <div class="spinnerDiv" id="spinnerDiv" style="display: none;"></div>
+        <div id="screenReaderAnnouncer" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
+
+    <div class="body-container"> 
+    
+        <form method="post" action="./Contracts.aspx" id="aspnetForm" style="border-width: thin; vertical-align: top;">
+<input type="hidden" name="ctl00_RadStyleSheetManager1_TSSM" id="ctl00_RadStyleSheetManager1_TSSM" value="" />
+<input type="hidden" name="ctl00_ScriptManager1_TSM" id="ctl00_ScriptManager1_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="g5dMdjc4rVHICrce1MfWEJFQ6duOB5e5J+4LYrwCw0I89fh8nYuFCQXEnOvrgzURfPH1fHJUJX1VvrW5+R7Mrjeoo1X4qYL5ugRMHv3BZ6OlfGaAbtfYQX99v6iEomr35sq4qe/0Plk4Vr98DXQRuH4lmPhKidlXelwfSBlYF4lQbbz/POTqPhw9Smo+GpdSX3GNcqQykoPjHoB/CSLb0OA4Mi2NmGQR6T6dF20sZiRl1UNACD5RBBBQvvF/w2OwySl0wL+MRCHsQgAVHu+TsjiM7cBfnHIAqH9QBGJGfl0tjbpsLbpcomGuze9yRXwx0zmKyDOgP4M5DQ3bipyUL4BcvoJ4g6uZUkLtlFD0X7loIIbfwhNxie8Wf7Wd+VA33oEQ2DLUV4GAcSQAcBe1lLSppoHeXMwDksyDEX2qQQMFcFfKp/kH9xHvu+eaPH3O+MrLQ6LRU3dQM/MBxwqSBbcFcMuVcYwc5HvFybDFI68bB5elvRfKukAfkF1fsJYtdKWG90TKmrm6u3lechpdg6h8ehDA4mmvjk1jBjsQhnpESfmgOP+OSeLfLOS7bT1BUroIZpKQWYm49IHLVQak2oNwFR0oTjbY6+KSfyvBl5DNeq1ToVR5+mjIrmirMeCyeaJGnpeAuTu1kJaHUby4sindhMtYSdiA8sVZ0Bnr5VtRqlKELw8aUeNMs6txUpNX/H3dWsk7AunMvSnkQhWUHwQ1WfmDk9AJbhoihG6Zkh2XFi54Citb/09kDHhvdBYrup7YEDPtH8uwVEFjWEt9En12FK8DGdbm/1m/J67gGA2UDDsOvVZ9IoCGs8b5ZJH/ROIXFTgViGOSXrTcc+11c3AdZyrG0jx1smjoz6mey8zaQrZQa4QD6iC1YOt1Kj8y4mupBtooeFjOVfC7VQFZwFW+IDdNItC67Ji47YX/O8XWRhCnK9su4aCwSMpzTef+bmyHw1oW3mOJo/gthEUxPW50P88hxDGxqD/LDJhazebGTrtoVIEqat8z0mUg5GHDJrn1TLQUHGL7RXDkJIM2eMC9uzFDTe2ZXlqcdY9XUpUoJrUdZQgui01WdXTcMc8XOJGhlau+CvmRqGPqw8Qfb0oHHnYECfH7/arI71uvANyxLSaQPlQbhgibs1CAzOaIlz3gWn+UMtHwAmAmH6uqHQxa7HdcUPf9OuOOHFNM9nMJ5LaUMYwyXhvtcEHEgKdjj7SMsToO+6Vh9jTnuHVxwfZ+C1Ksszo3dL/YF58wZbT/5Kd+ZDOG5X+GvyDK+523L/yK1Ja9auxeoRoIuzCW34N37UZ0OI0SUscdnH9QPpFzFZkdH+Ku8z2VTm1YwwtwBOt/6Ln1ZleSUDu+oYP1Jttu5Czo/HtKeMv5Dyh3RlI6QUJn0LoN7JD2vmUi+Qkp4Fp0R9/mJ03F5O8ArOxxdRyFIaA3HTjV3A5R9/rcqkI+7p4OkFwer8ZTGfweWysVCvltEvLU0/4QHJBXUcPkRJoNT48eqyRK5Rai+GsYTaUDmkxBzmQvbadNoblWHsDZoEj+QrBYVgqjH1RI4MqK1gLbZiQj7AO+u56EVozZLZ4iej7rDieXCWhfkncIDwAOnEHUtYRYBuA9jP3tvPhZXm6CanTj7wq3KEbESFV9UCKwZnekTLCqwNjSNuwz1dUy3XqPSdXfTI13Z+zspEnKghmiLWMa0xyIIEvbrLScA28H3Jl4RVELgfJ5qVP9CXUC+lh23zpSwJZEpvrDYk0POxiaeX258f/fRKu3QTzk1Uoqe6/itg4dn8oPZJZMGwZ7ZuH2HNxhp7AQ7CqGvdovV95CU1WtK2mw2X6vPOTRqwI=" />
+
+
+<script src="Scripts/WebForms/MsAjax/MicrosoftAjax.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8u3ngCqoRB16IXgFyG-fdo7HTIrhBaV5x9Nn_OzXbSq2ltD2k0-aheIwGckE_62Tw61rvFCBWJh1KykNg-PSDk5vZoeaoVbjKrMJySBES4o_UXwN7RJv63XfPwac9Bnr0&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pL5wgiwL1GpmyqMwhkDjFwolzETXYwEzLXCQ1MvsZKUc8mlJS-msF278Iy6ehDfRgHZ8spYUNQoz-u5YIJNPLv1DQJbT8r0NbX8kkzcIbT5LsCL3D0CYbVoVf2SvfzhxZvAkNUxLAceHaM9Jx2OQuQ2&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=r6_6dBuCef2tMee3ROe-GWPY1Hrz8VeoMEzVc84r9I5sx_nKsMMGLjjGR8xcnVZdN0lM4e9PL5smKNFFQpO-inTDE6fl2e0s6AXit8xzKAu_UzB3tY3fs7eHQmvy1oWMu5TtBp66ru2x3hWjswcshg2&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=XrZNnrOF01iHmBPR_JKjWJsWL2vD2FkglPqMXRkRw-6Zen8qQ9FOZuIrSO1nEsa3AsL90voZNk4oa-5MNRmXisJZSB-OX_DwjO9HbZ31kRT-YqkQ5Ycj8R8T5YLKLDQ6k62YElzqXaZ95qiVUzkmYqvbWeTrfEPxRSy69pyN1m01&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dnHi0nMgDDe1Bo6v1KTdpPa6_EqxrctLUEMYAOvVlmh6Ncl4SuDM0dGeKogt_0uQVQws9v3Yc6hsGqZbkmalx2X0LnA54fYuI2EZRLi2G72Eisval_8OBpwICCqN5dlDJ8HaZq--6iGkhsOdk-msgw2&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=oTWEP7ThC1yo24ooSsBTo9uXMVxgRZT_FbFy4GVf5P_yemjNBa5PFpCM3NaMZ6e6Z85h5Cr03j4jxskCXhf_jq3Y9FSvGS8NpPbOLUaXR3R5DIo07CScK0tQSQ-X4HvB73tXUK5brPce5G8ATQBFTdkaJHRkAPQi1yZ7WXBtogY1&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=fXuWcQwzGDZIk7t9UCjetbf-xrWb1ClrX6pwNy6VQ-_kOOcMoQ51iIDtlb2ehRFJMIJ2nyMQj5bE849Z-ER_HSF5SeT8hb1xeZqlgMKZigUKGaXLLPfyCUnBQ0YL7BvyGOhQOKub0tf4CvxpuO7iGBi-pqge86LKsLB39R_2T8A1&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=v_I7_Ww9YDbzP79DTo1lXwcUiQ3l5EERzuBMmr670DUQv7j_OcwzxpTwHrMaMduBf7zK0_rNNZHKC3paB_0P57Et_XvnYKT5um8iX2VNKh3Erh4sxBo098ssf_kE-1ij8xnulKU9JaYnqTQ6MWKWL_AX-bKuHo-sdNE3REsWWY01&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mTPphAt8EpyYxJa-ozeiO2Co-vNgVdKEbPRIrYxkHijF0BqJp3rWm4MOvd16Vgw--N9Ex9fYJ5O15e599FbD1posRr4D4OeTobor-ABchcyL9T42h9ZfCfZUOugW1U08Np_dk3C02dFSxs09A2AdLA2&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8Ai_nLkjG-a0yj1xGz1gtyGH3k2DbgzkATVV9I8jmDW8ATr3ZcPh4Y7QDPREzAtioE4HLr44p1Ux5r-UHfmV1vIVS7TxnPmxL4o7xsfNwONFa_8Hdyu4QPwKVUQmpTeCi0l3razeID3Tj4GZ0jREbg2&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kJlKp4-GwOWHtOAUilzQiZLBXhsh6XpbG5359sPyJWGrt56Re-M6mYQ7qqMCHrQcen2IjwTcxhxHr99GKT67ycG-ntjlmfbGiazLjT-XZ4KBtWEd64j_uKZpuqrZf2tU6qBgGYhO3f4YvftW4NO-MEl-JYoK29nQ8KrQ4oxXZ7HLCqJ0gUKhAtaRwvULnq990&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=l-gUcJLPaQLtAn0SrDjfQmHpZMu3JXslvJnJDv5xpGJAdyMDjlemEqcRbqmNCHRMcbfjwWSKyYVeZboIVKWBO8oZ0znurzMx_a8TQDhdSbv4ns5vntqVp0jz9b1Q_yPHQO5rnFt6Iwy15rEcyip_Eu8QqWCiNFhLup-sVSDfFyw1&amp;t=1f1d36c2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Y3m6UrVMbqJVE-kQ9gioHzDbKqCwC_33eSFUIrOOBYPmjZdcc3wZiDYhazP1gxwxewkc1P2WtlNYtPCDkNvArVbGdIV96a23LsnV4QOqRW8djZzv2Fu_7s-bZywmXC2H0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=gWcrHB-EGC1p4LtZa-lbj4iCxMCb6CfG5C6D5FDP2jJog09pxxKY4JfrnkyhpxDSTypQLLvYOxSmKCZJ4EuaZCT7clBD7XVlN7soPRPfUrQ1&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=YGQkKErHFDdGeCMY44uk_hmPlCrgs7to46ZU8kOeb8O-teE0aQnTwMYbaX7gwloIHcvfbANOdWZFcFLehn2XUFLVkdf4_v8RANuV3-vYPrLwK2DSRXp47Q-H93-60m4q0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zhB4TnNg5SCnTud0nPZV0B91uLGjfNEfAPKUxwK1QxzMHfqEKr52nxyNfnDOugDQVL4XS8JvsGnS0ygnWOsV_senJPf2REYxbc0RmI-DQu-S1Hf8egGPF270dcoVUOLd0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=eG7SOMgzjGkaCcb5n7DNEpUSe6YZZMt9AMeGoEYMKnS1fP4PLxE835mh6Qop5VFdv52-J6e3tlPmdznj2y8iuUWZSmIwlpy6c606OZINpk6tvxbsq3iYbqQEeo0W1WNU0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_sGp8_9bNHYNyQqxdvQRqTtN1BZpPNu-T7hnfml_beXgFbUAjN22rlUlB2nlFJMJUjvBIBUS1zW0T5Qo1zs3NiddxezxVNMcHjitBFQOGOOwLxekyAkoRHoAmvf-awTe0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=0ZrMKVP2U7wQDZQ-62KUNaVvqI0sit03l1vBTV9O5dlYgaRxrRgqHj737P1Z6Jaqk_27xWGXWrblthD7oKkuy7dz4EjNTtG0t4Y_deNkgLwn0EnDNPyz3JW9NzXWowEf0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SbtnVWs8LtdvW3GxieYZlTEING4DutG2YIOa6tZPd2DodYo6wgTcx8zVLzCKfAs3moHrfBIim6yCvNWN41ufYcjfwcrkahAShtVZ1-ICN7oka46_2Rv-y40H0Csp2y4j0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=uko0-83d9qhmwoEe2xN8Bope6qouxiHierPDAqc2eVNAXo6Sm1EHyIHM1E6wPpeU3UWbpUingBi9FBY67xzDZKh993UUwZtjShmF5Ava5Kg1&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=4J5RUxYClJoUXtXBVnTggIK41VajL_PBktxfflkVlGHea8VnnjehbrUH3PY0hxoc4DL1zcSIrG_RHXH-uzA7p4Zjx6LeOxrLojlZ4vc3SfYTdWvC5l40svqeKELhOpbh0&amp;t=7d5986a" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var PageMethods = function() {
+PageMethods.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+PageMethods.prototype = {
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return PageMethods._staticInstance.get_path();},
+SetSearchType:function(searchType,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'SetSearchType',false,{searchType:searchType},succeededCallback,failedCallback,userContext); },
+ExportWebService:function(UserControl,ExportType,FiscalYear,ComparisonYear,SearchType,SearchString,CategoryCode,AgencyCode,ObjectCode,ProviderCode,FundCode,ReferenceTransactionNumbers,TransactionNumber,SortField,SortAscending,SuppressAmountColumns,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'ExportWebService',false,{UserControl:UserControl,ExportType:ExportType,FiscalYear:FiscalYear,ComparisonYear:ComparisonYear,SearchType:SearchType,SearchString:SearchString,CategoryCode:CategoryCode,AgencyCode:AgencyCode,ObjectCode:ObjectCode,ProviderCode:ProviderCode,FundCode:FundCode,ReferenceTransactionNumbers:ReferenceTransactionNumbers,TransactionNumber:TransactionNumber,SortField:SortField,SortAscending:SortAscending,SuppressAmountColumns:SuppressAmountColumns},succeededCallback,failedCallback,userContext); },
+getExpenditureSearchList:function(prefixText,count,contextKey,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'getExpenditureSearchList',false,{prefixText:prefixText,count:count,contextKey:contextKey},succeededCallback,failedCallback,userContext); }}
+PageMethods.registerClass('PageMethods',Sys.Net.WebServiceProxy);
+PageMethods._staticInstance = new PageMethods();
+PageMethods.set_path = function(value) { PageMethods._staticInstance.set_path(value); }
+PageMethods.get_path = function() { return PageMethods._staticInstance.get_path(); }
+PageMethods.set_timeout = function(value) { PageMethods._staticInstance.set_timeout(value); }
+PageMethods.get_timeout = function() { return PageMethods._staticInstance.get_timeout(); }
+PageMethods.set_defaultUserContext = function(value) { PageMethods._staticInstance.set_defaultUserContext(value); }
+PageMethods.get_defaultUserContext = function() { return PageMethods._staticInstance.get_defaultUserContext(); }
+PageMethods.set_defaultSucceededCallback = function(value) { PageMethods._staticInstance.set_defaultSucceededCallback(value); }
+PageMethods.get_defaultSucceededCallback = function() { return PageMethods._staticInstance.get_defaultSucceededCallback(); }
+PageMethods.set_defaultFailedCallback = function(value) { PageMethods._staticInstance.set_defaultFailedCallback(value); }
+PageMethods.get_defaultFailedCallback = function() { return PageMethods._staticInstance.get_defaultFailedCallback(); }
+PageMethods.set_enableJsonp = function(value) { PageMethods._staticInstance.set_enableJsonp(value); }
+PageMethods.get_enableJsonp = function() { return PageMethods._staticInstance.get_enableJsonp(); }
+PageMethods.set_jsonpCallbackParameter = function(value) { PageMethods._staticInstance.set_jsonpCallbackParameter(value); }
+PageMethods.get_jsonpCallbackParameter = function() { return PageMethods._staticInstance.get_jsonpCallbackParameter(); }
+PageMethods.set_path("Contracts.aspx");
+PageMethods.SetSearchType= function(searchType,onSuccess,onFailed,userContext) {PageMethods._staticInstance.SetSearchType(searchType,onSuccess,onFailed,userContext); }
+PageMethods.ExportWebService= function(UserControl,ExportType,FiscalYear,ComparisonYear,SearchType,SearchString,CategoryCode,AgencyCode,ObjectCode,ProviderCode,FundCode,ReferenceTransactionNumbers,TransactionNumber,SortField,SortAscending,SuppressAmountColumns,onSuccess,onFailed,userContext) {PageMethods._staticInstance.ExportWebService(UserControl,ExportType,FiscalYear,ComparisonYear,SearchType,SearchString,CategoryCode,AgencyCode,ObjectCode,ProviderCode,FundCode,ReferenceTransactionNumbers,TransactionNumber,SortField,SortAscending,SuppressAmountColumns,onSuccess,onFailed,userContext); }
+PageMethods.getExpenditureSearchList= function(prefixText,count,contextKey,onSuccess,onFailed,userContext) {PageMethods._staticInstance.getExpenditureSearchList(prefixText,count,contextKey,onSuccess,onFailed,userContext); }
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C541E659" />
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="JElcfsiDPw1I36MSZiCtPwycUV1J-GhVyoK6-w72l8OVjBCPhSxlMYhh1Ju8tkuIvMV8wBH-e5aZ3KCwDgIAkg2" />
+            <input type="hidden" name="ctl00$ScriptManager1" id="ctl00_ScriptManager1" />
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.setServerId("ctl00_ScriptManager1", "ctl00$ScriptManager1");
+Sys.Application._enableHistoryInScriptManager();
+//]]>
+</script>
+
+
+            <header role="presentation">
+                <!-- Navigation Panel-->
+                <div id="ctl00_NavigationListUpdatePanel">
+	
+                        <center>
+                            <div style="width:100%;background-color:#56688F;vertical-align:top;">
+                                <div nowrap="nowrap" style="background: url('images/Header/TransparencyCenteredText.png') repeat-x 0 0; padding-bottom: 1px; height: 107px;" valign="bottom" alt="openbook wisconsin logo">
+                                    <span id="ctl00_lblDate" class="small" aria-label="Today&#39;s date" role="banner" style="color:white; font-weight: bold; font-size:1rem; background-color:#56688F;">Saturday, August 22, 2026</span>
+                                </div>
+                                <div>
+                                    <div id="ctl00_pnlNavigationTab">
+		
+                                        <div id="ctl00_NavigationTabUpdatePanel">
+			
+                                               <div id="ctl00_NavigationTab" class="RadTabStrip RadTabStrip_MetroTouch rtsHorizontal rtsTop rtsAlignJustify">
+				<div class="rtsLevel rtsLevel1">
+					<ul class="rtsUL"><li class="rtsLI"><a class="rtsLink" href="Default.aspx"><span class="rtsTxt">Home</span></a></li><li class="rtsLI"><a class="rtsLink" href="Expenditures.aspx"><span class="rtsTxt">Expenditures</span></a></li><li class="rtsLI rtsSelected"><a class="rtsLink" href="Contracts.aspx"><span class="rtsTxt">Contracts</span></a></li><li class="rtsLI"><a class="rtsLink" href="PayrollData.aspx"><span class="rtsTxt">Salary</span></a></li><li class="rtsLI"><a class="rtsLink" href="OtherResources.aspx"><span class="rtsTxt">Other Resources</span></a></li><li class="rtsLI"><a class="rtsLink" href="CommonQuestions.aspx"><span class="rtsTxt">Common Questions</span></a></li><li class="rtsLI"><a class="rtsLink" href="https://forms.office.com/g/AhSJ4iziBN" target="_blank"><span class="rtsTxt">Contact Us</span></a></li></ul>
+				</div><input id="ctl00_NavigationTab_ClientState" name="ctl00_NavigationTab_ClientState" type="hidden" />
+			</div>
+                                            
+		</div>
+                                    
+	</div>
+                                </div> 
+                            </div>
+                        </center>
+                    
+</div>
+            </header>
+            <!-- main Container-->
+            <main>
+                <div id="mainContent" role="tabpanel" class="p-2">     
+                    <div id="ctl00_ContentUpdatePanel">
+	
+                            
+                            <!-- dynamic container -->
+                            <div class="container body-content">
+                                
+    <div id="ctl00_Main_RadFormDecorator1" class="RadFormDecorator" style="display:none;">
+		<script type="text/javascript">
+//<![CDATA[
+
+if (typeof(WebForm_AutoFocus) != 'undefined' && !isWebFormAutoFocusMethodCalled)
+{
+    var old_WebForm_AutoFocus = WebForm_AutoFocus;
+    WebForm_AutoFocus = function(arg)
+    {
+        Sys.Application.add_load(function()
+        {
+            old_WebForm_AutoFocus(arg);
+            WebForm_AutoFocus = old_WebForm_AutoFocus;
+        });
+    }
+    var isWebFormAutoFocusMethodCalled = true;
+}
+if (typeof(Telerik) != 'undefined' && Type.isNamespace(Telerik.Web))
+{
+    if (Telerik.Web.UI.RadFormDecorator)
+    {
+        Telerik.Web.UI.RadFormDecorator.initializePage("ctl00_Main_RadFormDecorator1", "", "MetroTouch", 4);
+    }
+}
+//]]>
+</script><input id="ctl00_Main_RadFormDecorator1_ClientState" name="ctl00_Main_RadFormDecorator1_ClientState" type="hidden" />
+	</div>
+	<div id="ctl00_Main_MainUpdatePanel">
+				
+			
+			<div id="ctl00_Main_pnlMain">
+			
+				<h1 class="h5">Contracts</h1>
+
+				<p>The contracts data tab includes information for procurement contracts and purchase orders by Agency or Vendor. For payment information on these purchase orders or contracts, visit the Expenditures tab</p>
+			  
+				<!-- Search instructions -->
+				<div class="accordion accordion-flush m-0 p-0" id="accordionFlushExample" tabindex="-1">
+				   <div class="accordion-item">
+						<div class="accordion-header" id="flush-headingOne">                      
+							<button class="accordion-button collapsed" style="height:40px;margin:0; padding:0;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+							   <span class="btn btn-sm btn-link instructionsText" tabindex="0">How to search instructions</span>
+							</button>
+						</div>
+						<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">
+								<div class="small">
+									<p><i>Note: the key word search can only match how information was entered into the accounting system.</i></p> 						   
+									<div role ="heading" aria-level="3">How to search:</div>
+									<ol>
+										<li>Select the fiscal year</li>
+										<li>Type text into the fields below<br>
+											OR<br>
+											Click the Search button on the right side of each field to display the full set of choices<br>
+										</li>
+										<li>Update any Search items (Starts With, Contains, Whole Word)</li>
+										<li>Hit enter</li>
+									</ol>
+								</div> 
+							</div>
+						</div>
+					</div>          
+				</div>
+				<!-- End of search instructions -->
+
+			<div id="ctl00_Main_SearchUpdatePanel">
+					 				 
+					<div class="w-75 mx-auto"><!-- center form -->
+						<form style="align-content:center;"> 
+								<!-- Search Title -->	
+								<div class="row mb-4">
+									<div class="col-sm-4 text-end" >
+										<span class="fs-6 fw-bold" id="searchTypeLabel1">Choose Type of Search: </span>
+									</div>
+									<div class="col-sm-8 text-start">	
+										<div role="radiogroup" aria-labelledby="searchTypeLabel1">	
+											<span id="ctl00_Main_rbtnProcurement" class="form-check"><b><span class="form-check-label" style="font-size:14px;"><input id="ctl00_Main_rbtnProcurement_0" type="radio" name="ctl00$Main$rbtnProcurement" value="1" checked="checked" /><label for="ctl00_Main_rbtnProcurement_0"> Purchase Orders   </label></span><span class="form-check-label" style="font-size:14px;"><input id="ctl00_Main_rbtnProcurement_1" type="radio" name="ctl00$Main$rbtnProcurement" value="2" /><label for="ctl00_Main_rbtnProcurement_1"> Contracts</label></span></b></span>			
+										</div>  
+									</div>  
+								</div>
+								<!-- Fiscal Year -->	
+								<div class="row mb-2">
+									<div class="col-sm-2 text-start">
+										<label for="ctl00_Main_cmbxFiscalYear" id="ctl00_Main_Label1" class="col-form-label col-form-label-sm">Fiscal Year</label>
+									</div>
+									<div class="col-sm-10">
+				  						<select name="ctl00$Main$cmbxFiscalYear" id="ctl00_Main_cmbxFiscalYear" class="selectpicker" aria-label="Fiscal Year" style="width: 100px;">
+					<option selected="selected" value="2027">2027</option>
+					<option value="2026">2026</option>
+					<option value="2025">2025</option>
+					<option value="2024">2024</option>
+					<option value="2023">2023</option>
+					<option value="2022">2022</option>
+					<option value="2021">2021</option>
+					<option value="2020">2020</option>
+					<option value="2019">2019</option>
+					<option value="2018">2018</option>
+					<option value="2017">2017</option>
+					<option value="2016">2016</option>
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2012">2012</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+					<option value="2009">2009</option>
+					<option value="2008">2008</option>
+
+				</select>			
+									</div>  
+								</div>
+								<!-- Agency -->	
+								<div class="row mb-2">				
+									<div class="col-sm-2 text-start">
+										<label for="ctl00_Main_txtAgency" id="ctl00_Main_Label2" class="col-form-label col-form-label-sm">Agency</label>
+									</div>
+								<div class="col-sm-7">
+									<div id="ctl00_Main_pnltxtAgency">
+					
+										<div id="ctl00_Main_txtAgencyUpdatePanel">
+						
+											<input type="hidden" name="ctl00$Main$txtAgencyWaterMark_ClientState" id="ctl00_Main_txtAgencyWaterMark_ClientState" />
+
+											
+												<input name="ctl00$Main$txtAgency" type="text" id="ctl00_Main_txtAgency" class="form-control form-control-sm" />
+											
+					</div>
+									
+				</div>
+							</div>				 
+							<div class="col-sm-3 align-content-start">
+								<input type="submit" name="ctl00$Main$btnSearchAgency1" value="Search" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$btnSearchAgency1&quot;, &quot;&quot;, false, &quot;&quot;, &quot;AgencySearch.aspx&quot;, false, false))" id="ctl00_Main_btnSearchAgency1" title="Search By Agency" class="btn btn-primary btn-sm" aria-label="Search for Agency" />
+							</div>
+					</div>
+					<!-- OR -->
+					<div class="row mb-0">
+						<div class="col-sm-10 text-center">
+							<span class="col-form-label col-form-label-sm">OR</span>
+						</div>
+					</div>
+					<!-- Vendor -->
+					<div class="row mb-3">
+						<div class="col-sm-2 text-start">
+							<label for="ctl00_Main_txtVendor" id="ctl00_Main_lblVendor" class="col-form-label col-form-label-sm">Vendor</label>
+						</div>
+						<div class="col-md-7">
+							<div id="ctl00_Main_pnlVendor">
+					
+								<div id="ctl00_Main_txtVendorUpdatePanel">
+						
+										<input type="hidden" name="ctl00$Main$txtVendorWatermark_ClientState" id="ctl00_Main_txtVendorWatermark_ClientState" />
+
+										
+										<input name="ctl00$Main$txtVendor" type="text" id="ctl00_Main_txtVendor" class="form-control form-control-sm" />
+									
+					</div>
+							
+				</div>
+						</div>
+						<div class="col-sm-3">
+							<input type="submit" name="ctl00$Main$btnSearchVendor" value="Search" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$btnSearchVendor&quot;, &quot;&quot;, false, &quot;&quot;, &quot;VendorSearch.aspx&quot;, false, false))" id="ctl00_Main_btnSearchVendor" title="Search By Vendor" class="btn btn-primary btn-sm" aria-label="Search for Vendor" />
+						</div>
+					</div>
+				   <!-- Search Functionality-->
+					<div class="row mb-2">
+						<div class="col-sm-2 text-start">
+							<span id="ctl00_Main_lblStartsWithSearchType" class="col-form-label col-form-label-sm">Search Functionality</span>
+						</div>				
+						<div class="col-sm-10">
+							<div id="ctl00_Main_radSearchTypeUpdatePanel">
+					
+									<span id="ctl00_Main_radSearchType" class="form-check"><span class="form-check-label" style="font-size:14px;"><input id="ctl00_Main_radSearchType_0" type="radio" name="ctl00$Main$radSearchType" value="StartsWith" checked="checked" /><label for="ctl00_Main_radSearchType_0">  Starts With</label></span><br /><span class="form-check-label" style="font-size:14px;"><input id="ctl00_Main_radSearchType_1" type="radio" name="ctl00$Main$radSearchType" value="Contains" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$Main$radSearchType$1\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="ctl00_Main_radSearchType_1">  Contains</label></span><br /><span class="form-check-label" style="font-size:14px;"><input id="ctl00_Main_radSearchType_2" type="radio" name="ctl00$Main$radSearchType" value="WholeWord" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$Main$radSearchType$2\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="ctl00_Main_radSearchType_2">  Whole Word</label></span></span>
+								
+				</div>
+						</div> 
+					</div>
+				</form>		 
+			</div> 
+			
+			</div>
+	
+		</div>
+  
+	</div>
+<!-- button to trigger disclaimer modal -->
+<div class="d-flex justify-content-center mt-6 mb-0">           
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#dataDisclaimerModal">
+        <span class="btn btn-sm btn-link instructionsText ms-3" tabindex="0">Data is most current available</span>
+    </button>
+</div>
+                                 
+                                                         
+                            </div>
+                            <!-- end of dynamic container -->
+                        
+</div>
+                </div>
+            </main>
+            <!-- end of main Container-->
+
+            <!-- Data disclaimer modal structure -->
+            <div class="modal fade mt-0 mb-0" role="dialog" id="dataDisclaimerModal" tabindex="-1" aria-labelledby="Data Disclaimer Modal" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header custom-modal-header-color">
+                        <h5 class="modal-title" id="myModalLabel"><span style="color:black;">Disclaimer</span></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>The original transaction may be adjusted or corrected, but these changes cannot be displayed on this website. As required by law, the data does not include individual, organization, and local assistance aids payments. </p>
+                        <p>In the future, we will be adding employee salary and fringe payment data for the State, University of Wisconsin, Legislature and the courts. We will also be adding the grants that have been awarded, as well as the contracts that state agencies have with vendors. The University of Wisconsin and courts data may be limited because they are currently on other accounting systems. </p>
+                        <p>
+                            <i>NOTE: The expenditure data is unaudited. It is not presented in accordance with Generally Accepted Accounting Principles (GAAP) or adjusted for state budgetary reporting. </i>
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>   
+                      </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Funds and Disbursment Type Descriptions modal structure -->
+            <div class="modal fade mt-0 mb-0" role="dialog" id="genericModal" tabindex="-1" aria-labelledby="Generic Modal" aria-hidden="true">
+              <div aria-hidden="false" class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header custom-modal-header-color">
+                        <h1  class="modal-title h5" id="genericModalTitle" style="color:black;">Disclaimer</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div id="genericModalBody">Information</div>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>   
+                      </div>
+                </div>
+              </div>
+            </div>
+
+           
+            <div id="ctl00_upHiddenNavigateNextPage">
+	
+                    <div class="NavigateURLWrapper mt-0">
+                        <input type="hidden" name="ctl00$hURLOfPageToCall" id="ctl00_hURLOfPageToCall" />
+                    </div>
+                
+</div>      
+            
+            <script "Scripts/umd/popper.min.js" type = "text/javascript" ></script>
+            <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+    
+            <!-- footer -->
+             <footer role="contentinfo">
+                <div id="footerContent" class="row mt-0 mb-4">  
+                    <center>
+                        <a href="http://www.wisconsin.gov/Pages/policies.aspx" original="" target="_blank">Legal Notices</a>
+                        <span aria-hidden="true">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                        <a href="http://www.wisconsin.gov/Pages/policies.aspx" target="_blank">Privacy Notice</a><br>
+                        All contents ©copyright 2026. All rights reserved.
+                    </center>
+                </div>
+                <br/>
+              </footer>
+        
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl00_ScriptManager1_TSM');
+                function GetFiscalYear() {
+                    var FY = $('.fiscalYearControl option:selected').val();
+                    if (FY!=null) {
+                        return FY;
+                    }
+                    else {
+                        return '2027';
+                    }
+                }
+                function GetComparisonYear() {
+                    var FY = $('.comparisonYearControl option:selected').val();
+                    if (FY!=null) {
+                        return FY;
+                    }
+                    else {
+                        return GetFiscalYear();
+                    }
+                };(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl00_RadStyleSheetManager1_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += 'zH4DnRs3Y2c/2ZabWEEvSWIYLXWiiWdejZKdcrX4eoV4pXxRIk7cNHM1VvfRQFGv15AUHjeZySSso7mhAjWt3oqvnyzjpfSIObMtNOqtEx/+TNpx82RFVt4y8p1d88Xj3q+W8V3gZkfoVb5r5ujBtEdvbvK6QvTKYEN9Tsjor/YydbYu0BAi1BrdHRkS8KkDMeB4S9MnlION8JDi2rhpWGIm6TBq23Cpz2Dr+pshiJEojij8gz0M/BKoL5nlJZ7ka+YljfgJvCqazxoSLwNzoSf1Hz766Nd7qrzIvkCCbsthtkH2d9oMFfCK1cPvqpO8M3V1ZcH4vjZKN2QnYgd8HbKLX5NccHdE/2SeI4JsXTMcBjTUw5I4g01KUb0/CsSBcXE8TsrxHV+1YZasAsUi0WPFppOW3+eN1CRkRGHmhwUzzYm/CucK4XcZLZAE01hsQwtFNK5K+k8KrVlsMuKseZjYaFdwMt9CYgTfBlJbWGbF5CcJ657izbCGBLdMbQZLbkfUEN4zjSh4Z5d/rOrKD28UMqw1fkk+QGpWS1brTBo=';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadTabStrip, {"_align":3,"_autoPostBack":true,"_postBackReference":"__doPostBack(\u0027ctl00$NavigationTab\u0027,\u0027arguments\u0027)","_renderMode":2,"_selectedIndex":2,"_skin":"MetroTouch","clickSelectedTab":true,"clientStateFieldID":"ctl00_NavigationTab_ClientState","enableAriaSupport":true,"selectedIndexes":["2"],"tabData":[{"value":"0","attributes":{"AccessibleDescription":"Home"}},{"value":"1","attributes":{"AccessibleDescription":"Expenditures"}},{"value":"2","attributes":{"AccessibleDescription":"Contracts"}},{"value":"3","attributes":{"AccessibleDescription":"Payroll Data"}},{"value":"4","attributes":{"AccessibleDescription":"Other Resources"}},{"value":"5","attributes":{"AccessibleDescription":"Common Questions"}},{"value":"6","attributes":{"AccessibleDescription":"Contact Us"}}]}, null, null, $get("ctl00_NavigationTab"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadFormDecorator, {"_renderMode":1,"clientStateFieldID":"ctl00_Main_RadFormDecorator1_ClientState","decoratedControls":4,"enabled":true,"skin":"MetroTouch"}, null, null, $get("ctl00_Main_RadFormDecorator1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_Main_txtAgencyWaterMark_ClientState","id":"ctl00_Main_txtAgencyWaterMark","watermarkCssClass":"form-control form-control-sm","watermarkText":"Type Agency Here"}, null, null, $get("ctl00_Main_txtAgency"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AutoCompleteBehavior, {"completionInterval":50,"completionListCssClass":"autocomplete_completionListElement","completionListItemCssClass":"autocomplete_listItem","completionSetCount":20,"contextKey":"Agencies","delimiterCharacters":";","firstRowSelected":true,"highlightedItemCssClass":"autocomplete_highlightedListItem","id":"ctl00_Main_txtAgencyAutoComplete","minimumPrefixLength":1,"onHide":"{\"AnimationName\":\"Parallel\",\"Duration\":\"0\",\"AnimationChildren\":[{\"AnimationName\":\"FadeOut\",\"AnimationChildren\":[]}]}","onShow":"{\"AnimationName\":\"Sequence\",\"AnimationChildren\":[{\"AnimationName\":\"OpacityAction\",\"Opacity\":\"0\",\"AnimationChildren\":[]},{\"AnimationName\":\"HideAction\",\"Visible\":\"true\",\"AnimationChildren\":[]},{\"AnimationName\":\"Parallel\",\"Duration\":\"0\",\"AnimationChildren\":[{\"AnimationName\":\"FadeIn\",\"AnimationChildren\":[]}]}]}","serviceMethod":"getExpenditureSearchList","servicePath":"/Contracts.aspx","showOnlyCurrentWordInCompletionListItem":true,"useContextKey":true}, null, null, $get("ctl00_Main_txtAgency"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"ctl00_Main_txtVendorWatermark_ClientState","id":"ctl00_Main_txtVendorWatermark","watermarkCssClass":"form-control form-control-sm","watermarkText":"Type Vendor Here"}, null, null, $get("ctl00_Main_txtVendor"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AutoCompleteBehavior, {"completionInterval":50,"completionListCssClass":"autocomplete_completionListElement","completionListItemCssClass":"autocomplete_listItem","completionSetCount":20,"contextKey":"Vendors","delimiterCharacters":";","firstRowSelected":true,"highlightedItemCssClass":"autocomplete_highlightedListItem","id":"ctl00_Main_txtVendorAutoComplete","minimumPrefixLength":1,"onHide":"{\"AnimationName\":\"Parallel\",\"Duration\":\"0\",\"AnimationChildren\":[{\"AnimationName\":\"FadeOut\",\"AnimationChildren\":[]}]}","onShow":"{\"AnimationName\":\"Sequence\",\"AnimationChildren\":[{\"AnimationName\":\"OpacityAction\",\"Opacity\":\"0\",\"AnimationChildren\":[]},{\"AnimationName\":\"HideAction\",\"Visible\":\"true\",\"AnimationChildren\":[]},{\"AnimationName\":\"Parallel\",\"Duration\":\"0\",\"AnimationChildren\":[{\"AnimationName\":\"FadeIn\",\"AnimationChildren\":[]}]}]}","serviceMethod":"getExpenditureSearchList","servicePath":"/Contracts.aspx","showOnlyCurrentWordInCompletionListItem":true,"useContextKey":true}, null, null, $get("ctl00_Main_txtVendor"));
+});
+//]]>
+</script>
+</form>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                fixNavigationElement();
+                const liElements = document.querySelectorAll('#ctl00_NavigationTab .rtsUL li');
+                tabLength = liElements.length;
+
+                for (let i = 0; i < tabLength; i++) {
+                    liElements[i].id = "tab-" + i;
+                    liElements[i].setAttribute('aria-controls', 'mainContent');
+                    liElements[i].removeAttribute('aria-disabled');
+
+                    const childSpan = liElements[i].querySelector('span');
+
+                    if (childSpan) {
+                        childSpan.remove();
+                    }
+
+                    const childAref = liElements[i].querySelector('a');
+
+                    if (childAref) {
+
+                        var tabName = '';
+
+                        switch (i) {
+                            case 0:
+                                tabName = 'Home';
+                                break;
+
+                            case 1:
+                                tabName = 'Expenditures';
+                                break;
+
+                            case 2:
+                                tabName = 'Contracts';
+                                break;
+
+                            case 3:
+                                tabName = 'Salary';
+                                break;
+
+                            case 4:
+                                tabName = 'Other Resources';
+                                break;
+
+                            case 5:
+                                tabName = 'Common Questions';
+                                break;
+
+                            case 6:
+                                tabName = 'Contact Us';
+                                break;
+
+                            default:
+                                tabName = 'Tab ' + (i + 1);
+                        }
+                        liElements.item = tabName;
+                        childAref.insertAdjacentText("afterbegin", tabName);
+                    }
+                }
+                $('#tab-0').focus();
+
+                const ulElement = document.querySelector('#ctl00_NavigationTab div.rtsLevel.rtsLevel1 ul.rtsUL');
+
+                if (ulElement) {
+                    ulElement.setAttribute('aria-label', 'Select a tab based on the information you are looking for');
+                    ulElement.removeAttribute('aria-activedescendant');
+                }
+            });
+
+            const fixNavigationElement = () => {
+                const navWrapperList = document.querySelectorAll('.rtsLevel.rtsLevel1');
+                if (navWrapperList.length !== 1) { return; }
+
+                const navDivWrapper = navWrapperList[0];
+                const nav = document.createElement('nav');
+
+                nav.className = navDivWrapper.className;
+
+                Array.from(navDivWrapper.attributes).forEach(attr => {
+                    nav.setAttribute(attr.name, attr.value);
+                });
+
+                while (navDivWrapper.firstChild) {
+                    nav.appendChild(navDivWrapper.firstChild);
+                }
+
+                nav.querySelectorAll(':scope > ul, :scope > ul > li').forEach(i => {
+                    i.removeAttribute('role');
+                    i.removeAttribute('aria-level');
+                    i.removeAttribute('aria-activedescendant');
+                    i.removeAttribute('aria-selected');
+                });
+
+                navDivWrapper.replaceWith(nav);
+            };
+        </script>
+  
+     <script type="text/javascript" src="Scripts/combined_C7153782C3882351519FF9F0B94569519889A5A3.js"></script> 
+    </div> <!-- end of body-container -->
+ </body>
+</html>

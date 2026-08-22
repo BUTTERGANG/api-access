@@ -1,0 +1,33 @@
+{
+  "Detroit": {
+    "domain": "detroitmi.gov",
+    "portal_hints": [
+      "municode"
+    ]
+  },
+  "Grand Rapids": {
+    "domain": "grcity.us",
+    "portal_hints": []
+  },
+  "Ann Arbor": {
+    "domain": "a2gov.org",
+    "portal_hints": [
+      "legistar"
+    ]
+  },
+  "Lansing": {
+    "domain": "lansingmi.gov",
+    "portal_hints": [
+      "municode",
+      "civicclerk"
+    ]
+  },
+  "Flint": {
+    "domain": "cityofflint.com",
+    "portal_hints": []
+  },
+  "Sterling Heights": {
+    "domain": "sterling-heights.net",
+    "portal_hints": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "transparency_portals": {
+    "OhioCheckbook": {
+      "url": "https://ohiocheckbook.com/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get l"
+    },
+    "data.ohio.gov": {
+      "url": "https://data.ohio.gov/",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "ODOT bidding": {
+      "url": "https://www.dot.state.oh.us/Divisions/Procurement/Pages/default.aspx",
+      "error": "HTTP Error 404: Not Found"
+    }
+  },
+  "socrata": {
+    "data.ohio.gov": {
+      "error": "HTTP Error 404: Not Found"
+    },
+    "data.michigan.gov": {
+      "status": 200,
+      "size": 595818
+    },
+    "data.illinois.gov": {
+      "status": 200,
+      "size": 595228
+    }
+  }
+}

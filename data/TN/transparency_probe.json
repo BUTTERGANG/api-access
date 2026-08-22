@@ -1,0 +1,32 @@
+{
+  "probed": "2026-08-22",
+  "user_agent_note": "Plain urllib gets connection-reset by the tn.gov WAF; browser-like User-Agent via curl works for HTML pages.",
+  "data.tn.gov": {
+    "verdict": "not-socrata",
+    "checks": {
+      "https://data.tn.gov/": "403 Forbidden (Apache)",
+      "https://data.tn.gov/api/catalog/v1?q=&limit=5": "404 Not Found"
+    },
+    "note": "No Socrata catalog/SODA API at this host. TN state GIS data lives at tnmap / geodata.tn.gov (STS-GIS). City Socrata portals: data.nashville.gov, data.memphistn.gov."
+  },
+  "transparent_tennessee": {
+    "home": "https://www.tn.gov/transparenttn.html",
+    "sections": [
+      "/transparenttn/finances/checkbook.html (payments checkbook; deep link fetch was WAF-reset \u2014 retry needed)",
+      "/transparenttn/contracts.html",
+      "/transparenttn/finances/interactive-budget0.html",
+      "/transparenttn/local.html",
+      "/transparenttn/statetaxes.html",
+      "/transparenttn/accountablegovernment/performance-dashboard.html"
+    ],
+    "external_systems": [
+      "PeopleSoft supplier/contract search: hub.edison.tn.gov ...TN_ACTIVE_SWC_CMP.GBL (active contracts)",
+      "CPO all-contracts dashboard: tn.gov/generalservices/procurement/.../all-contracts-dashboard.html"
+    ]
+  },
+  "salary_search": {
+    "url": "https://salary.app.tn.gov/searchsalary",
+    "verdict": "server-rendered app; GET/POST without session returns its 404 page",
+    "status": "needs-playwright-or-session-cookies"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Chicago": {
+    "domain": "chicago.gov",
+    "portal_hints": [],
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "Aurora": {
+    "domain": "aurora-il.org",
+    "portal_hints": [
+      "granicus"
+    ]
+  },
+  "Naperville": {
+    "domain": "naperville.il.us",
+    "portal_hints": [],
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "Joliet": {
+    "domain": "joliet.gov",
+    "portal_hints": [],
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "Rockford": {
+    "domain": "rockfordil.gov",
+    "portal_hints": []
+  },
+  "Springfield": {
+    "domain": "springfield.il.us",
+    "portal_hints": [
+      "municode"
+    ]
+  }
+}

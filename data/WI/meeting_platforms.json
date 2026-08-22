@@ -1,0 +1,62 @@
+{
+  "verified": [
+    {
+      "platform": "legistar",
+      "slug": "milwaukee",
+      "webapi": "https://webapi.legistar.com/v1/milwaukee/",
+      "calendar": "https://milwaukee.legistar.com/Calendar.aspx",
+      "bodies_count": 191,
+      "sample_bodies": [
+        "COMMON COUNCIL",
+        "FINANCE & PERSONNEL COMMITTEE",
+        "JUDICIARY & LEGISLATION COMMITTEE",
+        "PUBLIC WORKS COMMITTEE",
+        "PUBLIC SAFETY COMMITTEE"
+      ]
+    },
+    {
+      "platform": "legistar",
+      "slug": "madison",
+      "webapi": "https://webapi.legistar.com/v1/madison/",
+      "calendar": "https://madison.legistar.com/Calendar.aspx",
+      "bodies_count": 252,
+      "sample_bodies": [
+        "COMMON COUNCIL",
+        "PLAN COMMISSION",
+        "BOARD OF ESTIMATES (ended 4/2017)",
+        "ALCOHOL LICENSE REVIEW COMMITTEE",
+        "PUBLIC HEALTH COMMISSION (prior to 4-29-2005)"
+      ]
+    },
+    {
+      "platform": "civicclerk",
+      "slug": "greenbay",
+      "url": "https://greenbay.civicclerk.com/web/home.aspx"
+    },
+    {
+      "platform": "civicclerk",
+      "slug": "kenosha",
+      "url": "https://kenosha.civicclerk.com/web/home.aspx"
+    },
+    {
+      "platform": "legistar",
+      "slug": "racine",
+      "webapi": "https://webapi.legistar.com/v1/racine/",
+      "calendar": "https://racine.legistar.com/Calendar.aspx",
+      "bodies_count": 47,
+      "sample_bodies": [
+        "Common Council",
+        "Finance and Personnel Committee",
+        "Public Works and Services Committee",
+        "Public Safety and Licensing Committee",
+        "City Plan Commission"
+      ]
+    },
+    {
+      "platform": "civicclerk",
+      "slug": "appleton",
+      "url": "https://appleton.civicclerk.com/web/home.aspx"
+    }
+  ],
+  "unresolved": []
+}

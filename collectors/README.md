@@ -17,6 +17,12 @@ python3 collectors/gen_state_index.py      # regenerate states/SOURCES.md
 | `gateway_units.py` | Indiana Gateway Report Builder AJAX (`/report_builder/geo_response.aspx`, `unitreports_ajax.aspx?unit_id=`) | `data/IN/gateway/<unit_id>/` + index.json — 7 units, 53–65 report types each |
 | `indot_bids.py` | INDOT Bid Viewer grid | `data/IN/indot_bid_tabulations_index.csv` (24 rows; deep tabs need VIEWSTATE POST — TODO) |
 | `city_site_probe.py` + `city_site_probe2.py` | IN city homepages → platform fingerprint | `data/IN/meeting_platforms.json` |
+| `opendoor_ky.py` | KY Transparency REST API (`secure2.kentucky.gov/TransparencyWebApi/v1/`) | `data/KY/opendoor_*` — 300-record FY2025 sample |
+| `kytc_bids.py` | KYTC letting index + proposal/bid-tab PDFs | `data/KY/kytc_lettings_index.json`, `kytc_letting_details_batch1.*` |
+| `ky_city_probe.py` | KY city meeting-platform registry (webapi-verified Legistar) | `data/KY/meeting_platforms.json` |
+| `tn_tdot_bids.py` | TDOT bid-letting pages (browser-UA curl; tn.gov WAF resets urllib) | `data/TN/tdot/` — 117 lettings indexed, 30 docs downloaded |
+| `tn_city_platforms.py` | TN 6-city platform probe + webapi.legistar.com verification | `data/TN/meeting_platforms.json`, `legistar_nashville_sample.json` |
+| `tn_transparency.py` | TransparentTN / data.tn.gov verdicts | `data/TN/transparency_probe.json` |
 | `federal.py` | Federal Register, USGS, NWS | `data/federal/*.json` |
 
 ## Findings encoded in the code

@@ -1,0 +1,115 @@
+{
+  "cities": {
+    "Louisville": {
+      "domain": "louisvilleky.gov",
+      "portal_hints": [],
+      "urls_checked": [],
+      "error": "all paths failed (possible 403/bot-block)",
+      "subdomain_dns_guesses": {}
+    },
+    "Lexington": {
+      "domain": "lexingtonky.gov",
+      "portal_hints": [],
+      "urls_checked": [
+        "https://lexingtonky.gov/",
+        "https://lexingtonky.gov/government/"
+      ],
+      "subdomain_dns_guesses": {}
+    },
+    "Bowling Green": {
+      "domain": "bgky.org",
+      "portal_hints": [],
+      "urls_checked": [
+        "https://bgky.org/",
+        "https://bgky.org/government/"
+      ],
+      "subdomain_dns_guesses": {}
+    },
+    "Owensboro": {
+      "domain": "owensboro.org",
+      "portal_hints": [
+        "municode"
+      ],
+      "urls_checked": [
+        "https://owensboro.org/",
+        "https://owensboro.org/government/",
+        "https://owensboro.org/agenda/"
+      ],
+      "subdomain_dns_guesses": {}
+    },
+    "Covington": {
+      "domain": "covingtonky.gov",
+      "portal_hints": [],
+      "urls_checked": [
+        "https://covingtonky.gov/",
+        "https://covingtonky.gov/government/",
+        "https://covingtonky.gov/city-clerk/"
+      ],
+      "subdomain_dns_guesses": {}
+    },
+    "_legistar_webapi_checks": {
+      "louisville": {
+        "status": 200,
+        "live": true,
+        "sample": "[{\"BodyId\":138,\"BodyGuid\":\"318FF532-8E54-4710-BC77-5D07FC7687F0\",\"BodyLastModifiedUtc\":\"2014-05-27T22:35:54.967\",\"BodyRowVersion\":\"AAAAAAH3/f0=\",\"BodyName\":\"Metro Council\",\"BodyTypeId\":42,\"BodyTypeName\":\"Primary Legislative Body\",\"BodyMeetFlag\":1,\"BodyActiveFlag\":1,\"BodySort\":999,\"BodyDescription\":\""
+      },
+      "lexington": {
+        "status": 200,
+        "live": true,
+        "sample": "[{\"BodyId\":138,\"BodyGuid\":\"82674BA3-68C6-44AC-BF54-8A1ED0FEECF8\",\"BodyLastModifiedUtc\":\"2014-05-24T04:14:06.273\",\"BodyRowVersion\":\"AAAAAAFaP0g=\",\"BodyName\":\"Urban County Council\",\"BodyTypeId\":42,\"BodyTypeName\":\"Primary Legislative Body\",\"BodyMeetFlag\":1,\"BodyActiveFlag\":1,\"BodySort\":1,\"BodyDescripti"
+      },
+      "bowlinggreen": {
+        "status": 500,
+        "live": false
+      },
+      "owensboro": {
+        "status": 500,
+        "live": false
+      },
+      "covington": {
+        "status": 500,
+        "live": false
+      }
+    }
+  },
+  "subdomain_guesses": {
+    "louisville metrocouncil granicus": {
+      "host": "louisville.granicus.com",
+      "dns_resolves": true,
+      "http_status": 200,
+      "looks_live": true
+    },
+    "lexington granicus": {
+      "host": "lexington.granicus.com",
+      "dns_resolves": true,
+      "http_status": 404
+    },
+    "bowling green granicus": {
+      "host": "bowlinggreen.granicus.com",
+      "dns_resolves": true,
+      "http_status": 404
+    },
+    "owensboro granicus": {
+      "host": "owensboro.granicus.com",
+      "dns_resolves": true,
+      "http_status": 404
+    },
+    "covington municode meetings": {
+      "host": "covingtonky.municodemeetings.com",
+      "dns_resolves": true,
+      "http_status": "error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat"
+    },
+    "bowling green civicclerk": {
+      "host": "bgky.civicclerk.com",
+      "dns_resolves": true,
+      "http_status": 200,
+      "looks_live": true
+    },
+    "covington civicclerk": {
+      "host": "covingtonky.civicclerk.com",
+      "dns_resolves": true,
+      "http_status": 200,
+      "looks_live": true
+    }
+  }
+}
