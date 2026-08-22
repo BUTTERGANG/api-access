@@ -315,10 +315,13 @@ Verified landscape — there are actually ~15 platforms in production use
 awards >$50k statewide, INDOT construction costs, council agendas for
 development/zoning signals.
 
-### Phase 2: Midwest expansion
-- Illinois: same playbook — check for a Gateway equivalent; Chicago is on Legistar.
-- Ohio, Michigan, Wisconsin, Minnesota: probe state transparency portals + DOT
-  bid tabs (all states have them; most through Infotech BidX).
+### Phase 2: Midwest expansion (IN PROGRESS)
+Active states: **OH, KY, MI, IL, TN, WI** (parallel sub-agent collectors,
+Indiana template). Each state folder gets: transparency-portal probe,
+DOT bid-tab batch, city meeting-platform registry, and a verified-endpoints
+README. Results land in `data/<ST>/`.
+- Illinois: Chicago is on Legistar (verify via webapi API, not DNS).
+- All states have DOT bid tabs; formats cluster around Infotech BidX.
 - Reuse the platform adapters; the marginal cost per city is just the client slug.
 
 ### Phase 3: nationwide
