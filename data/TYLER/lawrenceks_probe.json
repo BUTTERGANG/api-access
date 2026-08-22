@@ -1,0 +1,245 @@
+{
+  "tokens_found": 0,
+  "api_calls": [
+    {
+      "url": "https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false",
+      "status": 200
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+      "status": 200,
+      "body_preview": "{}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/resource/SelfService.EnerGov.Resources.Common.CommonResource/keyvalues/",
+      "status": 200,
+      "body_preview": "{'Result': {'EnerGovCommonStatusReason_Fail': 'Record Not Approved', 'EnerGovCommonStatusReason_FailedEReviewFiles': 'Resubmit File', 'EnerGovCommonStatusReason_FailedInspections': 'Inspection Not Passed', 'EnerGovCommonStatusReason_FailedSubmittals': 'Review Not Approved', 'EnerGovCommonStatusReason_OnHold': 'On Hold', 'EnerGovCommonStatusReason_UnpaidFees': 'Unpaid Fees'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'Brok"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/Home/GetTenants",
+      "status": 200,
+      "body_preview": "{'Result': [{'TenantID': 1, 'TenantName': 'LawrenceKSProd', 'FriendlyTenantName': 'LawrenceKSProd', 'IsGoogleTranslateEnabled': False, 'TenantUrl': 'LawrenceKSProd', 'CountryTypeId': 1, 'Cultures': [{'TenantCultureId': 1, 'TenantId': 1, 'CultureId': 1, 'TenantName': 'LawrenceKSProd', 'CultureName': 'en-US', 'LanguageCountry': 'English (United States)', 'IsDefault': True, 'IsActive': False, 'HeaderHtml': None, 'BodyHtml': None, 'FooterHtml': None}]}], 'Success': True, 'ErrorMessage': '', 'Validat"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/Home/GetTenants",
+      "status": 200,
+      "body_preview": "{'Result': [{'TenantID': 1, 'TenantName': 'LawrenceKSProd', 'FriendlyTenantName': 'LawrenceKSProd', 'IsGoogleTranslateEnabled': False, 'TenantUrl': 'LawrenceKSProd', 'CountryTypeId': 1, 'Cultures': [{'TenantCultureId': 1, 'TenantId': 1, 'CultureId': 1, 'TenantName': 'LawrenceKSProd', 'CultureName': 'en-US', 'LanguageCountry': 'English (United States)', 'IsDefault': True, 'IsActive': False, 'HeaderHtml': None, 'BodyHtml': None, 'FooterHtml': None}]}], 'Success': True, 'ErrorMessage': '', 'Validat"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/googleanalyticssetting/gettenantgoogleanalyticssetting",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'TenantID': 1, 'GoogleAnalyticsId': None, 'GoogleAnalyticsDebugSite': None, 'GoogleAnalytics4Id': 'G-J35Z4B9N1M'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/globalsetting/getglobalsetting",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'GlobalSettingId': 1, 'GoogleRecaptchaSite': 'https://www.google.com/recaptcha/api/siteverify', 'GoogleRecaptchaSiteKey': '6LdW4wYUAAAAAGt4mnVSmEqrvaBVbDZV01wZS-fu', 'GoogleRecaptchaSecretKey': '6LdW4wYUAAAAAPzSixzzAfgouHvK_rlpRD9OKgTb', 'ArcGisIntegrationUrl': 'https://lawrenceks-energovapi.tylerhost.net/apps/ArcGISIntegrationAPI/', 'GoogleAnalyticsDebugSite': 'https://www.google-analytics.com/debug/collect?v=1&cid=555&t=pageview&dp=%2Fhome&tid=', 'GoogleAnalyticsId': None, 'EnableA"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/tenantSettings/SoftwarePackageSettings?settingName=AllowFeeEstimator",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'SettingId': 13, 'SoftwarePackageSettingID': 13, 'SettingName': 'AllowFeeEstimator', 'SettingValue': 'true', 'OldSettingValue': 'true'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/walkmesetting/gettenantwalkmesetting",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'TenantID': 1, 'WalkmeKey': None, 'WalkmeTestEnvironment': False, 'WalkmeApplicationId': None}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/tenantSettings/SoftwarePackageSettings?settingName=AllowPayInvoiceNotLoggedIn&softwarePackageName=EnerGov&tenantId=1",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'SettingId': 19, 'SoftwarePackageSettingID': 19, 'SettingName': 'AllowPayInvoiceNotLoggedIn', 'SettingValue': 'true', 'OldSettingValue': 'true'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/CommonSetting/",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'TenantId': 1, 'AutomaticInvoiceDescription': None, 'BannerSpeedInterval': 3}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/resource/SelfService.Resources.SelfService/keyvalues/",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'GreetingText_GoodAfternoon': 'Good Afternoon,', 'GreetingText_GoodEvening': 'Good Evening,', 'GreetingText_GoodMorning': 'Good Morning,'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/tenantSettings/SoftwarePackageSettings?settingName=HideMyBusinessesTab",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'SettingId': 41, 'SoftwarePackageSettingID': 41, 'SettingName': 'HideMyBusinessesTab', 'SettingValue': 'false', 'OldSettingValue': 'false'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/tenantSettings/SoftwarePackageSettings?settingName=HideAllOperationalPermit&softwarePackageName=EnerGov&tenantId=1",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'SettingId': 57, 'SoftwarePackageSettingID': 58, 'SettingName': 'HideAllOperationalPermit', 'SettingValue': 'true', 'OldSettingValue': 'true'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/tenantSettings/SoftwarePackageSettings?settingName=HideAllLicense&softwarePackageName=EnerGov&tenantId=1",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'SettingId': 15, 'SoftwarePackageSettingID': 15, 'SettingName': 'HideAllLicense', 'SettingValue': 'false', 'OldSettingValue': 'false'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/tenantSettings/SoftwarePackageSettings?settingName=AllowPayInvoiceNotContact&tenantId=1",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'SettingId': 20, 'SoftwarePackageSettingID': 20, 'SettingName': 'AllowPayInvoiceNotContact', 'SettingValue': 'true', 'OldSettingValue': 'true'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/tenants/tenantfavicon/1",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': '', 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/dashboard/notifications",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': [], 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/tenantSettings/SoftwarePackageSettings?settingName=RemoveRegistrationInFeeEstimator",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'SettingId': 16, 'SoftwarePackageSettingID': 16, 'SettingName': 'RemoveRegistrationInFeeEstimator', 'SettingValue': 'false', 'OldSettingValue': 'false'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/Home/GetSelectedTenantCulture/?loadHeader=true&loadBody=false&loadFooter=true",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'TenantCultureId': 1, 'TenantId': 1, 'CultureId': 1, 'TenantName': None, 'CultureName': None, 'LanguageCountry': None, 'IsDefault': True, 'IsActive': True, 'HeaderHtml': '<span style=\"font-size:8px\"><img alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACyIAAAVGCAYAAADYO+5tAAAgAElEQVR4nOzdW4xs6Xnf5//7rerhcAiKOli0KIuSYiOyqCiAYQdUEseIYluQjAAxnEhychEYDpxcBAkQSroQoMAXCuBcJI7gWMhBcCwjhoEIoijnRjJPMIVYFEnxZEGc4YiJeBiKMxRPwzlPd63vzcWq7r2HB82u2Xt27977eYCerqquWutbXTUXterX767u7gAAAAAAAA"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/systemwide/systeminfo",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': [{'TenantId': 1, 'TenantName': 'LawrenceKSProd', 'SystemInfo': [{'Name': 'EnerGov API', 'Version': '2025.1.3.28', 'ConnectionInfo': [{'Name': 'Database', 'IfConnected': True, 'ErrorMessage': ''}], 'MiscInfo': None, 'EnerGovDataVersion': '2025.1.3.20'}, {'Name': 'EnerGov CSS API', 'Version': '2025.3.1.3', 'ConnectionInfo': [{'Name': 'Database', 'IfConnected': True, 'ErrorMessage': ''}, {'Name': 'EnerGov Search - lawrenceksprod', 'IfConnected': True, 'ErrorMessage': ''}], 'MiscInfo': No"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/systemwide/systeminfo/energovapiversion",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'Name': 'EnerGov API', 'Version': '2025.1.3.28', 'ConnectionInfo': [{'Name': 'Database', 'IfConnected': True, 'ErrorMessage': ''}], 'MiscInfo': None, 'EnerGovDataVersion': '2025.1.3.20'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/Home/Menu",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'DropDownItemLimit': 5, 'Menus': [{'MenuID': 1, 'ParentMenuID': None, 'Label': 'Home', 'Details': 'Home', 'SubMenus': [], 'IsMenu': False, 'Route': '{\"ControllerName\": \"homeController\", \"ControllerAs\": \"vm\", \"NavigationUrl\": \"home\", \"ViewUrl\": \"home/home\"}', 'Element': '<li tyler-main-menu-nav></li>', 'PackageData': '', 'CaseTypeInfo': None, 'IsCustom': False, 'DisplaySequence': 0, 'CategoryID': None, 'CategoryObjectID': 0, 'CategoryName': '', 'Description': None, 'Link': None, 'IsDe"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/Home/MenuWithSubRecordsData",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'DropDownItemLimit': 5, 'Menus': [{'MenuID': 1, 'ParentMenuID': None, 'Label': 'Home', 'Details': 'Home', 'SubMenus': [], 'IsMenu': False, 'Route': '{\"ControllerName\": \"homeController\", \"ControllerAs\": \"vm\", \"NavigationUrl\": \"home\", \"ViewUrl\": \"home/home\"}', 'Element': '<li tyler-main-menu-nav></li>', 'PackageData': '', 'CaseTypeInfo': None, 'IsCustom': False, 'DisplaySequence': 0, 'CategoryID': None, 'CategoryObjectID': 0, 'CategoryName': '', 'Description': None, 'Link': None, 'IsDe"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/calendar/eventsCountForToday",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': 0, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/calendar/eventsCountForToday",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': 0, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/resource/SelfService.EnerGov.Resources.Common.CommonResource/keyvalues/",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'TylerTransitionContinueText': 'Continue'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/resource/SelfService.EnerGov.Resources.Common.CommonResource/keyvalues/",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'ModalCancel': 'Cancel', 'ModalClose': 'Close', 'ModalOk': 'Ok'}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    },
+    {
+      "url": "https://lawrenceks-energovweb.tylerhost.net/apps/selfservice/api/tyleridsetting/gettidsetting",
+      "status": 200,
+      "req_headers": {
+        "tenantId": "1",
+        "Tyler-TenantUrl": "LawrenceKSProd"
+      },
+      "body_preview": "{'Result': {'Id': 4, 'ShowTransitionMessage': True, 'TransitionText': 'You are being redirected to Tyler Identity login page for authorization purposes. Once authenticated, you will be logged into CSS.', 'TenantId': 1, 'IsNew': False, 'IsDeleted': False}, 'Success': True, 'ErrorMessage': '', 'ValidationErrorMessage': '', 'ConcurrencyErrorMessage': '', 'StatusCode': 200, 'BrokenRules': []}"
+    }
+  ]
+}
