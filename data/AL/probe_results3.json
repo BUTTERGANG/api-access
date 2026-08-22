@@ -1,0 +1,37 @@
+{
+  "https://www.dot.state.al.us/programming/BidTab/currentBidTab.html": {
+    "status": 200,
+    "size": 26102
+  },
+  "https://www.dot.state.al.us/programming/BidTab/bidResults.html": {
+    "status": 200,
+    "size": 26103
+  },
+  "https://aldot.dot.state.al.us/": {
+    "status": 0,
+    "size": 0
+  },
+  "https://www.dot.state.al.us/programming/BidLetting/BidLettings.html": {
+    "status": 200,
+    "size": 26100
+  },
+  "bhm:city-council": {
+    "status": 200,
+    "size": 70714,
+    "platform_hints": []
+  },
+  "bhm:agendas": {
+    "status": 404,
+    "size": 19448,
+    "platform_hints": []
+  },
+  "hsv_council": {
+    "status": 200,
+    "hints": [
+      "municode"
+    ],
+    "portal_links": [
+      "https://www.municode.com/library/al/huntsville/codes/code_of_ordinances"
+    ]
+  }
+}

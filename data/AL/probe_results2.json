@@ -1,0 +1,40 @@
+{
+  "open.alabama.gov": {
+    "status": 200,
+    "size": 11126
+  },
+  "ALDOT bid tabs": {
+    "status": 200,
+    "size": 26102
+  },
+  "ALDOT contracts": {
+    "status": 200,
+    "size": 26102
+  },
+  "aldot_links": [
+    "../about/pdf/OrganizationChart.pdf",
+    "../pdf/StaffDirectory.pdf",
+    "../publications/Media/pdf/AnnualReports/FY25AnnualReport.pdf",
+    "https://app.alea.gov/Community/wfSearch.aspx?Type=5&Status=5"
+  ],
+  "Birmingham": {
+    "domain": "birminghamal.gov",
+    "status": 200,
+    "hints": [],
+    "legistar": null
+  },
+  "Huntsville": {
+    "domain": "huntsvilleal.gov",
+    "status": 200,
+    "hints": [
+      "municode"
+    ],
+    "legistar": null
+  },
+  "Montgomery": {
+    "domain": "montgomeryal.gov",
+    "status": 403,
+    "hints": [],
+    "legistar": null
+  }
+}

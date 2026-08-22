@@ -1,0 +1,60 @@
+{
+  "transparency": {
+    "open.alabama.gov": {
+      "url": "https://open.alabama.gov/",
+      "status": 200,
+      "size": 0
+    },
+    "AL data portal": {
+      "url": "https://data.alabama.gov/",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    "AL Transparency (Comptroller)": {
+      "url": "https://www.comptroller.alabama.gov/",
+      "status": 200,
+      "size": 0
+    },
+    "Socrata check": {
+      "url": "https://data.alabama.gov/api/catalog/v1?q=budget",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    }
+  },
+  "dot": {
+    "aldot_bids": {
+      "url": "https://www.dot.state.al.us/web/about/contracts.html",
+      "status": 200,
+      "size": 0
+    },
+    "aldot bid tabs": {
+      "url": "https://www.dot.state.al.us/programming/BidTab/BidTab.html",
+      "status": 200,
+      "size": 0
+    }
+  },
+  "cities": {
+    "Birmingham": {
+      "domain": "birminghamal.gov",
+      "hints": []
+    },
+    "Montgomery": {
+      "domain": "montgomeryal.gov",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "Huntsville": {
+      "domain": "huntsvilleal.gov",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "Mobile": {
+      "domain": "cityofmobile.org",
+      "hints": [
+        "municode"
+      ]
+    },
+    "Tuscaloosa": {
+      "domain": "tuscaloosa.com",
+      "hints": [
+        "granicus"
+      ]
+    }
+  }
+}

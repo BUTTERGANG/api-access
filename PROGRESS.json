@@ -1,0 +1,707 @@
+{
+  "project": "api-access state expansion",
+  "order": "alphabetical",
+  "status_values": [
+    "done",
+    "partial",
+    "todo",
+    "blocked"
+  ],
+  "states": {
+    "AL": {
+      "name": "Alabama",
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "open.alabama.gov",
+          "verified": true,
+          "note": "reachable via curl --compressed; no REST API found yet; plain urllib gets gzip-mangled bodies"
+        },
+        {
+          "source": "data.alabama.gov",
+          "verified": false,
+          "note": "DNS does not resolve \u2014 no state Socrata portal"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "ALDOT letting portal",
+          "url": "https://alletting.dot.state.al.us/",
+          "verified": true,
+          "collected": "bid-tab year indexes back to 1996; Aug 2026 letting file list; sample bid tab PDF (1.9MB) downloaded",
+          "note": "dot.state.al.us BidTab pages are Page-Not-Found shells behind Dynatrace bot-check \u2014 use alletting host"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Mobile",
+          "platform": "municode hint",
+          "verified": false
+        },
+        {
+          "city": "Tuscaloosa",
+          "platform": "granicus hint",
+          "verified": false
+        },
+        {
+          "city": "Montgomery",
+          "platform": "403 WAF",
+          "verified": false,
+          "note": "Playwright needed"
+        }
+      ],
+      "notes": "ALDOT archive 1996-2026 is a bulk-collection goldmine."
+    },
+    "AK": {
+      "name": "Alaska",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "AZ": {
+      "name": "Arizona",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "AR": {
+      "name": "Arkansas",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "CA": {
+      "name": "California",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "CO": {
+      "name": "Colorado",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "CT": {
+      "name": "Connecticut",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "DE": {
+      "name": "Delaware",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "FL": {
+      "name": "Florida",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "GA": {
+      "name": "Georgia",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "HI": {
+      "name": "Hawaii",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "ID": {
+      "name": "Idaho",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "IL": {
+      "name": "Illinois",
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.illinois.gov (Socrata)",
+          "endpoint": "https://data.illinois.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        },
+        {
+          "source": "Illinois OpenBook (Comptroller)",
+          "url": "https://openbook.illinoiscomptroller.gov/",
+          "verified": true,
+          "note": "ASP.NET; exports need form posts \u2014 TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "IDOT",
+          "status": "TODO: letting index URL 404'd; needs site nav"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Chicago",
+          "platform": "Socrata data.cityofchicago.org",
+          "verified": true,
+          "note": "NOT legistar \u2014 chicago.legistar.com is wildcard stub"
+        },
+        {
+          "city": "Aurora",
+          "platform": "granicus hint",
+          "verified": false
+        },
+        {
+          "city": "Springfield",
+          "platform": "municode hint",
+          "verified": false
+        }
+      ],
+      "notes": "Chicago Socrata resource pull verified (944B). chicagoparkdistrict IS a live legistar client."
+    },
+    "IN": {
+      "name": "Indiana",
+      "status": "done",
+      "transparency": [
+        {
+          "source": "Indiana Gateway Report Builder AJAX",
+          "endpoints": [
+            "https://gateway.ifionline.org/report_builder/geo_response.aspx?term=<query>",
+            "https://gateway.ifionline.org/report_builder/unitreports_ajax.aspx?unit_id=<id>"
+          ],
+          "verified": true,
+          "note": "7 units collected, 53-65 report types each; statutory contracts >$50k in Local Contract Search (postback form \u2014 TODO)"
+        },
+        {
+          "source": "Gateway bulk downloads",
+          "url": "https://gateway.ifionline.org/public/download.aspx",
+          "verified": true,
+          "note": "pipe-delimited, 2012-present"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "INDOT Bid Viewer",
+          "url": "https://erms12c.indot.in.gov/INDOTBidViewer/BidTabulations.aspx",
+          "verified": true,
+          "collected": "24-row index CSV; deep tabs need VIEWSTATE POST"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Indianapolis",
+          "platform": "Municode Meetings",
+          "verified": true
+        },
+        {
+          "city": "Evansville",
+          "platform": "Granicus",
+          "verified": true
+        },
+        {
+          "city": "West Lafayette",
+          "platform": "Granicus",
+          "verified": true
+        },
+        {
+          "city": "Fort Wayne",
+          "platform": "CivicPlus AgendaCenter",
+          "verified": true
+        },
+        {
+          "city": "Lafayette",
+          "platform": "CivicPlus AgendaCenter",
+          "verified": true
+        },
+        {
+          "city": "Noblesville",
+          "platform": "CivicPlus AgendaCenter",
+          "verified": true
+        },
+        {
+          "city": "Muncie",
+          "platform": "Municode",
+          "verified": false
+        }
+      ],
+      "notes": "ZERO live Legistar clients among 19 slugs probed. Legistar wildcard DNS returns 19-byte stub \u2014 never trust DNS."
+    },
+    "KY": {
+      "name": "Kentucky",
+      "status": "done",
+      "transparency": [
+        {
+          "source": "OpenDoor Transparency API",
+          "endpoint": "https://secure2.kentucky.gov/TransparencyWebApi/v1/{SpendingAndVendorDetail,SpendingListData,SpendingVenderNameList,SpendingDownload}",
+          "verified": true,
+          "note": "keyless, paginated; 300 FY2025 records collected. opendoor.ky.gov legacy host is DEAD"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "KYTC lettings",
+          "url": "https://transportation.ky.gov/",
+          "verified": true,
+          "collected": "15 letting dates indexed, 28 detail rows, 33 proposal PDF links, 1 bid-tab PDF sample"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Louisville",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "Metro Council"
+        },
+        {
+          "city": "Lexington",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "Urban County Council"
+        }
+      ],
+      "notes": "Bowling Green/Covington CivicClerk slugs unverified (wildcard SPA). louisvilleky.gov 403s plain clients."
+    },
+    "LA": {
+      "name": "Louisiana",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "MD": {
+      "name": "Maryland",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "ME": {
+      "name": "Maine",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "MI": {
+      "name": "Michigan",
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.michigan.gov (Socrata)",
+          "endpoint": "https://data.michigan.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        },
+        {
+          "source": "michigan.gov/transparency + MDOT bidding",
+          "verified": false,
+          "note": "403 for plain HTTP clients \u2014 Playwright needed"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "MDOT",
+          "status": "TODO: 403 WAF; Playwright candidate"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Detroit",
+          "platform": "municode hint",
+          "verified": false
+        },
+        {
+          "city": "Lansing",
+          "platform": "municode+civicclerk hints",
+          "verified": false
+        }
+      ],
+      "notes": ""
+    },
+    "MN": {
+      "name": "Minnesota",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "MO": {
+      "name": "Missouri",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "MS": {
+      "name": "Mississippi",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "MT": {
+      "name": "Montana",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "NC": {
+      "name": "North Carolina",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "ND": {
+      "name": "North Dakota",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "NE": {
+      "name": "Nebraska",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "NM": {
+      "name": "New Mexico",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "NV": {
+      "name": "Nevada",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "NY": {
+      "name": "New York",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": "Known: NYSDOT bid tabulations at dot.ny.gov/doing-business/opportunities/const-tabulations"
+    },
+    "OH": {
+      "name": "Ohio",
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "OhioCheckbook.com",
+          "verified": false,
+          "note": "TLS cert fails plain verification; OpenGov SPA \u2014 Playwright TODO"
+        },
+        {
+          "source": "data.ohio.gov",
+          "verified": false,
+          "note": "404 at root \u2014 fragmented per-agency"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "ODOT via BidX (bidx.net)",
+          "status": "TODO \u2014 Playwright"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Columbus",
+          "platform": "granicus+municode hints",
+          "verified": false
+        },
+        {
+          "city": "Dayton",
+          "platform": "CivicPlus AgendaCenter hint",
+          "verified": false
+        }
+      ],
+      "notes": "Hard state \u2014 everything needs browser session."
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "OR": {
+      "name": "Oregon",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "SC": {
+      "name": "South Carolina",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "SD": {
+      "name": "South Dakota",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "TN": {
+      "name": "Tennessee",
+      "status": "done",
+      "transparency": [
+        {
+          "source": "Transparent TN",
+          "url": "https://www.tn.gov/transparenttn.html",
+          "verified": true,
+          "note": "data.tn.gov is NOT Socrata (403/404) \u2014 city portals (data.nashville.gov, data.memphistn.gov) are the real Socrata endpoints"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "TDOT lettings 2016-2026",
+          "verified": true,
+          "collected": "117 lettings indexed, 1510 doc links, 30 files (7.3MB) downloaded incl. 2026 ApparentBidResults/ContractAwards"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Nashville",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "Metropolitan Council"
+        }
+      ],
+      "notes": "Memphis/Knoxville/Chattanooga/Murfreesboro have no Legistar client (500). Clarksville hints CivicClerk."
+    },
+    "TX": {
+      "name": "Texas",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": "Known: TxDOT Bid Tabulations Dashboard (24mo downloadable)"
+    },
+    "UT": {
+      "name": "Utah",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "VA": {
+      "name": "Virginia",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "VT": {
+      "name": "Vermont",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "WA": {
+      "name": "Washington",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": "Known: WSDOT bid tabulations public"
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "status": "done",
+      "transparency": [
+        {
+          "source": "OpenBook WI (DOA)",
+          "url": "https://openbook.wi.gov/",
+          "verified": false,
+          "note": "ASP.NET PageMethods need Telerik enum values \u2014 Playwright TODO"
+        },
+        {
+          "source": "data.wi.gov",
+          "verified": false,
+          "note": "DNS gone \u2014 portal retired"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "WisDOT HCCI letting index",
+          "verified": true,
+          "collected": "21 lettings, 622 contract IDs, sample XLSX+PDF downloaded"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Milwaukee",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "COMMON COUNCIL"
+        },
+        {
+          "city": "Madison",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "COMMON COUNCIL"
+        },
+        {
+          "city": "Racine",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "Common Council"
+        },
+        {
+          "city": "Green Bay/Kenosha/Appleton",
+          "platform": "CivicClerk",
+          "verified": false
+        }
+      ],
+      "notes": "wisconsindot.gov serves fingerprinting JS."
+    },
+    "WV": {
+      "name": "West Virginia",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "WY": {
+      "name": "Wyoming",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    },
+    "DC": {
+      "name": "District of Columbia",
+      "status": "todo",
+      "transparency": null,
+      "dot_bids": null,
+      "meeting_platforms": [],
+      "notes": ""
+    }
+  },
+  "federal": {
+    "status": "done",
+    "sources": [
+      {
+        "source": "Federal Register",
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json",
+        "verified": true
+      },
+      {
+        "source": "USGS earthquakes",
+        "endpoint": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson",
+        "verified": true
+      },
+      {
+        "source": "NWS alerts",
+        "endpoint": "https://api.weather.gov/alerts/active?area=<ST>",
+        "verified": true
+      },
+      {
+        "source": "data.gov CKAN",
+        "verified": false,
+        "note": "404 \u2014 appears retired"
+      }
+    ]
+  },
+  "lessons": [
+    "Legistar wildcard DNS: {anything}.legistar.com resolves; verify ONLY via webapi.legistar.com/v1/{slug}/bodies (200=live, 500=none, 403=token)",
+    "Several state/city sites 403 plain HTTP clients (michigan.gov, louisvilleky.gov, tn.gov WAF) \u2014 Playwright pattern needed",
+    "*.api.civicclerk.com and *.granicus.com can wildcard too \u2014 check for real JSON/content",
+    "State 'open data' portals are heterogeneous: Socrata (MI, IL), custom AJAX (IN, KY), dead (WI data.wi.gov), SPA-only (OH)"
+  ]
+}
