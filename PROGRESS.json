@@ -1646,6 +1646,38 @@
     "Legistar wildcard DNS: {anything}.legistar.com resolves; verify ONLY via webapi.legistar.com/v1/{slug}/bodies (200=live, 500=none, 403=token)",
     "Several state/city sites 403 plain HTTP clients (michigan.gov, louisvilleky.gov, tn.gov WAF) \u2014 Playwright pattern needed",
     "*.api.civicclerk.com and *.granicus.com can wildcard too \u2014 check for real JSON/content",
-    "State 'open data' portals are heterogeneous: Socrata (MI, IL), custom AJAX (IN, KY), dead (WI data.wi.gov), SPA-only (OH)"
-  ]
+    "State 'open data' portals are heterogeneous: Socrata (MI, IL), custom AJAX (IN, KY), dead (WI data.wi.gov), SPA-only (OH)",
+    "Socrata catalog API searches ALL domains unless filtered with domains={host}; MD serves under opendata.maryland.gov",
+    "Verification pass 2026-08: 10/10 spot-checks passed. KY OpenDoor live API holds 377,039 spending records (we sampled 300) \u2014 bulk pull pending",
+    "NC ArcGIS 'county boundaries' CSV is a national file hosted on NC hub \u2014 relabel before analysis use",
+    "ArcGIS Hub: numberMatched only on /items endpoint; q=* returns 0; FeatureServer roots need layer-id resolution; item ids may need _0.._9 suffix",
+    "Tyler Civic Access: public search gated behind Portico OIDC; full API route map extracted from SPA bundle (docs/TYLER_CIVIC_ACCESS.md); one manual account signup unlocks token capture"
+  ],
+  "verification": {
+    "date": "2026-08",
+    "checks_passed": 10,
+    "checks_total": 10,
+    "notes": [
+      "KY OpenDoor: genuine, 377k records available live",
+      "WisDOT: 52/52 contract IDs confirmed on live letting page",
+      "Indiana Gateway Carmel: live re-fetch identical (53 report types)",
+      "Legistar Nashville/Madison/Phoenix: live, body names match",
+      "TN TDOT doc URLs: live (90KB PDF confirmed)",
+      "Federal Register URLs: all well-formed",
+      "DC ArcGIS item IDs resolve with service URL"
+    ],
+    "caveats": [
+      "NC county boundaries CSV is a national file, not NC-specific"
+    ]
+  },
+  "data_inventory": {
+    "collected_files": 217,
+    "csv_files": 25,
+    "csv_rows": 14639,
+    "pdfs": 21,
+    "xlsx": 13,
+    "json": 101,
+    "socrata_ckan_datasets_indexed": 24414,
+    "arcgis_hub_datasets_indexed": 9966
+  }
 }

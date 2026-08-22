@@ -50,3 +50,20 @@ python3 collectors/gen_state_index.py      # regenerate states/SOURCES.md
   etiquette for SEC/Census; be polite everywhere (sleep between calls).
 - Raw output lands in `data/<STATE>/`; never hand-edit collected files.
 - Each collector is idempotent and safe to cron.
+
+## Sweep-era collectors (added after 50-state expansion)
+
+| Script | Purpose |
+|---|---|
+| `state_sweep.py` | Generic per-state prober: portals + Socrata check + city platforms. `python3 collectors/state_sweep.py ST "Name" '{"City":"domain"}' "label\|url" ...` |
+| `midwest_state.py` | OH/MI/IL probe variant |
+| `dataset_index.py` | Enumerates datasets across all live Socrata/CKAN/ArcGIS portals → `data/DATASET_INDEX.json`. **Must pass `domains={host}` to Socrata catalog** |
+| `arcgis_sweep.py` | Finds live ArcGIS Hub portals per state → `data/ARCGIS_HUB_INDEX.json` (11 live, 9,966 datasets) |
+| `arcgis_datasets.py` | Per-hub category indexes → `data/<ST>/arcgis/` |
+| `arcgis_download.py` | Downloads actual CSVs from ArcGIS FeatureServers (handles layer-id + `_N` suffix quirks). Params: `[per_hub] [max_rows]` |
+| `update_progress.py` | Updates PROGRESS.json + regenerates PROGRESS.md summary |
+
+### Verification results (2026-08)
+10/10 spot-checks passed against live sources. Key finding: KY OpenDoor API
+holds **377,039 spending records** — bulk pull is the top-priority quick win.
+Caveat: NC county-boundaries CSV is a national file hosted on NC's hub.

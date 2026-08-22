@@ -2,15 +2,18 @@
 
 Machine-readable version: `PROGRESS.json` (update both).
 
-**Next up (alphabetical):** first `todo` state after DC.
+**Status (2026-08):** all 51 jurisdictions probed. 4 done (full data), 47
+partial (endpoints verified, bulk collection pending), 0 todo.
 
-## Summary
+## Data inventory (verified)
 
-| Status | Count | States |
-|---|---|---|
-| done | 4 | IN, KY, TN, WI |
-| partial | 47 | AK, AL, AR, AZ, CA, CO, CT, DC, DE, FL, GA, HI, IA, ID, IL, KS, LA, MA, MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NH, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, SD, TX, UT, VA, VT, WA, WV, WY |
-| todo | 0 | — |
+- 217 collected files: 25 CSVs (14,639 rows), 21 PDFs, 13 XLSX, 101 JSON
+- Discovery indexes: 24,414 Socrata/CKAN + 9,966 ArcGIS Hub datasets
+- Verification: 10/10 spot-checks passed against live sources (2026-08)
+  - KY OpenDoor confirmed genuine; live API holds **377k records** (we sampled 300)
+  - WisDOT contract IDs 52/52 confirmed on live letting pages
+- Known caveat: NC "county boundaries" CSV is a national file hosted on NC's
+  hub — relabel before using in analysis
 
 ## Playbook per state
 
@@ -19,9 +22,18 @@ Machine-readable version: `PROGRESS.json` (update both).
 3. City platform registry — top 5-6 cities, Legistar via webapi only
 4. `data/<ST>/README.md` + update `PROGRESS.json` + this file
 
-## Gotchas (see PROGRESS.json lessons)
+## Priorities from here
+
+1. Bulk-pull: full KY OpenDoor 377k records; NYSDOT/PennDOT bid tabs; raise
+   ArcGIS/Socrata download params
+2. Playwright batch for WAF states (NH, SD, AZ) and BidX-hosted DOT tabs
+3. Tyler/Accela permits — needs one manual account signup for OIDC token
+   (see docs/TYLER_CIVIC_ACCESS.md)
+
+## Gotchas (see PROGRESS.json lessons + docs/LESSONS_LEARNED.md)
 
 - Legistar wildcard DNS — verify via webapi only
-- 403 WAF sites → Playwright, don't fight
-- Several states gzip-break plain urllib → use `curl --compressed` (see collectors/state_sweep.py)
-- BidX (bidx.com/<state>/lettings) hosts DOT tabs for most states; needs free account or Playwright
+- Socrata catalog MUST filter `domains={host}` (else searches all portals)
+- 403 WAF sites → Playwright (installed and working)
+- gzip-breaking sites → `curl --compressed` (state_sweep.py pattern)
+- BidX (bidx.com/<state>/lettings) hosts DOT tabs for most states
