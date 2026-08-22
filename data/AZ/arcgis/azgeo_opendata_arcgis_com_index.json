@@ -233,14 +233,22 @@
           "title": "BOUNDARIES",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/d8b4245a68c244458d561201f2770666"
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/d8b4245a68c244458d561201f2770666",
+          "downloaded_csv": {
+            "file": "BOUNDARIES.csv",
+            "rows": 231
+          }
         },
         {
           "id": "ec14a31e51b94c1da43a4d31a93d9c04",
           "title": "County_Boundaries",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/ec14a31e51b94c1da43a4d31a93d9c04"
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/ec14a31e51b94c1da43a4d31a93d9c04",
+          "downloaded_csv": {
+            "file": "County_Boundaries.csv",
+            "rows": 15
+          }
         },
         {
           "id": "545fc0393f0747cb9665848a75f9b23c",

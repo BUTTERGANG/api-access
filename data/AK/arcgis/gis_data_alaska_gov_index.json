@@ -303,7 +303,11 @@
           "title": "City Boundaries",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/8615ddbd6eed475ba4a02a56e6dc1521"
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/8615ddbd6eed475ba4a02a56e6dc1521",
+          "downloaded_csv": {
+            "file": "City_Boundaries.csv",
+            "rows": 145
+          }
         },
         {
           "id": "4f8c32a52cb94a7aad2bf5d7e7d12814",

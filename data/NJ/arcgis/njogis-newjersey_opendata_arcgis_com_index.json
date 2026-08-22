@@ -179,14 +179,22 @@
           "title": "2024 R12 Highway Agency Layer (Roads) for New Jersey",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/077607204a8a4e52a70e838f240c39b7"
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/077607204a8a4e52a70e838f240c39b7",
+          "downloaded_csv": {
+            "file": "2024_R12_Highway_Agency_Layer__Roads__for_New_Jersey.csv",
+            "rows": 33
+          }
         },
         {
           "id": "2b4f45c5d8b444ea8115c755497a35dc",
           "title": "Destination Electric Businesses in New Jersey",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/2b4f45c5d8b444ea8115c755497a35dc"
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/2b4f45c5d8b444ea8115c755497a35dc",
+          "downloaded_csv": {
+            "file": "Destination_Electric_Businesses_in_New_Jersey.csv",
+            "rows": 123
+          }
         },
         {
           "id": "2e94433fc97e49b594f7032da3d0b0d6",

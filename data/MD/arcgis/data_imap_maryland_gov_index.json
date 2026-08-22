@@ -357,14 +357,22 @@
           "title": "Maryland Transportation Trails",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/9fb0dbcac53b4236aa6791e4a772c10e"
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/9fb0dbcac53b4236aa6791e4a772c10e",
+          "downloaded_csv": {
+            "file": "Maryland_Transportation_Trails.csv",
+            "rows": 2017
+          }
         },
         {
           "id": "08e7969a060a4c5f9c294a22525ed8ef",
           "title": "Washington County Maintained Roads",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/08e7969a060a4c5f9c294a22525ed8ef"
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/08e7969a060a4c5f9c294a22525ed8ef",
+          "downloaded_csv": {
+            "file": "Washington_County_Maintained_Roads.csv",
+            "rows": 1467
+          }
         },
         {
           "id": "7001587755cb43a99fb4e17616b25fd7",

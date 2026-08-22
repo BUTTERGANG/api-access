@@ -239,14 +239,22 @@
           "title": "DOT Boundaries",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/e977bbe8944049798d65ee0d990bb36d"
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/e977bbe8944049798d65ee0d990bb36d",
+          "downloaded_csv": {
+            "file": "DOT_Boundaries.csv",
+            "rows": 14
+          }
         },
         {
           "id": "074d3456e5664f5e85d0fb251d05cc5b",
           "title": "NYS Civil Boundaries",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/074d3456e5664f5e85d0fb251d05cc5b"
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/074d3456e5664f5e85d0fb251d05cc5b",
+          "downloaded_csv": {
+            "file": "NYS_Civil_Boundaries.csv",
+            "rows": 1
+          }
         },
         {
           "id": "d3084b3c6e194a7b99bab7129096a1f6",

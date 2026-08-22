@@ -282,14 +282,22 @@
           "title": "County Boundaries-Extended",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/dcbf3b3eb47941cf9fb764b5f5308b15"
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/dcbf3b3eb47941cf9fb764b5f5308b15",
+          "downloaded_csv": {
+            "file": "County_Boundaries_Extended.csv",
+            "rows": 83
+          }
         },
         {
           "id": "ed9fcf847a044091be665e6073c49582",
           "title": "Topo Quad Boundaries",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/ed9fcf847a044091be665e6073c49582"
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/ed9fcf847a044091be665e6073c49582",
+          "downloaded_csv": {
+            "file": "Topo_Quad_Boundaries.csv",
+            "rows": 1319
+          }
         },
         {
           "id": "79dd2cb901cf4286b26d9640c11a8240",

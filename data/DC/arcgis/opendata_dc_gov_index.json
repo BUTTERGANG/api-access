@@ -385,14 +385,22 @@
           "title": "Non-Emergency Transportation",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/2d9747c288644b0caa8c21667a629ccd"
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/2d9747c288644b0caa8c21667a629ccd",
+          "downloaded_csv": {
+            "file": "Non_Emergency_Transportation.csv",
+            "rows": 18
+          }
         },
         {
           "id": "5b99b84ef5c0454e87494c6d9b7fa728",
           "title": "Transportation Study Areas",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/5b99b84ef5c0454e87494c6d9b7fa728"
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/5b99b84ef5c0454e87494c6d9b7fa728",
+          "downloaded_csv": {
+            "file": "Transportation_Study_Areas.csv",
+            "rows": 77
+          }
         },
         {
           "id": "e6bf4763ecdc41d8ad50276d09004467",

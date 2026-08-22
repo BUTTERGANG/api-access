@@ -254,14 +254,22 @@
           "title": "Park Boundaries",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/0fea4fa1db734794bdb3b5410bb3eed9"
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/0fea4fa1db734794bdb3b5410bb3eed9",
+          "downloaded_csv": {
+            "file": "Park_Boundaries.csv",
+            "rows": 461
+          }
         },
         {
           "id": "a65054bafb5345fb9884cce83c0dfe88",
           "title": "Airport Boundaries",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/a65054bafb5345fb9884cce83c0dfe88"
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/a65054bafb5345fb9884cce83c0dfe88",
+          "downloaded_csv": {
+            "file": "Airport_Boundaries.csv",
+            "rows": 221
+          }
         },
         {
           "id": "d2721065c3824b0cb69928256d6b6fc6",

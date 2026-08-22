@@ -239,14 +239,22 @@
           "title": "National Atlas County Boundaries (USGS)",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/fb494670db2144e691c223702ecb30b7"
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/fb494670db2144e691c223702ecb30b7",
+          "downloaded_csv": {
+            "file": "National_Atlas_County_Boundaries__USGS_.csv",
+            "rows": 5000
+          }
         },
         {
           "id": "441fa0845fb442f2a3b13ecfe54ea593",
           "title": "National Atlas State Boundaries (USGS)",
           "type": "Feature Service",
           "updated": null,
-          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/441fa0845fb442f2a3b13ecfe54ea593"
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/441fa0845fb442f2a3b13ecfe54ea593",
+          "downloaded_csv": {
+            "file": "National_Atlas_State_Boundaries__USGS_.csv",
+            "rows": 2895
+          }
         },
         {
           "id": "5e50708b9f4d4af49dbc91d3972bc6fb",
