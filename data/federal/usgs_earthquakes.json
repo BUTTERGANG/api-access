@@ -1,0 +1,55 @@
+{
+  "count": 650,
+  "latest": [
+    {
+      "mag": 4.9,
+      "place": "167 km SE of San Jose Village, Northern Mariana Islands",
+      "time": 1787377627443
+    },
+    {
+      "mag": 5,
+      "place": "6 km S of Kitcharao, Philippines",
+      "time": 1787373848744
+    },
+    {
+      "mag": 4.6,
+      "place": "42 km NE of Ruteng, Indonesia",
+      "time": 1787363968543
+    },
+    {
+      "mag": 5.3,
+      "place": "southern Mid-Atlantic Ridge",
+      "time": 1787362497606
+    },
+    {
+      "mag": 5.2,
+      "place": "38 km NNE of Ruteng, Indonesia",
+      "time": 1787362259335
+    },
+    {
+      "mag": 4.7,
+      "place": "147 km NE of Diego de Almagro, Chile",
+      "time": 1787351163081
+    },
+    {
+      "mag": 4.7,
+      "place": "195 km SE of Miyakojima, Japan",
+      "time": 1787335520972
+    },
+    {
+      "mag": 5.7,
+      "place": "194 km SW of Labuan, Indonesia",
+      "time": 1787334104453
+    },
+    {
+      "mag": 4.9,
+      "place": "93 km N of Ruteng, Indonesia",
+      "time": 1787331997647
+    },
+    {
+      "mag": 4.6,
+      "place": "130 km W of Pangai, Tonga",
+      "time": 1787330736096
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "Fort Wayne": {
+    "domain": "cityoffortwayne.org",
+    "portal_hints": [
+      "agendacenter"
+    ]
+  },
+  "South Bend": {
+    "domain": "southbendin.gov",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "Carmel": {
+    "domain": "carmel.in.gov",
+    "portal_hints": []
+  },
+  "Fishers": {
+    "domain": "fishersin.gov",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "Noblesville": {
+    "domain": "noblesville.in.gov",
+    "portal_hints": [
+      "agendacenter"
+    ]
+  },
+  "Muncie": {
+    "domain": "muncie.in.gov",
+    "portal_hints": [
+      "municode"
+    ]
+  },
+  "Bloomington": {
+    "domain": "bloomington.in.gov",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "West Lafayette": {
+    "domain": "westlafayette.in.gov",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "Lafayette": {
+    "domain": "lafayette.in.gov",
+    "portal_hints": [
+      "agendacenter"
+    ]
+  },
+  "Anderson": {
+    "domain": "cityofanderson.net",
+    "portal_hints": [],
+    "error": "<urlopen error timed out>"
+  },
+  "Kokomo": {
+    "domain": "cityofkokomo.org",
+    "portal_hints": []
+  },
+  "Gary": {
+    "domain": "gary.gov",
+    "portal_hints": []
+  },
+  "Hammond": {
+    "domain": "gohammond.com",
+    "portal_hints": []
+  },
+  "Greenwood": {
+    "domain": "greenwood.in.gov",
+    "portal_hints": []
+  },
+  "Terre Haute": {
+    "domain": "terrehaute.in.gov",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "Evansville": {
+    "domain": "evansville.in.gov",
+    "portal_hints": []
+  },
+  "Indianapolis": {
+    "domain": "indy.gov",
+    "portal_hints": []
+  }
+}
