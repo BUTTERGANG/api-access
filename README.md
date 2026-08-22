@@ -231,14 +231,38 @@ municipalities post meetings/bids through just four vendor platforms**, each
 with predictable URL patterns — so one adapter per platform covers most cities.
 
 ### Meeting platforms (agendas, minutes, votes, video)
-- **Legistar (Granicus)** — `https://webapi.legistar.com/v1/{client}/matters`, `/events`,
-  `/eventitems/{id}/votes` — a genuine free OData REST API, no key. Cities: Chicago,
-  Seattle, NYC, LA, most big cities. **Best-in-class; start here.**
-- **Granicus** — `{slug}.granicus.com` video/agenda portals; some have APIs, rest scrape.
-- **PrimeGov** — `{slug}.primegov.com` has JSON meeting endpoints.
-- **CivicWeb / CivicClerk** — scrape-able portals.
-- An Apify actor (`municipal-council-minutes-agenda-scraper`) already wraps all four —
-  proof the adapter pattern works and reference for endpoint shapes.
+Verified landscape — there are actually ~15 platforms in production use
+(MyTown/theboringparts.com ingests all of these via public APIs or feeds):
+
+- **Legistar (Granicus)** — `https://webapi.legistar.com/v1/{client}/matters`,
+  `/events`, `/eventitems/{id}/votes`, `/persons`, `/bodies`. Free OData v3 REST,
+  no key for most cities (NYC requires a free emailed token). Supports `$top`,
+  `$skip`, `$filter`, `$orderby`, `$select`. Legistar claims **70% of the largest
+  US cities/counties**; a community-tested client list (286 clients) exists in the
+  R `legistarapi` package docs. Test any client at webapi.legistar.com/Help.
+- **CivicClerk** — real REST API at `{slug}.api.civicclerk.com/v1/Meetings` with
+  `GetMeetingFileStream(fileId=…)` document endpoints. No key observed.
+- **Granicus ViewPublisher** — `{slug}.granicus.com/AgendaViewer.php?view_id=N`
+  + RSS feeds; scrape-able.
+- **PrimeGov** — `{slug}.primegov.com/public/portal` JSON meeting endpoints
+  (documenter.getpostman.com/view/7558574/TWDcEuDz).
+- **CivicPlus AgendaCenter / Municode Meetings** — `/AgendaCenter` document
+  listings; CivicPlus publishes a read-only "Essential" API doc.
+- **BoardDocs** (school boards especially), **IQM2** (`{slug}.iqm2.com/Citizens/`),
+  **NovusAgenda**, **eScribe**, **revize**, **agendaquick** — HTML/PDF portals,
+  straightforward scrapers.
+
+### Open-source prior art (reuse, don't rebuild)
+- **City-Bureau/city-scrapers** — Scrapy spiders for Chicago-area meetings, the
+  canonical open-source pattern.
+- **CivicBand "Clerk"** — Python pipeline with pluggable fetchers per platform
+  + OCR of agenda PDFs; their fetcher subclasses map the platform endpoints.
+- **Council Data Project (cdp-scrapers)** — Legistar-focused, includes a client-ID
+  lookup guide.
+- **BetaNYC/nyc-council-mcp** — MCP server over the NYC Legistar API; good
+  reference for tool-shaped access.
+- **Apify actors**: `municipal-council-minutes-agenda-scraper` (4 platforms,
+  normalized schema) and `us-state-dot-construction-bid-lettings-aggregator`.
 
 ### Bids & procurement (federal — free)
 - **SAM.gov** — free API (open.gsa.gov/api) for all federal solicitations >$25k.
@@ -250,9 +274,14 @@ with predictable URL patterns — so one adapter per platform covers most cities
   $1,000+/mo, BidClerk $350/mo) are just reselling what agencies post for free
   on their own portals. The free path: **monitor agency portals directly** —
   PlanetBids (free vendor registration, CA/west), Public Purchase (free),
-  InstantMarkets (free public search), state DOT bid lettings (all free),
-  and city/county purchasing pages. A per-portal scraper set is the $0
-  alternative to a $500/mo subscription.
+  InstantMarkets (free public search), and city/county purchasing pages.
+- **State DOT bid lettings are all free and structured.** Every state DOT
+  publishes letting calendars + **bid tabulations** (engineer's estimate vs each
+  contractor's bid, by item) — e.g. TxDOT Bid Tabulations Dashboard (24 months,
+  downloadable), NYSDOT Construction Bid Tabulations, WSDOT bid tabulation PDFs.
+  40+ states run bidding through **Infotech BidX**, so tab data formats cluster.
+  This is real construction-price intel: winning bid vs estimate = local
+  construction cost indices, per county, free.
 
 ---
 
