@@ -1,0 +1,108 @@
+{
+  "AK": [
+    {
+      "host": "gis.data.alaska.gov",
+      "datasets": 1000
+    }
+  ],
+  "AL": null,
+  "AR": null,
+  "AZ": [
+    {
+      "host": "azgeo.opendata.arcgis.com",
+      "datasets": 998
+    }
+  ],
+  "CA": [
+    {
+      "host": "gis.data.ca.gov",
+      "datasets": 2670
+    }
+  ],
+  "CO": null,
+  "CT": null,
+  "DC": [
+    {
+      "host": "opendata.dc.gov",
+      "datasets": 1473
+    }
+  ],
+  "DE": null,
+  "FL": null,
+  "GA": null,
+  "HI": [
+    {
+      "host": "geoportal.hawaii.gov",
+      "datasets": 424
+    }
+  ],
+  "IA": null,
+  "ID": null,
+  "IL": null,
+  "IN": null,
+  "KS": null,
+  "KY": null,
+  "LA": null,
+  "MA": null,
+  "MD": [
+    {
+      "host": "data.imap.maryland.gov",
+      "datasets": 1243
+    }
+  ],
+  "ME": null,
+  "MI": [
+    {
+      "host": "gis-michigan.opendata.arcgis.com",
+      "datasets": 416
+    }
+  ],
+  "MN": null,
+  "MO": null,
+  "MS": null,
+  "MT": null,
+  "NC": [
+    {
+      "host": "nconemap.gov",
+      "datasets": 251
+    }
+  ],
+  "ND": null,
+  "NE": null,
+  "NH": null,
+  "NJ": [
+    {
+      "host": "njogis-newjersey.opendata.arcgis.com",
+      "datasets": 775
+    }
+  ],
+  "NM": null,
+  "NV": null,
+  "NY": [
+    {
+      "host": "data.gis.ny.gov",
+      "datasets": 187
+    }
+  ],
+  "OH": null,
+  "OK": null,
+  "OR": null,
+  "PA": null,
+  "RI": null,
+  "SC": null,
+  "SD": null,
+  "TN": null,
+  "TX": null,
+  "UT": [
+    {
+      "host": "opendata.gis.utah.gov",
+      "datasets": 529
+    }
+  ],
+  "VA": null,
+  "VT": null,
+  "WA": null,
+  "WI": null,
+  "WV": null,
+  "WY": null
+}
