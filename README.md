@@ -285,6 +285,49 @@ Verified landscape — there are actually ~15 platforms in production use
 
 ---
 
+## 12. Rollout plan: Indiana → Midwest → nationwide
+
+### Phase 1: Indiana (target-rich, unusually transparent state)
+
+**State-level (bulk, structured):**
+- **INDOT Bid Viewer** — `https://erms12c.indot.in.gov/INDOTBidViewer/` —
+  INDOT bid opportunities AND bid tabulations. Our first construction-bid source.
+- **Indiana Gateway** (`gateway.ifionline.org`) — the standout. Bulk
+  pipe-delimited downloads (2012–present) for every county/city/town/school/
+  library/township: budgets, annual financial reports, disbursements by fund,
+  debt, cash, grants, pensions. Plus:
+  - **Local Contract Search** — Indiana Code 5-14-3.8-3.5 REQUIRES every
+    political subdivision to upload contracts >$50k to Gateway. That's a
+    statewide municipal-contract feed by statute. No other state mandates this.
+  - TIF district viewer, tax/budget dashboards, data-compliance status per county.
+- **Indiana Transparency Portal** (`in.gov/itp`) — state agency expenditures.
+- **BudgetNotices.in.gov** — proposed budgets + public hearing dates.
+- **SBOA audits** — State Board of Accounts audit reports for every local unit.
+
+**Municipal meetings (Indiana cities on known platforms):**
+- Indianapolis/Marion County → **Municode Meetings** (`indianapolis-in.municodemeetings.com`)
+- Probe the platform patterns (`{slug}.legistar.com`, `{slug}.api.civicclerk.com`,
+  `{slug}.primegov.com`, `{slug}.granicus.com`, `{city}.com/AgendaCenter`) across
+  Fort Wayne, Evansville, South Bend, Carmel, Fishers, Noblesville, Hamilton
+  County cities — build the Indiana client registry as we go.
+
+**Indiana insight targets:** municipal spending trends per unit, contract
+awards >$50k statewide, INDOT construction costs, council agendas for
+development/zoning signals.
+
+### Phase 2: Midwest expansion
+- Illinois: same playbook — check for a Gateway equivalent; Chicago is on Legistar.
+- Ohio, Michigan, Wisconsin, Minnesota: probe state transparency portals + DOT
+  bid tabs (all states have them; most through Infotech BidX).
+- Reuse the platform adapters; the marginal cost per city is just the client slug.
+
+### Phase 3: nationwide
+- Legistar's 286-client list + platform-pattern probing = coverage map.
+- State DOT bid tabs for all 50 states (formats cluster around BidX).
+- Federal layer (SAM.gov, USAspending) already nationwide from day one.
+
+---
+
 ## Reference repos studied
 
 - public-api-lists/public-api-lists (★15.5k) — pattern: machine-readable JSON index
