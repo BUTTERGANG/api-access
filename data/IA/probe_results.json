@@ -1,0 +1,54 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://dom.iowa.gov/transparency",
+      "status": 404,
+      "size": 195473,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.iowa.gov/",
+      "status": 200,
+      "size": 70296,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "IaDOT bids": {
+      "url": "https://iowadot.gov/bids",
+      "status": 404,
+      "size": 284977,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Des Moines": {
+      "domain": "dmgov.org",
+      "status": 200,
+      "size": 130235,
+      "hints": [
+        "municode"
+      ]
+    },
+    "Cedar Rapids": {
+      "domain": "cedar-rapids.org",
+      "status": 200,
+      "size": 78525,
+      "hints": []
+    },
+    "Davenport": {
+      "domain": "davenportiowa.com",
+      "status": 200,
+      "size": 172798,
+      "hints": [],
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    }
+  }
+}

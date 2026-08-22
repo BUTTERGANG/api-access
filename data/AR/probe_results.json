@@ -1,0 +1,57 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://transparency.arkansas.gov/",
+      "status": 200,
+      "size": 20024,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.arkansas.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "ARDOT bids": {
+      "url": "https://www.ardot.gov/procurement/",
+      "status": 403,
+      "size": 535,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Little Rock": {
+      "domain": "littlerock.gov",
+      "status": 200,
+      "size": 206598,
+      "hints": [
+        "municode"
+      ]
+    },
+    "Fayetteville": {
+      "domain": "fayetteville-ar.gov",
+      "status": 200,
+      "size": 151117,
+      "hints": [
+        "municode"
+      ]
+    },
+    "Fort Smith": {
+      "domain": "fortsmithar.gov",
+      "status": 403,
+      "size": 409
+    },
+    "Springdale": {
+      "domain": "springdalear.gov",
+      "status": 200,
+      "size": 3036,
+      "hints": []
+    }
+  }
+}

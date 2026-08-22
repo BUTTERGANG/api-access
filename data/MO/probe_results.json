@@ -1,0 +1,58 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://openbooks.mo.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.mo.gov/",
+      "status": 200,
+      "size": 561461,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "MoDOT bids": {
+      "url": "https://www.modot.org/bid-letting",
+      "status": 404,
+      "size": 170133,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Kansas City": {
+      "domain": "kcmo.gov",
+      "status": 403,
+      "size": 366,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "Council"
+      }
+    },
+    "St. Louis": {
+      "domain": "stlouis-mo.gov",
+      "status": 200,
+      "size": 41263,
+      "hints": []
+    },
+    "Springfield": {
+      "domain": "springfieldmo.gov",
+      "status": 200,
+      "size": 218190,
+      "hints": []
+    },
+    "Columbia": {
+      "domain": "como.gov",
+      "status": 403,
+      "size": 5505
+    }
+  }
+}

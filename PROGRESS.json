@@ -54,90 +54,342 @@
     },
     "AK": {
       "name": "Alaska",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
-      "notes": ""
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "none found",
+          "verified": false,
+          "note": "no Socrata; commerce transparency is a shell"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "AKDOT&PF procurement + BidX (bidx.com/ak)",
+          "verified": true,
+          "note": "bidding/results pages live; tabs behind BidX app"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Juneau",
+          "platform": "municode+civicclerk hints",
+          "verified": false
+        }
+      ],
+      "notes": "Anchorage muni.org live; Fairbanks unreachable."
     },
     "AZ": {
       "name": "Arizona",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
-      "notes": ""
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "openbooks.az.gov",
+          "verified": false,
+          "note": "403 WAF \u2014 Playwright"
+        },
+        {
+          "source": "data.az.gov",
+          "verified": false,
+          "note": "dead DNS"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "ADOT",
+          "verified": false,
+          "note": "403 \u2014 Playwright"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Phoenix",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council Formal Meeting"
+        },
+        {
+          "city": "Mesa",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        }
+      ],
+      "notes": "Strong Legistar presence in AZ big cities."
     },
     "AR": {
       "name": "Arkansas",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "transparency.arkansas.gov",
+          "verified": true,
+          "note": "city/county payments, contracts, employee comp (CSRF form on ark.org); financial-disclosures.sos.arkansas.gov Angular SPA"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "ARDOT",
+          "verified": false,
+          "note": "403 \u2014 Playwright"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Little Rock",
+          "platform": "municode hint",
+          "verified": false
+        },
+        {
+          "city": "Fayetteville",
+          "platform": "municode hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "CA": {
       "name": "California",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
-      "notes": ""
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.ca.gov (CKAN)",
+          "endpoint": "https://data.ca.gov/api/3/action/package_search?q=<term>",
+          "verified": true,
+          "note": "181+ datasets on test query; full CKAN API"
+        },
+        {
+          "source": "data.lacity.org (Socrata)",
+          "verified": true
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "Caltrans",
+          "verified": false,
+          "note": "page live, structure TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "San Jose",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        },
+        {
+          "city": "Fresno",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        },
+        {
+          "city": "San Diego",
+          "platform": "granicus hint",
+          "verified": false
+        },
+        {
+          "city": "Los Angeles",
+          "platform": "legistar token-gated",
+          "verified": false,
+          "note": "like NYC \u2014 free emailed token"
+        }
+      ],
+      "notes": "CA is a rich state: CKAN + Socrata + multiple Legistar clients."
     },
     "CO": {
       "name": "Colorado",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.colorado.gov (Socrata)",
+          "endpoint": "https://data.colorado.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "CDOT bidding page",
+          "verified": true,
+          "note": "live, api hints in markup; BidX for e-bidding"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Denver",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        },
+        {
+          "city": "Colorado Springs",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        }
+      ],
       "notes": ""
     },
     "CT": {
       "name": "Connecticut",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.ct.gov (Socrata)",
+          "endpoint": "https://data.ct.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "CTDOT contracting",
+          "verified": true,
+          "note": "page live; structure TODO"
+        }
+      ],
       "meeting_platforms": [],
-      "notes": ""
+      "notes": "CT cities all 403 WAF \u2014 Playwright batch needed."
     },
     "DE": {
       "name": "Delaware",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.delaware.gov (Socrata)",
+          "endpoint": "https://data.delaware.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "DelDOT",
+          "verified": false,
+          "note": "URL 404 \u2014 site nav TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Wilmington",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        },
+        {
+          "city": "Newark",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "Municipal Council"
+        }
+      ],
       "notes": ""
     },
     "FL": {
       "name": "Florida",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "county-level Socrata",
+          "verified": false,
+          "note": "no state portal; Miami-Dade opendata.miamidade.gov TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "FDOT procurement",
+          "verified": true,
+          "note": "60KB page live with api hints; structure TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Tampa",
+          "platform": "Granicus",
+          "verified": true
+        },
+        {
+          "city": "Orlando",
+          "platform": "granicus hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "GA": {
       "name": "Georgia",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
-      "notes": ""
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "none found",
+          "verified": false,
+          "note": "open.georgia.gov + data.ga.gov dead; openbooks-style app TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "GDOT",
+          "verified": false,
+          "note": "redirect shell; real portal under dot.ga.gov/BS/Business TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Columbus",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "Finance & Economic Development Committee"
+        }
+      ],
+      "notes": "Atlanta uses Legistar token-gated."
     },
     "HI": {
       "name": "Hawaii",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.hawaii.gov",
+          "verified": true,
+          "note": "portal live but catalog API returns HTML \u2014 NOT Socrata; custom platform, API mapping TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "HDOT",
+          "verified": false,
+          "note": "404 \u2014 nav TODO"
+        }
+      ],
       "meeting_platforms": [],
       "notes": ""
     },
     "ID": {
       "name": "Idaho",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "none found",
+          "verified": false,
+          "note": "transparency.idaho.gov + data-idaho.gov unreachable"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "ITD",
+          "verified": false,
+          "note": "404; business area TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Nampa",
+          "platform": "CivicPlus AgendaCenter",
+          "verified": false,
+          "note": "hints on homepage"
+        },
+        {
+          "city": "Boise",
+          "platform": "none found",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "IL": {
@@ -180,7 +432,8 @@
           "verified": false
         }
       ],
-      "notes": "Chicago Socrata resource pull verified (944B). chicagoparkdistrict IS a live legistar client."
+      "notes": "Chicago Socrata resource pull verified (944B). chicagoparkdistrict IS a live legistar client.",
+      "note": "see existing data/IL/README.md \u2014 Socrata live (state+Chicago), IDOT TODO"
     },
     "IN": {
       "name": "Indiana",
@@ -286,35 +539,129 @@
     },
     "LA": {
       "name": "Louisiana",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.nola.gov (Socrata)",
+          "endpoint": "https://data.nola.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        },
+        {
+          "source": "state",
+          "verified": false,
+          "note": "data.la.gov dead; doa transparency 404"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "LaDOTD lettings",
+          "url": "https://wwwapps.dotd.la.gov/engineering/lettings/",
+          "verified": true,
+          "note": "portal live; bid tab parse TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Baton Rouge",
+          "platform": "CivicPlus AgendaCenter hint",
+          "verified": false
+        },
+        {
+          "city": "Shreveport",
+          "platform": "municode hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "MA": {
       "name": "Massachusetts",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.mass.gov",
+          "verified": true,
+          "note": "portal live; off Socrata to custom Next.js; API TODO"
+        },
+        {
+          "source": "Cthru",
+          "verified": false,
+          "note": "unreachable plain \u2014 Playwright"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "MassDOT",
+          "verified": false,
+          "note": "403 WAF"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Boston",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        }
+      ],
       "notes": ""
     },
     "MD": {
       "name": "Maryland",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.maryland.gov (Socrata)",
+          "endpoint": "https://data.maryland.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "MDOT/eMMA",
+          "verified": false,
+          "note": "roads.maryland.gov 522; eMMA emma.maryland.gov TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Baltimore",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        },
+        {
+          "city": "Annapolis",
+          "platform": "legistar hint",
+          "verified": false
+        },
+        {
+          "city": "Rockville",
+          "platform": "legistar hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "ME": {
       "name": "Maine",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "none found",
+          "verified": false,
+          "note": "data.mainegov.org stub; transparency 404"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "MaineDOT contractors",
+          "verified": true,
+          "note": "87KB live page with api hints; lettings/tabs parse TODO"
+        }
+      ],
       "meeting_platforms": [],
-      "notes": ""
+      "notes": "Portland unreachable \u2014 retry."
     },
     "MI": {
       "name": "Michigan",
@@ -353,99 +700,367 @@
     },
     "MN": {
       "name": "Minnesota",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "none found",
+          "verified": false,
+          "note": "mn.gov transparency 404; Minneapolis Socrata TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "MnDOT",
+          "verified": false,
+          "note": "bid-opps 404"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Saint Paul",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        },
+        {
+          "city": "Duluth",
+          "platform": "legistar link in HTML, webapi dead",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "MO": {
       "name": "Missouri",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.mo.gov (Socrata)",
+          "endpoint": "https://data.mo.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "MoDOT",
+          "verified": false,
+          "note": "bid-letting 404; modot.org/letting TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Kansas City MO",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "Council"
+        }
+      ],
       "notes": ""
     },
     "MS": {
       "name": "Mississippi",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "transparency.ms.gov",
+          "verified": true,
+          "note": "live; spend-search app structure TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "MDOT",
+          "verified": false,
+          "note": "portal URL 404"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Jackson",
+          "platform": "municode hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "MT": {
       "name": "Montana",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "transparency.mt.gov",
+          "verified": true,
+          "note": "live; app structure TODO"
+        },
+        {
+          "source": "data.mt.gov",
+          "verified": true,
+          "note": "live 18KB; platform TBD"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "MDT contracting",
+          "verified": true,
+          "note": "27KB live, api hints; parse TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Bozeman",
+          "platform": "Granicus",
+          "verified": true
+        }
+      ],
       "notes": ""
     },
     "NC": {
       "name": "North Carolina",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "NC OpenBook",
+          "verified": false,
+          "note": "unreachable plain \u2014 Playwright"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "NCDOT letting",
+          "verified": true,
+          "note": "101KB live; bid tabs per project \u2014 parse TODO (rich)"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Greensboro",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        },
+        {
+          "city": "Raleigh",
+          "platform": "granicus hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "ND": {
       "name": "North Dakota",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "none found",
+          "verified": false,
+          "note": "openspending 404; data.nd.gov dead"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "NDDOT",
+          "verified": false,
+          "note": "404; nav TODO"
+        }
+      ],
       "meeting_platforms": [],
       "notes": ""
     },
     "NE": {
       "name": "Nebraska",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.nebraska.gov",
+          "verified": true,
+          "note": "live but custom platform (not Socrata); API TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "NDOT",
+          "verified": false,
+          "note": "404; nav TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Lincoln",
+          "platform": "Granicus",
+          "verified": true
+        },
+        {
+          "city": "Bellevue",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council Regular Session"
+        }
+      ],
       "notes": ""
     },
     "NH": {
       "name": "New Hampshire",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.nh.gov",
+          "verified": false,
+          "note": "403 WAF \u2014 whole state needs Playwright"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "NHDOT",
+          "verified": false,
+          "note": "403"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Manchester",
+          "platform": "civicclerk hint",
+          "verified": false
+        },
+        {
+          "city": "Nashua",
+          "platform": "civicclerk hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "NJ": {
       "name": "New Jersey",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.nj.gov (Socrata)",
+          "endpoint": "https://data.nj.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        },
+        {
+          "source": "yourmoney.nj.gov",
+          "verified": true,
+          "note": "live; app TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "NJDOT",
+          "verified": false,
+          "note": "404; moved"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Newark",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "Municipal Council"
+        },
+        {
+          "city": "Jersey City",
+          "platform": "civicweb hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "NM": {
       "name": "New Mexico",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.cabq.gov",
+          "verified": false,
+          "note": "live shell; catalog 404; Socrata resource endpoints TODO"
+        },
+        {
+          "source": "transparent.nm.gov",
+          "verified": false,
+          "note": "unreachable \u2014 Playwright"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "NMDOT",
+          "verified": false,
+          "note": "404"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Santa Fe",
+          "platform": "municode hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "NV": {
       "name": "Nevada",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.nv.gov",
+          "verified": false,
+          "note": "unreachable plain \u2014 Playwright"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "NDOT",
+          "verified": false,
+          "note": "403"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Las Vegas",
+          "platform": "PrimeGov",
+          "verified": false,
+          "note": "hint on homepage; public portal API documented (Postman)"
+        },
+        {
+          "city": "Reno",
+          "platform": "PrimeGov+municode hints",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "NY": {
       "name": "New York",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
-      "notes": "Known: NYSDOT bid tabulations at dot.ny.gov/doing-business/opportunities/const-tabulations"
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.ny.gov (Socrata)",
+          "endpoint": "https://data.ny.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "NYSDOT const bid tabulations",
+          "url": "https://www.dot.ny.gov/doing-business/opportunities/const-tabulations",
+          "verified": true,
+          "note": "1MB index page \u2014 richest DOT bid source so far; bulk parse TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "NYC",
+          "platform": "Council Legistar API",
+          "verified": false,
+          "note": "free emailed token via council.nyc.gov/legislation/api"
+        },
+        {
+          "city": "Buffalo",
+          "platform": "IQM2 hint",
+          "verified": false
+        }
+      ],
+      "notes": ""
     },
     "OH": {
       "name": "Ohio",
@@ -484,49 +1099,159 @@
     },
     "OK": {
       "name": "Oklahoma",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "openbooks.ok.gov",
+          "verified": true,
+          "note": "live 44KB api hints; app mapping TODO; not Socrata anymore"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "ODOT/OTA",
+          "verified": true,
+          "note": "112KB contracts page live; letting schedule PDF; BidX for e-bids"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Norman",
+          "platform": "municode hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "OR": {
       "name": "Oregon",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.oregon.gov (Socrata)",
+          "endpoint": "https://data.oregon.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "ODOT",
+          "verified": false,
+          "note": "404; procurement path TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Salem",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        }
+      ],
       "notes": ""
     },
     "PA": {
       "name": "Pennsylvania",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.pa.gov (Socrata)",
+          "endpoint": "https://data.pa.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "PennDOT ECMS contracts",
+          "verified": true,
+          "note": "1.4MB page with api hints \u2014 bid lettings/tabs; parse TODO (top priority)"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Pittsburgh",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        }
+      ],
       "notes": ""
     },
     "RI": {
       "name": "Rhode Island",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.ri.gov",
+          "verified": false,
+          "note": "403 WAF \u2014 Playwright"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "RIDOT contracts",
+          "verified": true,
+          "note": "52KB live api hints; bid tabs parse TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Providence",
+          "platform": "IQM2",
+          "verified": false,
+          "note": "municode+iqm2 hints; providenceri.iqm2.com classic portal"
+        }
+      ],
       "notes": ""
     },
     "SC": {
       "name": "South Carolina",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "procurement.sc.gov",
+          "verified": true,
+          "note": "live; contracts search TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "SCDOT",
+          "verified": false,
+          "note": "404; letting find TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Charleston",
+          "platform": "CivicPlus AgendaCenter hint",
+          "verified": false
+        },
+        {
+          "city": "Greenville",
+          "platform": "municode+civicclerk hints",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "SD": {
       "name": "South Dakota",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "none found",
+          "verified": false,
+          "note": "all unreachable plain \u2014 Playwright state"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "SDDOT",
+          "verified": false,
+          "note": "404"
+        }
+      ],
       "meeting_platforms": [],
       "notes": ""
     },
@@ -560,43 +1285,156 @@
     },
     "TX": {
       "name": "Texas",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
-      "notes": "Known: TxDOT Bid Tabulations Dashboard (24mo downloadable)"
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.texas.gov (Socrata)",
+          "endpoint": "https://data.texas.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        },
+        {
+          "source": "comptroller transparency",
+          "verified": true,
+          "note": "live; app TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "TxDOT",
+          "verified": true,
+          "note": "site restructured: /business/plans-online-bid-lettings.html + /business/road-bridge-maintenance/contract-letting.html; bid tab dashboard parse TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Houston",
+          "platform": "Granicus",
+          "verified": true
+        },
+        {
+          "city": "San Antonio",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council A Session"
+        }
+      ],
+      "notes": ""
     },
     "UT": {
       "name": "Utah",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "opendata.utah.gov (Socrata)",
+          "verified": true,
+          "note": "catalog API live"
+        },
+        {
+          "source": "transparent.utah.gov",
+          "verified": false,
+          "note": "403 \u2014 Playwright"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "UDOT contracting",
+          "verified": true,
+          "note": "100KB live, api hints; bid tabs parse TODO"
+        }
+      ],
       "meeting_platforms": [],
       "notes": ""
     },
     "VA": {
       "name": "Virginia",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.virginia.gov",
+          "verified": true,
+          "note": "portal live; custom app now; API TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "VDOT",
+          "verified": false,
+          "note": "unreachable; TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Richmond",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council",
+          "slug": "richmondva"
+        },
+        {
+          "city": "Norfolk",
+          "platform": "CivicPlus AgendaCenter hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "VT": {
       "name": "Vermont",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.vermont.gov (Socrata)",
+          "endpoint": "https://data.vermont.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "VTrans",
+          "verified": false,
+          "note": "404; contract-administration TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Burlington",
+          "platform": "civicclerk hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "WA": {
       "name": "Washington",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
-      "notes": "Known: WSDOT bid tabulations public"
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.wa.gov (Socrata)",
+          "endpoint": "https://data.wa.gov/api/catalog/v1?q=<term>",
+          "verified": true
+        },
+        {
+          "source": "fiscal.wa.gov",
+          "verified": true,
+          "note": "live; dashboards TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "WSDOT contracts/bid tabulations",
+          "verified": true,
+          "note": "136KB live; tabs parse TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Seattle",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "City Council"
+        }
+      ],
+      "notes": ""
     },
     "WI": {
       "name": "Wisconsin",
@@ -650,27 +1488,133 @@
     },
     "WV": {
       "name": "West Virginia",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "none found",
+          "verified": false,
+          "note": "data.wv.gov dead; transparency 404"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "WVDOT",
+          "verified": false,
+          "note": "404; nav TODO"
+        }
+      ],
       "meeting_platforms": [],
       "notes": ""
     },
     "WY": {
       "name": "Wyoming",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
-      "meeting_platforms": [],
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "data.wy.gov",
+          "verified": false,
+          "note": "unreachable \u2014 retry/Playwright"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "WYDOT",
+          "verified": false,
+          "note": "404; nav TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Casper",
+          "platform": "municode hint",
+          "verified": false
+        }
+      ],
       "notes": ""
     },
     "DC": {
       "name": "District of Columbia",
-      "status": "todo",
-      "transparency": null,
-      "dot_bids": null,
+      "status": "partial",
+      "transparency": [
+        {
+          "source": "opendata.dc.gov (ArcGIS Open Data)",
+          "endpoint": "https://opendata.dc.gov/api/search/v1/collections/dataset?q=<term>",
+          "verified": true,
+          "note": "Esri platform \u2014 first ArcGIS entry in catalog"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "DDOT",
+          "verified": false,
+          "note": "403 \u2014 Playwright"
+        }
+      ],
       "meeting_platforms": [],
-      "notes": ""
+      "notes": "lims.dccouncil.gov API TODO."
+    },
+    "IA": {
+      "name": "Iowa",
+      "transparency": [
+        {
+          "source": "data.iowa.gov",
+          "verified": true,
+          "note": "portal live but moved off Socrata to custom Next.js app; API TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "IowaDOT",
+          "verified": false,
+          "note": "bids URL 404; contracts area TODO"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Davenport",
+          "platform": "Granicus",
+          "verified": true
+        },
+        {
+          "city": "Des Moines",
+          "platform": "municode hint",
+          "verified": false
+        }
+      ],
+      "notes": "",
+      "status": "partial"
+    },
+    "KS": {
+      "name": "Kansas",
+      "transparency": [
+        {
+          "source": "KanView",
+          "verified": false,
+          "note": "admin.ks.gov transparency path 404; KanView app TODO"
+        }
+      ],
+      "dot_bids": [
+        {
+          "source": "KDOT",
+          "verified": false,
+          "note": "bidlet.asp unreachable; Bid Express used"
+        }
+      ],
+      "meeting_platforms": [
+        {
+          "city": "Kansas City KS",
+          "platform": "Legistar",
+          "verified": true,
+          "first_body": "Council"
+        },
+        {
+          "city": "Topeka",
+          "platform": "Granicus",
+          "verified": true
+        }
+      ],
+      "notes": "",
+      "status": "partial"
     }
   },
   "federal": {

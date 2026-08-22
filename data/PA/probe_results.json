@@ -1,0 +1,52 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://www.openrecords.pa.gov/",
+      "status": 200,
+      "size": 47078,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.pa.gov/",
+      "status": 200,
+      "size": 600896,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "PennDOT bids": {
+      "url": "https://www.penndot.pa.gov/Doing-Business/Contracts-Information/",
+      "status": 200,
+      "size": 1413707,
+      "platform_hints": [],
+      "api_hints": true
+    }
+  },
+  "cities": {
+    "Philadelphia": {
+      "domain": "phila.gov",
+      "status": 200,
+      "size": 37285,
+      "hints": []
+    },
+    "Pittsburgh": {
+      "domain": "pittsburghpa.gov",
+      "status": 403,
+      "size": 372,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      }
+    },
+    "Allentown": {
+      "domain": "allentownpa.gov",
+      "status": 0,
+      "size": 0
+    }
+  }
+}

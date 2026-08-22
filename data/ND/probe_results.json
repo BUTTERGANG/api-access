@@ -1,0 +1,47 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://www.nd.gov/openspending/",
+      "status": 404,
+      "size": 31161,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.nd.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "NDDOT bids": {
+      "url": "https://www.dot.nd.gov/business/contractors",
+      "status": 404,
+      "size": 88115,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Fargo": {
+      "domain": "fargond.gov",
+      "status": 200,
+      "size": 34255,
+      "hints": []
+    },
+    "Bismarck": {
+      "domain": "bismarcknd.gov",
+      "status": 200,
+      "size": 203663,
+      "hints": []
+    },
+    "Grand Forks": {
+      "domain": "grandforksgov.com",
+      "status": 0,
+      "size": 0
+    }
+  }
+}

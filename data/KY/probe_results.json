@@ -1,0 +1,23 @@
+{
+  "portals": {
+    "done-check": {
+      "url": "https://secure2.kentucky.gov/",
+      "status": 502,
+      "size": 572,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Louisville": {
+      "domain": "louisvilleky.gov",
+      "status": 403,
+      "size": 5489,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "Metro Council"
+      }
+    }
+  }
+}

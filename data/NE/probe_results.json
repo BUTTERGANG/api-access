@@ -1,0 +1,54 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://openspending.nebraska.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.nebraska.gov/",
+      "status": 200,
+      "size": 24013,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "NDOT bids": {
+      "url": "https://dot.nebraska.gov/business/contractors/",
+      "status": 404,
+      "size": 2164,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Omaha": {
+      "domain": "cityofomaha.org",
+      "status": 403,
+      "size": 373
+    },
+    "Lincoln": {
+      "domain": "lincoln.ne.gov",
+      "status": 403,
+      "size": 376,
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    },
+    "Bellevue": {
+      "domain": "bellevue.net",
+      "status": 0,
+      "size": 0,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council Regular Session"
+      }
+    }
+  }
+}

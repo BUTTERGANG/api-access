@@ -1,0 +1,43 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://data.wy.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://spendwyoming.wyo.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "WYDOT bids": {
+      "url": "https://www.dot.state.wy.us/business",
+      "status": 404,
+      "size": 1750,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Cheyenne": {
+      "domain": "cheyennecity.org",
+      "status": 403,
+      "size": 374
+    },
+    "Casper": {
+      "domain": "casperwy.gov",
+      "status": 200,
+      "size": 202365,
+      "hints": [
+        "municode"
+      ]
+    }
+  }
+}

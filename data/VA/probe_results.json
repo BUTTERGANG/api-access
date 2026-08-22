@@ -1,0 +1,57 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://open.virginia.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.virginia.gov/",
+      "status": 200,
+      "size": 37708,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "VDOT bids": {
+      "url": "https://www.vdot.gov/business/procurement",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Virginia Beach": {
+      "domain": "vbgov.com",
+      "status": 0,
+      "size": 0
+    },
+    "Norfolk": {
+      "domain": "norfolk.gov",
+      "status": 200,
+      "size": 173945,
+      "hints": [
+        "agendacenter"
+      ]
+    },
+    "Richmond": {
+      "domain": "rva.gov",
+      "status": 200,
+      "size": 742039,
+      "hints": [
+        "legistar",
+        "municode"
+      ]
+    },
+    "Arlington": {
+      "domain": "arlingtonva.us",
+      "status": 403,
+      "size": 372
+    }
+  }
+}

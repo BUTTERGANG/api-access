@@ -1,0 +1,58 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://data.floridapfo.org/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "transparency": {
+      "url": "https://floridahasright.com/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "FDOT bids": {
+      "url": "https://www.fdot.gov/procurement/",
+      "status": 200,
+      "size": 60497,
+      "platform_hints": [],
+      "api_hints": true
+    }
+  },
+  "cities": {
+    "Jacksonville": {
+      "domain": "coj.net",
+      "status": 0,
+      "size": 0
+    },
+    "Miami": {
+      "domain": "miamigov.com",
+      "status": 403,
+      "size": 367
+    },
+    "Tampa": {
+      "domain": "tampagov.net",
+      "status": 200,
+      "size": 155166,
+      "hints": [],
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    },
+    "Orlando": {
+      "domain": "orlando.gov",
+      "status": 200,
+      "size": 172220,
+      "hints": [
+        "granicus"
+      ]
+    }
+  }
+}

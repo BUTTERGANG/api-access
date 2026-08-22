@@ -1,0 +1,47 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://www.maine.gov/transparency",
+      "status": 404,
+      "size": 22618,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.mainegov.org/",
+      "status": 200,
+      "size": 1067,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "MaineDOT bids": {
+      "url": "https://www.maine.gov/mdot/contractors/",
+      "status": 200,
+      "size": 87819,
+      "platform_hints": [],
+      "api_hints": true
+    }
+  },
+  "cities": {
+    "Portland": {
+      "domain": "portlandmaine.gov",
+      "status": 0,
+      "size": 0
+    },
+    "Lewiston": {
+      "domain": "lewistonmaine.gov",
+      "status": 200,
+      "size": 119619,
+      "hints": []
+    },
+    "Bangor": {
+      "domain": "bangormaine.gov",
+      "status": 200,
+      "size": 122408,
+      "hints": []
+    }
+  }
+}

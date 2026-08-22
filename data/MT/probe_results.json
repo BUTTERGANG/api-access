@@ -1,0 +1,51 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://transparency.mt.gov/",
+      "status": 200,
+      "size": 15394,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.mt.gov/",
+      "status": 200,
+      "size": 18616,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "MDT bids": {
+      "url": "https://www.mdt.mt.gov/business/contracting",
+      "status": 200,
+      "size": 27857,
+      "platform_hints": [],
+      "api_hints": true
+    }
+  },
+  "cities": {
+    "Billings": {
+      "domain": "billingsmt.us",
+      "status": 200,
+      "size": 658,
+      "hints": []
+    },
+    "Missoula": {
+      "domain": "ci.missoula.mt.us",
+      "status": 200,
+      "size": 119736,
+      "hints": []
+    },
+    "Bozeman": {
+      "domain": "bozeman.net",
+      "status": 403,
+      "size": 371,
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    }
+  }
+}

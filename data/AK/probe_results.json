@@ -1,0 +1,57 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://transparency.alaska.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "data portal": {
+      "url": "https://data.alaska.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.ak.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "DOT bids": {
+      "url": "https://dot.alaska.gov/procurement/bids.shtml",
+      "status": 404,
+      "size": 20922,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Anchorage": {
+      "domain": "muni.org",
+      "status": 200,
+      "size": 112650,
+      "hints": []
+    },
+    "Juneau": {
+      "domain": "juneau.org",
+      "status": 200,
+      "size": 1146374,
+      "hints": [
+        "municode",
+        "civicclerk"
+      ]
+    },
+    "Fairbanks": {
+      "domain": "fairbanksalaska.gov",
+      "status": 0,
+      "size": 0
+    }
+  }
+}

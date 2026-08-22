@@ -1,0 +1,44 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://finance.vermont.gov/transparency",
+      "status": 404,
+      "size": 30303,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.vermont.gov/",
+      "status": 200,
+      "size": 597597,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "VTrans bids": {
+      "url": "https://vtrans.vermont.gov/contracting",
+      "status": 404,
+      "size": 36367,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Burlington": {
+      "domain": "burlingtonvt.gov",
+      "status": 200,
+      "size": 121861,
+      "hints": [
+        "civicclerk"
+      ]
+    },
+    "South Burlington": {
+      "domain": "sburl.com",
+      "status": 0,
+      "size": 0
+    }
+  }
+}

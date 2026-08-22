@@ -1,0 +1,52 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://procurement.sc.gov/",
+      "status": 200,
+      "size": 16789,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.sc.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "SCDOT bids": {
+      "url": "https://www.scdot.org/business/letting",
+      "status": 404,
+      "size": 26749,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Charleston": {
+      "domain": "charleston-sc.gov",
+      "status": 200,
+      "size": 171652,
+      "hints": [
+        "agendacenter"
+      ]
+    },
+    "Columbia": {
+      "domain": "columbiasc.gov",
+      "status": 403,
+      "size": 5511
+    },
+    "Greenville": {
+      "domain": "greenvillesc.gov",
+      "status": 200,
+      "size": 795805,
+      "hints": [
+        "municode",
+        "civicclerk"
+      ]
+    }
+  }
+}

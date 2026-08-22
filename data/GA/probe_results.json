@@ -1,0 +1,62 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://open.georgia.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.ga.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "GDOT bids": {
+      "url": "https://www.dot.ga.gov/GDOT/Pages/Procurement.aspx",
+      "status": 200,
+      "size": 247,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Atlanta": {
+      "domain": "atlantaga.gov",
+      "status": 403,
+      "size": 371
+    },
+    "Augusta": {
+      "domain": "augustaga.gov",
+      "status": 200,
+      "size": 190508,
+      "hints": []
+    },
+    "Columbus": {
+      "domain": "columbusga.org",
+      "status": 200,
+      "size": 67095,
+      "hints": [],
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "Finance & Economic Development Committee"
+      },
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    },
+    "Savannah": {
+      "domain": "savannahga.gov",
+      "status": 200,
+      "size": 174951,
+      "hints": []
+    }
+  }
+}

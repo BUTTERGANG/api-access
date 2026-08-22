@@ -1,31 +1,26 @@
 {
-  "transparency_portals": {
-    "data.michigan.gov": {
+  "portals": {
+    "done-check": {
       "url": "https://data.michigan.gov/",
       "status": 200,
-      "size": 595818,
-      "note": "reachable"
-    },
-    "MI transparency": {
-      "url": "https://www.michigan.gov/transparency",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    "MDOT bids": {
-      "url": "https://www.michigan.gov/mdot/business/bidding",
-      "error": "HTTP Error 403: Forbidden"
+      "size": 595692,
+      "platform_hints": [],
+      "api_hints": true
     }
   },
-  "socrata": {
-    "data.ohio.gov": {
-      "error": "HTTP Error 404: Not Found"
-    },
-    "data.michigan.gov": {
+  "cities": {
+    "Detroit": {
+      "domain": "detroitmi.gov",
       "status": 200,
-      "size": 595818
-    },
-    "data.illinois.gov": {
-      "status": 200,
-      "size": 595228
+      "size": 202390,
+      "hints": [
+        "municode"
+      ],
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      }
     }
   }
 }

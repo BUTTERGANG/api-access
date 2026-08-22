@@ -1,0 +1,60 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://admin.ks.gov/offices/finance/transparency",
+      "status": 404,
+      "size": 93008,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.ks.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "KDOT bids": {
+      "url": "https://www.ksdot.org/burconsplan/bidlet.asp",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Wichita": {
+      "domain": "wichita.gov",
+      "status": 0,
+      "size": 0
+    },
+    "Overland Park": {
+      "domain": "opkansas.org",
+      "status": 200,
+      "size": 457862,
+      "hints": []
+    },
+    "Kansas City": {
+      "domain": "wycokck.org",
+      "status": 403,
+      "size": 369,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "Council"
+      }
+    },
+    "Topeka": {
+      "domain": "topeka.org",
+      "status": 0,
+      "size": 0,
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    }
+  }
+}

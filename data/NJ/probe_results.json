@@ -1,0 +1,55 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://data.nj.gov/",
+      "status": 200,
+      "size": 596763,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "transparency": {
+      "url": "https://www.yourmoney.nj.gov/",
+      "status": 200,
+      "size": 30439,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "NJDOT bids": {
+      "url": "https://www.state.nj.us/transportation/business/procurement/ConstrServ/constbid.shtm",
+      "status": 404,
+      "size": 11708,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Newark": {
+      "domain": "newarknj.gov",
+      "status": 503,
+      "size": 712,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "Municipal Council"
+      }
+    },
+    "Jersey City": {
+      "domain": "jerseycitynj.gov",
+      "status": 200,
+      "size": 138021,
+      "hints": [
+        "civicweb"
+      ]
+    },
+    "Paterson": {
+      "domain": "patersonnj.gov",
+      "status": 200,
+      "size": 53188,
+      "hints": []
+    }
+  }
+}

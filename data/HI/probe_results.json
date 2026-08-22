@@ -1,0 +1,41 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://data.hawaii.gov/",
+      "status": 200,
+      "size": 98915,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "transparency": {
+      "url": "https://transparency.hawaii.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "HDOT bids": {
+      "url": "https://hidot.hawaii.gov/highways/contracts/",
+      "status": 404,
+      "size": 52677,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Honolulu": {
+      "domain": "honolulu.gov",
+      "status": 200,
+      "size": 187812,
+      "hints": []
+    },
+    "Hilo": {
+      "domain": "hilocounty.org",
+      "status": 0,
+      "size": 0
+    }
+  }
+}

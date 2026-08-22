@@ -1,0 +1,70 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://data.colorado.gov/",
+      "status": 200,
+      "size": 630969,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "transparency": {
+      "url": "https://www.colorado.gov/transparency",
+      "status": 404,
+      "size": 17138,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "CDOT bids": {
+      "url": "https://www.codot.gov/business/bidding",
+      "status": 200,
+      "size": 51302,
+      "platform_hints": [],
+      "api_hints": true
+    }
+  },
+  "cities": {
+    "Denver": {
+      "domain": "denvergov.org",
+      "status": 200,
+      "size": 194190,
+      "hints": [
+        "granicus"
+      ],
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      }
+    },
+    "Colorado Springs": {
+      "domain": "coloradosprings.gov",
+      "status": 200,
+      "size": 61658,
+      "hints": [],
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      },
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    },
+    "Aurora": {
+      "domain": "auroragov.org",
+      "status": 200,
+      "size": 325902,
+      "hints": []
+    },
+    "Fort Collins": {
+      "domain": "fcgov.com",
+      "status": 403,
+      "size": 371
+    }
+  }
+}

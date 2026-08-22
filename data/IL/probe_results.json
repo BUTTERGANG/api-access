@@ -1,33 +1,19 @@
 {
-  "transparency_portals": {
-    "Illinois OpenBook": {
-      "url": "https://openbook.illinoiscomptroller.gov/",
-      "status": 200,
-      "size": 8613,
-      "note": "reachable"
-    },
-    "data.illinois.gov": {
+  "portals": {
+    "done-check": {
       "url": "https://data.illinois.gov/",
       "status": 200,
-      "size": 595228,
-      "note": "reachable"
-    },
-    "IDOT bids": {
-      "url": "https://idot.illinois.gov/doing-business/procurements/bid-letting/index",
-      "error": "HTTP Error 404: Not Found"
+      "size": 595098,
+      "platform_hints": [],
+      "api_hints": true
     }
   },
-  "socrata": {
-    "data.ohio.gov": {
-      "error": "HTTP Error 404: Not Found"
-    },
-    "data.michigan.gov": {
+  "cities": {
+    "Chicago": {
+      "domain": "chicago.gov",
       "status": 200,
-      "size": 595818
-    },
-    "data.illinois.gov": {
-      "status": 200,
-      "size": 595228
+      "size": 69218,
+      "hints": []
     }
   }
 }

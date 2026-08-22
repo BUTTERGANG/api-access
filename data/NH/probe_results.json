@@ -1,0 +1,52 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://www.das.nh.gov/transparency/",
+      "status": 403,
+      "size": 389,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.nh.gov/",
+      "status": 403,
+      "size": 365,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "NHDOT bids": {
+      "url": "https://www.dot.nh.gov/business/for-contractors",
+      "status": 403,
+      "size": 402,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Manchester": {
+      "domain": "manchesternh.gov",
+      "status": 200,
+      "size": 256754,
+      "hints": [
+        "civicclerk"
+      ]
+    },
+    "Nashua": {
+      "domain": "nashuanh.gov",
+      "status": 200,
+      "size": 198312,
+      "hints": [
+        "civicclerk"
+      ]
+    },
+    "Concord": {
+      "domain": "concordnh.gov",
+      "status": 200,
+      "size": 200877,
+      "hints": []
+    }
+  }
+}

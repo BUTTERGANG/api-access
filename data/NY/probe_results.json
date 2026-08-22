@@ -1,0 +1,56 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://data.ny.gov/",
+      "status": 200,
+      "size": 681773,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "transparency": {
+      "url": "https://openbook.newyorkstate.us/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "NYSDOT bids": {
+      "url": "https://www.dot.ny.gov/doing-business/opportunities/const-tabulations",
+      "status": 200,
+      "size": 1090828,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "NYC": {
+      "domain": "nyc.gov",
+      "status": 200,
+      "size": 516948,
+      "hints": []
+    },
+    "Buffalo": {
+      "domain": "buffalony.gov",
+      "status": 200,
+      "size": 140100,
+      "hints": [
+        "iqm2"
+      ]
+    },
+    "Rochester": {
+      "domain": "cityofrochester.gov",
+      "status": 403,
+      "size": 5563
+    },
+    "Yonkers": {
+      "domain": "yonkersny.gov",
+      "status": 200,
+      "size": 196819,
+      "hints": []
+    }
+  }
+}

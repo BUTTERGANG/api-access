@@ -1,0 +1,52 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://openbook.nv.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.nv.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "NDOT bids": {
+      "url": "https://www.dot.nv.gov/business/contractors",
+      "status": 403,
+      "size": 434,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Las Vegas": {
+      "domain": "lasvegasnevada.gov",
+      "status": 200,
+      "size": 79206,
+      "hints": [
+        "primegov"
+      ]
+    },
+    "Reno": {
+      "domain": "reno.gov",
+      "status": 200,
+      "size": 230247,
+      "hints": [
+        "municode",
+        "primegov"
+      ]
+    },
+    "Henderson": {
+      "domain": "cityofhenderson.com",
+      "status": 403,
+      "size": 415
+    }
+  }
+}

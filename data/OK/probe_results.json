@@ -1,0 +1,49 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://openbooks.ok.gov/",
+      "status": 200,
+      "size": 44532,
+      "platform_hints": [],
+      "api_hints": true
+    },
+    "socrata check": {
+      "url": "https://data.ok.gov/",
+      "status": 200,
+      "size": 44532,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "ODOT bids": {
+      "url": "https://www.odot.org/contracts/",
+      "status": 200,
+      "size": 112607,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Oklahoma City": {
+      "domain": "okc.gov",
+      "status": 403,
+      "size": 365
+    },
+    "Tulsa": {
+      "domain": "cityoftulsa.org",
+      "status": 200,
+      "size": 103689,
+      "hints": []
+    },
+    "Norman": {
+      "domain": "normanok.gov",
+      "status": 200,
+      "size": 47236,
+      "hints": [
+        "municode"
+      ]
+    }
+  }
+}

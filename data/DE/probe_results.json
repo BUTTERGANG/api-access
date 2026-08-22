@@ -1,0 +1,56 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://openstates.delaware.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.delaware.gov/",
+      "status": 200,
+      "size": 598292,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "DelDOT bids": {
+      "url": "https://deldot.gov/business/with_deldot/contracts/index.shtml",
+      "status": 404,
+      "size": 28861,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Wilmington": {
+      "domain": "wilmingtonde.gov",
+      "status": 403,
+      "size": 412,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      }
+    },
+    "Dover": {
+      "domain": "dover.de.us",
+      "status": 0,
+      "size": 0
+    },
+    "Newark": {
+      "domain": "newark.de.us",
+      "status": 0,
+      "size": 0,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "Municipal Council"
+      }
+    }
+  }
+}

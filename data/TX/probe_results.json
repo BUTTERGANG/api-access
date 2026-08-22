@@ -1,0 +1,67 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://data.texas.gov/",
+      "status": 200,
+      "size": 610724,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "transparency": {
+      "url": "https://comptroller.texas.gov/transparency/",
+      "status": 200,
+      "size": 130700,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "TxDOT bids": {
+      "url": "https://www.txdot.gov/business/letting-bids.html",
+      "status": 404,
+      "size": 145347,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Houston": {
+      "domain": "houstontx.gov",
+      "status": 200,
+      "size": 53590,
+      "hints": [],
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    },
+    "San Antonio": {
+      "domain": "sa.gov",
+      "status": 403,
+      "size": 364,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council A Session"
+      }
+    },
+    "Dallas": {
+      "domain": "dallascityhall.com",
+      "status": 0,
+      "size": 0
+    },
+    "Austin": {
+      "domain": "austintexas.gov",
+      "status": 200,
+      "size": 185297,
+      "hints": []
+    },
+    "Fort Worth": {
+      "domain": "fortworthtexas.gov",
+      "status": 403,
+      "size": 376
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://transparent.nm.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.cabq.gov/",
+      "status": 200,
+      "size": 1393,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "NMDOT bids": {
+      "url": "https://www.dot.state.nm.us/doing-business.html",
+      "status": 404,
+      "size": 185935,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Albuquerque": {
+      "domain": "cabq.gov",
+      "status": 200,
+      "size": 86948,
+      "hints": []
+    },
+    "Las Cruces": {
+      "domain": "lascruces.gov",
+      "status": 403,
+      "size": 5532
+    },
+    "Santa Fe": {
+      "domain": "santafenm.gov",
+      "status": 200,
+      "size": 98093,
+      "hints": [
+        "municode"
+      ]
+    }
+  }
+}

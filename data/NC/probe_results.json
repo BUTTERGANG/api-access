@@ -1,0 +1,59 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://ncopenbook.apps.nc.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.nc.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "NCDOT bids": {
+      "url": "https://www.ncdot.gov/business/letting",
+      "status": 200,
+      "size": 101830,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Charlotte": {
+      "domain": "charlottenc.gov",
+      "status": 403,
+      "size": 373
+    },
+    "Raleigh": {
+      "domain": "raleighnc.gov",
+      "status": 200,
+      "size": 189493,
+      "hints": [
+        "granicus"
+      ]
+    },
+    "Greensboro": {
+      "domain": "greensboro-nc.gov",
+      "status": 403,
+      "size": 417,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      }
+    },
+    "Durham": {
+      "domain": "durhamnc.gov",
+      "status": 200,
+      "size": 138914,
+      "hints": []
+    }
+  }
+}

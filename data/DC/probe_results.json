@@ -1,0 +1,36 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://opendata.dc.gov/",
+      "status": 200,
+      "size": 158007,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "transparency": {
+      "url": "https://clear.dc.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "DDOT bids": {
+      "url": "https://ddot.dc.gov/page/procurement",
+      "status": 403,
+      "size": 149235,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Washington DC": {
+      "domain": "dc.gov",
+      "status": 200,
+      "size": 84493,
+      "hints": []
+    }
+  }
+}

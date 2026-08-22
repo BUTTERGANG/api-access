@@ -1,0 +1,62 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://mn.gov/admin/government/transparency/",
+      "status": 404,
+      "size": 206154,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.web.health.state.mn.us/",
+      "status": 404,
+      "size": 663,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "MnDOT bids": {
+      "url": "https://www.dot.state.mn.us/consult/bidopps.html",
+      "status": 404,
+      "size": 9490,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Minneapolis": {
+      "domain": "minneapolismn.gov",
+      "status": 200,
+      "size": 200948,
+      "hints": []
+    },
+    "Saint Paul": {
+      "domain": "stpaul.gov",
+      "status": 200,
+      "size": 149097,
+      "hints": [
+        "legistar",
+        "municode"
+      ]
+    },
+    "Rochester": {
+      "domain": "rochestermn.gov",
+      "status": 200,
+      "size": 87418,
+      "hints": [
+        "municode"
+      ]
+    },
+    "Duluth": {
+      "domain": "duluthmn.gov",
+      "status": 200,
+      "size": 69234,
+      "hints": [
+        "legistar",
+        "municode"
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://data.ri.gov/",
+      "status": 403,
+      "size": 5508,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "transparency": {
+      "url": "https://www.ri.gov/transparency/",
+      "status": 404,
+      "size": 22305,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "RIDOT bids": {
+      "url": "https://www.dot.ri.gov/contract/index.php",
+      "status": 200,
+      "size": 52531,
+      "platform_hints": [],
+      "api_hints": true
+    }
+  },
+  "cities": {
+    "Providence": {
+      "domain": "providenceri.gov",
+      "status": 200,
+      "size": 84088,
+      "hints": [
+        "municode",
+        "iqm2"
+      ]
+    },
+    "Cranston": {
+      "domain": "cranstonri.gov",
+      "status": 200,
+      "size": 37045,
+      "hints": []
+    },
+    "Warwick": {
+      "domain": "warwickri.gov",
+      "status": 403,
+      "size": 5535
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://data.wa.gov/",
+      "status": 200,
+      "size": 614697,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "transparency": {
+      "url": "https://fiscal.wa.gov/",
+      "status": 200,
+      "size": 45099,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "WSDOT bids": {
+      "url": "https://wsdot.wa.gov/business-wsdot/contracts",
+      "status": 200,
+      "size": 136186,
+      "platform_hints": [],
+      "api_hints": true
+    }
+  },
+  "cities": {
+    "Seattle": {
+      "domain": "seattle.gov",
+      "status": 200,
+      "size": 45856,
+      "hints": [],
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      },
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    },
+    "Spokane": {
+      "domain": "spokanecity.org",
+      "status": 403,
+      "size": 878
+    },
+    "Tacoma": {
+      "domain": "cityoftacoma.org",
+      "status": 0,
+      "size": 0
+    }
+  }
+}

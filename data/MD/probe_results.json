@@ -1,0 +1,62 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://data.maryland.gov/",
+      "status": 200,
+      "size": 83539,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "transparency": {
+      "url": "https://openmaryland.bep.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "MDOT bids": {
+      "url": "https://www.roads.maryland.gov/business-with-mdot/",
+      "status": 522,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Baltimore": {
+      "domain": "baltimorecity.gov",
+      "status": 200,
+      "size": 194648,
+      "hints": [],
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      },
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    },
+    "Annapolis": {
+      "domain": "annapolis.gov",
+      "status": 200,
+      "size": 155604,
+      "hints": [
+        "legistar"
+      ]
+    },
+    "Rockville": {
+      "domain": "rockvillemd.gov",
+      "status": 200,
+      "size": 337363,
+      "hints": [
+        "legistar"
+      ]
+    }
+  }
+}

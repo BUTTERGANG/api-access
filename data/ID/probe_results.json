@@ -1,0 +1,50 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://transparency.idaho.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data-idaho.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "ITD bids": {
+      "url": "https://itd.idaho.gov/bids",
+      "status": 404,
+      "size": 140356,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Boise": {
+      "domain": "cityofboise.org",
+      "status": 200,
+      "size": 29398,
+      "hints": []
+    },
+    "Meridian": {
+      "domain": "meridiancity.org",
+      "status": 403,
+      "size": 5534
+    },
+    "Nampa": {
+      "domain": "cityofnampa.us",
+      "status": 200,
+      "size": 248373,
+      "hints": [
+        "municode",
+        "agendacenter"
+      ]
+    }
+  }
+}

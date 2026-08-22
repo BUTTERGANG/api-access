@@ -1,30 +1,19 @@
 {
-  "gateway_download": {
-    "url": "https://gateway.ifionline.org/public/download.aspx",
-    "status": 200,
-    "content_type": "text/html; charset=utf-8",
-    "size": 23214,
-    "snippet": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head id=\"ctl00_Head1\">\r\n<!-- Google Tag Manager for Gateway -->\r\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f)"
+  "portals": {
+    "done-check": {
+      "url": "https://gateway.ifionline.org/",
+      "status": 200,
+      "size": 22482,
+      "platform_hints": [],
+      "api_hints": true
+    }
   },
-  "gateway_contract_search": {
-    "url": "https://gateway.ifionline.org/public/contract-search/",
-    "status": 200,
-    "content_type": "text/html; charset=utf-8",
-    "size": 20125,
-    "snippet": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head id=\"Head1\">\r\n<!-- Google Tag Manager for Gateway -->\r\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n})("
-  },
-  "indot_bid_viewer": {
-    "url": "https://erms12c.indot.in.gov/INDOTBidViewer/Default.aspx",
-    "status": 200,
-    "content_type": "text/html; charset=utf-8",
-    "size": 5224,
-    "snippet": "\r\n\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n<head><title>\r\n\tINDOT Bid Viewer\r\n</title><link rel=\"stylesheet\" href=\"Styles/INDOTBidViewer.css\" />\r\n    <script type=\"text/javascript\" src=\"Scripts/Javascript/jquery-3.4.1.js\"></script>\r\n    <script type=\"text/javascript\" src=\"Scripts/Javascript/INDOTBidViewer.Master.js\"></script>\r\n    \r\n</head>\r\n<body>\r\n    <form method=\"post\" action=\"./Default.aspx\" id=\"masterFor"
-  },
-  "budget_notices": {
-    "url": "https://budgetnotices.in.gov/",
-    "status": 200,
-    "content_type": "text/html; charset=utf-8",
-    "size": 155877,
-    "snippet": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head id=\"Head1\">\r\n<!-- Google tag (gtag.js) for Budget Notices-->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-PSEP18ZSV2\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-PSEP18ZSV2');\r\n</script>\r\n    \r\n\t<meta charset=\"utf-8"
+  "cities": {
+    "Indianapolis": {
+      "domain": "indy.gov",
+      "status": 200,
+      "size": 15153,
+      "hints": []
+    }
   }
 }

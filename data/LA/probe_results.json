@@ -1,0 +1,52 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://www.doa.la.gov/media/transparency/",
+      "status": 404,
+      "size": 117503,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.la.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "LaDOTD bids": {
+      "url": "https://wwwsp.dotd.la.gov/Business_Side/Letters_and_Handouts/Pages/default.aspx",
+      "status": 200,
+      "size": 115942,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "New Orleans": {
+      "domain": "nola.gov",
+      "status": 200,
+      "size": 92831,
+      "hints": []
+    },
+    "Baton Rouge": {
+      "domain": "brla.gov",
+      "status": 200,
+      "size": 803892,
+      "hints": [
+        "agendacenter"
+      ]
+    },
+    "Shreveport": {
+      "domain": "shreveportla.gov",
+      "status": 200,
+      "size": 158133,
+      "hints": [
+        "municode"
+      ]
+    }
+  }
+}

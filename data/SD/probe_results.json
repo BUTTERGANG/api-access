@@ -1,0 +1,40 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://bfm.sd.gov/transparency/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.sd.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "SDDOT bids": {
+      "url": "https://dot.sd.gov/business/contractors",
+      "status": 404,
+      "size": 68301,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Sioux Falls": {
+      "domain": "siouxfalls.gov",
+      "status": 403,
+      "size": 372
+    },
+    "Rapid City": {
+      "domain": "rcgov.org",
+      "status": 403,
+      "size": 5482
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://openbooks.az.gov/",
+      "status": 403,
+      "size": 5556,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.az.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "data portal": {
+      "url": "https://open-data.arizona.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "ADOT bids": {
+      "url": "https://azdot.gov/business/contracting-with-adot",
+      "status": 403,
+      "size": 5618,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Phoenix": {
+      "domain": "phoenix.gov",
+      "status": 200,
+      "size": 452340,
+      "hints": [],
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council Formal Meeting"
+      },
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    },
+    "Tucson": {
+      "domain": "tucsonaz.gov",
+      "status": 403,
+      "size": 370
+    },
+    "Mesa": {
+      "domain": "mesaaz.gov",
+      "status": 403,
+      "size": 366,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      }
+    },
+    "Chandler": {
+      "domain": "chandleraz.gov",
+      "status": 200,
+      "size": 283313,
+      "hints": []
+    },
+    "Scottsdale": {
+      "domain": "scottsdaleaz.gov",
+      "status": 200,
+      "size": 310588,
+      "hints": []
+    }
+  }
+}

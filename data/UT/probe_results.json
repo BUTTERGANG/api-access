@@ -1,0 +1,49 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://transparent.utah.gov/",
+      "status": 403,
+      "size": 134,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://opendata.utah.gov/",
+      "status": 400,
+      "size": 294,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "UDOT bids": {
+      "url": "https://www.udot.utah.gov/connect/business/contracting/",
+      "status": 200,
+      "size": 100324,
+      "platform_hints": [],
+      "api_hints": true
+    }
+  },
+  "cities": {
+    "Salt Lake City": {
+      "domain": "slc.gov",
+      "status": 200,
+      "size": 54369,
+      "hints": []
+    },
+    "West Valley City": {
+      "domain": "wvc-ut.gov",
+      "status": 200,
+      "size": 133124,
+      "hints": []
+    },
+    "Provo": {
+      "domain": "provo.org",
+      "status": 200,
+      "size": 146176,
+      "hints": []
+    }
+  }
+}

@@ -1,22 +1,26 @@
 {
   "portals": {
     "done-check": {
-      "url": "https://data.ohio.gov/",
-      "status": 200,
-      "size": 767592,
+      "url": "https://www.tn.gov/",
+      "status": 0,
+      "size": 0,
       "platform_hints": [],
       "api_hints": false
     }
   },
   "cities": {
-    "Columbus": {
-      "domain": "columbus.gov",
-      "status": 403,
-      "size": 370,
+    "Nashville": {
+      "domain": "nashville.gov",
+      "status": 200,
+      "size": 93597,
+      "hints": [
+        "legistar",
+        "granicus"
+      ],
       "legistar": {
         "platform": "legistar",
         "verified": true,
-        "first_body": "Finance & Economic Development Committee"
+        "first_body": "Metropolitan Council"
       },
       "granicus": {
         "platform": "granicus",

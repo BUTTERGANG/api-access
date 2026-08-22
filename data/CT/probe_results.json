@@ -1,0 +1,52 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://portal.ct.gov/state-transparency",
+      "status": 200,
+      "size": 21553,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.ct.gov/",
+      "status": 200,
+      "size": 598274,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "CTDOT bids": {
+      "url": "https://portal.ct.gov/dot/contracting",
+      "status": 200,
+      "size": 21531,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Bridgeport": {
+      "domain": "bridgeportct.gov",
+      "status": 200,
+      "size": 35395,
+      "hints": []
+    },
+    "New Haven": {
+      "domain": "newhavenct.gov",
+      "status": 403,
+      "size": 410
+    },
+    "Stamford": {
+      "domain": "stamfordct.gov",
+      "status": 403,
+      "size": 372
+    },
+    "Hartford": {
+      "domain": "hartfordct.gov",
+      "status": 403,
+      "size": 372
+    }
+  }
+}

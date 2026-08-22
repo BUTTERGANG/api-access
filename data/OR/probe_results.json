@@ -1,0 +1,57 @@
+{
+  "portals": {
+    "transparency": {
+      "url": "https://www.oregon.gov/das/financial/Pages/transparency.aspx",
+      "status": 404,
+      "size": 64251,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "socrata check": {
+      "url": "https://data.oregon.gov/",
+      "status": 200,
+      "size": 600259,
+      "platform_hints": [],
+      "api_hints": true,
+      "socrata_check": {
+        "socrata": true,
+        "resultSize": "?"
+      }
+    },
+    "ODOT bids": {
+      "url": "https://www.oregon.gov/odot/Business/Pages/Bidding.aspx",
+      "status": 404,
+      "size": 70037,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Portland": {
+      "domain": "portland.gov",
+      "status": 200,
+      "size": 78660,
+      "hints": []
+    },
+    "Salem": {
+      "domain": "cityofsalem.net",
+      "status": 403,
+      "size": 411,
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      },
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    },
+    "Eugene": {
+      "domain": "eugene-or.gov",
+      "status": 200,
+      "size": 183832,
+      "hints": []
+    }
+  }
+}

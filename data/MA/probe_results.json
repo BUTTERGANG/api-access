@@ -1,0 +1,56 @@
+{
+  "portals": {
+    "socrata check": {
+      "url": "https://data.mass.gov/",
+      "status": 200,
+      "size": 107107,
+      "platform_hints": [],
+      "api_hints": false,
+      "socrata_check": {
+        "socrata": false
+      }
+    },
+    "transparency": {
+      "url": "https://cthru.mass.gov/",
+      "status": 0,
+      "size": 0,
+      "platform_hints": [],
+      "api_hints": false
+    },
+    "MassDOT bids": {
+      "url": "https://www.mass.gov/massdot-contracting",
+      "status": 403,
+      "size": 14062,
+      "platform_hints": [],
+      "api_hints": false
+    }
+  },
+  "cities": {
+    "Boston": {
+      "domain": "boston.gov",
+      "status": 200,
+      "size": 128971,
+      "hints": [],
+      "legistar": {
+        "platform": "legistar",
+        "verified": true,
+        "first_body": "City Council"
+      },
+      "granicus": {
+        "platform": "granicus",
+        "verified": true
+      }
+    },
+    "Worcester": {
+      "domain": "worcesterma.gov",
+      "status": 200,
+      "size": 94761,
+      "hints": []
+    },
+    "Springfield": {
+      "domain": "springfield-ma.gov",
+      "status": 0,
+      "size": 0
+    }
+  }
+}
