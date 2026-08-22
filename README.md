@@ -208,6 +208,54 @@ scraper.
 
 ---
 
+## 10. Financial market data (free tiers, no payment)
+
+| Source | Auth | Free limits | What you get |
+|---|---|---|---|
+| **Finnhub** | free key, no card | 60 calls/min | Real-time quotes (US), fundamentals, earnings calendar, news sentiment, crypto/forex. Most generous free tier. |
+| **Tiingo** | free key, no card | 1,000 req/day | Best free EOD price history (decades), clean REST, IEX real-time. Best for backtesting. |
+| **Twelve Data** | free key | 800 req/day, 8/min | Stocks/FX/crypto time series, 120+ countries, technical indicators. |
+| **Alpha Vantage** | free key | 25 req/day (5/min) | Quotes, 50+ technical indicators, fundamentals, forex, plus its own economic indicators (overlaps FRED). Small daily cap — use for low-volume reference pulls. |
+| **Financial Modeling Prep (FMP)** | free key | 250 calls/day | 30+ years of financial statements/fundamentals — best free source of income/balance/cash-flow statements. |
+| **Alpaca** | free key, no card | unlimited-ish | Free real-time IEX feed + paper trading API. Good for live prices without payment. |
+| **SEC EDGAR / FRED / Treasury** | see above | free | Fundamentals, macro, yields — the zero-cost backbone. |
+
+Practical stack: **Tiingo (history) + Finnhub (real-time + news) + FMP (fundamentals) + FRED/Treasury (macro)** — all free, all key-only registration, no credit card.
+
+---
+
+## 11. Local government / municipal (bids, council meetings, agendas)
+
+This is where our municipality projects live. The big insight: **~80% of US
+municipalities post meetings/bids through just four vendor platforms**, each
+with predictable URL patterns — so one adapter per platform covers most cities.
+
+### Meeting platforms (agendas, minutes, votes, video)
+- **Legistar (Granicus)** — `https://webapi.legistar.com/v1/{client}/matters`, `/events`,
+  `/eventitems/{id}/votes` — a genuine free OData REST API, no key. Cities: Chicago,
+  Seattle, NYC, LA, most big cities. **Best-in-class; start here.**
+- **Granicus** — `{slug}.granicus.com` video/agenda portals; some have APIs, rest scrape.
+- **PrimeGov** — `{slug}.primegov.com` has JSON meeting endpoints.
+- **CivicWeb / CivicClerk** — scrape-able portals.
+- An Apify actor (`municipal-council-minutes-agenda-scraper`) already wraps all four —
+  proof the adapter pattern works and reference for endpoint shapes.
+
+### Bids & procurement (federal — free)
+- **SAM.gov** — free API (open.gsa.gov/api) for all federal solicitations >$25k.
+  Saved-search email alerts are free too. Federal only.
+- **USAspending + FPDS** — who won what, at what price. Free.
+
+### Bids & procurement (state/local — mostly paid, workarounds)
+- The commercial aggregators (BidNet $500/mo, DemandStar $400/mo, GovWin
+  $1,000+/mo, BidClerk $350/mo) are just reselling what agencies post for free
+  on their own portals. The free path: **monitor agency portals directly** —
+  PlanetBids (free vendor registration, CA/west), Public Purchase (free),
+  InstantMarkets (free public search), state DOT bid lettings (all free),
+  and city/county purchasing pages. A per-portal scraper set is the $0
+  alternative to a $500/mo subscription.
+
+---
+
 ## Reference repos studied
 
 - public-api-lists/public-api-lists (★15.5k) — pattern: machine-readable JSON index
