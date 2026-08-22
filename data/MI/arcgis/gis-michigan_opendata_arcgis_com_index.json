@@ -1,0 +1,507 @@
+{
+  "host": "gis-michigan.opendata.arcgis.com",
+  "state": "MI",
+  "categories": {
+    "budget": {
+      "matched": 6,
+      "sampled": [
+        {
+          "id": "0c318e5cfecb4b21b116cbc410dee9c7",
+          "title": "EGLE Outgoing Grants and Loans",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/0c318e5cfecb4b21b116cbc410dee9c7"
+        },
+        {
+          "id": "7bfc2a2f2cb14266a59b26d1e8410051",
+          "title": "Michigan State Revolving Fund Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/7bfc2a2f2cb14266a59b26d1e8410051"
+        },
+        {
+          "id": "493d1607faa147b8abb662634ef5805f",
+          "title": "EGLE Renewables Ready Communities Awards (RRCA) Summary",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/493d1607faa147b8abb662634ef5805f"
+        },
+        {
+          "id": "8559de13f45a4102bf49e679841d0cbd",
+          "title": "Water Infrastructure Funding and Financing Grants Dashboard Data",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/8559de13f45a4102bf49e679841d0cbd"
+        },
+        {
+          "id": "7fbfd66ec352438cb676c25b88da8b98",
+          "title": "Michigan Glacial Lobe Boundaries (from Michigan Background Soil Survey)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/7fbfd66ec352438cb676c25b88da8b98"
+        },
+        {
+          "id": "c059bd6a65514fe183b1fb3a5a0855e5",
+          "title": "MDOT 2026-2029 Statewide Transportation Improvement Program (STIP)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/c059bd6a65514fe183b1fb3a5a0855e5"
+        }
+      ]
+    },
+    "permits": {
+      "matched": 41,
+      "sampled": [
+        {
+          "id": "4fbf084ace96420bb9c4adbc6385c6ff",
+          "title": "Michigan Groundwater Sanitary Discharge Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/4fbf084ace96420bb9c4adbc6385c6ff"
+        },
+        {
+          "id": "969e5a32bfa944e298f916c030912945",
+          "title": "Michigan Permitted Septage Land Application Sites",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/969e5a32bfa944e298f916c030912945"
+        },
+        {
+          "id": "9e74de6e873a42418c406cab34f99b67",
+          "title": "Municipal Separate Storm Sewer System (MS4) Existing Urbanized Areas 2010",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/9e74de6e873a42418c406cab34f99b67"
+        },
+        {
+          "id": "2387d076c8414a5b9e62871d9fea4872",
+          "title": "Municipal Separate Storm Sewer System (MS4) Urbanized Areas Expanded from 2010",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/2387d076c8414a5b9e62871d9fea4872"
+        },
+        {
+          "id": "fea03434794144ddb5b00d1863db368c",
+          "title": "Michigan Drilling Units and Uniform Spacing Plans for Permitted Oil and Gas Wells",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/fea03434794144ddb5b00d1863db368c"
+        },
+        {
+          "id": "4534a2f81d5f40f68596d73e2668d179",
+          "title": "E. coli-Related NPDES Facilities in Michigan",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/4534a2f81d5f40f68596d73e2668d179"
+        },
+        {
+          "id": "f6c9d599a6fa4204a1ffc038e78ec6a2",
+          "title": "Concentrated Animal Feeding Operation (CAFO) Land Application Fields",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/f6c9d599a6fa4204a1ffc038e78ec6a2"
+        },
+        {
+          "id": "1aa4da7e24c64d33a651eb54ea0d85f5",
+          "title": "Wetland Mitigation Bank Sites",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/1aa4da7e24c64d33a651eb54ea0d85f5"
+        },
+        {
+          "id": "5307325713184189ad3b09554b557bbb",
+          "title": "Voluntary Wetland Restoration Sites",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/5307325713184189ad3b09554b557bbb"
+        },
+        {
+          "id": "f91a3d3bc8084ab1bed471a0f2078570",
+          "title": "Billboards",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/f91a3d3bc8084ab1bed471a0f2078570"
+        }
+      ]
+    },
+    "property": {
+      "matched": 38,
+      "sampled": [
+        {
+          "id": "c6e90f6dfe8d493f907e5438bdfc4740",
+          "title": "MDOT Memorial Highways",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/c6e90f6dfe8d493f907e5438bdfc4740"
+        },
+        {
+          "id": "3f46cfb534c5474eae2fdfe3aa1266cc",
+          "title": "Michigan DNR Parks Unit Boundary",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/3f46cfb534c5474eae2fdfe3aa1266cc"
+        },
+        {
+          "id": "523dc80fe7d743429ba489080b181767",
+          "title": "Michigan DNR Commercial Forest Parcels",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/523dc80fe7d743429ba489080b181767"
+        },
+        {
+          "id": "128d7b107d72492ead9dc5790a11a8d1",
+          "title": "Gelman Site of 1,4-Dioxane Contamination - Gelman Property Boundary (approximate)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/128d7b107d72492ead9dc5790a11a8d1"
+        },
+        {
+          "id": "1a3a781aae8648c8a5f927f468b371f9",
+          "title": "Michigan's Natural Rivers",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/1a3a781aae8648c8a5f927f468b371f9"
+        },
+        {
+          "id": "076298de35ba420a8330df08492f018b",
+          "title": "Michigan's Natural Rivers Polygons",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/076298de35ba420a8330df08492f018b"
+        },
+        {
+          "id": "72a414fb56df4f5e8fd2c552052aa98a",
+          "title": "Michigan Sand and Gravel Operations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/72a414fb56df4f5e8fd2c552052aa98a"
+        },
+        {
+          "id": "f3ae9b93f8264699a5a5a1b51a4a46c8",
+          "title": "EGLE Conservation Easements",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/f3ae9b93f8264699a5a5a1b51a4a46c8"
+        },
+        {
+          "id": "b639749213dc4e6caeee78f79821c5d6",
+          "title": "Brownfield Staff Coverage",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/b639749213dc4e6caeee78f79821c5d6"
+        },
+        {
+          "id": "1dadb2ef4d8e450eae39b5ca24ed76d4",
+          "title": "Michigan's Natural Rivers Vegetative Buffer",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/1dadb2ef4d8e450eae39b5ca24ed76d4"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 74,
+      "sampled": [
+        {
+          "id": "61497d65ca9047fab460aa9d8b7dae6f",
+          "title": "EGLE Office Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/61497d65ca9047fab460aa9d8b7dae6f"
+        },
+        {
+          "id": "7bade0196a3e4e55be80111da84014f8",
+          "title": "Michigan Aquaculture Testing Veterinarians",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/7bade0196a3e4e55be80111da84014f8"
+        },
+        {
+          "id": "a79c3b0caedf412599085941e2af91d4",
+          "title": "Child Care",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/a79c3b0caedf412599085941e2af91d4"
+        },
+        {
+          "id": "8e59f2e781df408f9d6e7ddaee857582",
+          "title": "Adult Foster Care",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/8e59f2e781df408f9d6e7ddaee857582"
+        },
+        {
+          "id": "da8c64b11d1c410b9f975fb5c6d09e5a",
+          "title": "Substance Use Disorder Care",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/da8c64b11d1c410b9f975fb5c6d09e5a"
+        },
+        {
+          "id": "d6ffb0eed44e416586f30a51189f276e",
+          "title": "Health Care",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/d6ffb0eed44e416586f30a51189f276e"
+        },
+        {
+          "id": "9e9a387816bc47f28b0b9d6938cd6dcb",
+          "title": "Michigan Recycling Establishments",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/9e9a387816bc47f28b0b9d6938cd6dcb"
+        },
+        {
+          "id": "2bb7f2d4a9b4459bac03d7f73a7fc399",
+          "title": "Part 201 Environmental Contamination Sites",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/2bb7f2d4a9b4459bac03d7f73a7fc399"
+        },
+        {
+          "id": "5609ad76a8ef428cb9142515ff498e8d",
+          "title": "Michigan Cervid Veterinarian Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/5609ad76a8ef428cb9142515ff498e8d"
+        },
+        {
+          "id": "731333dca06b48ce9bcf57d6be7b653f",
+          "title": "Underground Storage Tanks",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/731333dca06b48ce9bcf57d6be7b653f"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 132,
+      "sampled": [
+        {
+          "id": "dcbf3b3eb47941cf9fb764b5f5308b15",
+          "title": "County Boundaries-Extended",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/dcbf3b3eb47941cf9fb764b5f5308b15"
+        },
+        {
+          "id": "ed9fcf847a044091be665e6073c49582",
+          "title": "Topo Quad Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/ed9fcf847a044091be665e6073c49582"
+        },
+        {
+          "id": "79dd2cb901cf4286b26d9640c11a8240",
+          "title": "EGLE District Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/79dd2cb901cf4286b26d9640c11a8240"
+        },
+        {
+          "id": "ca1937dd369049f2b700504dd4cca11e",
+          "title": "Michigan DNR Project Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/ca1937dd369049f2b700504dd4cca11e"
+        },
+        {
+          "id": "8fc9c089c11a4913b0768381fa07bf6d",
+          "title": "County",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/8fc9c089c11a4913b0768381fa07bf6d"
+        },
+        {
+          "id": "c0a7aae0cf8f46c58a91fbfe8ae5ca7d",
+          "title": "Public Safety Answering Point (PSAP) Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/c0a7aae0cf8f46c58a91fbfe8ae5ca7d"
+        },
+        {
+          "id": "52d906e14ef24af9ae4e7273cf140478",
+          "title": "Michigan DNR Wildlife Management Units",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/52d906e14ef24af9ae4e7273cf140478"
+        },
+        {
+          "id": "c0e51d0d2830421b965fe722fbfd761e",
+          "title": "Michigan DNR Law Enforcement Area Boundary",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/c0e51d0d2830421b965fe722fbfd761e"
+        },
+        {
+          "id": "0015c1bb88c444f98b2d37c5b9da1bd0",
+          "title": "Michigan DNR Parks District Boundary",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/0015c1bb88c444f98b2d37c5b9da1bd0"
+        },
+        {
+          "id": "c74db590b294425abd8e793bd1a35b87",
+          "title": "Michigan DNR Finance and Operations Management Units",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/c74db590b294425abd8e793bd1a35b87"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 80,
+      "sampled": [
+        {
+          "id": "740244afb46942e79dbfefc9df07ca37",
+          "title": "MDOT TSC",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/740244afb46942e79dbfefc9df07ca37"
+        },
+        {
+          "id": "c8c6a6006c344cc88c13a81126a94085",
+          "title": "MDOT RH 2022 GDB",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/c8c6a6006c344cc88c13a81126a94085"
+        },
+        {
+          "id": "514281fdc74645a78b15122518e7efc1",
+          "title": "CS Network 2024 GDB",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/514281fdc74645a78b15122518e7efc1"
+        },
+        {
+          "id": "7fc6efb298e24bcb9b8a8ff8402059dc",
+          "title": "PR Network 2024 GDB",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/7fc6efb298e24bcb9b8a8ff8402059dc"
+        },
+        {
+          "id": "812d48212c83482b939c809393c92fbc",
+          "title": "CS Network 2022 GDB",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/812d48212c83482b939c809393c92fbc"
+        },
+        {
+          "id": "ef3cdb70322f4328b521fa0e383629e4",
+          "title": "PR Network 2023 GDB",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/ef3cdb70322f4328b521fa0e383629e4"
+        },
+        {
+          "id": "58b04d613f8640ea9806a38ed784d77b",
+          "title": "CS Network 2023 GDB",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/58b04d613f8640ea9806a38ed784d77b"
+        },
+        {
+          "id": "802cdf530cab408cb5633285a95645f8",
+          "title": "MDOT RH 2024 GDB",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/802cdf530cab408cb5633285a95645f8"
+        },
+        {
+          "id": "0d0b0e36fccf4d26a0d3794c8f7b0957",
+          "title": "PR Network 2022 GDB",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/0d0b0e36fccf4d26a0d3794c8f7b0957"
+        },
+        {
+          "id": "f81b1d8249ad45b991181f79c8fbceb6",
+          "title": "MDOT RH 2023 GDB",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/f81b1d8249ad45b991181f79c8fbceb6"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 15,
+      "sampled": [
+        {
+          "id": "4c8d0d854ac04d8787cb3cf6dab7fbec",
+          "title": "2021 County Commissioner Districts v25",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/4c8d0d854ac04d8787cb3cf6dab7fbec"
+        },
+        {
+          "id": "b7df95c78668407280a7dead8e26aad0",
+          "title": "2026 Voting Precincts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/b7df95c78668407280a7dead8e26aad0"
+        },
+        {
+          "id": "233a3b3280f54a3485f1daaf0386433a",
+          "title": "2022 Voting Precincts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/233a3b3280f54a3485f1daaf0386433a"
+        },
+        {
+          "id": "3bc30b37f1ff408fb8d6de8b69044dc3",
+          "title": "2018 Voting Precincts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/3bc30b37f1ff408fb8d6de8b69044dc3"
+        },
+        {
+          "id": "02d40893317d46569017beeb14f9c63e",
+          "title": "2024 Voting Precincts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/02d40893317d46569017beeb14f9c63e"
+        },
+        {
+          "id": "49eb37d0a4294924bf8ef5ffe0eac47e",
+          "title": "2020 Voting Precincts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/49eb37d0a4294924bf8ef5ffe0eac47e"
+        },
+        {
+          "id": "8ce0f3ce3ff74109ac02a26d34a0f4fc",
+          "title": "2016 Voting Precincts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/8ce0f3ce3ff74109ac02a26d34a0f4fc"
+        },
+        {
+          "id": "eed3c69a3ae14a1b8ef660c4519359eb",
+          "title": "2014 Voting Precincts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/eed3c69a3ae14a1b8ef660c4519359eb"
+        },
+        {
+          "id": "54edc5b8c1c54de39421e858998a6b31",
+          "title": "Michigan U.S. Congressional Districts 2021",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/54edc5b8c1c54de39421e858998a6b31"
+        },
+        {
+          "id": "45e0487cb34c4343b6fad45b97669a19",
+          "title": "Michigan State Senate Districts 2021",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis-michigan.opendata.arcgis.com/api/search/v1/collections/dataset/items/45e0487cb34c4343b6fad45b97669a19"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}

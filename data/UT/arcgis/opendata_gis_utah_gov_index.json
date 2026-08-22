@@ -1,0 +1,514 @@
+{
+  "host": "opendata.gis.utah.gov",
+  "state": "UT",
+  "categories": {
+    "budget": {
+      "matched": 32,
+      "sampled": [
+        {
+          "id": "987e0f104f584f119516cfebe5ca4bf1",
+          "title": "Utah Tax Entities 2025",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/987e0f104f584f119516cfebe5ca4bf1"
+        },
+        {
+          "id": "253573ab675345c5bd52d84a92e5439f",
+          "title": "Utah Tax Entities 2024",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/253573ab675345c5bd52d84a92e5439f"
+        },
+        {
+          "id": "24256414cf6c47b19f7b8df88f76858c",
+          "title": "WaterRelatedLandUse_2025",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/24256414cf6c47b19f7b8df88f76858c"
+        },
+        {
+          "id": "517326aa554244baabee9e1083086278",
+          "title": "Utah Summit County Parcels LIR",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/517326aa554244baabee9e1083086278"
+        },
+        {
+          "id": "c42241c8c58b425a8a971b4772dbcf61",
+          "title": "Utah Morgan County Parcels LIR",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/c42241c8c58b425a8a971b4772dbcf61"
+        },
+        {
+          "id": "957c4cf3469040a996a8dc34eca0a49a",
+          "title": "Utah Kane County Parcels LIR",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/957c4cf3469040a996a8dc34eca0a49a"
+        },
+        {
+          "id": "b99abea67a144872bb16109f047b447c",
+          "title": "Utah Grand County Parcels LIR",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/b99abea67a144872bb16109f047b447c"
+        },
+        {
+          "id": "8d60384263fc4335a955a042091f3d89",
+          "title": "Utah Uintah County Parcels LIR",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/8d60384263fc4335a955a042091f3d89"
+        },
+        {
+          "id": "f6e1e6e25c304d31948b896d1ca8b980",
+          "title": "Utah Wasatch County Parcels LIR",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/f6e1e6e25c304d31948b896d1ca8b980"
+        },
+        {
+          "id": "69477c1143924bc9990cdb930b033fb5",
+          "title": "Utah Utah County Parcels LIR",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/69477c1143924bc9990cdb930b033fb5"
+        }
+      ]
+    },
+    "permits": {
+      "matched": 13,
+      "sampled": [
+        {
+          "id": "da8ffde0d6d14b0cbf1990ae4120f372",
+          "title": "Utah MS4 Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/da8ffde0d6d14b0cbf1990ae4120f372"
+        },
+        {
+          "id": "8702ec4da0624be39fd0c6e86ae057ea",
+          "title": "Utah Groundwater Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/8702ec4da0624be39fd0c6e86ae057ea"
+        },
+        {
+          "id": "222316608b7d4f23b3e18c7bb0596c75",
+          "title": "Utah Permitted Uranium Mines",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/222316608b7d4f23b3e18c7bb0596c75"
+        },
+        {
+          "id": "864a99721fbc48d888c25043204f15de",
+          "title": "Utah DAQ Permit Comp Title V",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/864a99721fbc48d888c25043204f15de"
+        },
+        {
+          "id": "620229e78bf94010b5c73965b5fa7689",
+          "title": "Utah DAQ Permit Comp Approval",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/620229e78bf94010b5c73965b5fa7689"
+        },
+        {
+          "id": "790bbe1d32d64a38abc8f3122859f38c",
+          "title": "Utah UPDES Dischargers",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/790bbe1d32d64a38abc8f3122859f38c"
+        },
+        {
+          "id": "bf73b133ad7542479c30fea71af0bf6c",
+          "title": "Utah Storm Water UPDES",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/bf73b133ad7542479c30fea71af0bf6c"
+        },
+        {
+          "id": "b78e58f6b9024a33b51faace255f6130",
+          "title": "Utah Oil and Gas Wells Paths",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/b78e58f6b9024a33b51faace255f6130"
+        },
+        {
+          "id": "ea7883bba075469a9872d90a0e01ff05",
+          "title": "Utah Oil and Gas Well Bottom Hole Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/ea7883bba075469a9872d90a0e01ff05"
+        },
+        {
+          "id": "8da500d7889749b6a412426a3b09cc2f",
+          "title": "Utah UPDES Sites",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/8da500d7889749b6a412426a3b09cc2f"
+        }
+      ]
+    },
+    "property": {
+      "matched": 60,
+      "sampled": [
+        {
+          "id": "eecae7fdf65f47aeae12ba817aa0d66b",
+          "title": "Utah Historic Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/eecae7fdf65f47aeae12ba817aa0d66b"
+        },
+        {
+          "id": "5360fd4cd20847099074542faafd990c",
+          "title": "Utah Tax Areas 2024",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/5360fd4cd20847099074542faafd990c"
+        },
+        {
+          "id": "973583d3ebdf4bf5bcf3b079167af56b",
+          "title": "Utah High Risk WUI Properties",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/973583d3ebdf4bf5bcf3b079167af56b"
+        },
+        {
+          "id": "d17beab4e9004d42b6902c1a3950e7c7",
+          "title": "Utah_National_Historic_Building_Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/d17beab4e9004d42b6902c1a3950e7c7"
+        },
+        {
+          "id": "ed0761f06af54f9286b21b2894d6b708",
+          "title": "Utah Agricultural Protection Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/ed0761f06af54f9286b21b2894d6b708"
+        },
+        {
+          "id": "2caf01e704614114868a3d801b82def6",
+          "title": "Utah Census Blocks 2020",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/2caf01e704614114868a3d801b82def6"
+        },
+        {
+          "id": "630351c0db444fe7933a08eab40e573e",
+          "title": "Utah DEQ Brownfields Targeted",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/630351c0db444fe7933a08eab40e573e"
+        },
+        {
+          "id": "5fd65304423d40b38b4d93e50698db70",
+          "title": "Utah DEQ Brownfields Other",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/5fd65304423d40b38b4d93e50698db70"
+        },
+        {
+          "id": "987e0f104f584f119516cfebe5ca4bf1",
+          "title": "Utah Tax Entities 2025",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/987e0f104f584f119516cfebe5ca4bf1"
+        },
+        {
+          "id": "253573ab675345c5bd52d84a92e5439f",
+          "title": "Utah Tax Entities 2024",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/253573ab675345c5bd52d84a92e5439f"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 100,
+      "sampled": [
+        {
+          "id": "6c102c8fc5af413187db0910053d5ed8",
+          "title": "Utah Public Safety Answering Point Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/6c102c8fc5af413187db0910053d5ed8"
+        },
+        {
+          "id": "731644a217f445e5a638f9a84a7ada93",
+          "title": "Utah Schools Higher Education",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/731644a217f445e5a638f9a84a7ada93"
+        },
+        {
+          "id": "33cbcb479cd04edeb0ca5fca40bcb50a",
+          "title": "Daughters of Utah Pioneers Satellite Museums",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/33cbcb479cd04edeb0ca5fca40bcb50a"
+        },
+        {
+          "id": "4f9d1d1301864f8cabef08cbae7b2d3c",
+          "title": "Utah ZIP Code Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/4f9d1d1301864f8cabef08cbae7b2d3c"
+        },
+        {
+          "id": "333206ff129346e3b8660e8f6f48540e",
+          "title": "Utah Schools PreK to 12",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/333206ff129346e3b8660e8f6f48540e"
+        },
+        {
+          "id": "3f4f7a8efcd147febeca8bacaea67a14",
+          "title": "Utah Address Points",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/3f4f7a8efcd147febeca8bacaea67a14"
+        },
+        {
+          "id": "3d6d2db8f3554cc8b3ff24b820035fb3",
+          "title": "Utah Address System Quadrants",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/3d6d2db8f3554cc8b3ff24b820035fb3"
+        },
+        {
+          "id": "58936cbbeaf2425c89131d156e1e5785",
+          "title": "Utah LUCA Block Address Counts 2017",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/58936cbbeaf2425c89131d156e1e5785"
+        },
+        {
+          "id": "8702ec4da0624be39fd0c6e86ae057ea",
+          "title": "Utah Groundwater Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/8702ec4da0624be39fd0c6e86ae057ea"
+        },
+        {
+          "id": "45e25f4062264dc1baa3765e3dbb5d8e",
+          "title": "Utah Open Source Places",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/45e25f4062264dc1baa3765e3dbb5d8e"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 181,
+      "sampled": [
+        {
+          "id": "0edf7e04e21e478cb9a0df5ab6d361a7",
+          "title": "Utah HUC Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/0edf7e04e21e478cb9a0df5ab6d361a7"
+        },
+        {
+          "id": "543fa1f073714198a3dbf8a292bdf30c",
+          "title": "Utah Municipal Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/543fa1f073714198a3dbf8a292bdf30c"
+        },
+        {
+          "id": "3dee591783a14252b8252fe27332eaef",
+          "title": "Utah Telecom Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/3dee591783a14252b8252fe27332eaef"
+        },
+        {
+          "id": "90431cac2f9f49f4bcf1505419583753",
+          "title": "Utah County Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/90431cac2f9f49f4bcf1505419583753"
+        },
+        {
+          "id": "b2de3c6b51804a45b59071a01247b051",
+          "title": "Utah_Historical_Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/b2de3c6b51804a45b59071a01247b051"
+        },
+        {
+          "id": "b84f9467fff5430b8a2fca157f45a5cd",
+          "title": "Utah Ski Area Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/b84f9467fff5430b8a2fca157f45a5cd"
+        },
+        {
+          "id": "2e29c65cc23c48bd88b619a3ea218626",
+          "title": "Utah Law Enforcement Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/2e29c65cc23c48bd88b619a3ea218626"
+        },
+        {
+          "id": "3eba2c1bd5bf4165bee3caf6c1525eae",
+          "title": "Utah Uranium Area Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/3eba2c1bd5bf4165bee3caf6c1525eae"
+        },
+        {
+          "id": "468140207bae4cf19aef5df754cc387e",
+          "title": "Utah Forest Service Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/468140207bae4cf19aef5df754cc387e"
+        },
+        {
+          "id": "009eb81635854c21a05e5ca1a4e375cf",
+          "title": "Utah Municipal Boundaries Cartography",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/009eb81635854c21a05e5ca1a4e375cf"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 51,
+      "sampled": [
+        {
+          "id": "4d29084d6e434ef397ae5922ba7402b4",
+          "title": "Utah Emergency Medical Services",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/4d29084d6e434ef397ae5922ba7402b4"
+        },
+        {
+          "id": "51d8a963411d4356ab3fa7a24146d203",
+          "title": "Utah Ski Lifts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/51d8a963411d4356ab3fa7a24146d203"
+        },
+        {
+          "id": "79175d7c83824f8591f98fd61ab2fa43",
+          "title": "Generalized Future Land Use (MAG 2024, WFRC 2020)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/79175d7c83824f8591f98fd61ab2fa43"
+        },
+        {
+          "id": "8193bd857b544abe91d97e05e9d5c390",
+          "title": "Generalized Future Land Use (MAG and WFRC 2025)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/8193bd857b544abe91d97e05e9d5c390"
+        },
+        {
+          "id": "987e0f104f584f119516cfebe5ca4bf1",
+          "title": "Utah Tax Entities 2025",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/987e0f104f584f119516cfebe5ca4bf1"
+        },
+        {
+          "id": "253573ab675345c5bd52d84a92e5439f",
+          "title": "Utah Tax Entities 2024",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/253573ab675345c5bd52d84a92e5439f"
+        },
+        {
+          "id": "ef79d0e5b12a414996dfcd461921c952",
+          "title": "Utah Bikeways",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/ef79d0e5b12a414996dfcd461921c952"
+        },
+        {
+          "id": "f974911ed47a4d36a4999be0990fd127",
+          "title": "Utah Planned Bikeways",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/f974911ed47a4d36a4999be0990fd127"
+        },
+        {
+          "id": "690c71cc2e4542f09275395c93aa9da6",
+          "title": "Bus Stop Ridership Table",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/690c71cc2e4542f09275395c93aa9da6"
+        },
+        {
+          "id": "32f010985c754fd288896c5aa28599bc",
+          "title": "Utah Airports",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/32f010985c754fd288896c5aa28599bc"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 7,
+      "sampled": [
+        {
+          "id": "d33f596419d74948a45070275632b8e0",
+          "title": "Utah Vista Ballot Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/d33f596419d74948a45070275632b8e0"
+        },
+        {
+          "id": "2d26eeca0e24484b90c18899682475fa",
+          "title": "Utah US Congress Districts 2022 to 2026",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/2d26eeca0e24484b90c18899682475fa"
+        },
+        {
+          "id": "d3388c1f7d894ab789247f6442855d66",
+          "title": "Utah US Congress Districts 2026 to 2032",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/d3388c1f7d894ab789247f6442855d66"
+        },
+        {
+          "id": "5289f23d9e76421f89d9a9ef4864937a",
+          "title": "Utah Senate Districts 2022 to 2032",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/5289f23d9e76421f89d9a9ef4864937a"
+        },
+        {
+          "id": "e0988dec873241b2851e2216f3f2fb30",
+          "title": "Utah Senate Districts 2012 to 2022",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/e0988dec873241b2851e2216f3f2fb30"
+        },
+        {
+          "id": "ebb7b8e8a0104b448d3bbf3ee82a5580",
+          "title": "Utah School Board Districts 2022 to 2032",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/ebb7b8e8a0104b448d3bbf3ee82a5580"
+        },
+        {
+          "id": "f2a30099ab1f404db2c0dffbc2856746",
+          "title": "Utah House Districts 2022 to 2032",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.gis.utah.gov/api/search/v1/collections/dataset/items/f2a30099ab1f404db2c0dffbc2856746"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}

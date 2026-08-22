@@ -1,0 +1,464 @@
+{
+  "host": "geoportal.hawaii.gov",
+  "state": "HI",
+  "categories": {
+    "budget": {
+      "matched": 0,
+      "sampled": []
+    },
+    "permits": {
+      "matched": 10,
+      "sampled": [
+        {
+          "id": "662795ebbc20438aa66aa150df7b1e2a",
+          "title": "Wastewater Treatment Plants",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/662795ebbc20438aa66aa150df7b1e2a"
+        },
+        {
+          "id": "edf20d8f936749e48f92dd07b2898f2b",
+          "title": "Restricted Watersheds",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/edf20d8f936749e48f92dd07b2898f2b"
+        },
+        {
+          "id": "5a9219603d4b41719562928716a30def",
+          "title": "Zoning (County of Maui)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/5a9219603d4b41719562928716a30def"
+        },
+        {
+          "id": "1f3c783a3f8c416e827a5f048e28a66b",
+          "title": "Campsites - Hawaii State Parks",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/1f3c783a3f8c416e827a5f048e28a66b"
+        },
+        {
+          "id": "f5c62bc211c448058cd4bfbc4141a9de",
+          "title": "Marine Managed Areas (DAR)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/f5c62bc211c448058cd4bfbc4141a9de"
+        },
+        {
+          "id": "ddbd915b4cf844b5be692f3d91e328f1",
+          "title": "Dams",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/ddbd915b4cf844b5be692f3d91e328f1"
+        },
+        {
+          "id": "5a41febd53a74b0c8ab41947e47d4de7",
+          "title": "Zoning (City and County of Honolulu)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/5a41febd53a74b0c8ab41947e47d4de7"
+        },
+        {
+          "id": "8c940fe2d945483bae9bd4c263d4c4a9",
+          "title": "Shoreline Public Access",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/8c940fe2d945483bae9bd4c263d4c4a9"
+        },
+        {
+          "id": "e81bcaf8da9a4140a09aa922ef918ea4",
+          "title": "Zoning (Hawaii County)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/e81bcaf8da9a4140a09aa922ef918ea4"
+        },
+        {
+          "id": "b488e59ebed949f4bc2fa5f9a4a5b9c3",
+          "title": "Traffic Analysis Zones (TAZ) - Oahu",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/b488e59ebed949f4bc2fa5f9a4a5b9c3"
+        }
+      ]
+    },
+    "property": {
+      "matched": 35,
+      "sampled": [
+        {
+          "id": "2381b9f8ce644c01a655ff0ead2e93a7",
+          "title": "HDOT Airports - Property Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/2381b9f8ce644c01a655ff0ead2e93a7"
+        },
+        {
+          "id": "f628f89202d649ca969006398dbf8635",
+          "title": "HDOT Airports - Property Boundary Sources",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/f628f89202d649ca969006398dbf8635"
+        },
+        {
+          "id": "1134f45827404510ab6e61a7461c85ed",
+          "title": "Parcels - County of Kauai",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/1134f45827404510ab6e61a7461c85ed"
+        },
+        {
+          "id": "827e11178c884c62a40709210b0a72ec",
+          "title": "DHHL Land Inventory - Official, Detailed Version",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/827e11178c884c62a40709210b0a72ec"
+        },
+        {
+          "id": "27e0a953cb594c86911f2dcb300a3d23",
+          "title": "DHHL Land Inventory - Official, Summary Version",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/27e0a953cb594c86911f2dcb300a3d23"
+        },
+        {
+          "id": "e7a2b95dec99477489bc3aa0b6f41017",
+          "title": "2020 Census Hawaiian Homelands",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/e7a2b95dec99477489bc3aa0b6f41017"
+        },
+        {
+          "id": "2deea5c799a749dc852973849cae3492",
+          "title": "County Parks (Hawaii County)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/2deea5c799a749dc852973849cae3492"
+        },
+        {
+          "id": "9b504c595db548f6aed6540c1165b8a6",
+          "title": "Government Land Ownership - Detailed",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/9b504c595db548f6aed6540c1165b8a6"
+        },
+        {
+          "id": "c617acac2f3940218a99bc9b6409f91d",
+          "title": "Maui Island Plan 2012 - Agricultural Preserves",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/c617acac2f3940218a99bc9b6409f91d"
+        },
+        {
+          "id": "73ac91e23120417cb7f858e788be4992",
+          "title": "Maui Island Plan 2012 - Protected Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/73ac91e23120417cb7f858e788be4992"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 33,
+      "sampled": [
+        {
+          "id": "636620e50cce4b44820c545eb3195a31",
+          "title": "Roads - Hawaii County",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/636620e50cce4b44820c545eb3195a31"
+        },
+        {
+          "id": "90d638beadec48da92c9369e92c43a8b",
+          "title": "Statewide Fire Stations - All Types",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/90d638beadec48da92c9369e92c43a8b"
+        },
+        {
+          "id": "bf706be992254fec9e9565d58062b32f",
+          "title": "EMS_Stations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/bf706be992254fec9e9565d58062b32f"
+        },
+        {
+          "id": "975566200fd2416f9b79802f7aef1ef6",
+          "title": "Affordable Rental Housing Inventory - HHFDC",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/975566200fd2416f9b79802f7aef1ef6"
+        },
+        {
+          "id": "21e89c35d7e1425bb6c9cc07e9f6f72d",
+          "title": "Trauma_Centers",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/21e89c35d7e1425bb6c9cc07e9f6f72d"
+        },
+        {
+          "id": "d511646ac663487f9b03a5d8bb87c693",
+          "title": "Adult Day Care Centers",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/d511646ac663487f9b03a5d8bb87c693"
+        },
+        {
+          "id": "b8e3075183b0407b93b5f11dc77cc66c",
+          "title": "Community Care Foster Family Homes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/b8e3075183b0407b93b5f11dc77cc66c"
+        },
+        {
+          "id": "db2d6efbdcf645c790d0cfffbbe4b4ee",
+          "title": "Developmental Disabilities Domiciliary Homes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/db2d6efbdcf645c790d0cfffbbe4b4ee"
+        },
+        {
+          "id": "6953e344ee174d68bfd8f0c315f1d3ad",
+          "title": "Skilled Nursing Facilities",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/6953e344ee174d68bfd8f0c315f1d3ad"
+        },
+        {
+          "id": "6a49a70c933d4ff2be053f6a92ccccb2",
+          "title": "Therapeutic Living Program Facilities",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/6a49a70c933d4ff2be053f6a92ccccb2"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 126,
+      "sampled": [
+        {
+          "id": "8b0b15f33e8249c9a6ff29192de27fb9",
+          "title": "Geothermal Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/8b0b15f33e8249c9a6ff29192de27fb9"
+        },
+        {
+          "id": "cd53906603144267972de936428e340b",
+          "title": "2010 Census County Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/cd53906603144267972de936428e340b"
+        },
+        {
+          "id": "2381b9f8ce644c01a655ff0ead2e93a7",
+          "title": "HDOT Airports - Property Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/2381b9f8ce644c01a655ff0ead2e93a7"
+        },
+        {
+          "id": "cef8796083d34934bbea610a3d06c7c3",
+          "title": "2015 Census County Boundaries ",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/cef8796083d34934bbea610a3d06c7c3"
+        },
+        {
+          "id": "3d389f2031554d2e84491c5d38635314",
+          "title": "2020 Census County Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/3d389f2031554d2e84491c5d38635314"
+        },
+        {
+          "id": "f53db223771046d7b4345cf0896e4b03",
+          "title": "Maui County Community Plan Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/f53db223771046d7b4345cf0896e4b03"
+        },
+        {
+          "id": "e95975b1397c429486e9453982922eca",
+          "title": "Foreign Trade Zone Number 9 Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/e95975b1397c429486e9453982922eca"
+        },
+        {
+          "id": "408646bbd78e4eeb87519dee48f85aa5",
+          "title": "Maui Island Plan 2012 - Growth Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/408646bbd78e4eeb87519dee48f85aa5"
+        },
+        {
+          "id": "bf379600c2ff433cbfddceac02deac82",
+          "title": "Hawaii Community Development Authority (HCDA) Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/bf379600c2ff433cbfddceac02deac82"
+        },
+        {
+          "id": "893e0ad0b7d04ebbbd49daa31f474b8e",
+          "title": "Hawaii County Council Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/893e0ad0b7d04ebbbd49daa31f474b8e"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 34,
+      "sampled": [
+        {
+          "id": "7585917a3bb845beb4f2f4b848c203c8",
+          "title": "Airports",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/7585917a3bb845beb4f2f4b848c203c8"
+        },
+        {
+          "id": "2381b9f8ce644c01a655ff0ead2e93a7",
+          "title": "HDOT Airports - Property Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/2381b9f8ce644c01a655ff0ead2e93a7"
+        },
+        {
+          "id": "cf77f4efd6a74493a0bc2dad96c54031",
+          "title": "Commercial Harbors",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/cf77f4efd6a74493a0bc2dad96c54031"
+        },
+        {
+          "id": "f628f89202d649ca969006398dbf8635",
+          "title": "HDOT Airports - Property Boundary Sources",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/f628f89202d649ca969006398dbf8635"
+        },
+        {
+          "id": "24e064fd23cb4a13b86bd97d18bbb86a",
+          "title": "Mile Markers",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/24e064fd23cb4a13b86bd97d18bbb86a"
+        },
+        {
+          "id": "d90ec964a6a54cb397a58a584243f3ab",
+          "title": "Highway Performance Monitoring System Roads for Hawaii (HPMS)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/d90ec964a6a54cb397a58a584243f3ab"
+        },
+        {
+          "id": "9a9e1f840dc84b9a9b25775f2d7e0acf",
+          "title": "National Bridge Inventory",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/9a9e1f840dc84b9a9b25775f2d7e0acf"
+        },
+        {
+          "id": "742f61a0e3614a1fb9cc3b7bf16a42d9",
+          "title": "DFIRM Base Flood Elevations (BFE)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/742f61a0e3614a1fb9cc3b7bf16a42d9"
+        },
+        {
+          "id": "fab1f11b31b84a5587bdb48e5d289db9",
+          "title": "Flood Hazard Areas (DFIRM) - Kauai County",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/fab1f11b31b84a5587bdb48e5d289db9"
+        },
+        {
+          "id": "d0389682ead94382b52aea7ec6ecf6b6",
+          "title": "DFIRM Special Flood Hazard Area Line Features",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/d0389682ead94382b52aea7ec6ecf6b6"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 16,
+      "sampled": [
+        {
+          "id": "c4fbb42ae1c741ffbd1d3cd0aef96c39",
+          "title": "US Congressional Districts 2011",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/c4fbb42ae1c741ffbd1d3cd0aef96c39"
+        },
+        {
+          "id": "f118f0223a754c04af9dd67c483d65b5",
+          "title": "US Congressional Districts 2001",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/f118f0223a754c04af9dd67c483d65b5"
+        },
+        {
+          "id": "32b91230f14043249c2cdb498a99a446",
+          "title": "Hawaii State House Districts 2012",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/32b91230f14043249c2cdb498a99a446"
+        },
+        {
+          "id": "a1aaca3508e14caaaff2b1bd7f5973ce",
+          "title": "Honolulu County Council Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/a1aaca3508e14caaaff2b1bd7f5973ce"
+        },
+        {
+          "id": "4116dea7b5974d508c745513a723a850",
+          "title": "Hawaii State House Districts 1991",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/4116dea7b5974d508c745513a723a850"
+        },
+        {
+          "id": "109d44c3cd2f4848a955e02bc5226a39",
+          "title": "Hawaii State Senate Districts 1991",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/109d44c3cd2f4848a955e02bc5226a39"
+        },
+        {
+          "id": "8b86d4ce4cb04b988cc4cfd790405cb2",
+          "title": "Hawaii State Senate Districts 2022",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/8b86d4ce4cb04b988cc4cfd790405cb2"
+        },
+        {
+          "id": "459253555a2045dcbb07a30b03a8729c",
+          "title": "Hawaii State Senate Districts 2001",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/459253555a2045dcbb07a30b03a8729c"
+        },
+        {
+          "id": "cb3ab977ff5d4b2bb493efd6df1bd3de",
+          "title": "Hawaii State House Districts 2001",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/cb3ab977ff5d4b2bb493efd6df1bd3de"
+        },
+        {
+          "id": "c2f8b485f2064ba1a117ececab301acd",
+          "title": "Hawaii State House Districts 2022",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/c2f8b485f2064ba1a117ececab301acd"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}

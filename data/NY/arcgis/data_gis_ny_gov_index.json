@@ -1,0 +1,408 @@
+{
+  "host": "data.gis.ny.gov",
+  "state": "NY",
+  "categories": {
+    "budget": {
+      "matched": 0,
+      "sampled": []
+    },
+    "permits": {
+      "matched": 25,
+      "sampled": [
+        {
+          "id": "868e2563fc6f4f4db85c3412a28b9d91",
+          "title": "Multi Sector General Permits MSGP",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/868e2563fc6f4f4db85c3412a28b9d91"
+        },
+        {
+          "id": "4f1f53ba97934e1cafaf68a11f7c489f",
+          "title": "Air Title V Permits ATV",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/4f1f53ba97934e1cafaf68a11f7c489f"
+        },
+        {
+          "id": "a29c5e334de14f63884ebe4855345f41",
+          "title": "Air State Facility Permits ASF",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/a29c5e334de14f63884ebe4855345f41"
+        },
+        {
+          "id": "a7625de85fdd42fc84cc08959ce4d111",
+          "title": "Radiation Control Permit Facilities",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/a7625de85fdd42fc84cc08959ce4d111"
+        },
+        {
+          "id": "2fbcb64a57f3489c831a456fe894ed00",
+          "title": "Air Facility Registrations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/2fbcb64a57f3489c831a456fe894ed00"
+        },
+        {
+          "id": "aa41f541bc4f4d78a998a7d56cc73f69",
+          "title": "Permit and Enforcement Hearings",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/aa41f541bc4f4d78a998a7d56cc73f69"
+        },
+        {
+          "id": "a581acd2b2544b51b48366bacf4ae8ef",
+          "title": "Permitted and Reclaimed Mines",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/a581acd2b2544b51b48366bacf4ae8ef"
+        },
+        {
+          "id": "99a3a0a8a42448e1b87f556a7ece562a",
+          "title": "Scenic Areas of Statewide Significance",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/99a3a0a8a42448e1b87f556a7ece562a"
+        },
+        {
+          "id": "b7cbbb6d520e428792d48b20ff63c0f3",
+          "title": "Previously Mapped Freshwater Wetlands",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/b7cbbb6d520e428792d48b20ff63c0f3"
+        },
+        {
+          "id": "b91e7cf90ba043dba4a929c82c5d7919",
+          "title": "Informational Freshwater Wetland Mapping",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/b91e7cf90ba043dba4a929c82c5d7919"
+        }
+      ]
+    },
+    "property": {
+      "matched": 30,
+      "sampled": [
+        {
+          "id": "bb2dfa2ccec0462ebe40e4efd8e2252f",
+          "title": "NY State Parks Property",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/bb2dfa2ccec0462ebe40e4efd8e2252f"
+        },
+        {
+          "id": "d3084b3c6e194a7b99bab7129096a1f6",
+          "title": "Oswego County Municipal Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/d3084b3c6e194a7b99bab7129096a1f6"
+        },
+        {
+          "id": "5d8f081fa69e405daddee78149b71575",
+          "title": "NYS Federal Properties",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/5d8f081fa69e405daddee78149b71575"
+        },
+        {
+          "id": "86b2d95b3dd54aafad1c1fcf95f09cdc",
+          "title": "Conservation Easements",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/86b2d95b3dd54aafad1c1fcf95f09cdc"
+        },
+        {
+          "id": "14712aa7795440c399bcba0f0b5bf48f",
+          "title": "Montgomery County Parcels",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/14712aa7795440c399bcba0f0b5bf48f"
+        },
+        {
+          "id": "860ba12f7a45453a80359780164a2046",
+          "title": "Adirondack Land Trust's Completed Projects",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/860ba12f7a45453a80359780164a2046"
+        },
+        {
+          "id": "9688b965177943629992a5aef7320f97",
+          "title": "Environmental Easements",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/9688b965177943629992a5aef7320f97"
+        },
+        {
+          "id": "c590c0026b1747b3a6fcdaec56230395",
+          "title": "NYS Tax Parcels State Owned",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/c590c0026b1747b3a6fcdaec56230395"
+        },
+        {
+          "id": "343d7dcba75c4f78b811e861939aa6e1",
+          "title": "Greene County Parcel Data",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/343d7dcba75c4f78b811e861939aa6e1"
+        },
+        {
+          "id": "6c4591c4e6af4c6381244642674a29af",
+          "title": "NYS_SWIS_Codes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/6c4591c4e6af4c6381244642674a29af"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 28,
+      "sampled": [
+        {
+          "id": "dfa176b4cf284539812c05478dc028d2",
+          "title": "NYS Address Points",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/dfa176b4cf284539812c05478dc028d2"
+        },
+        {
+          "id": "7d5dff6bcf664e6f83abee9968fc7916",
+          "title": "NYS Streets",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/7d5dff6bcf664e6f83abee9968fc7916"
+        },
+        {
+          "id": "a6bbc64e38f04c1c9dfa3c2399f536c4",
+          "title": "NYS Building Footprints",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/a6bbc64e38f04c1c9dfa3c2399f536c4"
+        },
+        {
+          "id": "05c39f17001a4834b858b7cfffc0e7c4",
+          "title": "DOT Facility",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/05c39f17001a4834b858b7cfffc0e7c4"
+        },
+        {
+          "id": "1ccbc345c8c34290b0d49576551bbfba",
+          "title": "NYSDOT Certified Business Enterprises",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/1ccbc345c8c34290b0d49576551bbfba"
+        },
+        {
+          "id": "96082bbe6b134632af82b7e5db637525",
+          "title": "Environmental Justice (OEJ) Grants",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/96082bbe6b134632af82b7e5db637525"
+        },
+        {
+          "id": "789201a43191477dbbc2078864a05bf1",
+          "title": "NYS Senate Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/789201a43191477dbbc2078864a05bf1"
+        },
+        {
+          "id": "bce964dbd79049e6880c6070d54aab80",
+          "title": "NYS Assembly Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/bce964dbd79049e6880c6070d54aab80"
+        },
+        {
+          "id": "5664e9611d514f4eb366dccabd71142e",
+          "title": "US Senate Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/5664e9611d514f4eb366dccabd71142e"
+        },
+        {
+          "id": "cd14ac6fb4b947c296eee07d87a49157",
+          "title": "NYS Congressional Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/cd14ac6fb4b947c296eee07d87a49157"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 67,
+      "sampled": [
+        {
+          "id": "e977bbe8944049798d65ee0d990bb36d",
+          "title": "DOT Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/e977bbe8944049798d65ee0d990bb36d"
+        },
+        {
+          "id": "074d3456e5664f5e85d0fb251d05cc5b",
+          "title": "NYS Civil Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/074d3456e5664f5e85d0fb251d05cc5b"
+        },
+        {
+          "id": "d3084b3c6e194a7b99bab7129096a1f6",
+          "title": "Oswego County Municipal Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/d3084b3c6e194a7b99bab7129096a1f6"
+        },
+        {
+          "id": "3d0000efe9f54f7e95641932c3bdcd03",
+          "title": "Designated Brownfield Opportunity Area Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/3d0000efe9f54f7e95641932c3bdcd03"
+        },
+        {
+          "id": "49223d706b044a499994f182a115c98e",
+          "title": "State Land Forest Stands",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/49223d706b044a499994f182a115c98e"
+        },
+        {
+          "id": "94ce53ef7d2a4ce69226d4c55c6e1a45",
+          "title": "Ecological Regions",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/94ce53ef7d2a4ce69226d4c55c6e1a45"
+        },
+        {
+          "id": "daf1533173d34822b9b57489927f5fef",
+          "title": "Downtown Revitalization Initiative (DRI) Area Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/daf1533173d34822b9b57489927f5fef"
+        },
+        {
+          "id": "ce8cdfd740be44e1853d5eebda0b92f7",
+          "title": "New York Forward (NYF) Area Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/ce8cdfd740be44e1853d5eebda0b92f7"
+        },
+        {
+          "id": "fb9a849ce48f49c9aeeea389bdc3548a",
+          "title": "OPWDD Regional Offices and State Operations Offices Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/fb9a849ce48f49c9aeeea389bdc3548a"
+        },
+        {
+          "id": "bb2dfa2ccec0462ebe40e4efd8e2252f",
+          "title": "NY State Parks Property",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/bb2dfa2ccec0462ebe40e4efd8e2252f"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 27,
+      "sampled": [
+        {
+          "id": "a721c53de53c44b6b980272601f7f07c",
+          "title": "Capital District Transportation Authority",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/a721c53de53c44b6b980272601f7f07c"
+        },
+        {
+          "id": "ab5d56644a404b41bac8d72f32017e4e",
+          "title": "DEC Trails",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/ab5d56644a404b41bac8d72f32017e4e"
+        },
+        {
+          "id": "41e5968a528d418eb8197e2ea69404d9",
+          "title": "Campground Roads and Trails",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/41e5968a528d418eb8197e2ea69404d9"
+        },
+        {
+          "id": "d26f68c10e3f4f38a6cd65bc2aedfe70",
+          "title": "DEC Regions ",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/d26f68c10e3f4f38a6cd65bc2aedfe70"
+        },
+        {
+          "id": "82bdd07126534777870fc8a8496b3095",
+          "title": "NYS_24K_Quad_Map_Index",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/82bdd07126534777870fc8a8496b3095"
+        },
+        {
+          "id": "ffcdc0d1a4474d34be48e24376510216",
+          "title": "NYS Place Points",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/ffcdc0d1a4474d34be48e24376510216"
+        },
+        {
+          "id": "9e038774ef034c7cae5374f3e23f7a67",
+          "title": "NYSDOT Structures",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/9e038774ef034c7cae5374f3e23f7a67"
+        },
+        {
+          "id": "1bee878a65cd41feac13d2e81e0c02f6",
+          "title": "Public Fishing Parking Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/1bee878a65cd41feac13d2e81e0c02f6"
+        },
+        {
+          "id": "7d5dff6bcf664e6f83abee9968fc7916",
+          "title": "NYS Streets",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/7d5dff6bcf664e6f83abee9968fc7916"
+        },
+        {
+          "id": "05c39f17001a4834b858b7cfffc0e7c4",
+          "title": "DOT Facility",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/05c39f17001a4834b858b7cfffc0e7c4"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 2,
+      "sampled": [
+        {
+          "id": "23a056702cfd40848deef9597945a998",
+          "title": "NYS Elections Districts and Polling Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/23a056702cfd40848deef9597945a998"
+        },
+        {
+          "id": "3a08ed4c68774a4798865a69b8c61cfe",
+          "title": "Landward Coastal Area Boundary",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.gis.ny.gov/api/search/v1/collections/dataset/items/3a08ed4c68774a4798865a69b8c61cfe"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}

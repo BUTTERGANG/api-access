@@ -1,0 +1,535 @@
+{
+  "host": "opendata.dc.gov",
+  "state": "DC",
+  "categories": {
+    "budget": {
+      "matched": 17,
+      "sampled": [
+        {
+          "id": "3ab69ad2cbf049b1851f14cb2fcdd440",
+          "title": "Payments from PASS",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/3ab69ad2cbf049b1851f14cb2fcdd440"
+        },
+        {
+          "id": "b8b18bf60f214460a827f8da7e28daae",
+          "title": "Solicitations from PASS",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/b8b18bf60f214460a827f8da7e28daae"
+        },
+        {
+          "id": "7ff10456296b48e5a713186094de78f4",
+          "title": "Forecast from PASS",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/7ff10456296b48e5a713186094de78f4"
+        },
+        {
+          "id": "28fffe702af44277956763e50c35f577",
+          "title": "Purchase Orders from PASS",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/28fffe702af44277956763e50c35f577"
+        },
+        {
+          "id": "fcad283240224004a3e0b3ed528bd7f8",
+          "title": "High Injury Network",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/fcad283240224004a3e0b3ed528bd7f8"
+        },
+        {
+          "id": "dc4071b2f5fc47519ead7bc3e90ff180",
+          "title": "Contracts from PASS",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/dc4071b2f5fc47519ead7bc3e90ff180"
+        },
+        {
+          "id": "fcfbf29074e549d8aff9b9c708179291",
+          "title": "Advisory Neighborhood Commissions from 2013",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/fcfbf29074e549d8aff9b9c708179291"
+        },
+        {
+          "id": "bfe6977cfd574c2b894cd67cf6a787c3",
+          "title": "Advisory Neighborhood Commissions from 2002",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/bfe6977cfd574c2b894cd67cf6a787c3"
+        },
+        {
+          "id": "43abcd2b386345228114505b188d58f1",
+          "title": "Advisory Neighborhood Commissions from 2023",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/43abcd2b386345228114505b188d58f1"
+        },
+        {
+          "id": "6c8ccacbe401477c8613eeaf70075c20",
+          "title": "District Government Agencies",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/6c8ccacbe401477c8613eeaf70075c20"
+        }
+      ]
+    },
+    "permits": {
+      "matched": 101,
+      "sampled": [
+        {
+          "id": "84fdf39aaa3a4e75ba9e7a167577daa8",
+          "title": "DC Well Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/84fdf39aaa3a4e75ba9e7a167577daa8"
+        },
+        {
+          "id": "7439e86589a94a19907ac8fc0b5f9e56",
+          "title": "Occupancy Permits in 2026",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/7439e86589a94a19907ac8fc0b5f9e56"
+        },
+        {
+          "id": "17780b21c4d34b39a0eda85df4c0160f",
+          "title": "Construction Permits in 2026",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/17780b21c4d34b39a0eda85df4c0160f"
+        },
+        {
+          "id": "d4891ca6951947538f6707a6b07ae225",
+          "title": "Building Permits in 2014",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/d4891ca6951947538f6707a6b07ae225"
+        },
+        {
+          "id": "7296e6392349498bb6ba6ba3db836644",
+          "title": "Building Permits in 2026",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/7296e6392349498bb6ba6ba3db836644"
+        },
+        {
+          "id": "52e671890cb445eba9023313b1a85804",
+          "title": "Building Permits in 2019",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/52e671890cb445eba9023313b1a85804"
+        },
+        {
+          "id": "972618416ec14a9c91c77f9730a4461d",
+          "title": "Building Permits in 2022",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/972618416ec14a9c91c77f9730a4461d"
+        },
+        {
+          "id": "55dccc27863f44beb6a923e032f35d28",
+          "title": "Building Permits in 2024",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/55dccc27863f44beb6a923e032f35d28"
+        },
+        {
+          "id": "981c105beef74af38cc4090992661264",
+          "title": "Building Permits in 2015",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/981c105beef74af38cc4090992661264"
+        },
+        {
+          "id": "42cbd10c2d6848858374facb06135970",
+          "title": "Building Permits in 2018",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/42cbd10c2d6848858374facb06135970"
+        }
+      ]
+    },
+    "property": {
+      "matched": 130,
+      "sampled": [
+        {
+          "id": "ee35b5aa5ca643679fb37c141c532a92",
+          "title": "Tax System Property Sales (CAMA)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/ee35b5aa5ca643679fb37c141c532a92"
+        },
+        {
+          "id": "f1c50ea5db704ed39f753f16dff964af",
+          "title": "Real Property Tax Assessment Neighborhoods",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/f1c50ea5db704ed39f753f16dff964af"
+        },
+        {
+          "id": "78b51eb5125044989d214cbc8bc0eea3",
+          "title": "Integrated Tax System Public Extract Vacant Property",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/78b51eb5125044989d214cbc8bc0eea3"
+        },
+        {
+          "id": "9d8e09cb7403445ca8b4354cac6ae776",
+          "title": "Integrated Tax System Property Use Codes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/9d8e09cb7403445ca8b4354cac6ae776"
+        },
+        {
+          "id": "edfec5a1434848dc9faab79dd55c1e64",
+          "title": "Real Property Tax Assessment Sub-Neighborhoods",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/edfec5a1434848dc9faab79dd55c1e64"
+        },
+        {
+          "id": "3bf98674681e43fab6ddf578a48bf991",
+          "title": "Hospital Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/3bf98674681e43fab6ddf578a48bf991"
+        },
+        {
+          "id": "036b658d91a649378c2706068a82cbcb",
+          "title": "Highway Plan Lines",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/036b658d91a649378c2706068a82cbcb"
+        },
+        {
+          "id": "e52cf8cfd7004cee845ae5d915f47d72",
+          "title": "Public Easement Lines",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/e52cf8cfd7004cee845ae5d915f47d72"
+        },
+        {
+          "id": "5180d3725cd249d2a2970b322213ec1a",
+          "title": "Tax Exempt Properties",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/5180d3725cd249d2a2970b322213ec1a"
+        },
+        {
+          "id": "53b94fc3cfd94506a7eb82d9796fbbc1",
+          "title": "Parking Meters",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/53b94fc3cfd94506a7eb82d9796fbbc1"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 341,
+      "sampled": [
+        {
+          "id": "da48e51ca21e450f9bcd1a39f098f2ca",
+          "title": "Vacant and Blighted Building Addresses",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/da48e51ca21e450f9bcd1a39f098f2ca"
+        },
+        {
+          "id": "882cf5af8c864308a48f252e783ca7ca",
+          "title": "Address SMD and ANC Changes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/882cf5af8c864308a48f252e783ca7ca"
+        },
+        {
+          "id": "aa514416aaf74fdc94748f1e56e7cc8a",
+          "title": "Address Points",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/aa514416aaf74fdc94748f1e56e7cc8a"
+        },
+        {
+          "id": "7122c1c815314588abe5c1864da8a355",
+          "title": "Recreation Facilities",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/7122c1c815314588abe5c1864da8a355"
+        },
+        {
+          "id": "00a2a3ea3fe944f3b4ec93a22c387a4e",
+          "title": "Integrated Tax System Tax Rate Codes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/00a2a3ea3fe944f3b4ec93a22c387a4e"
+        },
+        {
+          "id": "a94263193b4c43e697e2894cf1471c69",
+          "title": "Integrated Tax System Mixed Tax Types",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/a94263193b4c43e697e2894cf1471c69"
+        },
+        {
+          "id": "c3c0ae91dca54c5d9ce56962fa0dd645",
+          "title": "Address Residential Units",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/c3c0ae91dca54c5d9ce56962fa0dd645"
+        },
+        {
+          "id": "c17dc14f6a9a4d60a31cdeda310fe7ad",
+          "title": "Underground Storage Tanks",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/c17dc14f6a9a4d60a31cdeda310fe7ad"
+        },
+        {
+          "id": "c0583386248d43dbbafe062672c317a9",
+          "title": "Mowing Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/c0583386248d43dbbafe062672c317a9"
+        },
+        {
+          "id": "d4891ca6951947538f6707a6b07ae225",
+          "title": "Building Permits in 2014",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/d4891ca6951947538f6707a6b07ae225"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 162,
+      "sampled": [
+        {
+          "id": "84ab8b676a384c339062b53dca3bdfa2",
+          "title": "Square Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/84ab8b676a384c339062b53dca3bdfa2"
+        },
+        {
+          "id": "f454a3c756fc4813976b5affcfef5f98",
+          "title": "L'Enfant Plan Street Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/f454a3c756fc4813976b5affcfef5f98"
+        },
+        {
+          "id": "4a84fa926f234916b129cbc022ec4935",
+          "title": "Senior Village Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/4a84fa926f234916b129cbc022ec4935"
+        },
+        {
+          "id": "dabd2ab7f65041b2b4b1ba5e29fe6461",
+          "title": "Commission of Fine Arts Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/dabd2ab7f65041b2b4b1ba5e29fe6461"
+        },
+        {
+          "id": "fd7c1d709bca4a9295b6fa5ec7d62446",
+          "title": "Zoning Boundaries (Zoning Regulations of 2016)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/fd7c1d709bca4a9295b6fa5ec7d62446"
+        },
+        {
+          "id": "0be36e1f2a6a43638a0d15ac540747a2",
+          "title": "L'Enfant Plan Boundary",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/0be36e1f2a6a43638a0d15ac540747a2"
+        },
+        {
+          "id": "900148002b174f13881ecd3961119d9c",
+          "title": "District Revitalization Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/900148002b174f13881ecd3961119d9c"
+        },
+        {
+          "id": "2845d25862164d8fa10f4102d47151c4",
+          "title": "Anacostia Waterfront Initiative",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/2845d25862164d8fa10f4102d47151c4"
+        },
+        {
+          "id": "37a6ecfe6ed3412abbae967ec957582c",
+          "title": "Wards from 1992",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/37a6ecfe6ed3412abbae967ec957582c"
+        },
+        {
+          "id": "a4442c906559456eb6ef3ea0898fe994",
+          "title": "Wards from 2002",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/a4442c906559456eb6ef3ea0898fe994"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 725,
+      "sampled": [
+        {
+          "id": "2d9747c288644b0caa8c21667a629ccd",
+          "title": "Non-Emergency Transportation",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/2d9747c288644b0caa8c21667a629ccd"
+        },
+        {
+          "id": "5b99b84ef5c0454e87494c6d9b7fa728",
+          "title": "Transportation Study Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/5b99b84ef5c0454e87494c6d9b7fa728"
+        },
+        {
+          "id": "e6bf4763ecdc41d8ad50276d09004467",
+          "title": "2030 Proposed Rapid Bus",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/e6bf4763ecdc41d8ad50276d09004467"
+        },
+        {
+          "id": "9ee92fd0fd6947d5b8b7b0651b997ae7",
+          "title": "2030 Proposed Bus Rapid Transit",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/9ee92fd0fd6947d5b8b7b0651b997ae7"
+        },
+        {
+          "id": "4c92d573a66a4079a41cba615263f1f6",
+          "title": "Bus Parking",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/4c92d573a66a4079a41cba615263f1f6"
+        },
+        {
+          "id": "240156f8a5af4c949f204db73bc661d4",
+          "title": "School Crossing Guards",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/240156f8a5af4c949f204db73bc661d4"
+        },
+        {
+          "id": "d0c39bcc92cf4c128d373cde385ca812",
+          "title": "Emergency Work Requests (via DDOT TOPs)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/d0c39bcc92cf4c128d373cde385ca812"
+        },
+        {
+          "id": "bb23f4569d0d44bbb0ec3788cc7f57cb",
+          "title": "Park and Ride Lots",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/bb23f4569d0d44bbb0ec3788cc7f57cb"
+        },
+        {
+          "id": "01cfe9d0cc1b40cba1e37178074b3fe2",
+          "title": "Park and Ride Points",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/01cfe9d0cc1b40cba1e37178074b3fe2"
+        },
+        {
+          "id": "6cb6520725b0489d9a209a337818fad1",
+          "title": "Street Lights",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/6cb6520725b0489d9a209a337818fad1"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 23,
+      "sampled": [
+        {
+          "id": "821b21a5b95347e182df2ae70721394b",
+          "title": "Voting Precinct 2002",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/821b21a5b95347e182df2ae70721394b"
+        },
+        {
+          "id": "8d512fde2ba34212ad07e9579d55496f",
+          "title": "Voting Precinct",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/8d512fde2ba34212ad07e9579d55496f"
+        },
+        {
+          "id": "e1fc5f9a8d3e4408a064107d20630de7",
+          "title": "Voting Precinct 2008",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/e1fc5f9a8d3e4408a064107d20630de7"
+        },
+        {
+          "id": "44cdf2570d8545dd9c9868e2a2f570c8",
+          "title": "Voting Precinct 2012",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/44cdf2570d8545dd9c9868e2a2f570c8"
+        },
+        {
+          "id": "aa56386bddd04266a7df3fd83e6f0250",
+          "title": "Voting Precinct 1990",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/aa56386bddd04266a7df3fd83e6f0250"
+        },
+        {
+          "id": "09f6810bb5a84ae6a07272b05bea6528",
+          "title": "Voting Precinct 2019",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/09f6810bb5a84ae6a07272b05bea6528"
+        },
+        {
+          "id": "92e0ca5089e944fbba1b6db5b8627db5",
+          "title": "Mail Ballot Drop Boxes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/92e0ca5089e944fbba1b6db5b8627db5"
+        },
+        {
+          "id": "3f96a78c5c614794bb665812ed8ae060",
+          "title": "Election Day Vote Center",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/3f96a78c5c614794bb665812ed8ae060"
+        },
+        {
+          "id": "45576868e682429c85c3716a21947bd4",
+          "title": "School Election Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/45576868e682429c85c3716a21947bd4"
+        },
+        {
+          "id": "6113cea8cd574d5baa312ef2d50e61d6",
+          "title": "Early Vote Center",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://opendata.dc.gov/api/search/v1/collections/dataset/items/6113cea8cd574d5baa312ef2d50e61d6"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}

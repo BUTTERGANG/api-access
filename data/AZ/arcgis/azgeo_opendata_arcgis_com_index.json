@@ -1,0 +1,409 @@
+{
+  "host": "azgeo.opendata.arcgis.com",
+  "state": "AZ",
+  "categories": {
+    "budget": {
+      "matched": 7,
+      "sampled": [
+        {
+          "id": "d921fb924ac347199a5ee30cabdae1a1",
+          "title": "E Rate Libraries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/d921fb924ac347199a5ee30cabdae1a1"
+        },
+        {
+          "id": "992515d6956b46aeaba1ca774916fee1",
+          "title": "4: Anthem to DRT",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/992515d6956b46aeaba1ca774916fee1"
+        },
+        {
+          "id": "7b41ea5c3c6f4679b27fee8aac8908f7",
+          "title": "5: Goodyear to Gila Bend",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/7b41ea5c3c6f4679b27fee8aac8908f7"
+        },
+        {
+          "id": "99fdca5032824518bdc97f8a364f5c6c",
+          "title": "2: Wittmann to Anthem",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/99fdca5032824518bdc97f8a364f5c6c"
+        },
+        {
+          "id": "19772f5e5e144c28af1e974eac072ca2",
+          "title": "Proposed routes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/19772f5e5e144c28af1e974eac072ca2"
+        },
+        {
+          "id": "a039e7bd3de84a86935f8b468ac45f0b",
+          "title": "1: Aguila to I10 & HWY60",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/a039e7bd3de84a86935f8b468ac45f0b"
+        },
+        {
+          "id": "4d25eb36e7c3456a8f2672f686c60b29",
+          "title": "3: DRT to Goodyear",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/4d25eb36e7c3456a8f2672f686c60b29"
+        }
+      ]
+    },
+    "permits": {
+      "matched": 2,
+      "sampled": [
+        {
+          "id": "ae8227a962724f98a045064bbfbed3c2",
+          "title": "ADOT 2021 Pavement Condition Data",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/ae8227a962724f98a045064bbfbed3c2"
+        },
+        {
+          "id": "29814ec273534586ba28f52872131905",
+          "title": "Mileposts View",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/29814ec273534586ba28f52872131905"
+        }
+      ]
+    },
+    "property": {
+      "matched": 20,
+      "sampled": [
+        {
+          "id": "39fa9204197f4d5aa7b94f3d6656719a",
+          "title": "Arizona Tax Area Codes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/39fa9204197f4d5aa7b94f3d6656719a"
+        },
+        {
+          "id": "c059ca95906f4e3a92d0618f6fab01b6",
+          "title": "Arizona Municipal and Fire District Annexations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/c059ca95906f4e3a92d0618f6fab01b6"
+        },
+        {
+          "id": "81f3dd0558344a5499bbca2c48b57987",
+          "title": "Arizona Coronado NF Pinnacle Post Fire 2021",
+          "type": "Image Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/81f3dd0558344a5499bbca2c48b57987"
+        },
+        {
+          "id": "05de1d4dd77645a7ba543a8f50cc862c",
+          "title": "Arizona Tonto NF Telegraph Post Fire 2021",
+          "type": "Image Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/05de1d4dd77645a7ba543a8f50cc862c"
+        },
+        {
+          "id": "5526371eece8468095018700d0652e2a",
+          "title": "Arizona Multiple NFs Backbone Post Fire 2021",
+          "type": "Image Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/5526371eece8468095018700d0652e2a"
+        },
+        {
+          "id": "126477909ad04499894fa07d4c52ce1c",
+          "title": "Arizona Multiple NFs Rafael Post Fire 2021",
+          "type": "Image Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/126477909ad04499894fa07d4c52ce1c"
+        },
+        {
+          "id": "f03a1d3a2a8046b18ad0d23d1d0d605c",
+          "title": "Arizona Apache Sitgreaves NF Horton Post Fire 2021",
+          "type": "Image Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/f03a1d3a2a8046b18ad0d23d1d0d605c"
+        },
+        {
+          "id": "00b4110edf15485d8a0d64b61f635a53",
+          "title": "Arizona Coconino NF Slate Post Fire 2021",
+          "type": "Image Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/00b4110edf15485d8a0d64b61f635a53"
+        },
+        {
+          "id": "1ee50bd7878b4f78ba894c178d676bcb",
+          "title": "WeLoveYourDataOutput_20240506CPM_ForNewAppPublish",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/1ee50bd7878b4f78ba894c178d676bcb"
+        },
+        {
+          "id": "6f41ce0de26b42e292688b91074e69e3",
+          "title": "US NPS Land Resources Division Boundary and Tract Data Service",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/6f41ce0de26b42e292688b91074e69e3"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 108,
+      "sampled": [
+        {
+          "id": "4c50691255514378925627e724aca5e5",
+          "title": "Transit Agencies",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/4c50691255514378925627e724aca5e5"
+        },
+        {
+          "id": "e2b7c36c28014c82802095939a579b05",
+          "title": "US NHD Point Event",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/e2b7c36c28014c82802095939a579b05"
+        },
+        {
+          "id": "eab3c6c60d604781a2ac186586dd2604",
+          "title": "Address Point NG911 Downloadable Dataset",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/eab3c6c60d604781a2ac186586dd2604"
+        },
+        {
+          "id": "9422b05086cc4c5c9f2b8669eee4cbaf",
+          "title": "Maricopa County Address Points",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/9422b05086cc4c5c9f2b8669eee4cbaf"
+        },
+        {
+          "id": "20f03a35afad49b1a4a9d0af4b4f2666",
+          "title": "Arizona NG911 Site Structure Address Points",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/20f03a35afad49b1a4a9d0af4b4f2666"
+        },
+        {
+          "id": "c3ff8a9be88a4c40934dc83ba74fb85c",
+          "title": "AGOL Downloadable Address_Point_NG911_Downloadable_Datasets_gdb",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/c3ff8a9be88a4c40934dc83ba74fb85c"
+        },
+        {
+          "id": "eb19170464834132abbb6bbd47eb750d",
+          "title": "SiteStructureAddressPoint",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/eb19170464834132abbb6bbd47eb750d"
+        },
+        {
+          "id": "2b6593888c684024bc9d2a1d6c607854",
+          "title": "Demarcation_Points",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/2b6593888c684024bc9d2a1d6c607854"
+        },
+        {
+          "id": "463d126960b84eea8be254fa82a7b250",
+          "title": "Road Centerline NG911 Downloadable Dataset",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/463d126960b84eea8be254fa82a7b250"
+        },
+        {
+          "id": "024f011f84ee4c3290b903333c61a526",
+          "title": "SSAP_RCL_Projected_gdb",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/024f011f84ee4c3290b903333c61a526"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 172,
+      "sampled": [
+        {
+          "id": "d8b4245a68c244458d561201f2770666",
+          "title": "BOUNDARIES",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/d8b4245a68c244458d561201f2770666"
+        },
+        {
+          "id": "ec14a31e51b94c1da43a4d31a93d9c04",
+          "title": "County_Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/ec14a31e51b94c1da43a4d31a93d9c04"
+        },
+        {
+          "id": "545fc0393f0747cb9665848a75f9b23c",
+          "title": "Arizona County Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/545fc0393f0747cb9665848a75f9b23c"
+        },
+        {
+          "id": "31a2585749d44da1ba5e164d964dd047",
+          "title": "ALRIS Tile Index Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/31a2585749d44da1ba5e164d964dd047"
+        },
+        {
+          "id": "43355e4700244806a3ccf0ac6e6d2a01",
+          "title": "Adjusted_Urban_Boundaries_DRAFT",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/43355e4700244806a3ccf0ac6e6d2a01"
+        },
+        {
+          "id": "46dced1c928f4ebca6d05fa539c07f63",
+          "title": "Sun Cloud Jurisdictional Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/46dced1c928f4ebca6d05fa539c07f63"
+        },
+        {
+          "id": "95985243128a43ddac54dd1e46f9c76c",
+          "title": "Adjusted_Urban_Boundaries_2013",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/95985243128a43ddac54dd1e46f9c76c"
+        },
+        {
+          "id": "afde19ec44f64d3f97d0946b4f133ef6",
+          "title": "Arizona 7.5 Minute Quadrangle Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/afde19ec44f64d3f97d0946b4f133ef6"
+        },
+        {
+          "id": "d5ad7372b6d248f1b7d7859c26ee84b3",
+          "title": "City of Prescott Zoning Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/d5ad7372b6d248f1b7d7859c26ee84b3"
+        },
+        {
+          "id": "556e4cb5d0fc444782412b951a3a9fdb",
+          "title": "Zoo Boundary",
+          "type": "Shapefile",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/556e4cb5d0fc444782412b951a3a9fdb"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 150,
+      "sampled": [
+        {
+          "id": "baf895663981462ea516a8dd75599e4e",
+          "title": "Transportation",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/baf895663981462ea516a8dd75599e4e"
+        },
+        {
+          "id": "b2fed10512e84af2b0dc079db21e24e4",
+          "title": "AZTransBoardDistricts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/b2fed10512e84af2b0dc079db21e24e4"
+        },
+        {
+          "id": "a132af0526004b56a5e240baee96ebf3",
+          "title": "dataProject_RTAC",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/a132af0526004b56a5e240baee96ebf3"
+        },
+        {
+          "id": "d65e3426ae0142ab9a88135a085d7b83",
+          "title": "UrbanAreas_Smoothed2023",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/d65e3426ae0142ab9a88135a085d7b83"
+        },
+        {
+          "id": "13107680def14f39aae806dd7222674e",
+          "title": "AZGeo Account Request: Transportation Alternatives Application_form",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/13107680def14f39aae806dd7222674e"
+        },
+        {
+          "id": "8d9b63056d6f4cfb96e2b9a5c13dabb9",
+          "title": "Arizona COG",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/8d9b63056d6f4cfb96e2b9a5c13dabb9"
+        },
+        {
+          "id": "e72479c71ceb4ff4ab4c2b139632e6b8",
+          "title": "Central Arizona MAG Planning Area Boundary",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/e72479c71ceb4ff4ab4c2b139632e6b8"
+        },
+        {
+          "id": "024d232820914dea89e96040085ca7f0",
+          "title": "Arizona Adjusted Urbanized Areas, 2013",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/024d232820914dea89e96040085ca7f0"
+        },
+        {
+          "id": "bbbc856916104f7fb20cae59638c8bf0",
+          "title": "ADOT Traffic Events",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/bbbc856916104f7fb20cae59638c8bf0"
+        },
+        {
+          "id": "528f2d273e734274b1dab4f4bd96132e",
+          "title": "Existing Land Use for Cochise County, Arizona, 2021",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/528f2d273e734274b1dab4f4bd96132e"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 3,
+      "sampled": [
+        {
+          "id": "86955f5114b849b7a06760acc43b8842",
+          "title": "Arizona Legislative Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/86955f5114b849b7a06760acc43b8842"
+        },
+        {
+          "id": "ce24edcd70e349c681305be115e5806a",
+          "title": "Arizona U.S. Congressional Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/ce24edcd70e349c681305be115e5806a"
+        },
+        {
+          "id": "6ef5e4d781d8433894d48d77188fceee",
+          "title": "Maricopa County Cities and Towns - Symbology",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://azgeo.opendata.arcgis.com/api/search/v1/collections/dataset/items/6ef5e4d781d8433894d48d77188fceee"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}

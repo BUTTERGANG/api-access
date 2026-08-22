@@ -1,0 +1,457 @@
+{
+  "host": "nconemap.gov",
+  "state": "NC",
+  "categories": {
+    "budget": {
+      "matched": 0,
+      "sampled": []
+    },
+    "permits": {
+      "matched": 21,
+      "sampled": [
+        {
+          "id": "ab707c50155248cbbdfad2c52f4f52d1",
+          "title": "DWR Non Discharge Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/ab707c50155248cbbdfad2c52f4f52d1"
+        },
+        {
+          "id": "cd70229f8b1f407caa28c2586857c5f4",
+          "title": "NPDES Wastewater Discharge Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/cd70229f8b1f407caa28c2586857c5f4"
+        },
+        {
+          "id": "f283cbe779074b558bcb23c99aead2ec",
+          "title": "Animal Feed Operation Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/f283cbe779074b558bcb23c99aead2ec"
+        },
+        {
+          "id": "e614469ac91f4f6a832619d3a926e164",
+          "title": "401 Certification Wetland Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/e614469ac91f4f6a832619d3a926e164"
+        },
+        {
+          "id": "5c95c536e3274cc48dae664a80bd5e28",
+          "title": "Active Permitted Landfills",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/5c95c536e3274cc48dae664a80bd5e28"
+        },
+        {
+          "id": "9f5a523dd70649a995d74240bb91ef86",
+          "title": "Permitted SW Landfills",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/9f5a523dd70649a995d74240bb91ef86"
+        },
+        {
+          "id": "15b781116cb04fc9bc2a5737af11782c",
+          "title": "Permitted Compost Facilities",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/15b781116cb04fc9bc2a5737af11782c"
+        },
+        {
+          "id": "67d9579aeeda45a68642bb4489ca369f",
+          "title": "Permitted Solid Waste Landfills",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/67d9579aeeda45a68642bb4489ca369f"
+        },
+        {
+          "id": "32cfbe84806c467c8f648ea040ae6d63",
+          "title": "Other Permitted SW Facilities",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/32cfbe84806c467c8f648ea040ae6d63"
+        },
+        {
+          "id": "4f16bc095df2496bbbb0b1b34abd03dd",
+          "title": "Other Permitted Solid Waste Facilities",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/4f16bc095df2496bbbb0b1b34abd03dd"
+        }
+      ]
+    },
+    "property": {
+      "matched": 18,
+      "sampled": [
+        {
+          "id": "4036f19fe1f145f39189108060284ee4",
+          "title": "Inactive Hazardous Sites",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/4036f19fe1f145f39189108060284ee4"
+        },
+        {
+          "id": "7e38172534cd4f88a65d738a2baff4ac",
+          "title": "NC Brownfields AEC_View",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/7e38172534cd4f88a65d738a2baff4ac"
+        },
+        {
+          "id": "4a6e963d9b0a4306a95fee35a5a150d1",
+          "title": "NC Brownfields Location_View",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/4a6e963d9b0a4306a95fee35a5a150d1"
+        },
+        {
+          "id": "91c068363523484fa2221d0e27998f7c",
+          "title": "NC Non-Public Schools (Latest Version)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/91c068363523484fa2221d0e27998f7c"
+        },
+        {
+          "id": "cb87c400320f4d0480f749934b114572",
+          "title": "NC Brownfields Boundary_View",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/cb87c400320f4d0480f749934b114572"
+        },
+        {
+          "id": "6c9a740f143b49f5bfcffe59c082b1c2",
+          "title": "DukeTransmissionEasements",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/6c9a740f143b49f5bfcffe59c082b1c2"
+        },
+        {
+          "id": "cb0b474547544c7abbedbcfd82d95389",
+          "title": "Wildfire Risk",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/cb0b474547544c7abbedbcfd82d95389"
+        },
+        {
+          "id": "943c5690291445c4bb679a7422dd8b93",
+          "title": "North Carolina Parcels (Centroids)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/943c5690291445c4bb679a7422dd8b93"
+        },
+        {
+          "id": "1de3d7d828ce4813b838ddf055b40317",
+          "title": "North Carolina Parcels (Polygons)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/1de3d7d828ce4813b838ddf055b40317"
+        },
+        {
+          "id": "51308f270e5847539d6ea58199500d6b",
+          "title": "PMTW Streams_2026",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/51308f270e5847539d6ea58199500d6b"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 60,
+      "sampled": [
+        {
+          "id": "4c803829aff44c5c93798b097368f9ea",
+          "title": "Duplicate Addresses - AddressNC",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/4c803829aff44c5c93798b097368f9ea"
+        },
+        {
+          "id": "58ae6937cb634a188c9f842516c1d796",
+          "title": "NCLocalHealthDepts2025",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/58ae6937cb634a188c9f842516c1d796"
+        },
+        {
+          "id": "e1cf28ce6a5740d498301db9c98154b9",
+          "title": "Public Libraries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/e1cf28ce6a5740d498301db9c98154b9"
+        },
+        {
+          "id": "91c068363523484fa2221d0e27998f7c",
+          "title": "NC Non-Public Schools (Latest Version)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/91c068363523484fa2221d0e27998f7c"
+        },
+        {
+          "id": "909e8b7d03e04aecaf7a1afc03376074",
+          "title": "NC Master Address Dataset - 2014",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/909e8b7d03e04aecaf7a1afc03376074"
+        },
+        {
+          "id": "797c2cca114e46858428012ed4df7000",
+          "title": "NC Master Address Dataset - 2009",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/797c2cca114e46858428012ed4df7000"
+        },
+        {
+          "id": "41382a5c439e4ed384ba4ecf6ac170ad",
+          "title": "County_EOCs",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/41382a5c439e4ed384ba4ecf6ac170ad"
+        },
+        {
+          "id": "a8475de4407f4eeb8f3094eed6bcd50c",
+          "title": "Address Input Output - AddressNC",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/a8475de4407f4eeb8f3094eed6bcd50c"
+        },
+        {
+          "id": "a6ec71ff93d3429085765821bf5b5aa3",
+          "title": "AddressNC Points  - AddressNC",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/a6ec71ff93d3429085765821bf5b5aa3"
+        },
+        {
+          "id": "4a0087a391504487870a5e4d9b266646",
+          "title": "Address Pre Input Output - AddressNC",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/4a0087a391504487870a5e4d9b266646"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 69,
+      "sampled": [
+        {
+          "id": "fb494670db2144e691c223702ecb30b7",
+          "title": "National Atlas County Boundaries (USGS)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/fb494670db2144e691c223702ecb30b7"
+        },
+        {
+          "id": "441fa0845fb442f2a3b13ecfe54ea593",
+          "title": "National Atlas State Boundaries (USGS)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/441fa0845fb442f2a3b13ecfe54ea593"
+        },
+        {
+          "id": "5e50708b9f4d4af49dbc91d3972bc6fb",
+          "title": "Public Safety Answering Point Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/5e50708b9f4d4af49dbc91d3972bc6fb"
+        },
+        {
+          "id": "5a4fbdd6df8c417ca388afcb05eb715b",
+          "title": "1970 Census Boundary/Population",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/5a4fbdd6df8c417ca388afcb05eb715b"
+        },
+        {
+          "id": "fddd9ef328be49758eeafe38dee0109e",
+          "title": "NCGA_Senate_2018_Court",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/fddd9ef328be49758eeafe38dee0109e"
+        },
+        {
+          "id": "2c43cc525c05417e9bc78a93309cf1b7",
+          "title": "NCGA_Congress_2022_Court",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/2c43cc525c05417e9bc78a93309cf1b7"
+        },
+        {
+          "id": "5c1fd48f8add4672a05373025883614e",
+          "title": "NCGA_Congress_2023",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/5c1fd48f8add4672a05373025883614e"
+        },
+        {
+          "id": "29e9433932ee4d229d5fc4368f79b0b6",
+          "title": "NCGA_Congress_2019",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/29e9433932ee4d229d5fc4368f79b0b6"
+        },
+        {
+          "id": "8a50635c58914c3aa60e1d578685a27a",
+          "title": "NCGA_House_2023",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/8a50635c58914c3aa60e1d578685a27a"
+        },
+        {
+          "id": "a56d9671249d4fc19241d5b78911a81a",
+          "title": "NCGA_Senate_2022",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/a56d9671249d4fc19241d5b78911a81a"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 9,
+      "sampled": [
+        {
+          "id": "80effe8111554a869861fbbb44f01d28",
+          "title": "1996 Landcover (Raster)",
+          "type": "Image Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/80effe8111554a869861fbbb44f01d28"
+        },
+        {
+          "id": "9728285994804c8b9f20ce58bae45899",
+          "title": "North Carolina State and County Boundary Polygons",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/9728285994804c8b9f20ce58bae45899"
+        },
+        {
+          "id": "bd9ab2c803bd4751828701e2ded4c5d3",
+          "title": "Urban Forest Landscape",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/bd9ab2c803bd4751828701e2ded4c5d3"
+        },
+        {
+          "id": "dea6ff0e8b4743a0ba361e13a85a4c70",
+          "title": "Public Schools",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/dea6ff0e8b4743a0ba361e13a85a4c70"
+        },
+        {
+          "id": "fcb3d26b5a644d78805678203153f15d",
+          "title": "State-Owned Land (Latest)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/fcb3d26b5a644d78805678203153f15d"
+        },
+        {
+          "id": "e43a159e4f584a3b8d5ffb797abc48a9",
+          "title": "Emergency Medical Services",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/e43a159e4f584a3b8d5ffb797abc48a9"
+        },
+        {
+          "id": "bb3150b20e3b40749fe509ed4d10e0ba",
+          "title": "Medical Facilities",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/bb3150b20e3b40749fe509ed4d10e0ba"
+        },
+        {
+          "id": "c36acfd789a049579f3bbc8920613da7",
+          "title": "Next Generation 911 Road Centerlines",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/c36acfd789a049579f3bbc8920613da7"
+        },
+        {
+          "id": "b3a5ea13c7194363bb4bb9fb8192974a",
+          "title": "Hazardous Waste Sites",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/b3a5ea13c7194363bb4bb9fb8192974a"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 17,
+      "sampled": [
+        {
+          "id": "771ae6473a1c4ba3bc768cc2c4b10015",
+          "title": "Voting Precincts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/771ae6473a1c4ba3bc768cc2c4b10015"
+        },
+        {
+          "id": "4536cc691ab24e49bf47e18e5b84f737",
+          "title": "North Carolina One-Stop Voting Sites",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/4536cc691ab24e49bf47e18e5b84f737"
+        },
+        {
+          "id": "7a90fdd41bc44644acc638f74b1f62f0",
+          "title": "North Carolina Voting Polling Places",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/7a90fdd41bc44644acc638f74b1f62f0"
+        },
+        {
+          "id": "8a50635c58914c3aa60e1d578685a27a",
+          "title": "NCGA_House_2023",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/8a50635c58914c3aa60e1d578685a27a"
+        },
+        {
+          "id": "a56d9671249d4fc19241d5b78911a81a",
+          "title": "NCGA_Senate_2022",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/a56d9671249d4fc19241d5b78911a81a"
+        },
+        {
+          "id": "96461ffd6abb424085a20ed87954fdfa",
+          "title": "NCGA_Senate_2021",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/96461ffd6abb424085a20ed87954fdfa"
+        },
+        {
+          "id": "efdeebfe3bfe44ba90766891fd71fd90",
+          "title": "NCGA_Senate_2023",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/efdeebfe3bfe44ba90766891fd71fd90"
+        },
+        {
+          "id": "fddd9ef328be49758eeafe38dee0109e",
+          "title": "NCGA_Senate_2018_Court",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/fddd9ef328be49758eeafe38dee0109e"
+        },
+        {
+          "id": "0d00f0b370bd43f6a5007da7e3440b5c",
+          "title": "NCGA_House_2018_Court",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/0d00f0b370bd43f6a5007da7e3440b5c"
+        },
+        {
+          "id": "29e9433932ee4d229d5fc4368f79b0b6",
+          "title": "NCGA_Congress_2019",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://www.nconemap.gov/api/search/v1/collections/dataset/items/29e9433932ee4d229d5fc4368f79b0b6"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}

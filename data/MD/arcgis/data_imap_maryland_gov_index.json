@@ -1,0 +1,500 @@
+{
+  "host": "data.imap.maryland.gov",
+  "state": "MD",
+  "categories": {
+    "budget": {
+      "matched": 6,
+      "sampled": [
+        {
+          "id": "6b73b1bb47ef4b6cb4bf5f5cbd41f24f",
+          "title": "MDOT Consolidated Transportation Program (CTP) FY2026 - FY2031",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/6b73b1bb47ef4b6cb4bf5f5cbd41f24f"
+        },
+        {
+          "id": "2be096e7dd2844eabcf071d6df1cdf7f",
+          "title": "MDOT Consolidated Transportation Program (CTP) FY2025 - FY2030",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/2be096e7dd2844eabcf071d6df1cdf7f"
+        },
+        {
+          "id": "4a1640d9ca4a40e0b33667a981e5eed3",
+          "title": "MDOT CTP FY2021 - FY2026",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/4a1640d9ca4a40e0b33667a981e5eed3"
+        },
+        {
+          "id": "f190d1eb7925447e80569e0b424ac45b",
+          "title": "MDOT Consolidated Transportation Program (CTP) FY2022 - FY2027",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/f190d1eb7925447e80569e0b424ac45b"
+        },
+        {
+          "id": "b59d3aa7a9b1426b98032db8701515ef",
+          "title": "MDOT Consolidated Transportation Program (CTP) FY2024 - FY2029",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/b59d3aa7a9b1426b98032db8701515ef"
+        },
+        {
+          "id": "d1cfc6d25f094a6d90cc0761ecb5f1ae",
+          "title": "MDOT Consolidated Transportation Program (CTP) FY2023 - FY2028",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/d1cfc6d25f094a6d90cc0761ecb5f1ae"
+        }
+      ]
+    },
+    "permits": {
+      "matched": 21,
+      "sampled": [
+        {
+          "id": "dd2f7c4212b44875987d1d4d460978cd",
+          "title": "MDOT SHA Outdoor Advertising Sign Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/dd2f7c4212b44875987d1d4d460978cd"
+        },
+        {
+          "id": "23ab9309817f4832810937c8a16239d1",
+          "title": "MDOT SHA NPDES Conveyance",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/23ab9309817f4832810937c8a16239d1"
+        },
+        {
+          "id": "a4153ffcad5843b4ac8262d2ac010882",
+          "title": "Maryland Point Source Discharges - Point Source Discharges",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/a4153ffcad5843b4ac8262d2ac010882"
+        },
+        {
+          "id": "c37ed894979e4ab895fc8175958dea6c",
+          "title": "Maryland Point Source Discharges - Significant Wastewater Treatment Plants",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/c37ed894979e4ab895fc8175958dea6c"
+        },
+        {
+          "id": "689aa532e44c4e43a2b16caa8a0cce70",
+          "title": "Maryland Public Use Airports",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/689aa532e44c4e43a2b16caa8a0cce70"
+        },
+        {
+          "id": "042c633a05df48fa8561f245fccdd750",
+          "title": "Maryland Property Data - Parcel Points",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/042c633a05df48fa8561f245fccdd750"
+        },
+        {
+          "id": "73af68c10ebd459086b4a2cb8c69f550",
+          "title": "Maryland Shoreline Inventory - Stabilization Structures",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/73af68c10ebd459086b4a2cb8c69f550"
+        },
+        {
+          "id": "f389c704fc1f4c9e8c8e627e84120179",
+          "title": "Maryland Shoreline Inventory - Marsh Buffer",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/f389c704fc1f4c9e8c8e627e84120179"
+        },
+        {
+          "id": "d37fe56d94b74f5a98921fb629f84a5f",
+          "title": "Maryland Shoreline Inventory - Beach Buffer",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/d37fe56d94b74f5a98921fb629f84a5f"
+        },
+        {
+          "id": "0ef6d6e40cdb495fadd22e1419612a18",
+          "title": "Maryland Shoreline Inventory - Bank Cover",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/0ef6d6e40cdb495fadd22e1419612a18"
+        }
+      ]
+    },
+    "property": {
+      "matched": 83,
+      "sampled": [
+        {
+          "id": "1de3b1a6cffb4d168920e5beee884435",
+          "title": "Maryland Property Sales",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/1de3b1a6cffb4d168920e5beee884435"
+        },
+        {
+          "id": "042c633a05df48fa8561f245fccdd750",
+          "title": "Maryland Property Data - Parcel Points",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/042c633a05df48fa8561f245fccdd750"
+        },
+        {
+          "id": "d34ee04f63ba4dddb38203d4b5eea90f",
+          "title": "Maryland Property Data - Tax Maps",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/d34ee04f63ba4dddb38203d4b5eea90f"
+        },
+        {
+          "id": "351ef2fd456942919a5c1641608e8197",
+          "title": "Maryland Property Data - Tax Maps Image Service",
+          "type": "Image Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/351ef2fd456942919a5c1641608e8197"
+        },
+        {
+          "id": "dc2d4fec9e814cb98b418babffec16a4",
+          "title": "Maryland Property Data - Tax Map Grids",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/dc2d4fec9e814cb98b418babffec16a4"
+        },
+        {
+          "id": "d77de5073eed47a497e3cfa79bfc4ca9",
+          "title": "Maryland Campus Facilities - WAC Administrative Area Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/d77de5073eed47a497e3cfa79bfc4ca9"
+        },
+        {
+          "id": "7cf8d21bc29f4fe38ba4304e80194c6e",
+          "title": "Maryland Incentive Zones - Enterprise Zones",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/7cf8d21bc29f4fe38ba4304e80194c6e"
+        },
+        {
+          "id": "a4d93683504e4c2598bfe3840ef8aeaf",
+          "title": "Maryland Inventory Historic Properties - Maryland Inventory of Historic Properties",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/a4d93683504e4c2598bfe3840ef8aeaf"
+        },
+        {
+          "id": "9b7dda9d45e64fb390b98c812a309ea7",
+          "title": "Maryland Incentive Zones - Enterprise Zone Focus Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/9b7dda9d45e64fb390b98c812a309ea7"
+        },
+        {
+          "id": "3988af7d027240f0b8c8fc76c10f7d37",
+          "title": "Maryland Incentive Zones - RISE Zones",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/3988af7d027240f0b8c8fc76c10f7d37"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 213,
+      "sampled": [
+        {
+          "id": "3aab4dc524e848caa4f880462de6ba8d",
+          "title": "Maryland Local Businesses - Distilleries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/3aab4dc524e848caa4f880462de6ba8d"
+        },
+        {
+          "id": "16c50ab85fd6448cae3394dfa48f6701",
+          "title": "Maryland Local Businesses - Wineries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/16c50ab85fd6448cae3394dfa48f6701"
+        },
+        {
+          "id": "20385fb5f3e84ca7b8e5036444443661",
+          "title": "Maryland Local Businesses - Breweries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/20385fb5f3e84ca7b8e5036444443661"
+        },
+        {
+          "id": "2987f3dfbd834001b60ded2475b50c26",
+          "title": "MDOT SHA Roadway Centerline",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/2987f3dfbd834001b60ded2475b50c26"
+        },
+        {
+          "id": "82842b1ff67b466086a4c097c6e7aa46",
+          "title": "Maryland Road Centerlines - Interstates",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/82842b1ff67b466086a4c097c6e7aa46"
+        },
+        {
+          "id": "7d88159091854e55a3e6f237fcd45c1a",
+          "title": "Maryland Road Centerlines - Comprehensive",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/7d88159091854e55a3e6f237fcd45c1a"
+        },
+        {
+          "id": "af7392c28e5c461ba067d9996c65e5d2",
+          "title": "Maryland Road Centerlines - Maryland Routes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/af7392c28e5c461ba067d9996c65e5d2"
+        },
+        {
+          "id": "23b35c39bba2454a8037bb6d24cdac83",
+          "title": "Maryland Road Centerlines - US Routes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/23b35c39bba2454a8037bb6d24cdac83"
+        },
+        {
+          "id": "25d1954d57b44f17be71d29d1dd823b5",
+          "title": "Maryland Road Centerlines - Local and Other Roads",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/25d1954d57b44f17be71d29d1dd823b5"
+        },
+        {
+          "id": "042c633a05df48fa8561f245fccdd750",
+          "title": "Maryland Property Data - Parcel Points",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/042c633a05df48fa8561f245fccdd750"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 111,
+      "sampled": [
+        {
+          "id": "3254d39b43bf40b2b9941c40bb4b83ab",
+          "title": "State Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/3254d39b43bf40b2b9941c40bb4b83ab"
+        },
+        {
+          "id": "92f5b561a1fd4e43b2f9a43fa5ab59c1",
+          "title": "Municipal Boundaries - Detailed",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/92f5b561a1fd4e43b2f9a43fa5ab59c1"
+        },
+        {
+          "id": "e8c38f75ba9b483ab4e668c86e33a1fa",
+          "title": "Maryland Marine Boundaries - Shoreline",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/e8c38f75ba9b483ab4e668c86e33a1fa"
+        },
+        {
+          "id": "4cdbbbfbf24b4b7c83cdf8166b23e4f4",
+          "title": "MDOT SHA District Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/4cdbbbfbf24b4b7c83cdf8166b23e4f4"
+        },
+        {
+          "id": "5fc71d3b2ae94473a281d030d2897d3c",
+          "title": "MDOT SHA County Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/5fc71d3b2ae94473a281d030d2897d3c"
+        },
+        {
+          "id": "bd486d7feeec443c89a822dde5b86a1e",
+          "title": "Maryland Political Boundaries - Municipal Boundaries Generalized",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/bd486d7feeec443c89a822dde5b86a1e"
+        },
+        {
+          "id": "326eca39f5c04068bb6cf9195e85634c",
+          "title": "Maryland MDOT SHA District Boundaries - MDOT SHA District Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/326eca39f5c04068bb6cf9195e85634c"
+        },
+        {
+          "id": "445a5a28eb40488caa4b0d5ad9430705",
+          "title": "Maryland Election Boundaries - Precincts 2026",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/445a5a28eb40488caa4b0d5ad9430705"
+        },
+        {
+          "id": "8c99e19aca674e6c96a7511cc7d4da85",
+          "title": "MDOT SHA Maintenance Shop Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/8c99e19aca674e6c96a7511cc7d4da85"
+        },
+        {
+          "id": "e2d183719fe345c8abfffc9cc4196390",
+          "title": "Maryland Election Boundaries - Precincts 2022",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/e2d183719fe345c8abfffc9cc4196390"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 320,
+      "sampled": [
+        {
+          "id": "9fb0dbcac53b4236aa6791e4a772c10e",
+          "title": "Maryland Transportation Trails",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/9fb0dbcac53b4236aa6791e4a772c10e"
+        },
+        {
+          "id": "08e7969a060a4c5f9c294a22525ed8ef",
+          "title": "Washington County Maintained Roads",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/08e7969a060a4c5f9c294a22525ed8ef"
+        },
+        {
+          "id": "7001587755cb43a99fb4e17616b25fd7",
+          "title": "St. Mary's County Maintained Roads",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/7001587755cb43a99fb4e17616b25fd7"
+        },
+        {
+          "id": "b6b385df54274d9793fd7cb47be7c46a",
+          "title": "Harford County Maintained Roads",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/b6b385df54274d9793fd7cb47be7c46a"
+        },
+        {
+          "id": "a66cc7691e404d058493142e980ce2ac",
+          "title": "Caroline County Maintained Roads",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/a66cc7691e404d058493142e980ce2ac"
+        },
+        {
+          "id": "709ad5c8ff2b4ccc9507157436151663",
+          "title": "Somerset County Maintained Roads",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/709ad5c8ff2b4ccc9507157436151663"
+        },
+        {
+          "id": "c7cb3ce4aaac4deb921e2a154cf22205",
+          "title": "Maryland Transit - Light Rail Lines",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/c7cb3ce4aaac4deb921e2a154cf22205"
+        },
+        {
+          "id": "5be9c1fe37cc43388b6f4341a9a67b01",
+          "title": "Military Maintained Roads",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/5be9c1fe37cc43388b6f4341a9a67b01"
+        },
+        {
+          "id": "d9d1117f41514c33b5e659c793f87d4a",
+          "title": "Wicomico County Maintained Roads",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/d9d1117f41514c33b5e659c793f87d4a"
+        },
+        {
+          "id": "a7b03aa6cb284e69a15f0ba98286418f",
+          "title": "Talbot County Maintained Roads",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/a7b03aa6cb284e69a15f0ba98286418f"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 9,
+      "sampled": [
+        {
+          "id": "445a5a28eb40488caa4b0d5ad9430705",
+          "title": "Maryland Election Boundaries - Precincts 2026",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/445a5a28eb40488caa4b0d5ad9430705"
+        },
+        {
+          "id": "e2d183719fe345c8abfffc9cc4196390",
+          "title": "Maryland Election Boundaries - Precincts 2022",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/e2d183719fe345c8abfffc9cc4196390"
+        },
+        {
+          "id": "e47aefc6d95d4297ac132eb4d588ef81",
+          "title": "Maryland Election Boundaries - Maryland Legislative Districts 2022",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/e47aefc6d95d4297ac132eb4d588ef81"
+        },
+        {
+          "id": "38bb5ff3a2ba41529ef6431d26550b2c",
+          "title": "Maryland Election Boundaries - US Congressional Districts 2022",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/38bb5ff3a2ba41529ef6431d26550b2c"
+        },
+        {
+          "id": "c5662f141dc641c39fb78541a657c953",
+          "title": "Maryland Archived Election Boundaries - 2002 US Congressional Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/c5662f141dc641c39fb78541a657c953"
+        },
+        {
+          "id": "c30127d2dc17488dadfc0049c9fcf1b3",
+          "title": "Maryland Archived Election Boundaries - 2002 Maryland Legislative Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/c30127d2dc17488dadfc0049c9fcf1b3"
+        },
+        {
+          "id": "6cb698e1aea1443e8b1cddd3f13b7ac5",
+          "title": "Maryland Archived Election Boundaries - Maryland Legislative Districts 2012",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/6cb698e1aea1443e8b1cddd3f13b7ac5"
+        },
+        {
+          "id": "0180289d595a492e8db6834539758c5f",
+          "title": "Maryland Archived Election Boundaries - US Congressional Districts 2011",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/0180289d595a492e8db6834539758c5f"
+        },
+        {
+          "id": "5609f0f64de24c4489401a55a511335e",
+          "title": "Maryland Trust Fund - Trust Fund Projects Status",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://data.imap.maryland.gov/api/search/v1/collections/dataset/items/5609f0f64de24c4489401a55a511335e"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}

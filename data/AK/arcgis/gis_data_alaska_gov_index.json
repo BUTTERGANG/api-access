@@ -1,0 +1,521 @@
+{
+  "host": "gis.data.alaska.gov",
+  "state": "AK",
+  "categories": {
+    "budget": {
+      "matched": 8,
+      "sampled": [
+        {
+          "id": "33fdd7c1831e46a2a230a9057af7c298",
+          "title": "Best Practices Scores",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/33fdd7c1831e46a2a230a9057af7c298"
+        },
+        {
+          "id": "1401b2487ea444bd9422017eebe166e7",
+          "title": "Fair Market Rents",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/1401b2487ea444bd9422017eebe166e7"
+        },
+        {
+          "id": "79b294fdcec847bda115913808da2167",
+          "title": "Fair Market Rents (Alaska)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/79b294fdcec847bda115913808da2167"
+        },
+        {
+          "id": "a15bc90120fe4154b72542e3007f6db0",
+          "title": "Combined Statistical Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/a15bc90120fe4154b72542e3007f6db0"
+        },
+        {
+          "id": "1041d84d8d1e4699ac334744b856cc74",
+          "title": "Metropolitan Divisions",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/1041d84d8d1e4699ac334744b856cc74"
+        },
+        {
+          "id": "0ae3bdbf09894d2d9a59ff9ba4f5859f",
+          "title": "FWS HQ BA CMT Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/0ae3bdbf09894d2d9a59ff9ba4f5859f"
+        },
+        {
+          "id": "6048f049a94740b4ad608f5d7eca93f8",
+          "title": "Core Based Statistical Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/6048f049a94740b4ad608f5d7eca93f8"
+        },
+        {
+          "id": "d208ae226b1244b9b08adeb14a26d2c9",
+          "title": "Infrastructure Projects Public",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/d208ae226b1244b9b08adeb14a26d2c9"
+        }
+      ]
+    },
+    "permits": {
+      "matched": 35,
+      "sampled": [
+        {
+          "id": "87f6104dc2bf4d9c9083f1099ff2ac10",
+          "title": "Miscellaneous Land Use Permit",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/87f6104dc2bf4d9c9083f1099ff2ac10"
+        },
+        {
+          "id": "3139b668e78c4a9fa098634c2515e16d",
+          "title": "Permitted Log Transfer Facilities Public View",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/3139b668e78c4a9fa098634c2515e16d"
+        },
+        {
+          "id": "ddf8409b69374bb995b2534cff362014",
+          "title": "Geothermal Lease Current",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/ddf8409b69374bb995b2534cff362014"
+        },
+        {
+          "id": "d6d0394a41654d12b1da3b3fc3dfeade",
+          "title": "Commercial Fisheries Participation and Earnings - by State Residency",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/d6d0394a41654d12b1da3b3fc3dfeade"
+        },
+        {
+          "id": "d757c49a9e3c45d3ae3918a16bbf33e8",
+          "title": "Commercial Fisheries Participation and Earnings- by Community Residency",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/d757c49a9e3c45d3ae3918a16bbf33e8"
+        },
+        {
+          "id": "f00277cf01664f8eb2cb7eece25b8256",
+          "title": "Land Permit Or Lease",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/f00277cf01664f8eb2cb7eece25b8256"
+        },
+        {
+          "id": "a6a931f1ddf84e9cafabef055946792b",
+          "title": "Mineral Permit Or Lease",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/a6a931f1ddf84e9cafabef055946792b"
+        },
+        {
+          "id": "794de45b9d774d21aed3bf9b5313ee24",
+          "title": "FWS HQ ES Critical Habitat",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/794de45b9d774d21aed3bf9b5313ee24"
+        },
+        {
+          "id": "2dc8d76737ce4663a08e4a5ce4d029c3",
+          "title": "DEC Drinking Water Protection Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/2dc8d76737ce4663a08e4a5ce4d029c3"
+        },
+        {
+          "id": "923e69760d744410933a3df3912ece4b",
+          "title": "Well Surface Hole Location",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/923e69760d744410933a3df3912ece4b"
+        }
+      ]
+    },
+    "property": {
+      "matched": 131,
+      "sampled": [
+        {
+          "id": "85eace8084e54a35900b5de4346537a5",
+          "title": "FNSB Real Estate Public",
+          "type": "CSV",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/85eace8084e54a35900b5de4346537a5"
+        },
+        {
+          "id": "d02496bf33484ee58fd8de15db0e020f",
+          "title": "FWS Property - Public View",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/d02496bf33484ee58fd8de15db0e020f"
+        },
+        {
+          "id": "295dfd3aa2d942c49c45d4699425aded",
+          "title": "FNSB Parent Child Relation",
+          "type": "CSV",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/295dfd3aa2d942c49c45d4699425aded"
+        },
+        {
+          "id": "57d6ff611f444d75a1bf2b4a1d340163",
+          "title": "PropertyInformation_Hosted",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/57d6ff611f444d75a1bf2b4a1d340163"
+        },
+        {
+          "id": "3094455674304783a2923d720d6adb69",
+          "title": "Multifamily Properties - Assisted",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/3094455674304783a2923d720d6adb69"
+        },
+        {
+          "id": "5e1777888c714a4b8ffc9dcdb6ba20f2",
+          "title": "FNSB Download Situs Addresses",
+          "type": "CSV",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/5e1777888c714a4b8ffc9dcdb6ba20f2"
+        },
+        {
+          "id": "2dc3f3b018544ed493ad438f39d9bc94",
+          "title": "FNSB TAX INFO",
+          "type": "CSV",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/2dc3f3b018544ed493ad438f39d9bc94"
+        },
+        {
+          "id": "7f1b40ccc520425b935b1f7f953a9490",
+          "title": "Economics Full Value Determination Borough Layer",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/7f1b40ccc520425b935b1f7f953a9490"
+        },
+        {
+          "id": "73897cdcb2414d4cb9ca5a74c7e17ab3",
+          "title": "Economics Full Value Determination",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/73897cdcb2414d4cb9ca5a74c7e17ab3"
+        },
+        {
+          "id": "8ce06c300417444882bf6023aa4431b1",
+          "title": "Multifamily Properties - Assisted (Alaska)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/8ce06c300417444882bf6023aa4431b1"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 85,
+      "sampled": [
+        {
+          "id": "e031d998be1d4d4abd4e1b235dcf04dd",
+          "title": "FNSB Addresses",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/e031d998be1d4d4abd4e1b235dcf04dd"
+        },
+        {
+          "id": "b00764a35800462fb337177ccbc352a2",
+          "title": "Addresses_Hosted",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/b00764a35800462fb337177ccbc352a2"
+        },
+        {
+          "id": "3a7097e14f2c4af784713aa6b139131c",
+          "title": "Public Safety Addresses",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/3a7097e14f2c4af784713aa6b139131c"
+        },
+        {
+          "id": "03f1d7cbe70244c7bf3cba92a4cee5e1",
+          "title": "KPB Physical Addresses",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/03f1d7cbe70244c7bf3cba92a4cee5e1"
+        },
+        {
+          "id": "5e1777888c714a4b8ffc9dcdb6ba20f2",
+          "title": "FNSB Download Situs Addresses",
+          "type": "CSV",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/5e1777888c714a4b8ffc9dcdb6ba20f2"
+        },
+        {
+          "id": "471ee2fc6464419aa246051a6f67863e",
+          "title": "City of Unalaska Addresses",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/471ee2fc6464419aa246051a6f67863e"
+        },
+        {
+          "id": "cd385d5c75c8497ebecc630be5663850",
+          "title": "Administrative Polling Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/cd385d5c75c8497ebecc630be5663850"
+        },
+        {
+          "id": "d440b3a20b62412b80557713dddf22d9",
+          "title": "School Districts and REAAs",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/d440b3a20b62412b80557713dddf22d9"
+        },
+        {
+          "id": "d164727c140540eb916c502a9a651adb",
+          "title": "KIB_AddressPoints",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/d164727c140540eb916c502a9a651adb"
+        },
+        {
+          "id": "ddcaa5e1a9e24c27bff3c3ce16ea2944",
+          "title": "National Address Database",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/ddcaa5e1a9e24c27bff3c3ce16ea2944"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 287,
+      "sampled": [
+        {
+          "id": "394d26a0dc684c4c8347afd002f63b70",
+          "title": "Proclaimed Forest Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/394d26a0dc684c4c8347afd002f63b70"
+        },
+        {
+          "id": "8615ddbd6eed475ba4a02a56e6dc1521",
+          "title": "City Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/8615ddbd6eed475ba4a02a56e6dc1521"
+        },
+        {
+          "id": "4f8c32a52cb94a7aad2bf5d7e7d12814",
+          "title": "Large Scale International Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/4f8c32a52cb94a7aad2bf5d7e7d12814"
+        },
+        {
+          "id": "b59366e03d804d759d80c57eb5a8dea7",
+          "title": "Administrative City Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/b59366e03d804d759d80c57eb5a8dea7"
+        },
+        {
+          "id": "27b679680cf84f049b0c30f46f26de3e",
+          "title": "FNSB Military Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/27b679680cf84f049b0c30f46f26de3e"
+        },
+        {
+          "id": "93e0dd1126254d64b3740d6acc34d2e3",
+          "title": "FNSB City Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/93e0dd1126254d64b3740d6acc34d2e3"
+        },
+        {
+          "id": "31c41fcca6d34d3fa9924de38651a317",
+          "title": "FWS National Wilderness Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/31c41fcca6d34d3fa9924de38651a317"
+        },
+        {
+          "id": "745ed874c1394da3a9aae50267c9e049",
+          "title": "FWS National Realty Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/745ed874c1394da3a9aae50267c9e049"
+        },
+        {
+          "id": "c9d8cd103c5c444f9f65a1bc0dfe1b95",
+          "title": "FWS National Regional Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/c9d8cd103c5c444f9f65a1bc0dfe1b95"
+        },
+        {
+          "id": "c704eaeb8ca34af8ba40d167776a9606",
+          "title": "Census Designated Place Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/c704eaeb8ca34af8ba40d167776a9606"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 199,
+      "sampled": [
+        {
+          "id": "f42ecc08a3634182b8678514af35fac3",
+          "title": "Transportation (Roads and Railroads)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/f42ecc08a3634182b8678514af35fac3"
+        },
+        {
+          "id": "4cbaa40cacfc48ec902ad52095fc370b",
+          "title": "Community Transportation Overview",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/4cbaa40cacfc48ec902ad52095fc370b"
+        },
+        {
+          "id": "42b076a48f6d4274bdcfddb0c39f0c1a",
+          "title": "KPB Mileposts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/42b076a48f6d4274bdcfddb0c39f0c1a"
+        },
+        {
+          "id": "6c2476aabd944a67928685d067d7e742",
+          "title": "State Ferry Terminal in Community",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/6c2476aabd944a67928685d067d7e742"
+        },
+        {
+          "id": "79ca3e10a8af44288c1ee4318714086b",
+          "title": "Cargo Barge in Community",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/79ca3e10a8af44288c1ee4318714086b"
+        },
+        {
+          "id": "9e006edf85d84defadff74a847afc3d3",
+          "title": "DGGS Geophysics Grids",
+          "type": "Image Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/9e006edf85d84defadff74a847afc3d3"
+        },
+        {
+          "id": "37b83d8810a0459380abd1beecff4ecc",
+          "title": "DOTPF Region Boundary",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/37b83d8810a0459380abd1beecff4ecc"
+        },
+        {
+          "id": "4e5f9b1bb6644beba031da04096a0f87",
+          "title": "DOTPF Region Boundary AKDOT",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/4e5f9b1bb6644beba031da04096a0f87"
+        },
+        {
+          "id": "3c6be4c726ae462aa9f67a392af35e2c",
+          "title": "2021 Average Annual Daily Traffic Count",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/3c6be4c726ae462aa9f67a392af35e2c"
+        },
+        {
+          "id": "41aa739a5a4e41ac8da2dae166f20a74",
+          "title": "Harbor or Dock in Community",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/41aa739a5a4e41ac8da2dae166f20a74"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 27,
+      "sampled": [
+        {
+          "id": "b01c3a4966fa4b27bf8283737810dc71",
+          "title": "Certified Elections",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/b01c3a4966fa4b27bf8283737810dc71"
+        },
+        {
+          "id": "629a1a3d261545829481d455a89daa6d",
+          "title": "Municipal Meetings and Election Times",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/629a1a3d261545829481d455a89daa6d"
+        },
+        {
+          "id": "6903c5a20d2845cda7917f095b3d96b1",
+          "title": "Municipal Meeting and Elections Time - Boroughs",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/6903c5a20d2845cda7917f095b3d96b1"
+        },
+        {
+          "id": "92de2694c37241d39db122a5a265ca32",
+          "title": "Alaska State House Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/92de2694c37241d39db122a5a265ca32"
+        },
+        {
+          "id": "b1ae8172399e4fcc8700d3588702386b",
+          "title": "Alaska Election Regions",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/b1ae8172399e4fcc8700d3588702386b"
+        },
+        {
+          "id": "3bdf3f2323a54af8a351398d97ea3ccd",
+          "title": "Alaska State Senate Districts ",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/3bdf3f2323a54af8a351398d97ea3ccd"
+        },
+        {
+          "id": "cd385d5c75c8497ebecc630be5663850",
+          "title": "Administrative Polling Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/cd385d5c75c8497ebecc630be5663850"
+        },
+        {
+          "id": "f0386b49636b431a96854340fce19e13",
+          "title": "Precincts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/f0386b49636b431a96854340fce19e13"
+        },
+        {
+          "id": "16eabdcffbee416f998c9ceb57bcd8fa",
+          "title": "House and Senate Districts by Community",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/16eabdcffbee416f998c9ceb57bcd8fa"
+        },
+        {
+          "id": "9f73db07a9084a06915d781680507c14",
+          "title": "Administrative Voting Precincts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.alaska.gov/api/search/v1/collections/dataset/items/9f73db07a9084a06915d781680507c14"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "host": "njogis-newjersey.opendata.arcgis.com",
+  "state": "NJ",
+  "categories": {
+    "budget": {
+      "matched": 2,
+      "sampled": [
+        {
+          "id": "0cba9df76998452e9a6c89a6e7e6353f",
+          "title": "New Jersey Urban Aid Municipalities for FY26",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/0cba9df76998452e9a6c89a6e7e6353f"
+        },
+        {
+          "id": "db8411024f91453a803d3e575c234c36",
+          "title": "Wildlife Mitigation Sites in New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/db8411024f91453a803d3e575c234c36"
+        }
+      ]
+    },
+    "permits": {
+      "matched": 100,
+      "sampled": [
+        {
+          "id": "c754e8f800424bcbb6ad4e6e85b9f736",
+          "title": "High Value Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/c754e8f800424bcbb6ad4e6e85b9f736"
+        },
+        {
+          "id": "98da7db5c72c47548022b042753e3a9c",
+          "title": "2018 New Jersey Big Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/98da7db5c72c47548022b042753e3a9c"
+        },
+        {
+          "id": "8af42a8bd25b40c1a0e3cb64c81a4d54",
+          "title": "Land Resource Protection Program Interests in New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/8af42a8bd25b40c1a0e3cb64c81a4d54"
+        },
+        {
+          "id": "ad7d678de12848e898fcc6f30542f722",
+          "title": "Wetland Mitigation Bank Sites of New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/ad7d678de12848e898fcc6f30542f722"
+        },
+        {
+          "id": "3fe31854442547ef90a51d20c6f02ebb",
+          "title": "Wetland Mitigation Banks as Points of New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/3fe31854442547ef90a51d20c6f02ebb"
+        },
+        {
+          "id": "c064dbc6a9d9400c93e011815b2a78d0",
+          "title": "Wetland Mitigation Bank Service Areas of New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/c064dbc6a9d9400c93e011815b2a78d0"
+        },
+        {
+          "id": "52e72c6b33fb4ac089d03d795353e284",
+          "title": "PFAS Monitoring in Ground Water Permits in New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/52e72c6b33fb4ac089d03d795353e284"
+        },
+        {
+          "id": "69319605bbe54f5cbbd43c146230957b",
+          "title": "Manufactured Treatment Devices (MTDs) in New Jersey, NJDEP MS4 Inventory and Mapping",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/69319605bbe54f5cbbd43c146230957b"
+        },
+        {
+          "id": "55d9ffab7efc49878a78f61bb123e649",
+          "title": "Green Infrastructure in New Jersey, NJDEP MS4 Inventory and Mapping",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/55d9ffab7efc49878a78f61bb123e649"
+        },
+        {
+          "id": "03bbdc81c2e047c5a7fdb8e8138c1eae",
+          "title": " Outfalls in New Jersey Attachments, NJDEP MS4 Inventory and Mapping (Table)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/03bbdc81c2e047c5a7fdb8e8138c1eae"
+        }
+      ]
+    },
+    "property": {
+      "matched": 64,
+      "sampled": [
+        {
+          "id": "37a62f13e96b436ba5da2cb862d3882e",
+          "title": "Historic Property Features of New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/37a62f13e96b436ba5da2cb862d3882e"
+        },
+        {
+          "id": "dd71bf27b3374c6b9f1bf0f5c8247a0e",
+          "title": "Pre 1980 1 to 2 Family Rental Units by NJ Census Tract",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/dd71bf27b3374c6b9f1bf0f5c8247a0e"
+        },
+        {
+          "id": "dfdcd48c768444299606d64f92fea123",
+          "title": "NJ UEZ Parcels With Select Property Classes",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/dfdcd48c768444299606d64f92fea123"
+        },
+        {
+          "id": "f64fb05e6e3e4c4eb93fdc71fae6f16c",
+          "title": "2024 R11 Public Complex Layer for New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/f64fb05e6e3e4c4eb93fdc71fae6f16c"
+        },
+        {
+          "id": "1502e9d2e241412e927f8bd999cd4e07",
+          "title": "Highlands Redevelopment Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/1502e9d2e241412e927f8bd999cd4e07"
+        },
+        {
+          "id": "0cba9df76998452e9a6c89a6e7e6353f",
+          "title": "New Jersey Urban Aid Municipalities for FY26",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/0cba9df76998452e9a6c89a6e7e6353f"
+        },
+        {
+          "id": "3dde021076d04ea497d33e5f32b88ef6",
+          "title": "Historic Properties of New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/3dde021076d04ea497d33e5f32b88ef6"
+        },
+        {
+          "id": "686217f3087944948b4d1d6b1972e5f1",
+          "title": "Private Well Testing Act Summary Results Within 2 mile by 2 mile Grids for New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/686217f3087944948b4d1d6b1972e5f1"
+        },
+        {
+          "id": "05a41c39475e48d98b7b695e9ab73db2",
+          "title": "Landslides\u00a0in New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/05a41c39475e48d98b7b695e9ab73db2"
+        },
+        {
+          "id": "e9d0d1fa66a744709c8ea15c59c8d8e3",
+          "title": "Private Well Testing Act Summary Results by Municipality for New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/e9d0d1fa66a744709c8ea15c59c8d8e3"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 174,
+      "sampled": [
+        {
+          "id": "077607204a8a4e52a70e838f240c39b7",
+          "title": "2024 R12 Highway Agency Layer (Roads) for New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/077607204a8a4e52a70e838f240c39b7"
+        },
+        {
+          "id": "2b4f45c5d8b444ea8115c755497a35dc",
+          "title": "Destination Electric Businesses in New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/2b4f45c5d8b444ea8115c755497a35dc"
+        },
+        {
+          "id": "2e94433fc97e49b594f7032da3d0b0d6",
+          "title": "2024 R12 Highway Agency Layer (Yards) for New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/2e94433fc97e49b594f7032da3d0b0d6"
+        },
+        {
+          "id": "86d6caa1193845af91de0d4c815baa44",
+          "title": "Land Use Capability Zones",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/86d6caa1193845af91de0d4c815baa44"
+        },
+        {
+          "id": "0b6b95c6f8e040d294bddc104fe73443",
+          "title": "Sussex County Address Points and Common Places",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/0b6b95c6f8e040d294bddc104fe73443"
+        },
+        {
+          "id": "247ff302fc484fa681a1f44e5624af38",
+          "title": "Newly Constructed Addresses Between March 2018 To April 2020_WFL1",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/247ff302fc484fa681a1f44e5624af38"
+        },
+        {
+          "id": "427bef1f47be4ec6aff79cfbf994d401",
+          "title": "NJDEP National Shellfish Sanitation Program (NSSP) Monitoring Stations for New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/427bef1f47be4ec6aff79cfbf994d401"
+        },
+        {
+          "id": "4bcccc833c60493c8bd107225d3f846f",
+          "title": "eMobility Projects in New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/4bcccc833c60493c8bd107225d3f846f"
+        },
+        {
+          "id": "5051f228c9074aa7b4116f835893c9fa",
+          "title": "Address Points for NJ, Hosted, 3424",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/5051f228c9074aa7b4116f835893c9fa"
+        },
+        {
+          "id": "f000d158984840e2b42f107129bfae80",
+          "title": "Community Drinking Water Systems by Address in New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/f000d158984840e2b42f107129bfae80"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 161,
+      "sampled": [
+        {
+          "id": "743948e4f52c454cbc5618006f820d24",
+          "title": "NJ Foreign Trade Zone Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/743948e4f52c454cbc5618006f820d24"
+        },
+        {
+          "id": "37f1c60fa275424f8dc53c349d95308e",
+          "title": "Statewide Grid of Quarterquad Boundaries of New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/37f1c60fa275424f8dc53c349d95308e"
+        },
+        {
+          "id": "6ad5f59a0d924f19bf5b9b90571c2aa2",
+          "title": "Statewide Grid of Quadrangle Boundaries of New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/6ad5f59a0d924f19bf5b9b90571c2aa2"
+        },
+        {
+          "id": "3daee64068304ba08d6b25bf230f831e",
+          "title": "NRTC_Eligibile_Tracts_2026",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/3daee64068304ba08d6b25bf230f831e"
+        },
+        {
+          "id": "7667970d3f124e3caab2412c76b189e3",
+          "title": "Burlington_Roads_Municipalities2",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/7667970d3f124e3caab2412c76b189e3"
+        },
+        {
+          "id": "cc373ed8a2584d0fb10d95c55db190e4",
+          "title": "NRTC Approved Neighborhoods in New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/cc373ed8a2584d0fb10d95c55db190e4"
+        },
+        {
+          "id": "cd1ec9ec9bde4bb3beba735e74a870ce",
+          "title": "Sussex County Zoning",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/cd1ec9ec9bde4bb3beba735e74a870ce"
+        },
+        {
+          "id": "5aa991d7856e45c0b688a1b7eed00ddd",
+          "title": "Somerset County Agricultural Development Areas",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/5aa991d7856e45c0b688a1b7eed00ddd"
+        },
+        {
+          "id": "ed7887264b054f4e82a4afb23a9214a4",
+          "title": "County Boundaries of NJ, Hosted, 3857",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/ed7887264b054f4e82a4afb23a9214a4"
+        },
+        {
+          "id": "084eaf61373145de80d64e328f9700d6",
+          "title": "Highlands Boundary",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/084eaf61373145de80d64e328f9700d6"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 63,
+      "sampled": [
+        {
+          "id": "4e8944cadb1e46b9a4f01b310d7ae5f6",
+          "title": "New Jersey State Navigation Channels",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/4e8944cadb1e46b9a4f01b310d7ae5f6"
+        },
+        {
+          "id": "9ff3d4d7eaa04829b1bc0cc2ea836f1d",
+          "title": "Status of Construction",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/9ff3d4d7eaa04829b1bc0cc2ea836f1d"
+        },
+        {
+          "id": "369fd5940c614c23bfc0db57be80a21b",
+          "title": "Connecting Habitat Across New Jersey (CHANJ) Action Regions for New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/369fd5940c614c23bfc0db57be80a21b"
+        },
+        {
+          "id": "e0a94ce8b98943279c821b3dbd32b111",
+          "title": "Statewide Transportation Improvement Program STIP Project Locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/e0a94ce8b98943279c821b3dbd32b111"
+        },
+        {
+          "id": "1dd6410b0baa4be5a810b0b64f799d0c",
+          "title": "MATURE SUPPORT - Bridges of NJ, 3424",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/1dd6410b0baa4be5a810b0b64f799d0c"
+        },
+        {
+          "id": "e64c45fa1ef14ef2b97b517c20f15878",
+          "title": "NJDOT Roadway Network",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/e64c45fa1ef14ef2b97b517c20f15878"
+        },
+        {
+          "id": "e1fdf22f4ce04059b2f87dbaa1d727a2",
+          "title": "New_Jersey_Standard_Route_Id_And_Milepost ",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/e1fdf22f4ce04059b2f87dbaa1d727a2"
+        },
+        {
+          "id": "3a9ca260dee5405e98c7b5e91e146b84",
+          "title": "Somerset County Maintained Roads",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/3a9ca260dee5405e98c7b5e91e146b84"
+        },
+        {
+          "id": "59bc7c4b234f4d8986c0c56e9608cdea",
+          "title": "NJDEP Planned DC Fast Charging Facilities for New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/59bc7c4b234f4d8986c0c56e9608cdea"
+        },
+        {
+          "id": "96851a65ea024b7298fa4bc477fcd86b",
+          "title": "Transportation Score Greater than or Equal to 3",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/96851a65ea024b7298fa4bc477fcd86b"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 17,
+      "sampled": [
+        {
+          "id": "e1ccebca98dd4ac8bf7a54d1af2c8001",
+          "title": "Legislative Districts of NJ, Hosted, 3424",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/e1ccebca98dd4ac8bf7a54d1af2c8001"
+        },
+        {
+          "id": "764362ac87254d77b976a080f926a6fe",
+          "title": "MATURE SUPPORT - Election Districts for New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/764362ac87254d77b976a080f926a6fe"
+        },
+        {
+          "id": "b6df174950f54128bea05f8c01bd061f",
+          "title": "MATURE SUPPORT - Ward Boundaries for New Jersey",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/b6df174950f54128bea05f8c01bd061f"
+        },
+        {
+          "id": "e8ca894e9a1c4ce3aa6779d489ae71a3",
+          "title": "Legislative Districts of NJ, Hosted, 3857",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/e8ca894e9a1c4ce3aa6779d489ae71a3"
+        },
+        {
+          "id": "4c6fd719b2dd4c72b48fa7a985736691",
+          "title": "Somerset County Polling Locations and Election Districts",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/4c6fd719b2dd4c72b48fa7a985736691"
+        },
+        {
+          "id": "fc4c0a503259478aad488a98c1d9d59d",
+          "title": "ElectionRedistricting2021_gdb",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/fc4c0a503259478aad488a98c1d9d59d"
+        },
+        {
+          "id": "110c42508c9943efae37997e3c80af6e",
+          "title": "ElectionGeography_public",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/110c42508c9943efae37997e3c80af6e"
+        },
+        {
+          "id": "cbbe23c8748448179dd3bd4df6a2f16b",
+          "title": "VotingLocations_currentwait",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/cbbe23c8748448179dd3bd4df6a2f16b"
+        },
+        {
+          "id": "8e9043ec0e314c36b9a016f7afbad5c0",
+          "title": "ElectionGeography_public",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/8e9043ec0e314c36b9a016f7afbad5c0"
+        },
+        {
+          "id": "7a5fa497756843f1b547a14b6b6db513",
+          "title": "Sussex County Electoral Districts and Polling Places",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://njogis-newjersey.opendata.arcgis.com/api/search/v1/collections/dataset/items/7a5fa497756843f1b547a14b6b6db513"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}

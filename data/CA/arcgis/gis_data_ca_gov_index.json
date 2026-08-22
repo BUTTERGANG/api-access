@@ -1,0 +1,444 @@
+{
+  "host": "gis.data.ca.gov",
+  "state": "CA",
+  "categories": {
+    "budget": {
+      "matched": 2,
+      "sampled": [
+        {
+          "id": "d8bfc5ad7ede4e1ca60b0666efc2b50d",
+          "title": "CAL FIRE Administrative Units",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/d8bfc5ad7ede4e1ca60b0666efc2b50d"
+        },
+        {
+          "id": "549017ee96e341d2bbb3dd0c291a9112",
+          "title": "California Building Climate Zones",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/549017ee96e341d2bbb3dd0c291a9112"
+        }
+      ]
+    },
+    "permits": {
+      "matched": 34,
+      "sampled": [
+        {
+          "id": "3a70e2e40b03403fb4504f2566a193e2",
+          "title": "WellSTAR Notices and Permits: Well Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/3a70e2e40b03403fb4504f2566a193e2"
+        },
+        {
+          "id": "df85e335150c484cb5faf8ac1b3edcfd",
+          "title": "WellSTAR Notices and Permits: Well Stimulation Permits",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/df85e335150c484cb5faf8ac1b3edcfd"
+        },
+        {
+          "id": "75a8339e077c4888a7364f661447f4fb",
+          "title": "WellSTAR Notices and Permits: Submitted Notices of Intention",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/75a8339e077c4888a7364f661447f4fb"
+        },
+        {
+          "id": "6e81f4939f7a456d927d053a6e34a72c",
+          "title": "Critical Habitat",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/6e81f4939f7a456d927d053a6e34a72c"
+        },
+        {
+          "id": "29acc3254b5e414ba7aee2c3b6a93b0b",
+          "title": "CA State Lands Commission Leases",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/29acc3254b5e414ba7aee2c3b6a93b0b"
+        },
+        {
+          "id": "74289bff89634f4cba2288badd2afa9f",
+          "title": "Vegetation - Napa County Update 2016 [ds2899]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/74289bff89634f4cba2288badd2afa9f"
+        },
+        {
+          "id": "9e869f4f33554c6c80c63af0351cc7bb",
+          "title": "MAIN - AB 1236 Compliance Status",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/9e869f4f33554c6c80c63af0351cc7bb"
+        },
+        {
+          "id": "a4cc4bcc62374b6ebeff7394c44e54b3",
+          "title": "Offshore Oil Leases",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/a4cc4bcc62374b6ebeff7394c44e54b3"
+        },
+        {
+          "id": "082f0a402b354e53a7df995de3317fe2",
+          "title": "Public Airport",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/082f0a402b354e53a7df995de3317fe2"
+        },
+        {
+          "id": "fcf1ebfe19be49819a12c404d74b4a7d",
+          "title": "CGS Liquefaction Zones",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/fcf1ebfe19be49819a12c404d74b4a7d"
+        }
+      ]
+    },
+    "property": {
+      "matched": 36,
+      "sampled": [
+        {
+          "id": "0fea4fa1db734794bdb3b5410bb3eed9",
+          "title": "Park Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/0fea4fa1db734794bdb3b5410bb3eed9"
+        },
+        {
+          "id": "8a664a5ab7d148c7907debe4bae4f001",
+          "title": "SPIPublicMapViewer",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/8a664a5ab7d148c7907debe4bae4f001"
+        },
+        {
+          "id": "a65054bafb5345fb9884cce83c0dfe88",
+          "title": "Airport Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/a65054bafb5345fb9884cce83c0dfe88"
+        },
+        {
+          "id": "c61399145472450e8ee1ca93216f15e1",
+          "title": "Earthquake Zones of Required Investigation Maps and Reports",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/c61399145472450e8ee1ca93216f15e1"
+        },
+        {
+          "id": "6c1ced6793b74b83aa09bf4a10f79131",
+          "title": "BOE Member Offices",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/6c1ced6793b74b83aa09bf4a10f79131"
+        },
+        {
+          "id": "0ea5db702ed04e1fb642eaf8e7124e82",
+          "title": "Vegetation - Santa Lucia Preserve [ds2924]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/0ea5db702ed04e1fb642eaf8e7124e82"
+        },
+        {
+          "id": "6fe6bd2265f14a54a337e8aded47d669",
+          "title": "Vegetation - Oak Grove - San Diego County - 2011 [ds712]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/6fe6bd2265f14a54a337e8aded47d669"
+        },
+        {
+          "id": "3ba86748155e4582954d6a0c217ecd3c",
+          "title": "California Evacuation Aggregation Layer",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/3ba86748155e4582954d6a0c217ecd3c"
+        },
+        {
+          "id": "d8bfc5ad7ede4e1ca60b0666efc2b50d",
+          "title": "CAL FIRE Administrative Units",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/d8bfc5ad7ede4e1ca60b0666efc2b50d"
+        },
+        {
+          "id": "9abf6c0c6a5040d29a99e211b27e3414",
+          "title": "California School District Offices 2025-26",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/9abf6c0c6a5040d29a99e211b27e3414"
+        }
+      ]
+    },
+    "addresses": {
+      "matched": 149,
+      "sampled": [
+        {
+          "id": "a58152870fbb48acaeb4f2c1a1aa0602",
+          "title": "EHR Incentive Program Payments - Providers",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/a58152870fbb48acaeb4f2c1a1aa0602"
+        },
+        {
+          "id": "db5da29bab9d4708bee284e52f9ff005",
+          "title": "LPA office locations",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/db5da29bab9d4708bee284e52f9ff005"
+        },
+        {
+          "id": "b91650d1bfe945a2918943fb45e42454",
+          "title": "Freshwater Wetlands By Watershed - ACE [ds2764]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/b91650d1bfe945a2918943fb45e42454"
+        },
+        {
+          "id": "a35483a884e14f07a8baac832ad25798",
+          "title": "Lakes by Watershed - ACE [ds2762]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/a35483a884e14f07a8baac832ad25798"
+        },
+        {
+          "id": "a80e95241a5d4372861c2766099a2abc",
+          "title": "Ponds - ACE [ds2730]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/a80e95241a5d4372861c2766099a2abc"
+        },
+        {
+          "id": "79b4bda98c4c45859f7a0157b6b207f0",
+          "title": "Aquatic Irreplaceability Summary - ACE [ds2752]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/79b4bda98c4c45859f7a0157b6b207f0"
+        },
+        {
+          "id": "3ab1e9c69a1940bf99da6bb1fafcbbcd",
+          "title": "Aquatic Native Species Richness Summary - ACE [ds2743]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/3ab1e9c69a1940bf99da6bb1fafcbbcd"
+        },
+        {
+          "id": "928b1c77e2d24adf93e3e6961e50f9d4",
+          "title": "Seeps and Springs by Watershed - ACE [ds2767]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/928b1c77e2d24adf93e3e6961e50f9d4"
+        },
+        {
+          "id": "553b76fb941f42b7bc05025b9fbbd4b9",
+          "title": "Ponds by Watershed - ACE [ds2763]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/553b76fb941f42b7bc05025b9fbbd4b9"
+        },
+        {
+          "id": "aaf3403b4e114afdb5cf14623783326c",
+          "title": "Significant Anadromous Fish Habitat - ACE [ds2759]",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/aaf3403b4e114afdb5cf14623783326c"
+        }
+      ]
+    },
+    "boundaries": {
+      "matched": 375,
+      "sampled": [
+        {
+          "id": "0fea4fa1db734794bdb3b5410bb3eed9",
+          "title": "Park Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/0fea4fa1db734794bdb3b5410bb3eed9"
+        },
+        {
+          "id": "a65054bafb5345fb9884cce83c0dfe88",
+          "title": "Airport Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/a65054bafb5345fb9884cce83c0dfe88"
+        },
+        {
+          "id": "d2721065c3824b0cb69928256d6b6fc6",
+          "title": "California Air District Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/d2721065c3824b0cb69928256d6b6fc6"
+        },
+        {
+          "id": "f7afe55481244706903fbe6be5e986d3",
+          "title": "CA Zip Code Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/f7afe55481244706903fbe6be5e986d3"
+        },
+        {
+          "id": "1925b9b9f68140aaa59f4e062163f032",
+          "title": "California Incorporated City Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/1925b9b9f68140aaa59f4e062163f032"
+        },
+        {
+          "id": "39de35a2bbcc471281dd71092e1661dd",
+          "title": "Metropolitan Planning Organization Boundaries",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/39de35a2bbcc471281dd71092e1661dd"
+        },
+        {
+          "id": "60b7e0f3d33b4064a4b43bf14589bfe3",
+          "title": "California County Boundaries and Identifiers",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/60b7e0f3d33b4064a4b43bf14589bfe3"
+        },
+        {
+          "id": "8cd5d2038c5547ba911eea7bec48e28b",
+          "title": "California City Boundaries and Identifiers",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/8cd5d2038c5547ba911eea7bec48e28b"
+        },
+        {
+          "id": "37b51eac76344963bce2e0d84fef847c",
+          "title": "Administrative Boundaries: Sectors, Districts & Field Divisions",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/37b51eac76344963bce2e0d84fef847c"
+        },
+        {
+          "id": "6ce5202f0a4f4305b70661db8ca22ea7",
+          "title": "California Highway Patrol Areas and Divisions",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/6ce5202f0a4f4305b70661db8ca22ea7"
+        }
+      ]
+    },
+    "transportation": {
+      "matched": 94,
+      "sampled": [
+        {
+          "id": "c31b46862d884112aa8a767de499ae28",
+          "title": "Clean Transportation Program",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/c31b46862d884112aa8a767de499ae28"
+        },
+        {
+          "id": "4258a35337e04caa9ab185b24bed8d38",
+          "title": "Regional Transportation Planning Agencies",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/4258a35337e04caa9ab185b24bed8d38"
+        },
+        {
+          "id": "e087798fa6e1499b9540cb41af9b8df5",
+          "title": "CEC Parking and Transportation",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/e087798fa6e1499b9540cb41af9b8df5"
+        },
+        {
+          "id": "3a83743378be4e7f84c8230889c01dea",
+          "title": "Regional Transportation Planning Agencies",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/3a83743378be4e7f84c8230889c01dea"
+        },
+        {
+          "id": "6f306f3d86d6451cb4a00ef782d6fe6e",
+          "title": "Clean Transportation Program (11/18/2025)",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/6f306f3d86d6451cb4a00ef782d6fe6e"
+        },
+        {
+          "id": "082f0a402b354e53a7df995de3317fe2",
+          "title": "Public Airport",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/082f0a402b354e53a7df995de3317fe2"
+        },
+        {
+          "id": "43207282df5244f28f3ae175f9d43436",
+          "title": "PUBLIC - Zero Emissions Vehicle Reach Code Feature Service",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/43207282df5244f28f3ae175f9d43436"
+        },
+        {
+          "id": "1927f89a86754849a430c5d9584bf8dd",
+          "title": "Military Airport",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/1927f89a86754849a430c5d9584bf8dd"
+        },
+        {
+          "id": "9fbd3eff782a4c51a37082654877fa71",
+          "title": "Recommended Broadband Strategic Priority Corridors",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/9fbd3eff782a4c51a37082654877fa71"
+        },
+        {
+          "id": "773575efd1d54ea88e0018e3a440c043",
+          "title": "Sacramento Parking Map Data Download (GDB/KMZ)",
+          "type": "File Geodatabase",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/773575efd1d54ea88e0018e3a440c043"
+        }
+      ]
+    },
+    "elections": {
+      "matched": 5,
+      "sampled": [
+        {
+          "id": "837964f230734558bf6be1e0d59f5f28",
+          "title": "CA State Senate Districts and Membership 2025-2030",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/837964f230734558bf6be1e0d59f5f28"
+        },
+        {
+          "id": "866b3872bfa847d3955a53b20bd2134a",
+          "title": "CA State Assembly Districts and Membership 2024 to 2026",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/866b3872bfa847d3955a53b20bd2134a"
+        },
+        {
+          "id": "6051a49620a949ff8be732d30400ba96",
+          "title": "AB 604 - California Congressional Districts 2027-2032 as enacted by Proposition 50",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/6051a49620a949ff8be732d30400ba96"
+        },
+        {
+          "id": "4e5f24aca97a4bffb4c1222d62b2e933",
+          "title": "California State Senate District Active, Deferred and Accelerated Boundaries 2023-2024",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/4e5f24aca97a4bffb4c1222d62b2e933"
+        },
+        {
+          "id": "8e3509816cb04636ac009bdcd2a5074d",
+          "title": "Incorporated Cities & Towns",
+          "type": "Feature Service",
+          "updated": null,
+          "url": "https://gis.data.ca.gov/api/search/v1/collections/dataset/items/8e3509816cb04636ac009bdcd2a5074d"
+        }
+      ]
+    },
+    "land use": {
+      "matched": 0,
+      "sampled": []
+    }
+  }
+}
