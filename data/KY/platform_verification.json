@@ -1,0 +1,61 @@
+{
+  "louisville": [
+    {
+      "platform": "legistar",
+      "verified": true,
+      "first_body": "Metro Council"
+    },
+    {
+      "platform": "civicclerk",
+      "verified": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "lexington": [
+    {
+      "platform": "legistar",
+      "verified": true,
+      "first_body": "Urban County Council"
+    },
+    {
+      "platform": "civicclerk",
+      "verified": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "bowlinggreen": [
+    {
+      "platform": "civicclerk",
+      "verified": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "owensboro": [
+    {
+      "platform": "civicclerk",
+      "verified": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "covington": [
+    {
+      "platform": "civicclerk",
+      "verified": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "bgky": [
+    {
+      "platform": "civicclerk",
+      "verified": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "covingtonky": [
+    {
+      "platform": "civicclerk",
+      "verified": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}
