@@ -1,0 +1,1081 @@
+{
+  "NY (data.ny.gov)": {
+    "platform": "socrata",
+    "datasets": 1629,
+    "category_counts": {
+      "budget": 163,
+      "contracts": 108,
+      "salaries": 55,
+      "permits": 148,
+      "crime": 23,
+      "education": 167,
+      "health": 169,
+      "transportation": 556,
+      "environment": 388,
+      "housing": 130
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "New York State Budget Vetoes: 2013-14",
+          "id": "674u-sjky",
+          "category": null
+        },
+        {
+          "name": "Onondaga County Annual Budget: 2013",
+          "id": "gz9u-87e4",
+          "category": null
+        },
+        {
+          "name": "Oneida County 2013 Adopted Budget",
+          "id": "wc3s-ji7r",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Community Development Block Grant (CDBG) Contracts",
+          "id": "n9bu-8eic",
+          "category": null
+        },
+        {
+          "name": "MTA Eye on the Future Contract Solicitations: June 2018 \u2013 May 2019",
+          "id": "e3e7-qwer",
+          "category": null
+        },
+        {
+          "name": "State University Construction Fund (SUCF) Contracts: Beginning 1995",
+          "id": "cfjm-ii27",
+          "category": null
+        }
+      ],
+      "salaries": [
+        {
+          "name": "Title and Salary Listing",
+          "id": "t3vp-5tka",
+          "category": null
+        },
+        {
+          "name": "Salary Information for State Authorities",
+          "id": "unag-2p27",
+          "category": null
+        },
+        {
+          "name": "Salary Information for Local Development Corporations",
+          "id": "wryv-rizw",
+          "category": null
+        }
+      ],
+      "permits": [
+        {
+          "name": "City of Albany Building Permits Issued:  2009-2013",
+          "id": "kb9s-4gzd",
+          "category": null
+        },
+        {
+          "name": "Issued State Facility Air Permits",
+          "id": "2wgt-bc53",
+          "category": null
+        },
+        {
+          "name": "Draft State Facility Permits",
+          "id": "9hk7-xgkb",
+          "category": null
+        }
+      ]
+    }
+  },
+  "WA (data.wa.gov)": {
+    "platform": "socrata",
+    "datasets": 2289,
+    "category_counts": {
+      "budget": 38,
+      "contracts": 147,
+      "salaries": 6,
+      "permits": 37,
+      "crime": 15,
+      "education": 967,
+      "health": 890,
+      "transportation": 79,
+      "environment": 208,
+      "housing": 38
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "IT Spend Biennial Budget Report - Informing the 2025-27 Biennium",
+          "id": "y927-8vp7",
+          "category": null
+        },
+        {
+          "name": "WaTech - IT Decision Package (DP) Funding Recommendation Report - 2025-27 Biennium",
+          "id": "i7mn-mjj2",
+          "category": null
+        },
+        {
+          "name": "WaTech - Technology Business Management (TBM)",
+          "id": "d7jv-t9mq",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Statewide Contract (Master Contract) Sales Data by Customer, Contract, Vendor",
+          "id": "n8q6-4twj",
+          "category": null
+        },
+        {
+          "name": "Agency Contracts Fiscal Year 2024",
+          "id": "s8d5-pj78",
+          "category": null
+        },
+        {
+          "name": "Agency Contracts Fiscal Year 2021",
+          "id": "buf8-6px9",
+          "category": null
+        }
+      ],
+      "salaries": [
+        {
+          "name": "Annual Salary 2010 thru 2013",
+          "id": "y3ds-rkew",
+          "category": null
+        },
+        {
+          "name": "[To be removed from public view] salary 2010-2013",
+          "id": "mdey-mtnu",
+          "category": null
+        },
+        {
+          "name": "[To be removed from public view] fw-dot",
+          "id": "xfwu-9qse",
+          "category": null
+        }
+      ],
+      "permits": [
+        {
+          "name": "Permit Timeliness - Permit Application Processing Times (Washington State)",
+          "id": "yccr-zbpr",
+          "category": null
+        },
+        {
+          "name": "City of Asotin Building Permits",
+          "id": "ez9k-2c5k",
+          "category": null
+        },
+        {
+          "name": "2016-2019 WDFW Deer and Elk Salvage Permits",
+          "id": "mcp7-tcwf",
+          "category": null
+        }
+      ]
+    }
+  },
+  "OR (data.oregon.gov)": {
+    "platform": "socrata",
+    "datasets": 1576,
+    "category_counts": {
+      "budget": 34,
+      "contracts": 27,
+      "salaries": 10,
+      "permits": 9,
+      "crime": 0,
+      "education": 61,
+      "health": 180,
+      "transportation": 86,
+      "environment": 26,
+      "housing": 141
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "Budgeted Revenue",
+          "id": "mwsa-rpk9",
+          "category": null
+        },
+        {
+          "name": "Oregon Universities - Budget, Revenue, Expenditure Data",
+          "id": "j22e-u549",
+          "category": null
+        },
+        {
+          "name": "Community Colleges - Budget, Revenue, Expenditure \u2013 Overview Data",
+          "id": "axas-qvix",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Historical - ORPIN - Contracts Issued - Multi-Year Report",
+          "id": "6e9e-sfc4",
+          "category": null
+        },
+        {
+          "name": "Lottery Contracts - Multi-Year Report",
+          "id": "rkhh-35im",
+          "category": null
+        },
+        {
+          "name": "Historical - ORPIN - Contracts Expired - Multi-Year Report",
+          "id": "8izy-bwhd",
+          "category": null
+        }
+      ],
+      "salaries": [
+        {
+          "name": "Salaries of State Agencies - Multi-Year Report",
+          "id": "4cmg-5yp4",
+          "category": null
+        },
+        {
+          "name": "Salaries of Lottery Employees - Multi-Year Report",
+          "id": "a4i6-ntr6",
+          "category": null
+        },
+        {
+          "name": "FY19-20. Revenues, Expenses & Salaries",
+          "id": "h5vg-2acw",
+          "category": null
+        }
+      ],
+      "permits": [
+        {
+          "name": "WQ Permit Fee Rulemaking 2015",
+          "id": "5fni-sp3g",
+          "category": null
+        },
+        {
+          "name": "2016 Solid Waste Permit Fee Rulemaking",
+          "id": "j3rx-7bui",
+          "category": null
+        },
+        {
+          "name": "Title V Permit Fee Rulemaking 2018",
+          "id": "hi9g-m7ts",
+          "category": null
+        }
+      ]
+    }
+  },
+  "PA (data.pa.gov)": {
+    "platform": "socrata",
+    "datasets": 819,
+    "category_counts": {
+      "budget": 41,
+      "contracts": 14,
+      "salaries": 3,
+      "permits": 25,
+      "crime": 12,
+      "education": 110,
+      "health": 282,
+      "transportation": 90,
+      "environment": 50,
+      "housing": 157
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "COVID-19 Total Expenditures Current Statewide Governor's Budget Office",
+          "id": "89u9-g8cy",
+          "category": null
+        },
+        {
+          "name": "Erie County Budget Open Data Portal",
+          "id": "7c7t-kny9",
+          "category": null
+        },
+        {
+          "name": "Governor's Executive Budget Program Measures SFY 2017 - Current Annual Statewide Office of Budget",
+          "id": "9xim-g5cs",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Public Supplier Search General Services",
+          "id": "qq4v-6fbd",
+          "category": null
+        },
+        {
+          "name": "State Correction Population June 2015 - Current Monthly County Corrections",
+          "id": "a8qx-qnix",
+          "category": null
+        },
+        {
+          "name": "Map - Single County Authority Locations Current Drug and Alcohol Programs",
+          "id": "acdi-9ju2",
+          "category": null
+        }
+      ],
+      "salaries": [
+        {
+          "name": "Chart - Employed and Average Wage Program Year 2016 - Current Office of Vocational Rehabilitation Labor & Industry",
+          "id": "847d-3u6q",
+          "category": null
+        },
+        {
+          "name": "Municipal Employee Compensation 2015 Community and Economic Development",
+          "id": "pv8z-bqgu",
+          "category": null
+        },
+        {
+          "name": "Uninsured Population Census Data CY 2009-2014 Human Services",
+          "id": "s782-mpqp",
+          "category": null
+        }
+      ],
+      "permits": [
+        {
+          "name": "Percentage of Permit Decision Guarantee (PDG) Permits Disposed on Time",
+          "id": "7dgm-bj8j",
+          "category": null
+        },
+        {
+          "name": "Permit Decision Guarantee Policy Performance SFY 2012 - Current Environmental Protection",
+          "id": "ycdi-b9y3",
+          "category": null
+        },
+        {
+          "name": "Mining Permits Industrial Mineral Surface Historic Current Statewide Environmental Protection",
+          "id": "dhym-sxrh",
+          "category": null
+        }
+      ]
+    }
+  },
+  "TX (data.texas.gov)": {
+    "platform": "socrata",
+    "datasets": 1469,
+    "category_counts": {
+      "budget": 6,
+      "contracts": 342,
+      "salaries": 2,
+      "permits": 140,
+      "crime": 9,
+      "education": 301,
+      "health": 51,
+      "transportation": 85,
+      "environment": 112,
+      "housing": 103
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "Appropriation Numbers and Titles by Agency and Appropriation Year",
+          "id": "vuni-wtvk",
+          "category": null
+        },
+        {
+          "name": "GAAP Fund Numbers and Titles",
+          "id": "529n-3tdy",
+          "category": null
+        },
+        {
+          "name": "Passenger Vehicle, Motorcycle, and Pickup Truck Registrations by Year",
+          "id": "cbmj-zeje",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "ARCHIVE DIR Cooperative Contract Sales Data   Fiscal 2010 To 2025",
+          "id": "w64c-ndf7",
+          "category": null
+        },
+        {
+          "name": "Official - DIR Current Active Cooperative Contracts",
+          "id": "vipt-h4ye",
+          "category": null
+        },
+        {
+          "name": "Texas Commission on Environmental Quality - Current Contracts & Purchase Orders",
+          "id": "svjm-sdfz",
+          "category": null
+        }
+      ],
+      "salaries": [
+        {
+          "name": "Superintendent Salary Reports by District for School Year 2025-2026",
+          "id": "6dh5-cse4",
+          "category": null
+        },
+        {
+          "name": "DFPS Employees 1.5 Average Monthly Salaries by Selected Program and Staff Type FY2016-2025",
+          "id": "pedx-fc9i",
+          "category": null
+        }
+      ],
+      "permits": [
+        {
+          "name": "Active Sales Tax Permit Holders",
+          "id": "jrea-zgmq",
+          "category": null
+        },
+        {
+          "name": "Collin CAD Building Permits",
+          "id": "82ee-gbj5",
+          "category": null
+        },
+        {
+          "name": "Tax Assessor Collector Licenses/Permits Issued",
+          "id": "s5av-n7yr",
+          "category": null
+        }
+      ]
+    }
+  },
+  "NJ (data.nj.gov)": {
+    "platform": "socrata",
+    "datasets": 620,
+    "category_counts": {
+      "budget": 51,
+      "contracts": 10,
+      "salaries": 11,
+      "permits": 13,
+      "crime": 13,
+      "education": 48,
+      "health": 54,
+      "transportation": 56,
+      "environment": 30,
+      "housing": 77
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "Budget In Brief",
+          "id": "czwc-wknj",
+          "category": null
+        },
+        {
+          "name": "FY2015 Budget Summary",
+          "id": "7z5s-3m9r",
+          "category": null
+        },
+        {
+          "name": "FY2015 Detailed Budget",
+          "id": "7ink-7zdr",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Office of the State Comptroller Reports",
+          "id": "yb3i-t7ee",
+          "category": null
+        },
+        {
+          "name": "NJSAVI",
+          "id": "tfhb-8beb",
+          "category": null
+        },
+        {
+          "name": "YourMoney Agency Purchasing",
+          "id": "ubnu-tqu7",
+          "category": null
+        }
+      ],
+      "salaries": [
+        {
+          "name": "YourMoney Active Pension Members",
+          "id": "44xg-bswk",
+          "category": null
+        },
+        {
+          "name": "YourMoney Agency Payroll",
+          "id": "iqwc-r2w7",
+          "category": null
+        },
+        {
+          "name": "YourMoney Authority Payroll",
+          "id": "kiki-imre",
+          "category": null
+        }
+      ],
+      "permits": [
+        {
+          "name": "NJ Construction Permit Data",
+          "id": "w9se-dmra",
+          "category": null
+        },
+        {
+          "name": "NJ Construction Permits - Top 20 Permit Square Feet",
+          "id": "vuxr-qrfd",
+          "category": null
+        },
+        {
+          "name": "Dollar Amount of Construction Authorized by Building Permits: Biggest Permits in 2018",
+          "id": "3s9k-km7c",
+          "category": null
+        }
+      ]
+    }
+  },
+  "MD (data.maryland.gov)": {
+    "platform": "socrata",
+    "datasets": 3642,
+    "category_counts": {
+      "budget": 34,
+      "contracts": 24,
+      "salaries": 5,
+      "permits": 87,
+      "crime": 52,
+      "education": 140,
+      "health": 361,
+      "transportation": 683,
+      "environment": 701,
+      "housing": 250
+    },
+    "high_value_samples": {
+      "budget": [],
+      "contracts": [],
+      "salaries": [],
+      "permits": []
+    }
+  },
+  "CO (data.colorado.gov)": {
+    "platform": "socrata",
+    "datasets": 2122,
+    "category_counts": {
+      "budget": 10,
+      "contracts": 230,
+      "salaries": 3,
+      "permits": 66,
+      "crime": 11,
+      "education": 336,
+      "health": 279,
+      "transportation": 319,
+      "environment": 265,
+      "housing": 276
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "Budget Request Overview \u2013 FY 2017-2018",
+          "id": "7aa2-j6p3",
+          "category": null
+        },
+        {
+          "name": "Budget Request Full \u2013 FY 2017-2018",
+          "id": "qjkz-2iza",
+          "category": null
+        },
+        {
+          "name": "Colorado's Bridge Deck Condition Rate",
+          "id": "7am5-s63e",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Paid Solicitor Solicitation Notices in Colorado",
+          "id": "ew9y-6tv9",
+          "category": null
+        },
+        {
+          "name": "Bicycle and Pedestrian Counts in Colorado",
+          "id": "q2qp-xhnj",
+          "category": null
+        },
+        {
+          "name": "Eagle County - Bicycle and Pedestrian Counts",
+          "id": "5qb7-udmm",
+          "category": null
+        }
+      ],
+      "salaries": [
+        {
+          "name": "Expenses of Charities Operating in Colorado",
+          "id": "x2jf-bvk8",
+          "category": null
+        },
+        {
+          "name": "Expenses of Charities Filing IRS Form EZ Operating in Colorado",
+          "id": "xb4j-dshc",
+          "category": null
+        },
+        {
+          "name": "Campaign Reports for Solicitation Notices to Charities in Colorado",
+          "id": "fdcw-ei67",
+          "category": null
+        }
+      ],
+      "permits": [
+        {
+          "name": "DWR Well Application Permit",
+          "id": "wumm-7awb",
+          "category": null
+        },
+        {
+          "name": "Building Permit Counts in Colorado",
+          "id": "v4as-sthd",
+          "category": null
+        },
+        {
+          "name": "DWR Final Permit",
+          "id": "4rcf-bncv",
+          "category": null
+        }
+      ]
+    }
+  },
+  "CT (data.ct.gov)": {
+    "platform": "socrata",
+    "datasets": 1498,
+    "category_counts": {
+      "budget": 24,
+      "contracts": 34,
+      "salaries": 6,
+      "permits": 39,
+      "crime": 1,
+      "education": 138,
+      "health": 446,
+      "transportation": 86,
+      "environment": 373,
+      "housing": 64
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "Municipal Budget Database System (MBDS)",
+          "id": "2p84-tvqk",
+          "category": null
+        },
+        {
+          "name": "Summary Financial Information from Adopted Municipal Budgets, 2022-Present",
+          "id": "pcg4-s5rc",
+          "category": null
+        },
+        {
+          "name": "Construction Contracts Completed Within Budget",
+          "id": "i57h-6gq6",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Construction Contracts Completed On Time",
+          "id": "f9iy-j5ai",
+          "category": null
+        },
+        {
+          "name": "Construction Contracts Completed Within Budget",
+          "id": "i57h-6gq6",
+          "category": null
+        },
+        {
+          "name": "Construction Contracts Awarded within 60 Days of Bid Opening",
+          "id": "6xy7-ztst",
+          "category": null
+        }
+      ],
+      "salaries": [
+        {
+          "name": "Municipal Fiscal Indicators: Uniform Chart of Accounts - Expenditures by Function (Statewide), 2021",
+          "id": "fmdg-tu4i",
+          "category": null
+        },
+        {
+          "name": "Municipal Fiscal Indicators: Uniform Chart of Accounts - Expenses by Function, 2021",
+          "id": "3gbm-qe5e",
+          "category": null
+        },
+        {
+          "name": "Municipal Fiscal Indicators: Uniform Chart of Accounts - Expenditures by Department (Statewide), 2021",
+          "id": "rsps-v3b4",
+          "category": null
+        }
+      ],
+      "permits": [
+        {
+          "name": "Package Store Permit Availability",
+          "id": "fiq7-t34m",
+          "category": null
+        },
+        {
+          "name": "Annual Housing Permit Data By Town, 1990-2024",
+          "id": "stm9-38x4",
+          "category": null
+        },
+        {
+          "name": "Liquor Permits",
+          "id": "gwv2-eswx",
+          "category": null
+        }
+      ]
+    }
+  },
+  "MO (data.mo.gov)": {
+    "platform": "socrata",
+    "datasets": 327,
+    "category_counts": {
+      "budget": 4,
+      "contracts": 0,
+      "salaries": 0,
+      "permits": 3,
+      "crime": 0,
+      "education": 14,
+      "health": 44,
+      "transportation": 3,
+      "environment": 0,
+      "housing": 2
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "2015 State Budget Restrictions As of June 30, 2015",
+          "id": "y84f-xfv7",
+          "category": null
+        },
+        {
+          "name": "2014 State Budget Restrictions As of June 30, 2014",
+          "id": "pfgn-6b4z",
+          "category": null
+        },
+        {
+          "name": "Missouri 2009 Metropolitan and micropolitan statistical areas",
+          "id": "wbx5-smj6",
+          "category": null
+        }
+      ],
+      "contracts": [],
+      "salaries": [],
+      "permits": [
+        {
+          "name": "Oil and Gas Permits",
+          "id": "y64b-aec2",
+          "category": null
+        },
+        {
+          "name": "Land-rec-permits",
+          "id": "njsj-885m",
+          "category": null
+        },
+        {
+          "name": "Onsite-Permit-Process-Locations",
+          "id": "kz4n-gb5f",
+          "category": null
+        }
+      ]
+    }
+  },
+  "DE (data.delaware.gov)": {
+    "platform": "socrata",
+    "datasets": 344,
+    "category_counts": {
+      "budget": 36,
+      "contracts": 21,
+      "salaries": 3,
+      "permits": 16,
+      "crime": 2,
+      "education": 51,
+      "health": 39,
+      "transportation": 30,
+      "environment": 74,
+      "housing": 15
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "Annual Appropriated Expense and Positions Budgets",
+          "id": "2fby-ie7g",
+          "category": null
+        },
+        {
+          "name": "State of Delaware American Rescue Plan (ARP) Reporting Transparency Budgets",
+          "id": "ee9q-vja8",
+          "category": null
+        },
+        {
+          "name": "American Rescue Plan",
+          "id": "vbxr-gzif",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Statewide Central Contract Spend",
+          "id": "sifm-293u",
+          "category": null
+        },
+        {
+          "name": "Central Contract Line Item Spend",
+          "id": "75y3-eci7",
+          "category": null
+        },
+        {
+          "name": "Current Contracts",
+          "id": "xxed-9nm8",
+          "category": null
+        }
+      ],
+      "salaries": [
+        {
+          "name": "Educator Average Salary",
+          "id": "rv4m-vy79",
+          "category": null
+        },
+        {
+          "name": "Educator Salary Distribution",
+          "id": "5tvj-rx46",
+          "category": null
+        },
+        {
+          "name": "Average Total Salary By Staff Category and School Year",
+          "id": "twhn-iwda",
+          "category": null
+        }
+      ],
+      "permits": [
+        {
+          "name": "Permitted Septic Systems",
+          "id": "mv7j-tx3u",
+          "category": null
+        },
+        {
+          "name": "Well Permits",
+          "id": "2655-qn8j",
+          "category": null
+        },
+        {
+          "name": "Map of Permitted Septic Systems",
+          "id": "fhhs-2bny",
+          "category": null
+        }
+      ]
+    }
+  },
+  "VT (data.vermont.gov)": {
+    "platform": "socrata",
+    "datasets": 270,
+    "category_counts": {
+      "budget": 3,
+      "contracts": 15,
+      "salaries": 25,
+      "permits": 0,
+      "crime": 16,
+      "education": 21,
+      "health": 7,
+      "transportation": 9,
+      "environment": 4,
+      "housing": 9
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "2015 Budget Data",
+          "id": "ta3d-fnef",
+          "category": null
+        },
+        {
+          "name": "2015 Budget Dollars by Fund",
+          "id": "xir8-phaq",
+          "category": null
+        },
+        {
+          "name": "Public Libraries in VT 2018-2023",
+          "id": "ruvd-fpgf",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Contract List",
+          "id": "errv-rz95",
+          "category": null
+        },
+        {
+          "name": "Executed Contracts for Service",
+          "id": "dz5q-8uqb",
+          "category": null
+        },
+        {
+          "name": "FY2020 Executed Contracts for Service",
+          "id": "wzbv-3teb",
+          "category": null
+        }
+      ],
+      "salaries": [
+        {
+          "name": "State of Vermont Employee Salaries",
+          "id": "jgqy-2smf",
+          "category": null
+        },
+        {
+          "name": "2010 Salary Data",
+          "id": "2sre-7yen",
+          "category": null
+        },
+        {
+          "name": "2013 Salary for AOA",
+          "id": "pizs-69gf",
+          "category": null
+        }
+      ],
+      "permits": []
+    }
+  },
+  "CA (data.ca.gov)": {
+    "platform": "ckan",
+    "datasets": 4569
+  },
+  "IL-Chicago (data.cityofchicago.org)": {
+    "platform": "socrata-city",
+    "datasets": 2016,
+    "category_counts": {
+      "budget": 171,
+      "contracts": 66,
+      "salaries": 64,
+      "permits": 66,
+      "crime": 41,
+      "education": 341,
+      "health": 254,
+      "transportation": 319,
+      "environment": 107,
+      "housing": 320
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "Budget - 2011 Budget Ordinance - Appropriations",
+          "id": "drv3-jzqp",
+          "category": null
+        },
+        {
+          "name": "Budget - 2011 Budget Ordinance - Positions and Salaries",
+          "id": "g398-fhbm",
+          "category": null
+        },
+        {
+          "name": "Budget - 2014 Budget Ordinance - Appropriations",
+          "id": "ub6s-xy6e",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Contracts",
+          "id": "rsxa-ify5",
+          "category": null
+        },
+        {
+          "name": "Contracts - Contract PDF Present",
+          "id": "kzv2-52bx",
+          "category": null
+        },
+        {
+          "name": "DoIT MCA Contracts",
+          "id": "wmsn-xku5",
+          "category": null
+        }
+      ]
+    }
+  },
+  "LA-NewOrleans (data.nola.gov)": {
+    "platform": "socrata-city",
+    "datasets": 298,
+    "category_counts": {
+      "budget": 6,
+      "contracts": 6,
+      "salaries": 0,
+      "permits": 42,
+      "crime": 25,
+      "education": 12,
+      "health": 8,
+      "transportation": 20,
+      "environment": 3,
+      "housing": 54
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "Hotels Motels BBs",
+          "id": "ns2v-hzec",
+          "category": null
+        },
+        {
+          "name": "Active Occupational Licenses",
+          "id": "iqay-p646",
+          "category": null
+        },
+        {
+          "name": "Revenue Zones",
+          "id": "8yrz-i6tf",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "NORA Uncommitted Property Inventory",
+          "id": "5ktx-e9wc",
+          "category": null
+        },
+        {
+          "name": "Trash Pickup",
+          "id": "eigp-x49x",
+          "category": null
+        },
+        {
+          "name": "Certified Disadvantaged Business Enterprise (DBE) Directory",
+          "id": "q42h-ptn2",
+          "category": null
+        }
+      ]
+    }
+  },
+  "CA-LosAngeles (data.lacity.org)": {
+    "platform": "socrata-city",
+    "datasets": 926,
+    "category_counts": {
+      "budget": 14,
+      "contracts": 17,
+      "salaries": 2,
+      "permits": 164,
+      "crime": 34,
+      "education": 12,
+      "health": 19,
+      "transportation": 67,
+      "environment": 1,
+      "housing": 196
+    },
+    "high_value_samples": {
+      "budget": [
+        {
+          "name": "Open Budget - Revenue 2010-2025",
+          "id": "ih6g-qkwz",
+          "category": null
+        },
+        {
+          "name": "Open Budget - Appropriations Fiscal Years 2010 - 2025",
+          "id": "5242-pnmt",
+          "category": null
+        },
+        {
+          "name": "General City Budget Incremental Changes",
+          "id": "k4k6-bwwv",
+          "category": null
+        }
+      ],
+      "contracts": [
+        {
+          "name": "Rental Contracts Completed at El Pueblo Historical Monument",
+          "id": "t5zm-4d79",
+          "category": null
+        },
+        {
+          "name": "Building and Safety - Vacant Building Abatement",
+          "id": "q3ak-s5hy",
+          "category": null
+        },
+        {
+          "name": "RAMP Opportunity Awards",
+          "id": "h8mw-iegk",
+          "category": null
+        }
+      ]
+    }
+  },
+  "DC (opendata.dc.gov)": {
+    "platform": "arcgis",
+    "datasets": 0
+  }
+}
