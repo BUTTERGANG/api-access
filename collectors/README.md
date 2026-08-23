@@ -67,3 +67,15 @@ python3 collectors/gen_state_index.py      # regenerate states/SOURCES.md
 10/10 spot-checks passed against live sources. Key finding: KY OpenDoor API
 holds **377,039 spending records** — bulk pull is the top-priority quick win.
 Caveat: NC county-boundaries CSV is a national file hosted on NC's hub.
+
+## Economic data collectors
+| Script | Source | Notes |
+|---|---|---|
+| `eia_prices.py` | EIA v2 API | gas/diesel/electricity/natgas; needs `EIA_API_KEY` |
+| `fred_series.py` | FRED | mortgage rates, delinquencies, credit, CPI; needs `FRED_API_KEY` |
+| `bls_cpi.py` | BLS v1 API | CPI national+metros, keyless |
+| `census_acs.py` | Census ACS 5yr | income/home value/rent/poverty; needs `CENSUS_API_KEY` |
+| `usaspending_spending.py` | USAspending v2 | federal $ by state/month, keyless |
+| `nyfed_household_debt.py` | NY Fed HHDC | household debt + delinquency PDFs, keyless |
+
+See docs/ECONOMIC_DATA.md for status and gotchas.
